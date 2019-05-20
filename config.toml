@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Stanford Education Data Archive"
+title = "Hyperobjekt"
 theme = "base-hugo-theme"
 googleAnalytics = ""
 paginate = 5
