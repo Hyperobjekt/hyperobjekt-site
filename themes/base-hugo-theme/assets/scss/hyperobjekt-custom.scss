@@ -170,9 +170,20 @@ span.bitter-bold {
   top: 1px;
   //letter-spacing: .5rem;
 }
+span.omega {
+  @include bitter-black;
+  font-size: 5.1rem;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  //letter-spacing: .5rem;
+}
 span.bitter-black {
   @include bitter-black;
   font-size: 3.5rem;
+}
+span.futura-zero {
+  font-size: 3.65rem;
 }
 
 h2,
