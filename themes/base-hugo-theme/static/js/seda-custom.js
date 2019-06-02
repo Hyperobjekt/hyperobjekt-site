@@ -38,6 +38,70 @@
     /* anime.set(['g#grades text', 'g#ses-metric text', '#grades path#axis-line-2', '#hp-x-line path#map-x'], {
       opacity: [0]
     }); */
+    anime.set('#firstSnippet', {
+      translateX: 200,
+    });
+    anime({ // 8600ms
+      targets: ['.codeline'],
+      opacity: [0, 1],
+      easing: 'easeOutCubic',
+      endDelay: 5000,
+      delay: anime.stagger(100, {start: 300, direction: 'reverse'}), // increase delay for each element.
+      loop: true
+    });
+    anime({ // 8600ms
+      targets: ['#firstSnippet'],
+      translateX: 160,
+      duration: 7300,
+      easing: 'easeOutCubic',
+      endDelay: 1000,
+      delay: 300,
+      loop: true
+    });
+    anime({ // 8600ms
+      targets: ['#firstSnippet'],
+      opacity: [1, 0],
+      duration: 2000,
+      easing: 'easeOutCubic',
+      endDelay: 1000,
+      delay: 5600,
+      loop: true
+    });
+
+    // LINE 2 
+
+    anime.set('#secondSnippet', {
+      translateY: -30,
+      translateX: 300,
+    }); 
+    anime({  // 8600ms + 1000 start delay = 9600ms
+      targets: ['.codeline2'],
+      opacity: [0, 1],
+      easing: 'easeOutCubic',
+      endDelay: 5000,
+      delay: anime.stagger(100, {start: 1300, direction: 'reverse'}), // 100 x 22 lines + 2100 start delay = 4300, + 4000 endDelay = 8300
+      loop: true
+    });
+    anime({ // 9600ms
+      targets: ['#secondSnippet'],
+      translateX: 260,
+      duration: 7700,
+      easing: 'easeOutCubic',
+      endDelay: 1000,
+      delay: 900,
+      loop: true
+    });
+    anime({ // 9600ms
+      targets: ['#secondSnippet'],
+      opacity: [1, 0],
+      duration: 2000,
+      easing: 'easeOutCubic',
+      endDelay: 1000,
+      delay: 6600,
+      loop: true
+    });
+
+
     anime({
       targets: ['g#ses-metric', 'g#grades', 'g#hp-x-line'], 
       opacity: [0, .3],

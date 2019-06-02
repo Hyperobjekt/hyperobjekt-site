@@ -755,6 +755,15 @@ body.home {
     margin-right: 0;
     color: $white;
     text-align: center;
+
+    svg text#code1, svg text#code2  {
+      transform: skew(-31deg, 0deg);
+     
+      tspan {
+        color: transparent !important;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5) !important;
+      }
+    }
    
 
     .hero-child:before {

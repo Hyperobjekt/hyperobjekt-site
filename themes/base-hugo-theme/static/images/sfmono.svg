@@ -1,0 +1,31 @@
+
+<svg width="1060px" height="1132px" viewBox="0 0 1060 1132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SFMono-Medium, SF Mono" font-size="21.3" font-weight="400" letter-spacing="1.01999998" line-spacing="53">
+        <g id="Desktop-HD" transform="translate(-80.000000, -106.000000)" fill="#545454">
+            <text id="const-mapStateToProp">
+                <tspan id="t1" x="79" y="109">const mapStateToProps = ({ </tspan>
+                <tspan id="t2" x="79" y="162">  map: { coords, viewport },</tspan>
+                <tspan id="t3" x="79" y="215">  sections: { map: { hovered } }</tspan>
+                <tspan id="t4" x="79" y="268">}, {</tspan>
+                <tspan id="t5" x="79" y="321">  match: { params: { metric, demographic } }</tspan>
+                <tspan id="t6" x="79" y="374">}) =&gt; {</tspan>
+                <tspan id="t7" x="79" y="427">  const varName = [demographic, metric].join('_')</tspan>
+                <tspan id="t8" x="79" y="480">  return {</tspan>
+                <tspan id="t9" x="79" y="533">    x: coords &amp;&amp; coords.x,</tspan>
+                <tspan id="t10" x="79" y="586">    y: coords &amp;&amp; coords.y,</tspan>
+                <tspan id="t11" x="79" y="639">    visible: Boolean(hovered) &amp;&amp; coords &amp;&amp; coords.x &amp;&amp; coords.y,</tspan>
+                <tspan id="t12" x="79" y="692">    title: getFeatureTitle(hovered),</tspan>
+                <tspan id="t13" x="79" y="745">    content: hovered &amp;&amp; hovered.properties &amp;&amp; hovered.properties[varName] ? </tspan>
+                <tspan id="t14" x="79" y="798">      getTooltipText({</tspan>
+                <tspan id="t15" x="79" y="851">        [varName]: hovered.properties[varName]</tspan>
+                <tspan id="t16" x="79" y="904">      }) : '',</tspan>
+                <tspan id="t17" x="79" y="957">    above: viewport &amp;&amp; viewport.height &amp;&amp; </tspan>
+                <tspan id="t18" x="79" y="1010">      coords &amp;&amp; coords.y &gt; (viewport.height / 1.25),</tspan>
+                <tspan id="t19" x="79" y="1063">    left: viewport &amp;&amp; viewport.width &amp;&amp; </tspan>
+                <tspan id="t20" x="79" y="1116">      coords &amp;&amp; coords.x &gt; (viewport.width / 1.5) </tspan>
+                <tspan id="t21" x="79" y="1169">  }</tspan>
+                <tspan id="t22" x="79" y="1222">}</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

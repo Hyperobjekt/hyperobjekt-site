@@ -17857,6 +17857,15 @@ body.home .hero {
   text-align: center;
 }
 
+body.home .hero svg text#code1, body.home .hero svg text#code2 {
+  transform: skew(-31deg, 0deg);
+}
+
+body.home .hero svg text#code1 tspan, body.home .hero svg text#code2 tspan {
+  color: transparent !important;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
 body.home .hero .hero-child:before {
   content: ' ';
   display: block;

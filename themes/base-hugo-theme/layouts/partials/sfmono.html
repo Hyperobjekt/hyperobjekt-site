@@ -1,0 +1,56 @@
+<svg width="" height="" viewBox="0 0 1060 1132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SFMono-Medium, SF Mono" font-size="21.3" font-weight="400" letter-spacing="1.01999998" line-spacing="53">
+        <g id="firstSnippet" transform="translate(0.000000, -106.000000)" fill="#3d3d3d">
+            <text id="code1">
+                <tspan class="codeline" id="t1" x="79" y="109">const mapStateToProps = ({ </tspan>
+                <tspan class="codeline" id="t2" x="79" y="162">  map: { coords, viewport },</tspan>
+                <tspan class="codeline" id="t3" x="79" y="215">  sections: { map: { hovered } }</tspan>
+                <tspan class="codeline" id="t4" x="79" y="268">}, {</tspan>
+                <tspan class="codeline" id="t5" x="79" y="321">  match: { params: { metric, demographic } }</tspan>
+                <tspan class="codeline" id="t6" x="79" y="374">}) =&gt; {</tspan>
+                <tspan class="codeline" id="t7" x="79" y="427">  const varName = [demographic, metric].join('_')</tspan>
+                <tspan class="codeline" id="t8" x="79" y="480">  return {</tspan>
+                <tspan class="codeline" id="t9" x="79" y="533">    x: coords &amp;&amp; coords.x,</tspan>
+                <tspan class="codeline" id="t10" x="79" y="586">    y: coords &amp;&amp; coords.y,</tspan>
+                <tspan class="codeline" id="t11" x="79" y="639">    visible: Boolean(hovered) &amp;&amp; coords &amp;&amp; coords.x &amp;&amp; coords.y,</tspan>
+                <tspan class="codeline" id="t12" x="79" y="692">    title: getFeatureTitle(hovered),</tspan>
+                <tspan class="codeline" id="t13" x="79" y="745">    content: hovered &amp;&amp; hovered.properties &amp;&amp; hovered.properties[varName] ? </tspan>
+                <tspan class="codeline" id="t14" x="79" y="798">      getTooltipText({</tspan>
+                <tspan class="codeline" id="t15" x="79" y="851">        [varName]: hovered.properties[varName]</tspan>
+                <tspan class="codeline" id="t16" x="79" y="904">      }) : '',</tspan>
+                <tspan class="codeline" id="t17" x="79" y="957">    above: viewport &amp;&amp; viewport.height &amp;&amp; </tspan>
+                <tspan class="codeline" id="t18" x="79" y="1010">      coords &amp;&amp; coords.y &gt; (viewport.height / 1.25),</tspan>
+                <tspan class="codeline" id="t19" x="79" y="1063">    left: viewport &amp;&amp; viewport.width &amp;&amp; </tspan>
+                <tspan class="codeline" id="t20" x="79" y="1116">      coords &amp;&amp; coords.x &gt; (viewport.width / 1.5) </tspan>
+                <tspan class="codeline" id="t21" x="79" y="1169">  }</tspan>
+                <tspan class="codeline" id="t22" x="79" y="1222">}</tspan>
+            </text>
+        </g>
+        <g id="secondSnippet" fill="#666">
+                <text id="code2" >
+                    <tspan class="codeline2" id="t1-1" x="79" y="109">const mapStateToProps = ({ </tspan>
+                    <tspan class="codeline2" id="t1-2" x="79" y="162">  map: { coords, viewport },</tspan>
+                    <tspan class="codeline2" id="t1-3" x="79" y="215">  sections: { map: { hovered } }</tspan>
+                    <tspan class="codeline2" id="t1-4" x="79" y="268">}, {</tspan>
+                    <tspan class="codeline2" id="t1-5" x="79" y="321">  match: { params: { metric, demographic } }</tspan>
+                    <tspan class="codeline2" id="t1-6" x="79" y="374">}) =&gt; {</tspan>
+                    <tspan class="codeline2" id="t1-7" x="79" y="427">  const varName = [demographic, metric].join('_')</tspan>
+                    <tspan class="codeline2" id="t1-8" x="79" y="480">  return {</tspan>
+                    <tspan class="codeline2" id="t1-9" x="79" y="533">    x: coords &amp;&amp; coords.x,</tspan>
+                    <tspan class="codeline2" id="t1-10" x="79" y="586">    y: coords &amp;&amp; coords.y,</tspan>
+                    <tspan class="codeline2" id="t1-11" x="79" y="639">    visible: Boolean(hovered) &amp;&amp; coords &amp;&amp; coords.x &amp;&amp; coords.y,</tspan>
+                    <tspan class="codeline2" id="t1-12" x="79" y="692">    title: getFeatureTitle(hovered),</tspan>
+                    <tspan class="codeline2" id="t1-13" x="79" y="745">    content: hovered &amp;&amp; hovered.properties &amp;&amp; hovered.properties[varName] ? </tspan>
+                    <tspan class="codeline2" id="t1-14" x="79" y="798">      getTooltipText({</tspan>
+                    <tspan class="codeline2" id="t1-15" x="79" y="851">        [varName]: hovered.properties[varName]</tspan>
+                    <tspan class="codeline2" id="t1-16" x="79" y="904">      }) : '',</tspan>
+                    <tspan class="codeline2" id="t1-17" x="79" y="957">    above: viewport &amp;&amp; viewport.height &amp;&amp; </tspan>
+                    <tspan class="codeline2" id="t1-18" x="79" y="1010">      coords &amp;&amp; coords.y &gt; (viewport.height / 1.25),</tspan>
+                    <tspan class="codeline2" id="t1-19" x="79" y="1063">    left: viewport &amp;&amp; viewport.width &amp;&amp; </tspan>
+                    <tspan class="codeline2" id="t1-20" x="79" y="1116">      coords &amp;&amp; coords.x &gt; (viewport.width / 1.5) </tspan>
+                    <tspan class="codeline2" id="t1-21" x="79" y="1169">  }</tspan>
+                    <tspan class="codeline2" id="t1-22" x="79" y="1222">}</tspan>
+                </text>
+            </g>
+    </g>
+</svg>
