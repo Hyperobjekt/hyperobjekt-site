@@ -842,22 +842,23 @@ body.home {
       //opacity: 0;
       //animation: fade-in5 2s forwards;
       //animation-delay: .9s;
-      h2.whitetext {
+      h2.whitetext, h5.subhead {
         color: transparent;
-        text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
-        animation: blur-in4 3s forwards;
-          //animation-delay: 5s;
+        //text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+        opacity: 0;
+        animation: blur-in4 2.8s forwards;
+          animation-delay: 1.1s;
           // opacity: 0;
           position: relative;
 
           @keyframes blur-in4 {
             0% {
-              //opacity: 0;
+              opacity: 0;
               text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
             }
 
             100% {
-              //color: #fff;
+              opacity: 1;
               text-shadow: 0 0 0px rgba(255, 255, 255, 1);
             }
           }

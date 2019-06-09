@@ -17941,18 +17941,21 @@ body.home .hero .hero-child {
   top: 0;
 }
 
-body.home .hero .hero-child h2.whitetext {
+body.home .hero .hero-child h2.whitetext, body.home .hero .hero-child h5.subhead {
   color: transparent;
-  text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
-  animation: blur-in4 3s forwards;
+  opacity: 0;
+  animation: blur-in4 2.8s forwards;
+  animation-delay: 1.1s;
   position: relative;
 }
 
 @keyframes blur-in4 {
   0% {
+    opacity: 0;
     text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
   }
   100% {
+    opacity: 1;
     text-shadow: 0 0 0px white;
   }
 }
