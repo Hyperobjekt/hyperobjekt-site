@@ -226,6 +226,15 @@ h3 {
   }
 }
 
+h5 {
+  @include futura-medium;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  letter-spacing: .2rem;
+  // text-align: center;
+  line-height: 2.4rem;
+}
+
 // Page container
 .container.parent {
   padding-right: 0;
@@ -748,17 +757,19 @@ img {
 // Hero
 body.home {
   .hero {
-    height: 100vh;
+    height: 720px;
     min-height: 540px;
     margin-top: -6.4rem;
     margin-left: 0;
     margin-right: 0;
     color: $white;
-    text-align: center;
+  
 
-    svg text#code1, svg text#code2  {
-      transform: skew(-31deg, 0deg);
-     
+    svg {
+      margin-left: 10%;
+    }
+    svg text#code1, svg text#code2, svg text#code3, svg text#code4  {
+      transform: skew(-40deg, 20deg);
       tspan {
         color: transparent !important;
         text-shadow: 0 0 5px rgba(0,0,0,0.5) !important;
@@ -825,6 +836,8 @@ body.home {
       // height: 100vh;
       min-height: 540px;
       width: 100%;
+      position: absolute;
+      top: 0;
       // font-smoothing: antialiased !important;
       //opacity: 0;
       //animation: fade-in5 2s forwards;
@@ -915,15 +928,23 @@ body.home {
     }
     .project1 {
       background-color: $boldblue;
+      background-image: url('/images/seda-img.jpg');
+      background-size: cover;
     }
     .project2 {
       background-color: $boldorange;
+      background-image: url('/images/el-img.jpg');
+      background-size: cover;
     }
     .project3 {
       background-color: $cyanteal;
+      background-image: url('/images/dd-img.jpg');
+      background-size: cover;
     }
     .project4 {
       background-color: $boldyellow;
+      background-image: url('/images/bil-img.jpg');
+      background-size: cover;
     }
     .superhead {
       font-size: 1.2rem;
