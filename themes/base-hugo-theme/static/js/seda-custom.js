@@ -38,7 +38,10 @@
     /* anime.set(['g#grades text', 'g#ses-metric text', '#grades path#axis-line-2', '#hp-x-line path#map-x'], {
       opacity: [0]
     }); */
-    
+  
+
+
+
     var startingDelay = 400; // Starting delay of snippet 2 - x
     var staggerDelay = 100;
     var moveDuration = 2000; // how long the leftward movement lasts

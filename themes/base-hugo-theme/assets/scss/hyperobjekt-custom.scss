@@ -842,6 +842,27 @@ body.home {
       //opacity: 0;
       //animation: fade-in5 2s forwards;
       //animation-delay: .9s;
+      h2.whitetext {
+        color: transparent;
+        text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+        animation: blur-in4 3s forwards;
+          //animation-delay: 5s;
+          // opacity: 0;
+          position: relative;
+
+          @keyframes blur-in4 {
+            0% {
+              //opacity: 0;
+              text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+            }
+
+            100% {
+              //color: #fff;
+              text-shadow: 0 0 0px rgba(255, 255, 255, 1);
+            }
+          }
+        
+      }
       svg {
         width: 76%;
         min-height: 480px;

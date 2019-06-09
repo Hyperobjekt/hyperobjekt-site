@@ -17941,6 +17941,22 @@ body.home .hero .hero-child {
   top: 0;
 }
 
+body.home .hero .hero-child h2.whitetext {
+  color: transparent;
+  text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+  animation: blur-in4 3s forwards;
+  position: relative;
+}
+
+@keyframes blur-in4 {
+  0% {
+    text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 0px white;
+  }
+}
+
 body.home .hero .hero-child svg {
   width: 76%;
   min-height: 480px;
