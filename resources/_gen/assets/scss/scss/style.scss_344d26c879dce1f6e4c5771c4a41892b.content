@@ -17868,6 +17868,7 @@ body.home .hero {
 
 body.home .hero svg {
   margin-left: 10%;
+  height: 100%;
 }
 
 body.home .hero svg text#code1, body.home .hero svg text#code2, body.home .hero svg text#code3, body.home .hero svg text#code4 {
@@ -17945,7 +17946,7 @@ body.home .hero .hero-child h2.whitetext, body.home .hero .hero-child h5.subhead
   color: transparent;
   opacity: 0;
   animation: blur-in4 2.8s forwards;
-  animation-delay: 1.1s;
+  animation-delay: .2s;
   position: relative;
 }
 
@@ -17957,29 +17958,6 @@ body.home .hero .hero-child h2.whitetext, body.home .hero .hero-child h5.subhead
   100% {
     opacity: 1;
     text-shadow: 0 0 0px white;
-  }
-}
-
-body.home .hero .hero-child svg {
-  width: 76%;
-  min-height: 480px;
-  max-height: 80vh;
-}
-
-body.home .hero .hero-child svg g#ses-metric {
-  clip-path: polygon(0px 0, 100% 0, 100% 100%, 0px 100%);
-}
-
-body.home .hero .hero-child svg g#Grades {
-  clip-path: polygon(0px 0, 100% 0, 100% 100%, 0% 100%);
-}
-
-@keyframes fade-in5 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
 

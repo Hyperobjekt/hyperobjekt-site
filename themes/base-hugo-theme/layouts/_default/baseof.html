@@ -6,7 +6,7 @@
     <!-- {{ if eq (lower .Page.Title) "home" }}scroll-top{{ end}} -->
     <!-- Removed classes "d-flex flex-column" from body element 2019-01-25 -->
     <div class="container-fluid p-0 parent">
-      {{ partial "nav.html" . }}
+      {{/* partial "nav.html" . */}}
       <main id="main">
         {{ block "main" . }}{{ end }}
       </main>

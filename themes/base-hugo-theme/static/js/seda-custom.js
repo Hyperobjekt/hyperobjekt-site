@@ -42,6 +42,7 @@
 
 
 
+    var shiftDelay = 2000 // delay of entire animation
     var startingDelay = 400; // Starting delay of snippet 2 - x
     var staggerDelay = 100;
     var moveDuration = 2000; // how long the leftward movement lasts
@@ -82,7 +83,7 @@
         endDelay: loopDelay,   
       },fadeoutOffset);
     };
-    setTimeout(heroCode1Delay, 0);
+    setTimeout(heroCode1Delay, 0 + shiftDelay);
     /* ----- TWO ------ */
     anime.set('#secondSnippet', {
       opacity: 0,
@@ -111,7 +112,7 @@
         endDelay: loopDelay,   
       },fadeoutOffset);
     };
-    setTimeout(heroCode2Delay, startingDelay); 
+    setTimeout(heroCode2Delay, startingDelay + shiftDelay); 
     /* ----- THREE ------ */
     anime.set('#thirdSnippet', {
       translateY: yStagger -40,
@@ -140,7 +141,7 @@
         endDelay: loopDelay, 
       },fadeoutOffset);
     };
-    setTimeout(heroCode3Delay, startingDelay * 2 + 1400);
+    setTimeout(heroCode3Delay, startingDelay * 2 + 1400 + shiftDelay);
     /* ----- FOUR ------ */
     anime.set('#fourthSnippet', {
       opacity: 0,
@@ -169,7 +170,7 @@
         endDelay: loopDelay, 
       },fadeoutOffset);
     };
-    setTimeout(heroCode4Delay, startingDelay * 3 + 1400);
+    setTimeout(heroCode4Delay, startingDelay * 3 + 1400 + shiftDelay);
 
     var updateModal = {
         activeBio: null,
