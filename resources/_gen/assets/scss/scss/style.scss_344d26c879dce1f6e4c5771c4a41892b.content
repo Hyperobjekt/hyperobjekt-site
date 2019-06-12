@@ -17826,8 +17826,6 @@ body.home .hero svg g#firstSnippet, body.home .hero svg g#secondSnippet, body.ho
 
 body.home .hero svg g#firstSnippet tspan, body.home .hero svg g#secondSnippet tspan, body.home .hero svg g#thirdSnippet tspan, body.home .hero svg g#fourthSnippet tspan {
   visibility: visible;
-  color: transparent !important;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
 }
 
 body.home .hero .codeline1, body.home .hero .codeline2, body.home .hero .codeline3, body.home .hero .codeline4 {
