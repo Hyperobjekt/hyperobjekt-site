@@ -734,7 +734,7 @@ body.home {
       margin-left: 10%;
       height: 100%;
     }
-    svg text#code1, svg text#code2, svg text#code3, svg text#code4  {
+    svg g#firstSnippet, svg g#secondSnippet, svg g#thirdSnippet, svg g#fourthSnippet  {
       transform: skew(-40deg, 20deg);
       tspan {
         color: transparent !important;
