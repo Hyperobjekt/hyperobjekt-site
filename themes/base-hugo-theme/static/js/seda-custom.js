@@ -50,10 +50,10 @@
     var fadeout = 2000; // opacity fade-out length
     var fadeoutOffset ='-=200'; // offset of the aboive
     var loopDelay = 1400; // delay before each line appears again after it fades out
-    var xOne = 200; // x position of snippet 1
-    var xTwo = 300;
-    var xThree = 500;
-    var xFour = 600;
+    var xOne = 500; // x position of snippet 1
+    var xTwo = 600;
+    var xThree = 700;
+    var xFour = 800;
     var yStagger = 72;
 
     /* ----- ONE ------ */
