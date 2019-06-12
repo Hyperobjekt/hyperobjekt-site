@@ -17885,7 +17885,6 @@ body.home .hero .hero-child:before {
 
 body.home .hero .hero-child {
   min-height: 540px;
-  width: 100%;
   position: absolute;
   top: 0;
 }
