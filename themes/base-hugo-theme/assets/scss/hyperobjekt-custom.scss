@@ -728,7 +728,7 @@ body.home {
     margin-left: 0;
     margin-right: 0;
     color: $white;
-    -webkit-transform: translateZ(0px);
+    
 
   
 
@@ -740,14 +740,17 @@ body.home {
     svg g#firstSnippet, svg g#secondSnippet, svg g#thirdSnippet, svg g#fourthSnippet  {
       transform: skew(-40deg, 20deg);
       visibility: visible;
+      
       tspan {
         visibility: visible;
         color: transparent !important;
         text-shadow: 0 0 5px rgba(0,0,0,0.5) !important;
+     
       }
     }
     .codeline1, .codeline2, .codeline3, .codeline4 {
       visibility: visible;
+     
     }
    
 

@@ -62,6 +62,7 @@
       opacity: 0,
       translateX: xOne,
       translateY: yOne,
+      translateZ: 0,
     });
     var herocode = anime.timeline({
       loop: true,
@@ -91,6 +92,7 @@
       opacity: 0,
       translateY: yOne + yStagger,
       translateX: xTwo,
+      translateZ: 0,
     }); 
     var herocode2 = anime.timeline({
       loop: true,
@@ -120,6 +122,7 @@
       translateY: yOne + yStagger -40,
       opacity: 0,
       translateX: xThree,
+      translateZ: 0,
     });
     var herocode3 = anime.timeline({
      loop: true,
@@ -149,6 +152,7 @@
       opacity: 0,
       translateY: yOne + yStagger + 36,
       translateX: xFour,
+      translateZ: 0,
     });
     var herocode4 = anime.timeline({
       loop: true,
