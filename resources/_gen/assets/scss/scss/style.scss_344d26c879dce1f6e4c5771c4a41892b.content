@@ -17157,67 +17157,13 @@ h1 {
   font-family: "SharpGrotesk-Medium20", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
 }
 
-h4 {
-  font-family: futura-pt, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2rem;
-  line-height: 3rem;
-}
-
-@media (min-width: 768px) {
-  h4 {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
-  }
-}
-
-@media (min-width: 992px) {
-  h4 {
-    font-size: 2.8rem;
-    line-height: 4.2rem;
-    letter-spacing: .03rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  h4 {
-    font-size: 3rem;
-    line-height: 3.8rem;
-    letter-spacing: .07rem;
-  }
-}
-
 p, ul {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2rem;
-  line-height: 3rem;
-}
-
-@media (min-width: 768px) {
-  p, ul {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
-  }
-}
-
-@media (min-width: 992px) {
-  p, ul {
-    font-size: 1.75rem;
-    line-height: 2.5rem;
-    letter-spacing: .03rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  p, ul {
-    font-size: 1.6rem;
-    color: #FFFFFF;
-    letter-spacing: 0.035rem;
-    line-height: 2.4rem;
-  }
+  font-size: 1.6rem;
+  letter-spacing: 0.035rem;
+  line-height: 2.4rem;
 }
 
 ul {
@@ -17264,7 +17210,13 @@ span.bitter-black {
 }
 
 span.futura-zero {
-  font-size: 3.65rem;
+  font-size: 2.35rem;
+}
+
+@media (min-width: 768px) {
+  span.futura-zero {
+    font-size: 3.65rem;
+  }
 }
 
 h2,
@@ -17272,26 +17224,18 @@ div.h2 {
   font-family: futura-pt-bold, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.7rem;
+  font-size: 3.2rem;
+}
+
+@media (min-width: 320px) {
+  h2,
+  div.h2 {
+    font-size: 3.2rem;
+    line-height: 2.7rem;
+  }
 }
 
 @media (min-width: 768px) {
-  h2,
-  div.h2 {
-    font-size: 1.85rem;
-    line-height: 2.7rem;
-  }
-}
-
-@media (min-width: 992px) {
-  h2,
-  div.h2 {
-    font-size: 1.9rem;
-    line-height: 2.7rem;
-  }
-}
-
-@media (min-width: 1280px) {
   h2,
   div.h2 {
     font-size: 5rem;
@@ -17308,21 +17252,14 @@ h3 {
   font-size: 1.7rem;
 }
 
+@media (min-width: 320px) {
+  h3 {
+    font-size: 3.2rem;
+    line-height: 2.7rem;
+  }
+}
+
 @media (min-width: 768px) {
-  h3 {
-    font-size: 1.85rem;
-    line-height: 2.7rem;
-  }
-}
-
-@media (min-width: 992px) {
-  h3 {
-    font-size: 1.9rem;
-    line-height: 2.7rem;
-  }
-}
-
-@media (min-width: 1280px) {
   h3 {
     font-size: 5rem;
     color: #FFFFFF;
@@ -17331,13 +17268,29 @@ h3 {
   }
 }
 
+h4 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    letter-spacing: .07rem;
+  }
+}
+
 h5 {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.15rem;
   color: #FFFFFF;
-  letter-spacing: .2rem;
   line-height: 2.4rem;
 }
 
@@ -17395,11 +17348,10 @@ h5 {
 
 .btn-custom {
   display: inline-block;
-  font-family: "SharpGrotesk-Medium15", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 1.4rem;
   letter-spacing: .064rem;
   line-height: 4.4rem;
-  background-color: #ff003e;
+  background-color: #e23e00;
   color: #fff;
   text-align: center;
   white-space: nowrap;
@@ -17428,7 +17380,6 @@ h5 {
 
 .btn-dark {
   display: inline-block;
-  font-family: "SharpGrotesk-Medium15", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 1.4rem;
   letter-spacing: .064rem;
   line-height: 4.4rem;
@@ -17454,9 +17405,6 @@ h5 {
 
 input.form-control {
   height: 48px;
-  font-family: "SharpGrotesk-Medium15", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .container.parent > #main > .row {

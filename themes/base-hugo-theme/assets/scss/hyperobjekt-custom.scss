@@ -99,57 +99,11 @@ nav a {
   //font-family: $sharpgrotesk-med-20;
 }
 
-h4 {
-  @include futura-demi;
-    font-size: 2rem;
-    line-height: 3rem;
-    // letter-spacing: .03rem;
-  
-  
-  @include media-breakpoint-up(md) {
-  
-      font-size: 2.4rem;
-      line-height: 3.6rem;
-      // letter-spacing: .03rem;
-  }
-  @include media-breakpoint-up(lg) {
-      font-size: 2.8rem;
-      line-height: 4.2rem;
-      letter-spacing: .03rem;
-  
-  }
-  @include media-breakpoint-up(xl) {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      letter-spacing: .07rem;
-   
-  } 
-}
-
 p, ul {
   @include futura-book;
-    font-size: 2rem;
-    line-height: 3rem;
-    // letter-spacing: .03rem;
-   
-  @include media-breakpoint-up(md) {
-   
-      font-size: 2.4rem;
-      line-height: 3.6rem;
-      // letter-spacing: .03rem;
-  }
-  @include media-breakpoint-up(lg) {
-      font-size: 1.75rem;
-      line-height: 2.5rem;
-      letter-spacing: .03rem;
-  
-  }
-  @include media-breakpoint-up(xl) {
-      font-size: 1.6rem;
-      color: #FFFFFF;
-      letter-spacing: 0.035rem;
-      line-height: 2.4rem;
-  } 
+    font-size: 1.6rem;
+    letter-spacing: 0.035rem;
+    line-height: 2.4rem;
 }
 
 ul {
@@ -183,22 +137,22 @@ span.bitter-black {
   font-size: 3.5rem;
 }
 span.futura-zero {
-  font-size: 3.65rem;
+  font-size: 2.35rem;
+  @include media-breakpoint-up(md) {
+    font-size: 3.65rem;
+  }
+  
 }
 
 h2,
 div.h2 {
   @include futura-bold;
-  font-size: 1.7rem;
+  font-size: 3.2rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 3.2rem;
+    line-height: 2.7rem;
+  }
   @include media-breakpoint-up(md) {
-    font-size: 1.85rem;
-    line-height: 2.7rem;
-  }
-  @include media-breakpoint-up(lg) {
-    font-size: 1.9rem;
-    line-height: 2.7rem;
-  }
-  @include media-breakpoint-up(xl) {
     font-size: 5rem;
     color: #FFFFFF;
     letter-spacing: 0.049rem;
@@ -210,15 +164,11 @@ div.h2 {
 h3 {
   @include futura-bold;
   font-size: 1.7rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 3.2rem;
+    line-height: 2.7rem;
+  }
   @include media-breakpoint-up(md) {
-    font-size: 1.85rem;
-    line-height: 2.7rem;
-  }
-  @include media-breakpoint-up(lg) {
-    font-size: 1.9rem;
-    line-height: 2.7rem;
-  }
-  @include media-breakpoint-up(xl) {
     font-size: 5rem;
     color: #FFFFFF;
     letter-spacing: 0.049rem;
@@ -226,11 +176,29 @@ h3 {
   }
 }
 
+h4 {
+  @include futura-demi;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    // letter-spacing: .03rem;
+
+
+  @include media-breakpoint-up(md) {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      letter-spacing: .07rem;
+   
+  } 
+}
+
+
 h5 {
   @include futura-medium;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.15rem;
+  //font-size: 1.4rem;
   color: #FFFFFF;
-  letter-spacing: .2rem;
+ // letter-spacing: .2rem;
   // text-align: center;
   line-height: 2.4rem;
 }
@@ -295,11 +263,11 @@ h5 {
 // Custom button style
 .btn-custom {
   display: inline-block;
-  font-family: $sharpgrotesk-med-15;
+  // font-family: $sharpgrotesk-med-15;
   font-size: 1.4rem;
   letter-spacing: .064rem;
   line-height: 4.4rem;
-  background-color: $seda-red;
+  background-color: #e23e00;
   color: #fff;
   text-align: center;
   white-space: nowrap;
@@ -330,7 +298,7 @@ h5 {
 // Custom button style
 .btn-dark {
   display: inline-block;
-  font-family: $sharpgrotesk-med-15;
+  // font-family: $sharpgrotesk-med-15;
   font-size: 1.4rem;
   letter-spacing: .064rem;
   line-height: 4.4rem;
@@ -358,9 +326,6 @@ h5 {
 
 input.form-control {
   height: 48px;
-  font-family: $sharpgrotesk-med-15;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .container.parent > #main > .row {
