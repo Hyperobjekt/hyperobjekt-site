@@ -42,7 +42,7 @@
 
 
 
-    var shiftDelay = 2000 // delay of entire animation
+    var shiftDelay = 1200 // delay of entire animation
     var startingDelay = 400; // Starting delay of snippet 2 - x
     var staggerDelay = 100;
     var moveDuration = 2000; // how long the leftward movement lasts
@@ -54,12 +54,14 @@
     var xTwo = 600;
     var xThree = 700;
     var xFour = 800;
+    var yOne = -200;
     var yStagger = 72;
 
     /* ----- ONE ------ */
     anime.set('#code1', {
       opacity: 0,
       translateX: xOne,
+      translateY: yOne,
     });
     var herocode = anime.timeline({
       loop: true,
@@ -87,7 +89,7 @@
     /* ----- TWO ------ */
     anime.set('#code2', {
       opacity: 0,
-      translateY: yStagger,
+      translateY: yOne + yStagger,
       translateX: xTwo,
     }); 
     var herocode2 = anime.timeline({
@@ -115,7 +117,7 @@
     setTimeout(heroCode2Delay, startingDelay + shiftDelay); 
     /* ----- THREE ------ */
     anime.set('#code3', {
-      translateY: yStagger -40,
+      translateY: yOne + yStagger -40,
       opacity: 0,
       translateX: xThree,
     });
@@ -145,7 +147,7 @@
     /* ----- FOUR ------ */
     anime.set('#code4', {
       opacity: 0,
-      translateY: yStagger + 36,
+      translateY: yOne + yStagger + 36,
       translateX: xFour,
     });
     var herocode4 = anime.timeline({
