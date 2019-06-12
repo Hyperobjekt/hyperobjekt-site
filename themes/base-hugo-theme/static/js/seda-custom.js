@@ -57,7 +57,7 @@
     var yStagger = 72;
 
     /* ----- ONE ------ */
-    anime.set('#firstSnippet', {
+    anime.set('.code1', {
       opacity: 0,
       translateX: xOne,
     });
@@ -71,12 +71,12 @@
         easing: 'easeOutCubic',
         delay: anime.stagger(staggerDelay, {direction: 'reverse'}), // increase delay for each element
       }).add({
-        targets: ['#firstSnippet'],
+        targets: ['.code1'],
         translateX: xOne - 20,
         duration: moveDuration,
         easing: 'easeOutCubic',
       }, moveDurationOffset).add({
-        targets: ['#firstSnippet'],
+        targets: ['.code1'],
         opacity: [1, 0],
         duration: fadeout,
         easing: 'easeOutCubic',
@@ -85,7 +85,7 @@
     };
     setTimeout(heroCode1Delay, 0 + shiftDelay);
     /* ----- TWO ------ */
-    anime.set('#secondSnippet', {
+    anime.set('.code2', {
       opacity: 0,
       translateY: yStagger,
       translateX: xTwo,
@@ -100,12 +100,12 @@
         easing: 'easeOutCubic',
         delay: anime.stagger(staggerDelay, {direction: 'reverse'}), // increase delay for each element.
       }).add({
-        targets: ['#secondSnippet'],
+        targets: ['.code2'],
         translateX: xTwo - 20,
         duration: moveDuration,
         easing: 'easeOutCubic',
       }, moveDurationOffset).add({
-        targets: ['#secondSnippet'],
+        targets: ['.code2'],
         opacity: [.9, 0],
         duration: fadeout,
         easing: 'easeOutCubic', 
@@ -114,7 +114,7 @@
     };
     setTimeout(heroCode2Delay, startingDelay + shiftDelay); 
     /* ----- THREE ------ */
-    anime.set('#thirdSnippet', {
+    anime.set('.code3', {
       translateY: yStagger -40,
       opacity: 0,
       translateX: xThree,
@@ -129,12 +129,12 @@
         easing: 'easeOutCubic',
         delay: anime.stagger(staggerDelay, {direction: 'reverse'}), // increase delay for each element.
       }).add({
-        targets: ['#thirdSnippet'],
+        targets: ['.code3'],
         translateX: xThree - 20,
         duration: moveDuration,
         easing: 'easeOutCubic',
       }, moveDurationOffset).add({
-        targets: ['#thirdSnippet'],
+        targets: ['.code3'],
         opacity: [1, 0],
         duration: fadeout,
         easing: 'easeOutCubic',   
