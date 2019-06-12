@@ -17825,12 +17825,15 @@ body.home .hero svg g#firstSnippet, body.home .hero svg g#secondSnippet, body.ho
   -webkit-backface-visibility: hidden;
   /* Chrome, Safari, Opera */
   backface-visibility: hidden;
-  will-change: transform tspan;
-  will-change-visibility: visible;
-  will-change--webkit-backface-visibility: hidden;
+  will-change: transform;
+}
+
+body.home .hero svg g#firstSnippet tspan, body.home .hero svg g#secondSnippet tspan, body.home .hero svg g#thirdSnippet tspan, body.home .hero svg g#fourthSnippet tspan {
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
   /* Chrome, Safari, Opera */
-  will-change-backface-visibility: hidden;
-  will-change-will-change: transform;
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 body.home .hero .codeline1, body.home .hero .codeline2, body.home .hero .codeline3, body.home .hero .codeline4 {

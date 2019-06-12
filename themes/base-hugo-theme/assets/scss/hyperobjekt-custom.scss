@@ -742,7 +742,7 @@ body.home {
       visibility: visible;
       -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
       backface-visibility: hidden;
-      will-change: transform
+      will-change: transform;
       
       tspan {
         visibility: visible;
@@ -750,14 +750,14 @@ body.home {
        // text-shadow: 0 0 5px rgba(0,0,0,0.5) !important;
        -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
        backface-visibility: hidden;
-       will-change: transform
+       will-change: transform;
       }
     }
     .codeline1, .codeline2, .codeline3, .codeline4 {
       visibility: visible;
       -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
       backface-visibility: hidden;
-      will-change: transform
+      will-change: transform;
      
     }
    
