@@ -746,8 +746,8 @@ body.home {
       
       tspan {
         visibility: visible;
-       // color: transparent !important;
-       // text-shadow: 0 0 5px rgba(0,0,0,0.5) !important;
+        color: transparent !important;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5) !important;
        -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
        backface-visibility: hidden;
        will-change: transform;
