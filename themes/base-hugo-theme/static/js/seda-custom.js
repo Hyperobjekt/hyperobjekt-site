@@ -43,8 +43,8 @@
 
 
     var shiftDelay = 1200 // delay of entire animation
-    var startingDelay = 400; // Starting delay of snippet 2 - x
-    var staggerDelay = 100;
+    var startingDelay = 100; // Starting delay of snippet 2 - x
+    var staggerDelay = 50;
     var moveDuration = 2000; // how long the leftward movement lasts
     var moveDurationOffset = '-=2000'; // time offset of leftward movement
     var fadeout = 2000; // opacity fade-out length
@@ -54,7 +54,7 @@
     var xTwo = 600;
     var xThree = 700;
     var xFour = 800;
-    var yOne = -200;
+    var yOne = -100;
     var yStagger = 72;
 
     /* ----- ONE ------ */
@@ -119,7 +119,7 @@
     setTimeout(heroCode2Delay, startingDelay + shiftDelay); 
     /* ----- THREE ------ */
     anime.set('#code3', {
-      translateY: yOne + yStagger -40,
+      translateY: yOne + yStagger -80,
       opacity: 0,
       translateX: xThree,
       translateZ: 0,
@@ -146,11 +146,11 @@
         endDelay: loopDelay, 
       },fadeoutOffset);
     };
-    setTimeout(heroCode3Delay, startingDelay * 2 + 1400 + shiftDelay);
+    setTimeout(heroCode3Delay, startingDelay * 2 + 1800 + shiftDelay);
     /* ----- FOUR ------ */
     anime.set('#code4', {
       opacity: 0,
-      translateY: yOne + yStagger + 36,
+      translateY: yOne + yStagger + 0,
       translateX: xFour,
       translateZ: 0,
     });
@@ -176,7 +176,7 @@
         endDelay: loopDelay, 
       },fadeoutOffset);
     };
-    setTimeout(heroCode4Delay, startingDelay * 3 + 1400 + shiftDelay);
+    setTimeout(heroCode4Delay, startingDelay * 3 + 1800 + shiftDelay);
 
     var updateModal = {
         activeBio: null,
