@@ -29,9 +29,5 @@ HUGO_VERSION = "0.53"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-[[redirects]]
-  from = "https://www.hyperobjekt.com/"
-  to =  "http://www.hyperobjekt.com/"
-  status = 301
-  force = true
+
 
