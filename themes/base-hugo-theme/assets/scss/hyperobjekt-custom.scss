@@ -99,7 +99,7 @@ nav a {
   //font-family: $sharpgrotesk-med-20;
 }
 
-p, ul {
+p, ul, textarea, input {
   @include futura-book;
     font-size: 1.6rem;
     letter-spacing: 0.035rem;
@@ -711,6 +711,10 @@ img {
   }
 }
 
+textarea, input {
+  border: 1px solid #e4e4e4;
+}
+
 // Shadow effect
 .drop-shadow {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .20);
@@ -783,7 +787,7 @@ body.home {
       background-image: url('/images/h0graphic_sm.jpg');
       background-size: contain;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: center 17%;
       @include media-breakpoint-up(md) {
         height: 660px;
         background-image: url('/images/h0graphic.jpg');
@@ -807,29 +811,7 @@ body.home {
           opacity: 1;
         }
       }
-      
-      h2.whitetext, h5.subhead {
-        color: transparent;
-        //text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
-        opacity: 0;
-        animation: blur-in4 1.8s forwards;
-          animation-delay: .2s;
-          // opacity: 0;
-          position: relative;
-
-          @keyframes blur-in4 {
-            0% {
-              opacity: 0;
-              text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
-            }
-
-            100% {
-              opacity: 1;
-              text-shadow: 0 0 0px rgba(255, 255, 255, 1);
-            }
-          }
-        
-      }
+     
     
       // background: url('/images/usa_counties_large_white_outline.png');
 
@@ -872,6 +854,34 @@ body.home {
         }
       }
     }
+    .herotext {
+      height: 100vh;
+      @include media-breakpoint-up(md) {
+        height: 660px;
+      }
+      h2.whitetext, h5.subhead {
+        color: transparent;
+        //text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+        opacity: 0;
+        animation: blur-in4 1.8s forwards;
+          animation-delay: .2s;
+          // opacity: 0;
+          position: relative;
+
+          @keyframes blur-in4 {
+            0% {
+              opacity: 0;
+              text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+            }
+
+            100% {
+              opacity: 1;
+              text-shadow: 0 0 0px rgba(255, 255, 255, 1);
+            }
+          }
+        
+      }
+    }  
   }
 
   #main {
@@ -886,9 +896,17 @@ body.home {
   &.projects {
     background-color: #021029;
     color: #fff;
+    h5 img {
+      position: relative;
+      top: -1px;
+    }
     .project1, .project2, .project3, .project4 {
       height: 420px;
       width: 100%;
+      @include media-breakpoint-down(mm) {
+        margin-left: 1.6rem;
+      }
+     
     }
     .project1 {
       background-color: $boldblue;
