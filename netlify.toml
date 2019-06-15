@@ -29,5 +29,6 @@ HUGO_VERSION = "0.53"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-
+[[redirects]]
+  https://www.hyperobjekt.com/blog https://www.hyperobjekt.com/:splat 301!
 
