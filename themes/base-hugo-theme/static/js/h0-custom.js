@@ -31,6 +31,7 @@
         $target.parents('.research-paper').toggleClass('abstract-visible');
     }
 
+
     /* anime.set(['#mainland', '.plotpoints', 'body.home .hero-child h2',
     'body.home .hero-child p', 'body.home .hero-child button'], {
       opacity: [0]

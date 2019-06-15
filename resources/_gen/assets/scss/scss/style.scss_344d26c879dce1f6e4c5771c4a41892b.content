@@ -17157,7 +17157,7 @@ h1 {
   font-family: "SharpGrotesk-Medium20", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
 }
 
-p, ul {
+p, ul, textarea, input {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17797,6 +17797,16 @@ img.float-left {
   }
 }
 
+textarea, input {
+  border: 1px solid #e4e4e4;
+}
+
+.tooltip.top {
+  font-size: 50px !important;
+  padding: 5px 0;
+  margin-top: -15px;
+}
+
 .drop-shadow {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
@@ -17861,7 +17871,7 @@ body.home .hero .hero-child {
   background-image: url("/images/h0graphic_sm.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 17%;
   animation: fade-in 2s forwards;
   animation-delay: 1s;
 }
@@ -17897,25 +17907,6 @@ body.home .hero .hero-child {
   }
 }
 
-body.home .hero .hero-child h2.whitetext, body.home .hero .hero-child h5.subhead {
-  color: transparent;
-  opacity: 0;
-  animation: blur-in4 1.8s forwards;
-  animation-delay: .2s;
-  position: relative;
-}
-
-@keyframes blur-in4 {
-  0% {
-    opacity: 0;
-    text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
-  }
-  100% {
-    opacity: 1;
-    text-shadow: 0 0 0px white;
-  }
-}
-
 body.home .hero .hero-child #hero-overlay {
   z-index: 1;
   position: absolute;
@@ -17938,6 +17929,35 @@ body.home .hero .hero-child .column button {
   }
 }
 
+body.home .hero .herotext {
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  body.home .hero .herotext {
+    height: 660px;
+  }
+}
+
+body.home .hero .herotext h2.whitetext, body.home .hero .herotext h5.subhead {
+  color: transparent;
+  opacity: 0;
+  animation: blur-in4 1.8s forwards;
+  animation-delay: .2s;
+  position: relative;
+}
+
+@keyframes blur-in4 {
+  0% {
+    opacity: 0;
+    text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 0px white;
+  }
+}
+
 body.home #main {
   background-color: #ffffff;
 }
@@ -17948,33 +17968,77 @@ body.home #main {
   text-align: left;
 }
 
+.row.projects h5 img {
+  position: relative;
+  top: -1px;
+}
+
 .row.projects .project1, .row.projects .project2, .row.projects .project3, .row.projects .project4 {
   height: 420px;
   width: 100%;
 }
 
-.row.projects .project1 {
+.row.projects .project1 a, .row.projects .project2 a, .row.projects .project3 a, .row.projects .project4 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.row.projects .project1 a:hover, .row.projects .project2 a:hover, .row.projects .project3 a:hover, .row.projects .project4 a:hover {
+  filter: blur(3px);
+  transition: filter .2s ease;
+}
+
+@media (max-width: 767.98px) {
+  .row.projects .project1, .row.projects .project2, .row.projects .project3, .row.projects .project4 {
+    margin-left: 1.6rem;
+  }
+}
+
+.row.projects .project1 .inactive-link {
   background-color: #063FFE;
   background-image: url("/images/seda-img.jpg");
   background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.row.projects .project2 {
+.row.projects .project1 .inactive-link:hover {
+  filter: blur(3px);
+  transition: filter .2s ease;
+}
+
+.row.projects .project2 a {
   background-color: #E23E00;
   background-image: url("/images/el-img.jpg");
   background-size: cover;
 }
 
-.row.projects .project3 {
+.row.projects .project3 a {
   background-color: #0893AD;
   background-image: url("/images/dd-img.jpg");
   background-size: cover;
 }
 
-.row.projects .project4 {
+.row.projects .project4 .inactive-link {
   background-color: #FFCC05;
   background-image: url("/images/bil-img.jpg");
   background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.row.projects .project4 .inactive-link:hover {
+  filter: blur(3px);
+  transition: filter .2s ease;
 }
 
 .row.projects .superhead {
