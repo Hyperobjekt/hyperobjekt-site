@@ -806,8 +806,8 @@ body.home {
       @include media-breakpoint-up(xl) {
         background-size: 64%;
       }
-      animation: fade-in 2s forwards;
-      animation-delay: 1s;
+      // animation: fade-in 2s forwards;
+      // animation-delay: 1s;
       @keyframes fade-in {
         0% {
           opacity: 0;
@@ -865,11 +865,11 @@ body.home {
         height: 660px;
       }
       h2.whitetext, h5.subhead {
-        color: transparent;
+        //color: transparent;
         //text-shadow: 0 0 42px rgba(255, 255, 255, 0.5);
-        opacity: 0;
-        animation: blur-in4 1.8s forwards;
-          animation-delay: .2s;
+        //opacity: 0;
+       // animation: blur-in4 1.8s forwards;
+         // animation-delay: .2s;
           // opacity: 0;
           position: relative;
 

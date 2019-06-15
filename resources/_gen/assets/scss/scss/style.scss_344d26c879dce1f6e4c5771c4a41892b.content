@@ -17872,8 +17872,6 @@ body.home .hero .hero-child {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center 17%;
-  animation: fade-in 2s forwards;
-  animation-delay: 1s;
 }
 
 @media (min-width: 768px) {
@@ -17940,10 +17938,6 @@ body.home .hero .herotext {
 }
 
 body.home .hero .herotext h2.whitetext, body.home .hero .herotext h5.subhead {
-  color: transparent;
-  opacity: 0;
-  animation: blur-in4 1.8s forwards;
-  animation-delay: .2s;
   position: relative;
 }
 
