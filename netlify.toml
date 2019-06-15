@@ -29,5 +29,9 @@ HUGO_VERSION = "0.53"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-
+[[redirects]]
+  from = "/blog"
+  to = "/"
+  status = 301
+  force = true
 
