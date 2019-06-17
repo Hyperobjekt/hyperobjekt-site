@@ -59,12 +59,12 @@
     anime.set('.grp-1', {
       //opacity: 1,
      rotate: 30,
-    translateX: 0,
-     translateY: 0,
+    //translateX: 0,
+     //translateY: 0,
 //translateZ: 0,
     });
     anime.set('.cls-9', {
-      translateX: -0,
+      //translateY: 0,
 
     });
     var herocode = anime.timeline({
@@ -75,9 +75,8 @@
         targets: ['.cls-9'],
         easing: 'easeOutCubic',
         keyframes: [
-          {translateX: 10},
-          {translateX: 10},
-          {translateX: 0},
+          {translateY: -5},
+          {translateY: 0},
         ],
         duration: 3000,
         delay: anime.stagger(staggerDelay), // increase delay for each element
