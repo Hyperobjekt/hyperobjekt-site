@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="809px" height="497px" viewBox="0 0 809 497" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>h0graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="231.132812" y="107.554688" width="407" height="407"></rect>
+        <filter x="-0.3%" y="-17.1%" width="100.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.3%" y="-17.1%" width="100.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.3%" y="-17.1%" width="100.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.3%" y="-17.1%" width="100.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.8%" height="134.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.8%" height="134.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.8%" height="134.3%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.8%" height="134.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.8%" height="134.3%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.8%" height="134.3%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.8%" y="-17.1%" width="101.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.8%" y="-17.1%" width="101.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-1.0%" y="-17.1%" width="101.9%" height="134.3%" filterUnits="objectBoundingBox" id="filter-15">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-1.0%" y="-17.1%" width="101.9%" height="134.3%" filterUnits="objectBoundingBox" id="filter-16">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.8%" y="-17.1%" width="101.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.8%" y="-17.1%" width="101.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.6%" y="-17.1%" width="101.2%" height="134.3%" filterUnits="objectBoundingBox" id="filter-19">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.6%" y="-17.1%" width="101.2%" height="134.3%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <rect id="path-21" x="75" y="75" width="407" height="407"></rect>
+        <filter x="-0.3%" y="-17.1%" width="100.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-23">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.3%" y="-17.1%" width="100.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-24">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.9%" height="134.3%" filterUnits="objectBoundingBox" id="filter-25">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.4%" y="-17.1%" width="100.9%" height="134.3%" filterUnits="objectBoundingBox" id="filter-26">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.7%" y="-17.1%" width="101.5%" height="134.3%" filterUnits="objectBoundingBox" id="filter-27">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.7%" y="-17.1%" width="101.5%" height="134.3%" filterUnits="objectBoundingBox" id="filter-28">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.3%" y="-17.1%" width="100.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-29">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.3%" y="-17.1%" width="100.7%" height="134.3%" filterUnits="objectBoundingBox" id="filter-30">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-2.2%" y="-17.1%" width="104.3%" height="134.3%" filterUnits="objectBoundingBox" id="filter-31">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-2.2%" y="-17.1%" width="104.3%" height="134.3%" filterUnits="objectBoundingBox" id="filter-32">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.6%" y="-17.1%" width="101.1%" height="134.3%" filterUnits="objectBoundingBox" id="filter-33">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.6%" y="-17.1%" width="101.1%" height="134.3%" filterUnits="objectBoundingBox" id="filter-34">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.6%" y="-17.1%" width="101.1%" height="134.3%" filterUnits="objectBoundingBox" id="filter-35">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.6%" y="-17.1%" width="101.1%" height="134.3%" filterUnits="objectBoundingBox" id="filter-36">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.5%" y="-17.1%" width="101.1%" height="134.3%" filterUnits="objectBoundingBox" id="filter-37">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.5%" y="-17.1%" width="101.1%" height="134.3%" filterUnits="objectBoundingBox" id="filter-38">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.8%" y="-17.1%" width="101.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-39">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.8%" y="-17.1%" width="101.6%" height="134.3%" filterUnits="objectBoundingBox" id="filter-40">
+            <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.798525856">
+        <g id="New-code-3-Copy" transform="translate(-298.000000, -96.000000)">
+            <g id="Group-3" transform="translate(131.000000, 28.000000)">
+                <g id="h0graphic">
+                    <g id="level1" transform="translate(0.867188, 0.445312)">
+                        <polygon id="Mask" points="415.337712 0 671.506462 139.137309 500.162139 455.125335 478.02369 455.125335 671.506462 560.706756 665.517792 583.465521 315.491214 570.029967 69.6953125 495.031608 -5.68434189e-14 387.865137"></polygon>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask" transform="translate(434.632812, 311.054688) rotate(30.000000) translate(-434.632812, -311.054688) "></g>
+                        <g id="set1" mask="url(#mask-2)" font-family="SFMono-Regular, SF Mono" font-size="12" font-weight="normal">
+                            <g transform="translate(138.132812, 23.554688)" id="group1">
+                                <g>
+                                    <g id="firstSnippet" transform="translate(329.364080, 350.505111) rotate(30.000000) translate(-329.364080, -350.505111) translate(69.364080, 143.505111)" fill="#B873EF" opacity="0.75609189">
+                                        <g id="code1" transform="translate(0.000000, 0.000000)">
+                                            <text id="t1">
+                                                <tspan x="1.8189894e-12" y="410.423265">const mapStateToProps = ({</tspan>
+                                            </text>
+                                            <text id="t2">
+                                                <tspan x="1.8189894e-12" y="360.500016">map: { coords, viewport },</tspan>
+                                            </text>
+                                            <text id="t3">
+                                                <tspan x="1.8189894e-12" y="310.576766">sections: { map: { hovered } }</tspan>
+                                            </text>
+                                            <text id="getFeatureProperty(h">
+                                                <tspan x="1.8189894e-12" y="260.653517">getFeatureProperty(hovered, demographic + '_' + metric),</tspan>
+                                            </text>
+                                            <text id="match:-{-params:-{-m">
+                                                <tspan x="1.8189894e-12" y="210.730268">match: { params: { metric, demo } }</tspan>
+                                            </text>
+                                            <text id="})-=&gt;-{-import-{-get">
+                                                <tspan x="9.09494702e-13" y="160.807019">}) =&gt; { import { getStateFips};</tspan>
+                                            </text>
+                                            <text id="const-varName-=-[dem">
+                                                <tspan x="9.09494702e-13" y="110.88377">const varName = [demographic]) =&gt; {}</tspan>
+                                            </text>
+                                            <text id="export-const-getRang">
+                                                <tspan x="0" y="60.9605212">export const getRangeFromVarName = </tspan>
+                                            </text>
+                                            <text id="t9">
+                                                <tspan x="1.8189894e-12" y="11.0372721">x: coords &amp;&amp; coords.x,</tspan>
+                                            </text>
+                                        </g>
+                                    </g>
+                                    <g id="secondSnippet" transform="translate(518.473443, 374.297634) rotate(30.000000) translate(-518.473443, -374.297634) translate(128.473443, 167.297634)" fill="#6E7E98">
+                                        <text id="export-const-getRang" filter="url(#filter-4)">
+                                            <tspan x="1.8189894e-12" y="410.423265">export const getRangeFromVarName =</tspan>
+                                        </text>
+                                        <text id="t1-2" filter="url(#filter-6)">
+                                            <tspan x="1.8189894e-12" y="360.500016">export const getRangeFromVarName = (varName, region, type) =&gt; {</tspan>
+                                        </text>
+                                        <text id="t1-3" filter="url(#filter-8)">
+                                            <tspan x="9.09494702e-13" y="310.576766">const metricId = getMetricIdFromVarName(varName)</tspan>
+                                        </text>
+                                        <text id="const-demId-=-getDem" filter="url(#filter-10)">
+                                            <tspan x="9.09494702e-13" y="260.653517">const demId = getDemographicId(varName)</tspan>
+                                        </text>
+                                        <text id="return-getMetricRang" filter="url(#filter-12)">
+                                            <tspan x="9.09494702e-13" y="210.730268">return getMetricRange(metricId, demId);</tspan>
+                                        </text>
+                                        <text id="getMetricRange(metri" filter="url(#filter-14)">
+                                            <tspan x="9.09494702e-13" y="160.807019">getMetricRange(metricId, constName);</tspan>
+                                        </text>
+                                        <text id="if-(key-===-'*')-ret" filter="url(#filter-16)">
+                                            <tspan x="1.8189894e-12" y="110.88377">if (key === '*') return ‘true’;</tspan>
+                                        </text>
+                                        <text id="if-const-[t,-r,-d,-m" filter="url(#filter-18)">
+                                            <tspan x="9.09494702e-13" y="60.9605212">if const [t, r, d, m, q = false ];</tspan>
+                                        </text>
+                                        <text id="t1-9" filter="url(#filter-20)">
+                                            <tspan x="9.09494702e-13" y="11.0372721">return (t === '*' || t === type)</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="level2" transform="translate(464.000000, 41.000000)">
+                        <g id="set2">
+                            <mask id="mask-22" fill="white">
+                                <use xlink:href="#path-21"></use>
+                            </mask>
+                            <g id="Mask" transform="translate(278.500000, 278.500000) rotate(30.000000) translate(-278.500000, -278.500000) "></g>
+                            <g id="group-2" mask="url(#mask-22)" font-family="SFMono-Regular, SF Mono" font-size="12" font-weight="normal">
+                                <g transform="translate(-14.000000, 1.000000)">
+                                    <g id="thirdSnippet" transform="translate(441.773300, 404.133758) rotate(30.000000) translate(-441.773300, -404.133758) translate(52.273300, 197.133758)">
+                                        <text id="import-{-getMapColors};" fill="#5571B9">
+                                            <tspan x="-9.09494702e-13" y="410.700655">import { getMapColors};</tspan>
+                                        </text>
+                                        <text id="import-{-getMapColors-};" fill="#5571B9">
+                                            <tspan x="-9.09494702e-13" y="360.777406">import { getMapColors };</tspan>
+                                        </text>
+                                        <text id="import-{-onHoverFeature};" fill="#5571B9">
+                                            <tspan x="1.8189894e-12" y="310.854157">import { onHoverFeature};</tspan>
+                                        </text>
+                                        <text id="import-{-getStateFipsFromAbbr,-getStatePropByAbbr-};" fill="#5571B9">
+                                            <tspan x="9.09494702e-13" y="260.930908">import { getStateFipsFromAbbr, getStatePropByAbbr };</tspan>
+                                        </text>
+                                        <text id="import-{-getFeatureProperty-};" fill="#5571B9">
+                                            <tspan x="-1.8189894e-12" y="211.007659">import { getFeatureProperty };</tspan>
+                                        </text>
+                                        <text id="export-const-getRangeFromVarName-=-(varName,-region,-type)-=&gt;-{" fill="#5571B9">
+                                            <tspan x="9.09494702e-13" y="161.08441">export const getRangeFromVarName = (varName, region, type) =&gt; {</tspan>
+                                        </text>
+                                        <text id="const-metricId-=-getMetricIdFromVarName(varName)" fill="#5571B9">
+                                            <tspan x="0" y="111.161161">const metricId = getMetricIdFromVarName(varName)</tspan>
+                                        </text>
+                                        <text id="colors:-getColorsFromParam(color,-varName,-region,-type)," fill="#5571B9">
+                                            <tspan x="0" y="61.2379121">colors: getColorsFromParam(color, varName, region, type),</tspan>
+                                        </text>
+                                        <text id="colorRange:-getMetricRange(metric,-'map')," fill="#5571B9">
+                                            <tspan x="0" y="11.314663">colorRange: getMetricRange(metric, 'map'),</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="fourthSnippet" transform="translate(505.618101, 355.773662) rotate(30.000000) translate(-505.618101, -355.773662) translate(153.618101, 148.773662)">
+                                        <text id="legendRange:-getMetricRange(metric,-demographic,-region)," fill="#6B3B9B" filter="url(#filter-24)">
+                                            <tspan x="-1.8189894e-12" y="410.423265">legendRange: getMetricRange(metric, demographic, region),</tspan>
+                                        </text>
+                                        <text id="markerPosition:-hovered-hovered.properties-?" fill="#6B3B9B" filter="url(#filter-26)">
+                                            <tspan x="-1.8189894e-12" y="360.500016">markerPosition: hovered hovered.properties ?</tspan>
+                                        </text>
+                                        <text id="getValuePositionForMetric(" fill="#6B3B9B" filter="url(#filter-28)">
+                                            <tspan x="0" y="310.576766">getValuePositionForMetric(</tspan>
+                                        </text>
+                                        <text id="getFeatureProperty(hovered,-demographic-+-'_'-+-metric)," fill="#6B3B9B" filter="url(#filter-30)">
+                                            <tspan x="0" y="260.653517">getFeatureProperty(hovered, demographic + '_' + metric),</tspan>
+                                        </text>
+                                        <text id="legend:-{" fill="#6B3B9B" filter="url(#filter-32)">
+                                            <tspan x="0" y="210.730268">legend: {</tspan>
+                                        </text>
+                                        <text id="colors:-getColorsFromParam(color)," fill="#6B3B9B" filter="url(#filter-34)">
+                                            <tspan x="9.09494702e-13" y="160.807019">colors: getColorsFromParam(color),</tspan>
+                                        </text>
+                                        <text id="colorRange:-getMetricRange(metric)," fill="#6B3B9B" filter="url(#filter-36)">
+                                            <tspan x="-9.09494702e-13" y="110.88377">colorRange: getMetricRange(metric),</tspan>
+                                        </text>
+                                        <text id="legendRange:-getMetricRange(metric)," fill="#6B3B9B" filter="url(#filter-38)">
+                                            <tspan x="-9.09494702e-13" y="60.9605212">legendRange: getMetricRange(metric),</tspan>
+                                        </text>
+                                        <text id="markerPosition:-hovered-?" fill="#6B3B9B" filter="url(#filter-40)">
+                                            <tspan x="-9.09494702e-13" y="11.0372721">markerPosition: hovered ?</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

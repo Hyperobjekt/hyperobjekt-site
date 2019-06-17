@@ -17868,7 +17868,6 @@ body.home .hero .hero-child {
   width: 90%;
   position: absolute;
   top: 0;
-  background-image: url("/images/h0graphic_sm.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center 17%;
@@ -17877,7 +17876,6 @@ body.home .hero .hero-child {
 @media (min-width: 768px) {
   body.home .hero .hero-child {
     height: 660px;
-    background-image: url("/images/h0graphic.jpg");
     background-size: 84%;
     background-repeat: no-repeat;
     background-position: 65% 56%;
