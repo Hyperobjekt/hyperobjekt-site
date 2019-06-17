@@ -17215,7 +17215,7 @@ span.futura-zero {
 
 @media (min-width: 768px) {
   span.futura-zero {
-    font-size: 3.65rem;
+    font-size: 3.75rem;
   }
 }
 
@@ -17831,6 +17831,17 @@ body.home .hero {
   }
 }
 
+body.home .hero h2 {
+  line-height: 4rem;
+}
+
+@media (min-width: 768px) {
+  body.home .hero h2 {
+    line-height: 5.7rem;
+    margin-bottom: 1rem;
+  }
+}
+
 body.home .hero svg {
   height: 100%;
   width: 100%;
@@ -17877,10 +17888,11 @@ body.home .hero .hero-child {
 @media (min-width: 768px) {
   body.home .hero .hero-child {
     height: 660px;
-    background-image: url("/images/h0graphic.jpg");
-    background-size: 84%;
+    background-image: url("/images/h0graphic4.png");
+    background-size: 90%;
+    opacity: .7;
     background-repeat: no-repeat;
-    background-position: 65% 56%;
+    background-position: 88% 56%;
   }
 }
 
@@ -17892,7 +17904,7 @@ body.home .hero .hero-child {
 
 @media (min-width: 1280px) {
   body.home .hero .hero-child {
-    background-size: 64%;
+    background-size: 74%;
   }
 }
 

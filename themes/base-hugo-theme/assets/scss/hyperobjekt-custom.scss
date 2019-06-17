@@ -139,7 +139,7 @@ span.bitter-black {
 span.futura-zero {
   font-size: 2.35rem;
   @include media-breakpoint-up(md) {
-    font-size: 3.65rem;
+    font-size: 3.75rem;
   }
   
 }
@@ -737,13 +737,14 @@ body.home {
     @include media-breakpoint-up(md) {
       height: 660px;
     }
-    
-    // min-height: 540px;
-   // margin-top: -6.4rem;
-    //margin-left: 0;
-    // margin-right: 0;
     color: $white;
-    
+    h2 {
+      line-height: 4rem;
+      @include media-breakpoint-up(md) {
+        line-height: 5.7rem;
+        margin-bottom: 1rem;
+      }
+    }
     
 
     svg {
@@ -795,16 +796,17 @@ body.home {
       background-position: center 17%;
       @include media-breakpoint-up(md) {
         height: 660px;
-        background-image: url('/images/h0graphic.jpg');
-        background-size: 84%;
+        background-image: url('/images/h0graphic4.png');
+        background-size: 90%;
+        opacity: .7;
         background-repeat: no-repeat;
-        background-position: 65% 56%;
+        background-position: 88% 56%;
       }
       @include media-breakpoint-up(lg) {
         background-size: 74%;
       }
       @include media-breakpoint-up(xl) {
-        background-size: 64%;
+        background-size: 74%;
       }
       // animation: fade-in 2s forwards;
       // animation-delay: 1s;
