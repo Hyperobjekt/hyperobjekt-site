@@ -17215,7 +17215,7 @@ span.futura-zero {
 
 @media (min-width: 768px) {
   span.futura-zero {
-    font-size: 3.75rem;
+    font-size: 4.35rem;
   }
 }
 
