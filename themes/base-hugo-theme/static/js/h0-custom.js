@@ -56,7 +56,7 @@
     var yStagger = 72;
 
     /* ----- ONE ------ */
-    anime.set(['.grp-1', '.grp-2'],{
+    anime.set(['.grp-1', '.grp-2', '.grp-3', '.grp-4'],{
       //opacity: 1,
      rotate: 30,
     //translateX: 0,
