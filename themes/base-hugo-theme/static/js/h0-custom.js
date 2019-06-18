@@ -56,12 +56,12 @@
     var yStagger = 72;
 
     /* ----- ONE ------ */
-    anime.set('.grp-1', {
+    anime.set(['.grp-1', '.grp-2'],{
       //opacity: 1,
      rotate: 30,
     //translateX: 0,
-     //translateY: 0,
-//translateZ: 0,
+    translateY: 0,
+    //translateZ: 0,
     });
     anime.set('.cls-9', {
       //translateY: 0,
@@ -75,26 +75,34 @@
         targets: ['.cls-9'],
         easing: 'easeOutCubic',
         keyframes: [
-          {translateY: -5},
-          {translateY: 0},
         ],
-        duration: 3000,
+        duration: 5000,
         delay: anime.stagger(staggerDelay), // increase delay for each element
-      }).add({
-        targets: ['#code1'],
-        translateX: xOne - 20,
-        duration: moveDuration,
-        easing: 'easeOutCubic',
-      }, moveDurationOffset).add({
-        targets: ['#code1'],
-        opacity: [1, 0],
-        duration: fadeout,
-        easing: 'easeOutCubic',
-        endDelay: loopDelay,   
-      },fadeoutOffset);
+      })
     };
     setTimeout(heroCode1Delay, 0 + shiftDelay);
 
+    anime({
+      targets: ['.grp-1', '.grp-2'],
+      keyframes: [
+        {translateX: -15},
+        {translateX: 0},
+      ],
+      easing: 'easeOutCubic',
+      duration: 12000,
+      loop: false,
+    });
+
+    anime({
+      targets: ['.grp-3', '.grp-4'],
+      keyframes: [
+        {translateX: 15},
+        {translateX: 0},
+      ],
+      easing: 'easeOutCubic',
+      duration: 12000,
+      loop: false,
+    })
 
     
 
