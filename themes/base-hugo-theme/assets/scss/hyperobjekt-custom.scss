@@ -749,8 +749,11 @@ body.home {
     svg {
      // margin-left: 10%;
       height: 100%;
-      width: 100%;
-    }
+      width: 191%;
+      top: 50px;
+      left: 13%;
+      position: relative;
+      }
     svg g#firstSnippet, svg g#secondSnippet, svg g#thirdSnippet, svg g#fourthSnippet  {
       transform: skew(-40deg, 20deg);
       visibility: visible;
