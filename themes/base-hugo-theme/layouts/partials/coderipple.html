@@ -92,8 +92,8 @@
       </clipPath>
     </defs>
     <title>h0graphic3</title>
-    
-                <g class="grp-1"><!--left light purple-->
+        <!-- Center graphic -->
+            <g class="grp-1 code-grp"><!--left light purple-->
                 <!--<text class="cls-9" transform="" x="267.49" y="297">const mapStateToProps = ({</text>-->
                 <text class="cls-9" transform="" x="267.49" y="247">map: { coords, viewport },</text>
                 <text class="cls-9" transform="" x="267.49" y="197">sections: { map: { hovered } }</text>
@@ -103,40 +103,137 @@
                 <text class="cls-9" transform="" x="267.49" y="-3">const varName = [demographic]) =&gt; {}</text>
                 <text class="cls-9" transform="" x="267.49" y="-53">export const getRangeFromVarName = </text>
                 <text class="cls-9" transform="" x="267.49" y="-103">x: coords &amp;&amp; coords.x,</text>
-                </g>
+            </g>
             
-            <g class="grp-2"><!--left light gray-->
+            <g class="grp-2 code-grp"><!--left light gray-->
                 <text class="cls-10" x="317.49" y="222">export const getRangeFromVarName =</text>
-                <text class="cls-10" x="317.49" y="172">export const getRangeFromVarName = (varName, region, type) =&gt; {</text>
+                <text class="cls-10" x="317.49" y="172">export const getRangeFromVarName = (region) {</text>
                 <text class="cls-10" x="317.49" y="122">const metricId = getMetricIdFromVarName(varName)</text>
-                <text class="cls-10" x="317.49" y="72">const demId = getDemographicId(varName)</text>
-                <text class="cls-10" x="317.49" y="22">return getMetricRange(metricId, demId);</text>
+                <text class="cls-10" x="317.49" y="72">const demId = getDemographicId(varN)</text>
+                <text class="cls-10" x="317.49" y="22">return getMetricRange(metricId);</text>
                 <text class="cls-10" x="317.49" y="-28">getMetricRange(metricId, constName);</text>
                 <text class="cls-10" x="317.49" y="-78">if (key === &apos;*&apos;) return ‘true’;</text>
                 <text class="cls-10" x="317.49" y="-128">if const [t, r, d, m, q = false ];</text>
                 <!--<text class="cls-10" x="317.49" y="-128">return (t === &apos;*&apos; || t === type)</text>-->
             </g>        
         
-            <g class="grp-3"> <!--right med blue-->
+            <g class="grp-3 code-grp"> <!--right med blue-->
               <!--<text class="cls-14" x="428" y="197">import { getMapColors};</text>-->
               <text class="cls-14" x="540" y="97">import { getMapColors };</text>
               <text class="cls-14" x="540" y="47">import { onHoverFeature};</text>
               <text class="cls-14" x="540" y="-3">import { getStateFipsFromAbbr, getStatePropByAbbr };</text>
               <text class="cls-14" x="540" y="-53">import { getFeatureProperty };</text>
-              <text class="cls-14" x="540" y="-103">export const getRangeFromVarName = (varName, region, type) =&gt; {</text>
+              <text class="cls-14" x="540" y="-103">export const getRangeFromVarName = (varName, region)</text>
               <text class="cls-14" x="540" y="-153">const metricId = getMetricIdFromVarName(varName)</text>
-              <text class="cls-14" x="540" y="-203">colors: getColorsFromParam(color, varName, region, type),</text>
+              <text class="cls-14" x="540" y="-203">colors: getColorsFromParam(color, varName, region)</text>
               <text class="cls-14" x="540" y="-253">colorRange: getMetricRange(metric, &apos;map&apos;),</text>
             </g>
-            <g class="grp-4"> <!--right dark purple-->
-              <text class="cls-15" x="590" y="72">legendRange: getMetricRange(metric, demographic, region),</text>
+            <g class="grp-4 code-grp"> <!--right dark purple-->
+              <text class="cls-15" x="590" y="72">legendRange: getMetricRange(metric, demo),</text>
               <text class="cls-15" x="590" y="22">markerPosition: hovered hovered.properties ?</text>
               <text class="cls-15" x="590" y="-28">getValuePositionForMetric(</text>
-              <text class="cls-15" x="590" y="-78">getFeatureProperty(hovered, demographic + &apos;_&apos; + metric),</text>
-              <text class="cls-15" x="590" y="-128">legend: {</text>
+              <text class="cls-15" x="590" y="-78">getFeatureProperty(hovered, demographic + &apos;_&apos;),</text>
+              <text class="cls-15" x="590" y="-128">legend: { getMetricRange }</text>
               <text class="cls-15" x="590" y="-178">colors: getColorsFromParam(color),</text>
               <text class="cls-15" x="590" y="-228">colorRange: getMetricRange(metric),</text>
               <text class="cls-15" x="590" y="-278">legendRange: getMetricRange(metric),</text>
+              <!--<text class="cls-15" x="448" y="-228">markerPosition: hovered ?</text>-->
+            </g>
+
+        <!-- Top left graphic -->    
+            <g class="grp-5 code-grp"><!--left light purple-->
+                <!--<text class="cls-9" transform="" x="267.49" y="297">const mapStateToProps = ({</text>-->
+                <text class="cls-9" transform="" x="-343" y="572">map: { coords, viewport },</text>
+                <text class="cls-9" transform="" x="-343" y="522">sections: { map: { hovered } }</text>
+                <text class="cls-9" transform="" x="-343" y="472">getFeatureProperty(hovered, demographic + &apos;_&apos; + metric),</text>
+                <text class="cls-9" transform="" x="-343" y="422">match: { params: { metric, demo } }</text>
+                <text class="cls-9" transform="" x="-343" y="372">}) =&gt; { import { getStateFips};</text>
+                <text class="cls-9" transform="" x="-343" y="322">const varName = [demographic]) =&gt; {}</text>
+                <text class="cls-9" transform="" x="-343" y="272">export const getRangeFromVarName = </text>
+                <text class="cls-9" transform="" x="-343" y="222">x: coords &amp;&amp; coords.x,</text>
+            </g>
+            
+            <g class="grp-6 code-grp"><!--left light gray-->
+                <text class="cls-10" x="-293" y="547">export const getRangeFromVarName =</text>
+                <text class="cls-10" x="-293" y="497">export const getRangeFromVarName = (region) {</text>
+                <text class="cls-10" x="-293" y="447">const metricId = getMetricIdFromVarName(varName)</text>
+                <text class="cls-10" x="-293" y="397">const demId = getDemographicId(varN)</text>
+                <text class="cls-10" x="-293" y="347">return getMetricRange(metricId);</text>
+                <text class="cls-10" x="-293" y="297">getMetricRange(metricId, constName);</text>
+                <text class="cls-10" x="-293" y="247">if (key === &apos;*&apos;) return ‘true’;</text>
+                <text class="cls-10" x="-293" y="197">if const [t, r, d, m, q = false ];</text>
+                <!--<text class="cls-10" x="317.49" y="-128">return (t === &apos;*&apos; || t === type)</text>-->
+            </g>        
+        
+            <g class="grp-7 code-grp"> <!--right med blue-->
+              <!--<text class="cls-14" x="428" y="197">import { getMapColors};</text>-->
+              <text class="cls-14" x="-70" y="422">import { getMapColors };</text>
+              <text class="cls-14" x="-70" y="372">import { onHoverFeature};</text>
+              <text class="cls-14" x="-70" y="322">import { getStateFipsFromAbbr, getStatePropByAbbr };</text>
+              <text class="cls-14" x="-70" y="272">import { getFeatureProperty };</text>
+              <text class="cls-14" x="-70" y="222">export const getRangeFromVarName = (varName, region)</text>
+              <text class="cls-14" x="-70" y="172">const metricId = getMetricIdFromVarName(varName)</text>
+              <text class="cls-14" x="-70" y="122">colors: getColorsFromParam(color, varName, region)</text>
+              <text class="cls-14" x="-70" y="72">colorRange: getMetricRange(metric, &apos;map&apos;),</text>
+            </g>
+            <g class="grp-8 code-grp"> <!--right dark purple-->
+              <text class="cls-15" x="-20" y="397">legendRange: getMetricRange(metric, demo),</text>
+              <text class="cls-15" x="-20" y="347">markerPosition: hovered hovered.properties ?</text>
+              <text class="cls-15" x="-20" y="297">getValuePositionForMetric(</text>
+              <text class="cls-15" x="-20" y="247">getFeatureProperty(hovered, demo),</text>
+              <text class="cls-15" x="-20" y="197">legend: { getMetricRange }</text>
+              <text class="cls-15" x="-20" y="147">colors: getColorsFromParam(color),</text>
+              <text class="cls-15" x="-20" y="97">colorRange: getMetricRange(metric),</text>
+              <text class="cls-15" x="-20" y="47">legendRange: getMetricRange(metric),</text>
+              <!--<text class="cls-15" x="448" y="-228">markerPosition: hovered ?</text>-->
+            </g>
+
+
+            <!-- Bottom right graphic -->    
+            <g class="grp-9 code-grp"><!--left light purple-->
+                <!--<text class="cls-9" transform="" x="267.49" y="297">const mapStateToProps = ({</text>-->
+                <text class="cls-9" transform="" x="867" y="-78">map: { coords, viewport },</text>
+                <text class="cls-9" transform="" x="867" y="-128">sections: { map: { hovered } }</text>
+                <text class="cls-9" transform="" x="867" y="-178">getFeatureProperty(hovered, demographic + &apos;_&apos; + metric),</text>
+                <text class="cls-9" transform="" x="867" y="-228">match: { params: { metric, demo } }</text>
+                <text class="cls-9" transform="" x="867" y="-278">}) =&gt; { import { getStateFips};</text>
+                <text class="cls-9" transform="" x="867" y="-328">const varName = [demographic]) =&gt; {}</text>
+                <text class="cls-9" transform="" x="867" y="-378">export const getRangeFromVarName = </text>
+                <text class="cls-9" transform="" x="867" y="-428">x: coords &amp;&amp; coords.x,</text>
+            </g>
+            
+            <g class="grp-10 code-grp"><!--left light gray-->
+                <text class="cls-10" x="917" y="-103">export const getRangeFromVarName =</text>
+                <text class="cls-10" x="917" y="-153">export const getRangeFromVarName = (region) {</text>
+                <text class="cls-10" x="917" y="-203">const metricId = getMetricIdFromVarName(varName)</text>
+                <text class="cls-10" x="917" y="-253">const demId = getDemographicId(varN)</text>
+                <text class="cls-10" x="917" y="-303">return getMetricRange(metricId);</text>
+                <text class="cls-10" x="917" y="-353">getMetricRange(metricId, constName);</text>
+                <text class="cls-10" x="917" y="-403">if (key === &apos;*&apos;) return ‘true’;</text>
+                <text class="cls-10" x="917" y="-453">if const [t, r, d, m, q = false ];</text>
+                <!--<text class="cls-10" x="317.49" y="-128">return (t === &apos;*&apos; || t === type)</text>-->
+            </g>        
+        
+            <g class="grp-11 code-grp"> <!--right med blue-->
+              <!--<text class="cls-14" x="428" y="197">import { getMapColors};</text>-->
+              <text class="cls-14" x="1140" y="-228">import { getMapColors };</text>
+              <text class="cls-14" x="1140" y="-278">import { onHoverFeature};</text>
+              <text class="cls-14" x="1140" y="-328">import { getStateFipsFromAbbr, getStatePropByAbbr };</text>
+              <text class="cls-14" x="1140" y="-378">import { getFeatureProperty };</text>
+              <text class="cls-14" x="1140" y="-428">export const getRangeFromVarName = (varName, region)</text>
+              <text class="cls-14" x="1140" y="-478">const metricId = getMetricIdFromVarName(varName)</text>
+              <text class="cls-14" x="1140" y="-528">colors: getColorsFromParam(color, varName, region)</text>
+              <text class="cls-14" x="1140" y="-578">colorRange: getMetricRange(metric, &apos;map&apos;),</text>
+            </g>
+            <g class="grp-12 code-grp"> <!--right dark purple-->
+              <text class="cls-15" x="1190" y="-253">legendRange: getMetricRange(metric, demo),</text>
+              <text class="cls-15" x="1190" y="-303">markerPosition: hovered hovered.properties ?</text>
+              <text class="cls-15" x="1190" y="-353">getValuePositionForMetric(</text>
+              <text class="cls-15" x="1190" y="-403">getFeatureProperty(hovered, demo),</text>
+              <text class="cls-15" x="1190" y="-453">legend: { getMetricRange }</text>
+              <text class="cls-15" x="1190" y="-503">colors: getColorsFromParam(color),</text>
+              <text class="cls-15" x="1190" y="-553">colorRange: getMetricRange(metric),</text>
+              <text class="cls-15" x="1190" y="-603">legendRange: getMetricRange(metric),</text>
               <!--<text class="cls-15" x="448" y="-228">markerPosition: hovered ?</text>-->
             </g>
    

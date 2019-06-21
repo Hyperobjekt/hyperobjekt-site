@@ -17932,6 +17932,8 @@ body.home .hero .herotext {
 @media (min-width: 768px) {
   body.home .hero .herotext {
     height: 660px;
+    position: relative;
+    top: -660px;
   }
 }
 

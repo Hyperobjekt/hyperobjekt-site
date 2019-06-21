@@ -40,10 +40,12 @@
       opacity: [0]
     }); */
   
-    var shiftDelay = 1200 // delay of entire animation
+    var shiftDelay = 0 // delay of entire animation
     var startingDelay = 100; // Starting delay of snippet 2 - x
-    var staggerDelay = 200;
-    var moveDuration = 2000; // how long the leftward movement lasts
+    var staggerDelay = 150;
+    var moveDuration = 1800; // how long the leftward movement lasts
+    var moveDistance = 0; // how far the line moves
+    var moveDistance2 = 0; // how far the line moves
     var moveDurationOffset = '-=2000'; // time offset of leftward movement
     var fadeout = 2000; // opacity fade-out length
     var fadeoutOffset ='-=200'; // offset of the aboive
@@ -54,35 +56,126 @@
     var xFour = 800;
     var yOne = 300;
     var yStagger = 72;
+    var easing1 = 'easeInExpo';
+    var opacity1 = .1;
+    var opacity2 = .35;
+
+    var loopLength = 12000;
+
+  
+
 
     /* ----- ONE ------ */
-    anime.set(['.grp-1', '.grp-2', '.grp-3', '.grp-4'],{
-      //opacity: 1,
+    anime.set(['.code-grp'],{
+    // opacity: .7,
      rotate: 30,
-    //translateX: 0,
+   // translateX: 300,
     translateY: 0,
     //translateZ: 0,
     });
-    anime.set('.cls-9', {
-      //translateY: 0,
+    anime.set(['.cls-9', '.cls-10', '.cls-14', '.cls-15'], {
+      opacity: opacity1,
+      //opacity: 1,
 
     });
+
+   /* anime({
+      targets: ['.grp-1', '.grp-2', '.grp-3', '.grp-4'],
+      keyframes: [
+        
+        {translateX: -300},
+        {translateX: 300},
+        {translateX: 0},
+      ],
+      duration: loopLength,
+      // delay: loopLength,
+      //loop: true,
+      easing: 'steps(4)',
+
+    }) */
+
+
+
     var herocode = anime.timeline({
       loop: true,
     });
     var heroCode1Delay = function(){
       herocode.add({
         targets: ['.cls-9'],
-        easing: 'easeOutCubic',
+       easing: easing1,
         keyframes: [
+          //{translateX: moveDistance}, {translateX: 0}
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+         
         ],
-        duration: 5000,
+        duration: moveDuration,
+      
         delay: anime.stagger(staggerDelay), // increase delay for each element
       })
     };
     setTimeout(heroCode1Delay, 0 + shiftDelay);
+  
+    var heroCode2Delay = function(){
+      anime({
+        targets: ['.cls-10'],
+        // easing: 'easeOutCubic',
+        easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+       
+          //{translateX: moveDistance2}, {translateX: 0},
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+   setTimeout(heroCode2Delay, 500 + shiftDelay); 
 
-    anime({
+    var heroCode3Delay = function(){
+      anime({
+        targets: ['.cls-14'],
+        // easing: 'easeOutCubic',
+        easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+       
+          //{translateX: moveDistance}, {translateX: 0},
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode3Delay, 300 + shiftDelay);
+
+    var heroCode4Delay = function(){
+      anime({
+        targets: ['.cls-15'],
+       //  easing: 'easeOutCubic',
+       easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+          //{translateX: moveDistance2}, {translateX: 0},
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode4Delay, 800 + shiftDelay); 
+
+    
+
+    /* anime({
       targets: ['.grp-1', '.grp-2'],
       keyframes: [
         {translateX: -15},
@@ -102,7 +195,7 @@
       easing: 'easeOutCubic',
       duration: 12000,
       loop: false,
-    })
+    }) */
 
     
 
