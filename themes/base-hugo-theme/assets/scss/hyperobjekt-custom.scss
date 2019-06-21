@@ -863,6 +863,8 @@ body.home {
       height: 100vh;
       @include media-breakpoint-up(md) {
         height: 660px;
+        position: relative;
+        top: -660px;
       }
       h2.whitetext, h5.subhead {
         //color: transparent;

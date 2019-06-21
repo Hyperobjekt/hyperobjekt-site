@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 950 614" style="enable-background:new 0 0 950 614;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B873EF;}
+	.st1{font-family:'SFMono-Regular';}
+	.st2{font-size:12px;}
+	.st3{fill:#6E7E98;}
+	.st4{fill:#5571B9;}
+	.st5{fill:#6B3B9B;}
+</style>
+<title>h0graphic3</title>
+<g>
+	<text transform="matrix(1 0 0 1 267.49 247)" class="st0 st1 st2">map: { coords, viewport },</text>
+	<text transform="matrix(1 0 0 1 267.49 197)" class="st0 st1 st2">sections: { map: { hovered } }</text>
+	<text transform="matrix(1 0 0 1 267.49 147)" class="st0 st1 st2">getFeatureProperty(hovered, demographic + &apos;_&apos; + metric),</text>
+	<text transform="matrix(1 0 0 1 267.49 97)" class="st0 st1 st2">match: { params: { metric, demo } }</text>
+	<text transform="matrix(1 0 0 1 267.49 47)" class="st0 st1 st2">}) =&gt; { import { getStateFips};</text>
+	<text transform="matrix(1 0 0 1 267.49 -3)" class="st0 st1 st2">const varName = [demographic]) =&gt; {}</text>
+	<text transform="matrix(1 0 0 1 267.49 -53)" class="st0 st1 st2">export const getRangeFromVarName =</text>
+	<text transform="matrix(1 0 0 1 267.49 -103)" class="st0 st1 st2">x: coords &amp;&amp; coords.x,</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 317.49 222)" class="st3 st1 st2">export const getRangeFromVarName =</text>
+	<text transform="matrix(1 0 0 1 317.49 172)" class="st3 st1 st2">export const getRangeFromVarName = (region) {</text>
+	<text transform="matrix(1 0 0 1 317.49 122)" class="st3 st1 st2">const metricId = getMetricIdFromVarName(varName)</text>
+	<text transform="matrix(1 0 0 1 317.49 72)" class="st3 st1 st2">const demId = getDemographicId(varN)</text>
+	<text transform="matrix(1 0 0 1 317.49 22)" class="st3 st1 st2">return getMetricRange(metricId);</text>
+	<text transform="matrix(1 0 0 1 317.49 -28)" class="st3 st1 st2">getMetricRange(metricId, constName);</text>
+	<text transform="matrix(1 0 0 1 317.49 -78)" class="st3 st1 st2">if (key === &apos;*&apos;) return ‘true’;</text>
+	<text transform="matrix(1 0 0 1 317.49 -128)" class="st3 st1 st2">if const [t, r, d, m, q = false ];</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 540 97)" class="st4 st1 st2">import { getMapColors };</text>
+	<text transform="matrix(1 0 0 1 540 47)" class="st4 st1 st2">import { onHoverFeature};</text>
+	<text transform="matrix(1 0 0 1 540 -3)" class="st4 st1 st2">import { getStateFipsFromAbbr, getStatePropByAbbr };</text>
+	<text transform="matrix(1 0 0 1 540 -53)" class="st4 st1 st2">import { getFeatureProperty };</text>
+	<text transform="matrix(1 0 0 1 540 -103)" class="st4 st1 st2">export const getRangeFromVarName = (varName, region)</text>
+	<text transform="matrix(1 0 0 1 540 -153)" class="st4 st1 st2">const metricId = getMetricIdFromVarName(varName)</text>
+	<text transform="matrix(1 0 0 1 540 -203)" class="st4 st1 st2">colors: getColorsFromParam(color, varName, region)</text>
+	<text transform="matrix(1 0 0 1 540 -253)" class="st4 st1 st2">colorRange: getMetricRange(metric, &apos;map&apos;),</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 590 72)" class="st5 st1 st2">legendRange: getMetricRange(metric, demo),</text>
+	<text transform="matrix(1 0 0 1 590 22)" class="st5 st1 st2">markerPosition: hovered hovered.properties ?</text>
+	<text transform="matrix(1 0 0 1 590 -28)" class="st5 st1 st2">getValuePositionForMetric(</text>
+	<text transform="matrix(1 0 0 1 590 -78)" class="st5 st1 st2">getFeatureProperty(hovered, demographic + &apos;_&apos;),</text>
+	<text transform="matrix(1 0 0 1 590 -128)" class="st5 st1 st2">legend: { getMetricRange }</text>
+	<text transform="matrix(1 0 0 1 590 -178)" class="st5 st1 st2">colors: getColorsFromParam(color),</text>
+	<text transform="matrix(1 0 0 1 590 -228)" class="st5 st1 st2">colorRange: getMetricRange(metric),</text>
+	<text transform="matrix(1 0 0 1 590 -278)" class="st5 st1 st2">legendRange: getMetricRange(metric),</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 -343 572)" class="st0 st1 st2">map: { coords, viewport },</text>
+	<text transform="matrix(1 0 0 1 -343 522)" class="st0 st1 st2">sections: { map: { hovered } }</text>
+	<text transform="matrix(1 0 0 1 -343 472)" class="st0 st1 st2">getFeatureProperty(hovered, demographic + &apos;_&apos; + metric),</text>
+	<text transform="matrix(1 0 0 1 -343 422)" class="st0 st1 st2">match: { params: { metric, demo } }</text>
+	<text transform="matrix(1 0 0 1 -343 372)" class="st0 st1 st2">}) =&gt; { import { getStateFips};</text>
+	<text transform="matrix(1 0 0 1 -343 322)" class="st0 st1 st2">const varName = [demographic]) =&gt; {}</text>
+	<text transform="matrix(1 0 0 1 -343 272)" class="st0 st1 st2">export const getRangeFromVarName =</text>
+	<text transform="matrix(1 0 0 1 -343 222)" class="st0 st1 st2">x: coords &amp;&amp; coords.x,</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 -293 547)" class="st3 st1 st2">export const getRangeFromVarName =</text>
+	<text transform="matrix(1 0 0 1 -293 497)" class="st3 st1 st2">export const getRangeFromVarName = (region) {</text>
+	<text transform="matrix(1 0 0 1 -293 447)" class="st3 st1 st2">const metricId = getMetricIdFromVarName(varName)</text>
+	<text transform="matrix(1 0 0 1 -293 397)" class="st3 st1 st2">const demId = getDemographicId(varN)</text>
+	<text transform="matrix(1 0 0 1 -293 347)" class="st3 st1 st2">return getMetricRange(metricId);</text>
+	<text transform="matrix(1 0 0 1 -293 297)" class="st3 st1 st2">getMetricRange(metricId, constName);</text>
+	<text transform="matrix(1 0 0 1 -293 247)" class="st3 st1 st2">if (key === &apos;*&apos;) return ‘true’;</text>
+	<text transform="matrix(1 0 0 1 -293 197)" class="st3 st1 st2">if const [t, r, d, m, q = false ];</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 -70 422)" class="st4 st1 st2">import { getMapColors };</text>
+	<text transform="matrix(1 0 0 1 -70 372)" class="st4 st1 st2">import { onHoverFeature};</text>
+	<text transform="matrix(1 0 0 1 -70 322)" class="st4 st1 st2">import { getStateFipsFromAbbr, getStatePropByAbbr };</text>
+	<text transform="matrix(1 0 0 1 -70 272)" class="st4 st1 st2">import { getFeatureProperty };</text>
+	<text transform="matrix(1 0 0 1 -70 222)" class="st4 st1 st2">export const getRangeFromVarName = (varName, region)</text>
+	<text transform="matrix(1 0 0 1 -70 172)" class="st4 st1 st2">const metricId = getMetricIdFromVarName(varName)</text>
+	<text transform="matrix(1 0 0 1 -70 122)" class="st4 st1 st2">colors: getColorsFromParam(color, varName, region)</text>
+	<text transform="matrix(1 0 0 1 -70 72)" class="st4 st1 st2">colorRange: getMetricRange(metric, &apos;map&apos;),</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 -20 397)" class="st5 st1 st2">legendRange: getMetricRange(metric, demo),</text>
+	<text transform="matrix(1 0 0 1 -20 347)" class="st5 st1 st2">markerPosition: hovered hovered.properties ?</text>
+	<text transform="matrix(1 0 0 1 -20 297)" class="st5 st1 st2">getValuePositionForMetric(</text>
+	<text transform="matrix(1 0 0 1 -20 247)" class="st5 st1 st2">getFeatureProperty(hovered, demo),</text>
+	<text transform="matrix(1 0 0 1 -20 197)" class="st5 st1 st2">legend: { getMetricRange }</text>
+	<text transform="matrix(1 0 0 1 -20 147)" class="st5 st1 st2">colors: getColorsFromParam(color),</text>
+	<text transform="matrix(1 0 0 1 -20 97)" class="st5 st1 st2">colorRange: getMetricRange(metric),</text>
+	<text transform="matrix(1 0 0 1 -20 47)" class="st5 st1 st2">legendRange: getMetricRange(metric),</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 867 -78)" class="st0 st1 st2">map: { coords, viewport },</text>
+	<text transform="matrix(1 0 0 1 867 -128)" class="st0 st1 st2">sections: { map: { hovered } }</text>
+	<text transform="matrix(1 0 0 1 867 -178)" class="st0 st1 st2">getFeatureProperty(hovered, demographic + &apos;_&apos; + metric),</text>
+	<text transform="matrix(1 0 0 1 867 -228)" class="st0 st1 st2">match: { params: { metric, demo } }</text>
+	<text transform="matrix(1 0 0 1 867 -278)" class="st0 st1 st2">}) =&gt; { import { getStateFips};</text>
+	<text transform="matrix(1 0 0 1 867 -328)" class="st0 st1 st2">const varName = [demographic]) =&gt; {}</text>
+	<text transform="matrix(1 0 0 1 867 -378)" class="st0 st1 st2">export const getRangeFromVarName =</text>
+	<text transform="matrix(1 0 0 1 867 -428)" class="st0 st1 st2">x: coords &amp;&amp; coords.x,</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 917 -103)" class="st3 st1 st2">export const getRangeFromVarName =</text>
+	<text transform="matrix(1 0 0 1 917 -153)" class="st3 st1 st2">export const getRangeFromVarName = (region) {</text>
+	<text transform="matrix(1 0 0 1 917 -203)" class="st3 st1 st2">const metricId = getMetricIdFromVarName(varName)</text>
+	<text transform="matrix(1 0 0 1 917 -253)" class="st3 st1 st2">const demId = getDemographicId(varN)</text>
+	<text transform="matrix(1 0 0 1 917 -303)" class="st3 st1 st2">return getMetricRange(metricId);</text>
+	<text transform="matrix(1 0 0 1 917 -353)" class="st3 st1 st2">getMetricRange(metricId, constName);</text>
+	<text transform="matrix(1 0 0 1 917 -403)" class="st3 st1 st2">if (key === &apos;*&apos;) return ‘true’;</text>
+	<text transform="matrix(1 0 0 1 917 -453)" class="st3 st1 st2">if const [t, r, d, m, q = false ];</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 1140 -228)" class="st4 st1 st2">import { getMapColors };</text>
+	<text transform="matrix(1 0 0 1 1140 -278)" class="st4 st1 st2">import { onHoverFeature};</text>
+	<text transform="matrix(1 0 0 1 1140 -328)" class="st4 st1 st2">import { getStateFipsFromAbbr, getStatePropByAbbr };</text>
+	<text transform="matrix(1 0 0 1 1140 -378)" class="st4 st1 st2">import { getFeatureProperty };</text>
+	<text transform="matrix(1 0 0 1 1140 -428)" class="st4 st1 st2">export const getRangeFromVarName = (varName, region)</text>
+	<text transform="matrix(1 0 0 1 1140 -478)" class="st4 st1 st2">const metricId = getMetricIdFromVarName(varName)</text>
+	<text transform="matrix(1 0 0 1 1140 -528)" class="st4 st1 st2">colors: getColorsFromParam(color, varName, region)</text>
+	<text transform="matrix(1 0 0 1 1140 -578)" class="st4 st1 st2">colorRange: getMetricRange(metric, &apos;map&apos;),</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 1190 -253)" class="st5 st1 st2">legendRange: getMetricRange(metric, demo),</text>
+	<text transform="matrix(1 0 0 1 1190 -303)" class="st5 st1 st2">markerPosition: hovered hovered.properties ?</text>
+	<text transform="matrix(1 0 0 1 1190 -353)" class="st5 st1 st2">getValuePositionForMetric(</text>
+	<text transform="matrix(1 0 0 1 1190 -403)" class="st5 st1 st2">getFeatureProperty(hovered, demo),</text>
+	<text transform="matrix(1 0 0 1 1190 -453)" class="st5 st1 st2">legend: { getMetricRange }</text>
+	<text transform="matrix(1 0 0 1 1190 -503)" class="st5 st1 st2">colors: getColorsFromParam(color),</text>
+	<text transform="matrix(1 0 0 1 1190 -553)" class="st5 st1 st2">colorRange: getMetricRange(metric),</text>
+	<text transform="matrix(1 0 0 1 1190 -603)" class="st5 st1 st2">legendRange: getMetricRange(metric),</text>
+</g>
+</svg>
