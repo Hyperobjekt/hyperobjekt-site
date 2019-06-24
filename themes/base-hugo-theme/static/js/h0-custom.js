@@ -41,7 +41,8 @@
     }); */
   
     var shiftDelay = 0 // delay of entire animation
-    var startingDelay = 100; // Starting delay of snippet 2 - x
+    var startingDelay1 = 825; // Starting delay of code groups 13-16 
+    var startingDelay2 = 1500; // Starting delay of code groups 21-24 
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
     var moveDistance = 0; // how far the line moves
@@ -57,107 +58,143 @@
     var yOne = 300;
     var yStagger = 72;
     var easing1 = 'easeInExpo';
-    var opacity1 = .1;
-    var opacity2 = .35;
+    var opacity1 = .2;
+    var opacity2 = .6;
 
     var loopLength = 12000;
 
   
 
 
-    /* ----- ONE ------ */
+    /* ----- Starting Settings ------ */
+
     anime.set(['.code-grp'],{
-    // opacity: .7,
      rotate: 30,
-   // translateX: 300,
-    translateY: 0,
-    //translateZ: 0,
-    });
-    anime.set(['.cls-9', '.cls-10', '.cls-14', '.cls-15'], {
-      opacity: opacity1,
-      //opacity: 1,
+      translateY: 20,
+      translateX: 350,
+      //translateZ: 0,
+      });
+    anime.set(['.code-grp.topleftl'],{
+     
+        //translateY: 20,
+        translateX: 180,
+      
+        });  
+    anime.set(['.code-grp.topleftr'],{
+  
+        //translateY: 20,
+        //translateX: 3000,
+ 
+        });     
+    anime.set(['.code-grp.bcenter', '.code-grp.centergraph', '.code-grp.rightmedl', '.code-grp.ext-bl', '.code-grp.toprightr'],{
+    
+        //translateY: 20,
+        //translateX: 350,
+       
+        });  
+    anime.set(['.code-grp.rightmedr'],{
+      
+        //translateY: 20,
+        translateX: 450,
+  
+        });       
+    
+    anime.set(['.code-grp.toprightl'],{
+        translateX: 550,
+        }); 
+    anime.set(['.code-grp.toprightr'],{
+      translateX: 550,
+      });   
+      
+      anime.set(['.code-grp .codetext'], {
+        opacity: opacity1,
+        //opacity: 1,
+      });
 
-    });
-
-   /* anime({
-      targets: ['.grp-1', '.grp-2', '.grp-3', '.grp-4'],
+    anime({
+      targets: ['.grp-1 .codetext', '.grp-3 .codetext', '.grp-5 .codetext', '.grp-7 .codetext', '.grp-9 .codetext',
+      '.grp-11 .codetext', '.grp-13 .codetext', '.grp-15 .codetext', '.grp-17 .codetext', '.grp-19 .codetext',
+      '.grp-21 .codetext', '.grp-23 .codetext', '.grp-25 .codetext'],
       keyframes: [
-        
-        {translateX: -300},
-        {translateX: 300},
-        {translateX: 0},
+        //{translateX: moveDistance}, {translateX: 0}
+        { translateX: 50 },
+        { translateX: 0 },
       ],
-      duration: loopLength,
-      // delay: loopLength,
-      //loop: true,
-      easing: 'steps(4)',
-
-    }) */
-
-
-
-    var herocode = anime.timeline({
+      duration: 75000,
       loop: true,
+      easing: 'linear',
     });
-    var heroCode1Delay = function(){
-      herocode.add({
-        targets: ['.cls-9'],
-       easing: easing1,
+
+    anime({
+      targets: ['.grp-2 .codetext', '.grp-4 .codetext', '.grp-6 .codetext', '.grp-8 .codetext', '.grp-10 .codetext',
+      '.grp-12 .codetext', '.grp-14 .codetext', '.grp-16 .codetext', '.grp-18 .codetext', '.grp-20 .codetext',
+      '.grp-22 .codetext', '.grp-24 .codetext'],
+      keyframes: [
+        //{translateX: moveDistance}, {translateX: 0}
+        { translateX: 50 },
+        { translateX: 0 },
+      ],
+      duration: 75000,
+      loop: true,
+      easing: 'linear',
+    });
+
+    // Code groups 5-8 ------------------------------------ 
+
+    var heroCode5Delay = function(){
+      anime({
+        targets: ['.grp-5 .codetext'],
+        easing: easing1,
         keyframes: [
           //{translateX: moveDistance}, {translateX: 0}
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
-         
         ],
         duration: moveDuration,
-      
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        loop: true,
+        delay: anime.stagger(staggerDelay), 
       })
     };
-    setTimeout(heroCode1Delay, 0 + shiftDelay);
+    setTimeout(heroCode5Delay, 0 + shiftDelay);
   
-    var heroCode2Delay = function(){
+    var heroCode6Delay = function(){
       anime({
-        targets: ['.cls-10'],
+        targets: ['.grp-6 .codetext'],
         // easing: 'easeOutCubic',
         easing: easing1,
         keyframes: [
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
-       
-          //{translateX: moveDistance2}, {translateX: 0},
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay), 
       })
     };
-   setTimeout(heroCode2Delay, 500 + shiftDelay); 
+   setTimeout(heroCode6Delay, 500 + shiftDelay); 
 
-    var heroCode3Delay = function(){
+    var heroCode7Delay = function(){
       anime({
-        targets: ['.cls-14'],
+        targets: ['.grp-7 .codetext'],
         // easing: 'easeOutCubic',
         easing: easing1,
         keyframes: [
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
-       
-          //{translateX: moveDistance}, {translateX: 0},
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay), 
       })
     };
-    setTimeout(heroCode3Delay, 300 + shiftDelay);
+    setTimeout(heroCode7Delay, 250 + shiftDelay);
 
-    var heroCode4Delay = function(){
+    var heroCode8Delay = function(){
       anime({
-        targets: ['.cls-15'],
+        targets: ['.grp-8 .codetext'],
        //  easing: 'easeOutCubic',
        easing: easing1,
         keyframes: [
@@ -171,9 +208,218 @@
         delay: anime.stagger(staggerDelay), // increase delay for each element
       })
     };
-    setTimeout(heroCode4Delay, 800 + shiftDelay); 
+    setTimeout(heroCode8Delay, 750 + shiftDelay); 
 
-    
+    // Code groups 13-16 ------------------------------------ 
+
+    var heroCode13Delay = function(){
+      anime({
+        targets: ['.grp-13 .codetext'],
+       easing: easing1,
+        keyframes: [
+          //{translateX: moveDistance}, {translateX: 0}
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+   setTimeout(heroCode13Delay, 0 + startingDelay1);
+  
+    var heroCode14Delay = function(){
+      anime({
+        targets: ['.grp-14 .codetext'],
+        // easing: 'easeOutCubic',
+        easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+   setTimeout(heroCode14Delay, 500 + startingDelay1); 
+
+    var heroCode15Delay = function(){
+      anime({
+        targets: ['.grp-15 .codetext'],
+        // easing: 'easeOutCubic',
+        easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode15Delay, 250 + startingDelay1);
+
+    var heroCode16Delay = function(){
+      anime({
+        targets: ['.grp-16 .codetext'],
+       //  easing: 'easeOutCubic',
+       easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode16Delay, 750 + shiftDelay); 
+
+    // Code groups 21-24 ------------------------------------ 
+
+    var heroCode21Delay = function(){
+      anime({
+        targets: ['.grp-21 .codetext'],
+      easing: easing1,
+        keyframes: [
+          //{translateX: moveDistance}, {translateX: 0}
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode21Delay, 0 + startingDelay2);
+
+    var heroCode22Delay = function(){
+      anime({
+        targets: ['.grp-22 .codetext'],
+        // easing: 'easeOutCubic',
+        easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode22Delay, 500 + startingDelay2); 
+
+    var heroCode23Delay = function(){
+      anime({
+        targets: ['.grp-23 .codetext'],
+        // easing: 'easeOutCubic',
+        easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode23Delay, 250 + startingDelay2);
+
+    var heroCode24Delay = function(){
+      anime({
+        targets: ['.grp-24 .codetext'],
+      //  easing: 'easeOutCubic',
+      easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), // increase delay for each element
+      })
+    };
+    setTimeout(heroCode24Delay, 750 + startingDelay2); 
+
+      // Code groups 9-12 ------------------------------------ 
+
+      var heroCode9Delay = function(){
+        anime({
+          targets: ['.grp-9 .codetext'],
+        easing: easing1,
+          keyframes: [
+            //{translateX: moveDistance}, {translateX: 0}
+            { opacity: opacity1 },
+            { opacity: opacity2 },
+            { opacity: opacity1 },
+          ],
+          duration: moveDuration,
+          loop: true,
+          delay: anime.stagger(staggerDelay), // increase delay for each element
+        })
+      };
+      setTimeout(heroCode9Delay, 0 + shiftDelay);
+  
+      var heroCode10Delay = function(){
+        anime({
+          targets: ['.grp-10 .codetext'],
+          // easing: 'easeOutCubic',
+          easing: easing1,
+          keyframes: [
+            { opacity: opacity1 },
+            { opacity: opacity2 },
+            { opacity: opacity1 },
+          ],
+          duration: moveDuration,
+          loop: true,
+          delay: anime.stagger(staggerDelay), // increase delay for each element
+        })
+      };
+      setTimeout(heroCode10Delay, 500 + shiftDelay); 
+  
+      var heroCode11Delay = function(){
+        anime({
+          targets: ['.grp-11 .codetext'],
+          // easing: 'easeOutCubic',
+          easing: easing1,
+          keyframes: [
+            { opacity: opacity1 },
+            { opacity: opacity2 },
+            { opacity: opacity1 },
+          ],
+          duration: moveDuration,
+          loop: true,
+          delay: anime.stagger(staggerDelay), // increase delay for each element
+        })
+      };
+      setTimeout(heroCode12Delay, 250 + shiftDelay);
+  
+      var heroCode12Delay = function(){
+        anime({
+          targets: ['.grp-12 .codetext'],
+        //  easing: 'easeOutCubic',
+        easing: easing1,
+          keyframes: [
+            { opacity: opacity1 },
+            { opacity: opacity2 },
+            { opacity: opacity1 },
+          ],
+          duration: moveDuration,
+          loop: true,
+          delay: anime.stagger(staggerDelay), // increase delay for each element
+        })
+      };
+      setTimeout(heroCode12Delay, 750 + shiftDelay);   
+
 
     /* anime({
       targets: ['.grp-1', '.grp-2'],

@@ -17834,9 +17834,11 @@ body.home .hero {
 body.home .hero svg {
   height: 100%;
   width: 191%;
-  top: 50px;
-  left: 13%;
   position: relative;
+}
+
+body.home .hero svg .codetext {
+  letter-spacing: 3px;
 }
 
 body.home .hero svg g#firstSnippet, body.home .hero svg g#secondSnippet, body.home .hero svg g#thirdSnippet, body.home .hero svg g#fourthSnippet {

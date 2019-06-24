@@ -750,9 +750,12 @@ body.home {
      // margin-left: 10%;
       height: 100%;
       width: 191%;
-      top: 50px;
-      left: 13%;
+      // top: 50px;
+      // left: 13%;
       position: relative;
+      .codetext {
+        letter-spacing: 3px;
+      }
       }
     svg g#firstSnippet, svg g#secondSnippet, svg g#thirdSnippet, svg g#fourthSnippet  {
       transform: skew(-40deg, 20deg);
