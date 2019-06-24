@@ -28,11 +28,11 @@
 
   
     var shiftDelay = 0 // delay of entire animation
-    var startingDelay1 = 825; // Starting delay of code groups 13-16 
+    var startingDelay1 = 700; // Starting delay of code groups 13-16 
     var startingDelay2 = 1500; // Starting delay of code groups 21-24 
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
-    var easing1 = 'easeInExpo';
+    var easing1 = 'easeInOutCubic';
     var opacity1 = .2;
     var opacity2 = .4;
     var opacity3 = .1;
@@ -73,8 +73,8 @@
         { translateX: -5 },
         { translateX: 0 },
       ],
-      duration: 7000,
-      loop: true,
+      //duration: 7000,
+      //loop: true,
       easing: 'linear',
     });
 
@@ -86,8 +86,8 @@
         { translateX: 5 },
         { translateX: 0 },
       ],
-      duration: 7000,
-      loop: true,
+      //duration: 7000,
+      //loop: true,
       easing: 'linear',
     });
 
@@ -98,7 +98,6 @@
         targets: ['.grp-5 .codetext'],
         easing: easing1,
         keyframes: [
-          //{translateX: moveDistance}, {translateX: 0}
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
@@ -115,7 +114,6 @@
     var heroCode6Delay = function(){
       anime({
         targets: ['.grp-6 .codetext'],
-        // easing: 'easeOutCubic',
         easing: easing1,
         keyframes: [
           { opacity: opacity1 },
@@ -134,7 +132,6 @@
     var heroCode7Delay = function(){
       anime({
         targets: ['.grp-7 .codetext'],
-        // easing: 'easeOutCubic',
         easing: easing1,
         keyframes: [
           { opacity: opacity1 },
@@ -153,14 +150,12 @@
     var heroCode8Delay = function(){
       anime({
         targets: ['.grp-8 .codetext'],
-       //  easing: 'easeOutCubic',
        easing: easing1,
         keyframes: [
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
           { opacity: opacity3 },
-          //{translateX: moveDistance2}, {translateX: 0},
         ],
         duration: moveDuration,
         loop: true,
@@ -175,9 +170,8 @@
     var heroCode13Delay = function(){
       anime({
         targets: ['.grp-13 .codetext'],
-       easing: easing1,
+        easing: easing1,
         keyframes: [
-          //{translateX: moveDistance}, {translateX: 0}
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
@@ -185,54 +179,15 @@
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay), 
         endDelay: delayAtEnd,
       })
     };
-   setTimeout(heroCode13Delay, 0 + startingDelay1);
-  
+    setTimeout(heroCode13Delay, 250 + startingDelay1);
+
     var heroCode14Delay = function(){
       anime({
         targets: ['.grp-14 .codetext'],
-        // easing: 'easeOutCubic',
-        easing: easing1,
-        keyframes: [
-          { opacity: opacity1 },
-          { opacity: opacity2 },
-          { opacity: opacity1 },
-          { opacity: opacity3 },
-        ],
-        duration: moveDuration,
-        loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
-        endDelay: delayAtEnd,
-      })
-    };
-   setTimeout(heroCode14Delay, 500 + startingDelay1); 
-
-    var heroCode15Delay = function(){
-      anime({
-        targets: ['.grp-15 .codetext'],
-        // easing: 'easeOutCubic',
-        easing: easing1,
-        keyframes: [
-          { opacity: opacity1 },
-          { opacity: opacity2 },
-          { opacity: opacity1 },
-          { opacity: opacity3 },
-        ],
-        duration: moveDuration,
-        loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
-        endDelay: delayAtEnd,
-      })
-    };
-    setTimeout(heroCode15Delay, 250 + startingDelay1);
-
-    var heroCode16Delay = function(){
-      anime({
-        targets: ['.grp-16 .codetext'],
-       //  easing: 'easeOutCubic',
        easing: easing1,
         keyframes: [
           { opacity: opacity1 },
@@ -246,7 +201,43 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode16Delay, 750 + shiftDelay); 
+    setTimeout(heroCode14Delay, 750 + startingDelay1);  
+
+    var heroCode15Delay = function(){
+      anime({
+        targets: ['.grp-15 .codetext'],
+        easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+          { opacity: opacity3 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
+      })
+    };
+    setTimeout(heroCode15Delay, 250 + startingDelay1);
+
+    var heroCode16Delay = function(){
+      anime({
+        targets: ['.grp-16 .codetext'],
+       easing: easing1,
+        keyframes: [
+          { opacity: opacity1 },
+          { opacity: opacity2 },
+          { opacity: opacity1 },
+          { opacity: opacity3 },
+        ],
+        duration: moveDuration,
+        loop: true,
+        delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
+      })
+    };
+    setTimeout(heroCode16Delay, 750 + startingDelay1); 
 
     // Code groups 21-24 ------------------------------------ 
 
@@ -255,7 +246,6 @@
         targets: ['.grp-21 .codetext'],
       easing: easing1,
         keyframes: [
-          //{translateX: moveDistance}, {translateX: 0}
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
@@ -272,7 +262,6 @@
     var heroCode22Delay = function(){
       anime({
         targets: ['.grp-22 .codetext'],
-        // easing: 'easeOutCubic',
         easing: easing1,
         keyframes: [
           { opacity: opacity1 },
@@ -291,7 +280,6 @@
     var heroCode23Delay = function(){
       anime({
         targets: ['.grp-23 .codetext'],
-        // easing: 'easeOutCubic',
         easing: easing1,
         keyframes: [
           { opacity: opacity1 },
@@ -310,7 +298,6 @@
     var heroCode24Delay = function(){
       anime({
         targets: ['.grp-24 .codetext'],
-      //  easing: 'easeOutCubic',
       easing: easing1,
         keyframes: [
           { opacity: opacity1 },
@@ -333,7 +320,6 @@
           targets: ['.grp-9 .codetext'],
         easing: easing1,
           keyframes: [
-            //{translateX: moveDistance}, {translateX: 0}
             { opacity: opacity1 },
             { opacity: opacity2 },
             { opacity: opacity1 },
@@ -350,7 +336,6 @@
       var heroCode10Delay = function(){
         anime({
           targets: ['.grp-10 .codetext'],
-          // easing: 'easeOutCubic',
           easing: easing1,
           keyframes: [
             { opacity: opacity1 },
@@ -369,7 +354,6 @@
       var heroCode11Delay = function(){
         anime({
           targets: ['.grp-11 .codetext'],
-          // easing: 'easeOutCubic',
           easing: easing1,
           keyframes: [
             { opacity: opacity1 },
@@ -383,12 +367,11 @@
           endDelay: delayAtEnd,
         })
       };
-      setTimeout(heroCode12Delay, 250 + shiftDelay);
+      setTimeout(heroCode11Delay, 250 + shiftDelay);
   
       var heroCode12Delay = function(){
         anime({
           targets: ['.grp-12 .codetext'],
-        //  easing: 'easeOutCubic',
         easing: easing1,
           keyframes: [
             { opacity: opacity1 },
@@ -403,31 +386,6 @@
         })
       };
       setTimeout(heroCode12Delay, 750 + shiftDelay);   
-
-
-    /* anime({
-      targets: ['.grp-1', '.grp-2'],
-      keyframes: [
-        {translateX: -15},
-        {translateX: 0},
-      ],
-      easing: 'easeOutCubic',
-      duration: 12000,
-      loop: false,
-    });
-
-    anime({
-      targets: ['.grp-3', '.grp-4'],
-      keyframes: [
-        {translateX: 15},
-        {translateX: 0},
-      ],
-      easing: 'easeOutCubic',
-      duration: 12000,
-      loop: false,
-    }) */
-
-    
 
     var updateModal = {
         activeBio: null,
@@ -525,73 +483,12 @@
       });
     }
 
-    // Dropdown for article sorting on mobile
-    $('body.research .small-tab-nav ul li a').on('click', function(e) {
-        // console.log('Small tab nav selection');
-        $(this).tab('show');
-        // Store target.
-        $target = $(e.target);
-        // Clear all active and highlight classes.
-        $('body.research .small-tab-nav ul li a').removeClass('active highlight');
-        // Add proper classes to selected target.
-        $target.addClass('active highlight');
-    });
+   
 
-    // Display article abstract and versions for entry on research page.
-    $('a.show-versions').on('click', function(e) {
-        // console.log('a.show-versions');
-        toggleAbstract(e);
-    });
+   
 
-    $('body.research a[data-toggle="tab"]').on('click touchstart', function (e) {
-        // console.log('hide tab event');
-        if ($('.research-paper.abstract-visible').length >= 1) {
-            $('.research-paper.abstract-visible').removeClass('abstract-visible');
-        }
-    });
+  
 
-    $('#toggleDrawer').on('click', function() {
-        // console.log('#toggleDrawer selected');
-        $('#drawer').addClass('show');
-    });
-
-    $('#closeDrawer').on('click', function() {
-        console.log('#closeDrawer selected');
-        $('#drawer').removeClass('show');
-    });
-
-    // Add Subnav active selection highlighting
-    $(".subnav a").click(function () {
-        $(".subnav a").removeClass("highlight");
-        $(this).addClass("highlight");
-    });
-
-    if ($('body.home').length >= 1) {
-      console.log('setting up home page animations');
-      setElPositions();
-        $(window).resize(function() {
-        setElPositions();
-      })
-      setElPositions();
-
-      var userScrolled = false;
-      var svgScrollEvt = $(window).scroll(function() {
-        userScrolled = true;
-      });
-      var svgScrollInt = setInterval(function() {
-        if (avgGraphicAnimated && growthGraphicAnimated && trendGraphicAnimated) {
-          // Remove listener and interval
-          // console.log('removing listener and interval');
-          $(window).off("scroll", svgScrollEvt);
-          clearInterval(svgScrollInt);
-        } else {
-          if (userScrolled) {
-            setupAnime();
-            checkHomepageAnimations();
-            userScrolled = false;
-          }
-        }
-      }, 50);
-    }
+   
   });
 })(jQuery);
