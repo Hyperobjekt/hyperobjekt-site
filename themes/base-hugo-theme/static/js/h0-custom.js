@@ -44,7 +44,7 @@
      rotate: 30,
       translateY: 20,
       translateX: 350,
-      //translateZ: 0,
+      translateZ: 0,
       });
     anime.set(['.code-grp.topleftl'],{
         translateX: 180,
