@@ -17802,9 +17802,16 @@ body.home .hero {
 }
 
 body.home .hero svg {
+  display: none;
   height: 100%;
   width: 191%;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  body.home .hero svg {
+    display: block;
+  }
 }
 
 body.home .hero svg .codetext {
@@ -17843,6 +17850,7 @@ body.home .hero .hero-child {
   width: 90%;
   position: absolute;
   top: 0;
+  background-image: url("/images/h0graphic_sm.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center 17%;
@@ -17851,6 +17859,7 @@ body.home .hero .hero-child {
 @media (min-width: 768px) {
   body.home .hero .hero-child {
     height: 660px;
+    background-image: none;
     background-size: 84%;
     background-repeat: no-repeat;
     background-position: 65% 56%;

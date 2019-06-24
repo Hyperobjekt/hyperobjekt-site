@@ -747,6 +747,10 @@ body.home {
     
 
     svg {
+       display: none;
+     @include media-breakpoint-up(md) {
+       display: block;
+     }
      // margin-left: 10%;
       height: 100%;
       width: 191%;
@@ -795,13 +799,13 @@ body.home {
       //opacity: 0;
       //animation: fade-in5 2s forwards;
       //animation-delay: .9s;
-      // background-image: url('/images/h0graphic_sm.jpg');
+      background-image: url('/images/h0graphic_sm.jpg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center 17%;
       @include media-breakpoint-up(md) {
         height: 660px;
-       // background-image: url('/images/h0graphic.jpg');
+       background-image: none;
         background-size: 84%;
         background-repeat: no-repeat;
         background-position: 65% 56%;
