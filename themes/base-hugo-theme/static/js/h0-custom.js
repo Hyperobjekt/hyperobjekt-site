@@ -64,7 +64,7 @@
       });
 
     /* -------- Group movement ----------- */
-
+      /*
     anime({
       targets: ['.grp-1 .codetext', '.grp-3 .codetext', '.grp-5 .codetext', '.grp-7 .codetext', '.grp-9 .codetext',
       '.grp-11 .codetext', '.grp-13 .codetext', '.grp-15 .codetext', '.grp-17 .codetext', '.grp-19 .codetext',
@@ -90,6 +90,7 @@
       //loop: true,
       easing: 'linear',
     });
+    */
 
     // Code groups 5-8 ------------------------------------ 
 
