@@ -59,8 +59,8 @@
       translateX: 550,
       });   
       anime.set(['.code-grp .codetext'], {
-        opacity: opacity1,
         opacity: opacity3,
+        translateZ: 0,
       });
 
     /* -------- Group movement ----------- */
