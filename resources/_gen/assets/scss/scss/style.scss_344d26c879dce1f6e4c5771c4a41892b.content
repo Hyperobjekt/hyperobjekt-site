@@ -17814,6 +17814,12 @@ body.home .hero svg {
   }
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body.home .hero svg {
+    width: 250%;
+  }
+}
+
 body.home .hero svg .codetext {
   letter-spacing: 3px;
 }
@@ -17984,6 +17990,12 @@ body.home #main {
   height: 100%;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row.projects .project1 .inactive-link {
+    max-height: 340px;
+  }
+}
+
 .row.projects .project1 .inactive-link:hover:after {
   content: "COMING AUGUST 2019";
   position: absolute;
@@ -18010,6 +18022,12 @@ body.home #main {
   background-size: cover;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row.projects .project2 a {
+    max-height: 340px;
+  }
+}
+
 .row.projects .project2 a:hover:after {
   content: "VIEW LIVE WEBSITE";
   position: absolute;
@@ -18033,6 +18051,12 @@ body.home #main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row.projects .project3 a {
+    max-height: 340px;
+  }
 }
 
 .row.projects .project3 a:hover:after {
@@ -18063,6 +18087,12 @@ body.home #main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row.projects .project4 .inactive-link {
+    max-height: 340px;
+  }
 }
 
 .row.projects .project4 .inactive-link:hover:after {
