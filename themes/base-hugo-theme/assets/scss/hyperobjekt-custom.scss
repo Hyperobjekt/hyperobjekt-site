@@ -940,41 +940,108 @@ body.home {
     
     .project1 .inactive-link {
       background-color: $boldblue;
-      background-image: url('/images/seda-img.jpg');
+      background-image: url('/images/seda-v2-2.jpg');
       background-size: cover;
       position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       &:hover {
-        // filter: blur(3px);
-        // transition: filter .2s ease;
-      }  
+        background-image: url('/images/seda-v2-blur.jpg');
+        transition: background-image .2s ease;
+      } 
+      &:hover:after {
+        content: "COMING AUGUST 2019";
+        position: absolute;
+        @include futura-demi;
+        letter-spacing: .24rem;
+        background: rgba(255, 255, 255, 0.56);
+        padding: 1.6rem;
+        opacity: 1;
+        color: $boldblue;
+        border-radius: 2px;
+        transition: background-color .2s ease;
+      } 
     }
     .project2 a {
       background-color: $boldorange;
-      background-image: url('/images/el-img.jpg');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('/images/el-v2-2.jpg');
       background-size: cover;
+      &:hover {
+        background-image: url('/images/el-v2-blur.jpg');
+        transition: background-image .2s ease;
+      }
+      &:hover:after {
+        content: "VIEW LIVE WEBSITE";
+        position: absolute;
+        @include futura-demi;
+        color: $boldorange;
+        letter-spacing: .24rem;
+        background: rgba(255, 255, 255, 0.56);
+        padding: 1.6rem;
+        border-radius: 2px;
+        transition: background-color .2s ease;
+      }
     }
     .project3 a {
       background-color: $cyanteal;
-      background-image: url('/images/dd-img.jpg');
+      background-image: url('/images/dd-v2-2.jpg');
       background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background-image: url('/images/dd-v2-blur.jpg');
+        transition: background-image .3s ease;
+      }
+      &:hover:after {
+        content: "VIEW LIVE WEBSITE";
+        position: absolute;
+        @include futura-demi;
+        letter-spacing: .24rem;
+        background: rgba(255, 255, 255, 0.64);
+        padding: 1.6rem;
+        opacity: 1;
+        border-radius: 2px;
+        color: $cyanteal;
+        transition: background-color .2s ease;
+      } 
     }
     .project4 .inactive-link {
       background-color: $boldyellow;
-      background-image: url('/images/bil-img.jpg');
+      background-image: url('/images/bil-v2-2.jpg');
       background-size: cover;
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       &:hover {
-        // filter: blur(3px);
-        // transition: filter .2s ease;
-      }  
+        background-image: url('/images/bil-v2-blur.jpg');
+        transition: background-image .2s ease;
+      } 
+      &:hover:after {
+        content: "COMING FALL 2019";
+        position: absolute;
+        @include futura-demi;
+        letter-spacing: .32rem;
+        background: rgba(255, 255, 255, 0.56);
+        padding: 1.6rem;
+        border-radius: 4px;
+        opacity: 1;
+        color:#ffcb02;
+        transition: background-color .2s ease;
+      } 
     }
     .superhead {
       font-size: 1.2rem;
