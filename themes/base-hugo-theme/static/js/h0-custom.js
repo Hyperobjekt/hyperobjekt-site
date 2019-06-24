@@ -27,12 +27,12 @@
  
 
   
-    var shiftDelay = 0 // delay of entire animation
+    var shiftDelay = 1000 // delay of entire animation
     var startingDelay1 = 700; // Starting delay of code groups 13-16 
     var startingDelay2 = 1500; // Starting delay of code groups 21-24 
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
-    var easing1 = 'easeInOutCubic';
+    var easing1 = 'steps(5)';
     var opacity1 = .2;
     var opacity2 = .4;
     var opacity3 = .1;
@@ -183,7 +183,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode13Delay, 250 + startingDelay1);
+    setTimeout(heroCode13Delay, 0 + startingDelay1 + shiftDelay);
 
     var heroCode14Delay = function(){
       anime({
@@ -201,7 +201,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode14Delay, 750 + startingDelay1);  
+    setTimeout(heroCode14Delay, 500 + startingDelay1 + shiftDelay);  
 
     var heroCode15Delay = function(){
       anime({
@@ -219,7 +219,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode15Delay, 250 + startingDelay1);
+    setTimeout(heroCode15Delay, 250 + startingDelay1 + shiftDelay);
 
     var heroCode16Delay = function(){
       anime({
@@ -237,7 +237,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode16Delay, 750 + startingDelay1); 
+    setTimeout(heroCode16Delay, 750 + startingDelay1 + shiftDelay); 
 
     // Code groups 21-24 ------------------------------------ 
 
@@ -257,7 +257,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode21Delay, 0 + startingDelay2);
+    setTimeout(heroCode21Delay, 0 + startingDelay2 + shiftDelay);
 
     var heroCode22Delay = function(){
       anime({
@@ -275,7 +275,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode22Delay, 500 + startingDelay2); 
+    setTimeout(heroCode22Delay, 500 + startingDelay2 + shiftDelay); 
 
     var heroCode23Delay = function(){
       anime({
@@ -293,7 +293,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode23Delay, 250 + startingDelay2);
+    setTimeout(heroCode23Delay, 250 + startingDelay2 + shiftDelay);
 
     var heroCode24Delay = function(){
       anime({
@@ -311,7 +311,7 @@
         endDelay: delayAtEnd,
       })
     };
-    setTimeout(heroCode24Delay, 750 + startingDelay2); 
+    setTimeout(heroCode24Delay, 750 + startingDelay2 + shiftDelay); 
 
       // Code groups 9-12 ------------------------------------ 
 
