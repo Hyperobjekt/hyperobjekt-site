@@ -1,3 +1,3 @@
-# Stanford Education Data Archive
+# HYPEROBJEKT
 
-This is the web site for the Stanford Education Data Archive web site.
+This is the website for the Hyperobjekt digital agency.
