@@ -32,7 +32,7 @@
     var startingDelay2 = 1500; // Starting delay of code groups 21-24 
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
-    var easing1 = 'steps(10)';
+    var easing1 = 'steps(5)';
     var opacity1 = .1;
     var opacity2 = .5;
     var opacity3 = .1;
