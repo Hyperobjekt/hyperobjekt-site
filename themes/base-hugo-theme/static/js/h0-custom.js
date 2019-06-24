@@ -34,8 +34,8 @@
     var moveDuration = 1800; // how long the leftward movement lasts
     var easing1 = 'easeOutQuint';
     var opacity1 = .1;
-    var opacity2 = .5;
-    var opacity3 = .1;
+    var opacity2 = .6;
+    var opacity3 = .3;
     var delayAtEnd = 2000;  
     var opDuration1 = 300;
     var opDuration2 = 1200;
