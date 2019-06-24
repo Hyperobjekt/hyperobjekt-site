@@ -32,7 +32,7 @@
     var startingDelay2 = 1500; // Starting delay of code groups 21-24 
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
-    var easing1 = 'steps(3)';
+    var easing1 = 'steps(2)';
     var opacity1 = .1;
     var opacity2 = .4;
     var opacity3 = .1;
@@ -314,79 +314,7 @@
     };
     setTimeout(heroCode24Delay, 750 + startingDelay2 + shiftDelay); 
 
-      // Code groups 9-12 ------------------------------------ 
-
-      var heroCode9Delay = function(){
-        anime({
-          targets: ['.grp-9 .codetext'],
-        easing: easing1,
-          keyframes: [
-          //  { opacity: opacity1 },
-            { opacity: opacity2 },
-          //  { opacity: opacity1 },
-            { opacity: opacity3 },
-          ],
-          duration: moveDuration,
-          loop: true,
-          delay: anime.stagger(staggerDelay), 
-          endDelay: delayAtEnd,
-        })
-      };
-      setTimeout(heroCode9Delay, 0 + shiftDelay);
-  
-      var heroCode10Delay = function(){
-        anime({
-          targets: ['.grp-10 .codetext'],
-          easing: easing1,
-          keyframes: [
-          //  { opacity: opacity1 },
-            { opacity: opacity2 },
-          //  { opacity: opacity1 },
-            { opacity: opacity3 },
-          ],
-          duration: moveDuration,
-          loop: true,
-          delay: anime.stagger(staggerDelay), 
-          endDelay: delayAtEnd,
-        })
-      };
-      setTimeout(heroCode10Delay, 500 + shiftDelay); 
-  
-      var heroCode11Delay = function(){
-        anime({
-          targets: ['.grp-11 .codetext'],
-          easing: easing1,
-          keyframes: [
-          //  { opacity: opacity1 },
-            { opacity: opacity2 },
-          //  { opacity: opacity1 },
-            { opacity: opacity3 },
-          ],
-          duration: moveDuration,
-          loop: true,
-          delay: anime.stagger(staggerDelay), 
-          endDelay: delayAtEnd,
-        })
-      };
-      setTimeout(heroCode11Delay, 250 + shiftDelay);
-  
-      var heroCode12Delay = function(){
-        anime({
-          targets: ['.grp-12 .codetext'],
-        easing: easing1,
-          keyframes: [
-          //  { opacity: opacity1 },
-            { opacity: opacity2 },
-          // { opacity: opacity1 },
-            { opacity: opacity3 },
-          ],
-          duration: moveDuration,
-          loop: true,
-          delay: anime.stagger(staggerDelay), 
-          endDelay: delayAtEnd,
-        })
-      };
-      setTimeout(heroCode12Delay, 750 + shiftDelay);   
+    
 
     var updateModal = {
         activeBio: null,
