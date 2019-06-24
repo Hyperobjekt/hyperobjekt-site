@@ -33,7 +33,7 @@
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
     var easing1 = 'steps(5)';
-    var opacity1 = .2;
+    var opacity1 = .1;
     var opacity2 = .4;
     var opacity3 = .1;
     var delayAtEnd = 2000;  
@@ -99,9 +99,9 @@
         targets: ['.grp-5 .codetext'],
         easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -117,9 +117,9 @@
         targets: ['.grp-6 .codetext'],
         easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -135,9 +135,9 @@
         targets: ['.grp-7 .codetext'],
         easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -153,9 +153,9 @@
         targets: ['.grp-8 .codetext'],
        easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -173,10 +173,10 @@
         targets: ['.grp-13 .codetext'],
         easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
-          { opacity: opacity3 },
+        //  { opacity: opacity1 },
+         { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
@@ -191,9 +191,9 @@
         targets: ['.grp-14 .codetext'],
        easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -209,10 +209,10 @@
         targets: ['.grp-15 .codetext'],
         easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
-          { opacity: opacity3 },
+        //  { opacity: opacity1 },
+         { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
@@ -227,10 +227,10 @@
         targets: ['.grp-16 .codetext'],
        easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
-          { opacity: opacity3 },
+        //  { opacity: opacity1 },
+         { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
@@ -247,9 +247,9 @@
         targets: ['.grp-21 .codetext'],
       easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -265,9 +265,9 @@
         targets: ['.grp-22 .codetext'],
         easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -283,9 +283,9 @@
         targets: ['.grp-23 .codetext'],
         easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+         // { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity3 },
         ],
         duration: moveDuration,
@@ -301,10 +301,10 @@
         targets: ['.grp-24 .codetext'],
       easing: easing1,
         keyframes: [
-          { opacity: opacity1 },
+        //  { opacity: opacity1 },
           { opacity: opacity2 },
-          { opacity: opacity1 },
-          { opacity: opacity3 },
+        //  { opacity: opacity1 },
+         { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
@@ -321,9 +321,9 @@
           targets: ['.grp-9 .codetext'],
         easing: easing1,
           keyframes: [
-            { opacity: opacity1 },
+          //  { opacity: opacity1 },
             { opacity: opacity2 },
-            { opacity: opacity1 },
+          //  { opacity: opacity1 },
             { opacity: opacity3 },
           ],
           duration: moveDuration,
@@ -339,9 +339,9 @@
           targets: ['.grp-10 .codetext'],
           easing: easing1,
           keyframes: [
-            { opacity: opacity1 },
+          //  { opacity: opacity1 },
             { opacity: opacity2 },
-            { opacity: opacity1 },
+          //  { opacity: opacity1 },
             { opacity: opacity3 },
           ],
           duration: moveDuration,
@@ -357,9 +357,9 @@
           targets: ['.grp-11 .codetext'],
           easing: easing1,
           keyframes: [
-            { opacity: opacity1 },
+          //  { opacity: opacity1 },
             { opacity: opacity2 },
-            { opacity: opacity1 },
+          //  { opacity: opacity1 },
             { opacity: opacity3 },
           ],
           duration: moveDuration,
@@ -375,9 +375,9 @@
           targets: ['.grp-12 .codetext'],
         easing: easing1,
           keyframes: [
-            { opacity: opacity1 },
+          //  { opacity: opacity1 },
             { opacity: opacity2 },
-            { opacity: opacity1 },
+          // { opacity: opacity1 },
             { opacity: opacity3 },
           ],
           duration: moveDuration,
