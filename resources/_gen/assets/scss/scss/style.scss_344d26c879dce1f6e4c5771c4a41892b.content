@@ -17984,11 +17984,6 @@ body.home #main {
   height: 100%;
 }
 
-.row.projects .project1 .inactive-link:hover {
-  background-image: url("/images/seda-v2-blur.jpg");
-  transition: background-image .2s ease;
-}
-
 .row.projects .project1 .inactive-link:hover:after {
   content: "COMING AUGUST 2019";
   position: absolute;
@@ -17996,11 +17991,13 @@ body.home #main {
   font-weight: 600;
   font-style: normal;
   letter-spacing: .24rem;
-  background: rgba(255, 255, 255, 0.56);
-  padding: 1.6rem;
+  background: rgba(255, 255, 255, 0.86);
+  padding: 1.6rem 2.4rem;
   opacity: 1;
   color: #063FFE;
   border-radius: 2px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: .8rem 1.6rem;
   transition: background-color .2s ease;
 }
 
@@ -18013,11 +18010,6 @@ body.home #main {
   background-size: cover;
 }
 
-.row.projects .project2 a:hover {
-  background-image: url("/images/el-v2-blur.jpg");
-  transition: background-image .2s ease;
-}
-
 .row.projects .project2 a:hover:after {
   content: "VIEW LIVE WEBSITE";
   position: absolute;
@@ -18026,9 +18018,11 @@ body.home #main {
   font-style: normal;
   color: #E23E00;
   letter-spacing: .24rem;
-  background: rgba(255, 255, 255, 0.56);
+  background: rgba(255, 255, 255, 0.86);
   padding: 1.6rem;
   border-radius: 2px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: .8rem 1.6rem;
   transition: background-color .2s ease;
 }
 
@@ -18041,11 +18035,6 @@ body.home #main {
   align-items: center;
 }
 
-.row.projects .project3 a:hover {
-  background-image: url("/images/dd-v2-blur.jpg");
-  transition: background-image .3s ease;
-}
-
 .row.projects .project3 a:hover:after {
   content: "VIEW LIVE WEBSITE";
   position: absolute;
@@ -18053,11 +18042,12 @@ body.home #main {
   font-weight: 600;
   font-style: normal;
   letter-spacing: .24rem;
-  background: rgba(255, 255, 255, 0.64);
-  padding: 1.6rem;
+  background: rgba(255, 255, 255, 0.86);
+  padding: .8rem 1.6rem;
   opacity: 1;
   border-radius: 2px;
   color: #0893AD;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
   transition: background-color .2s ease;
 }
 
@@ -18075,11 +18065,6 @@ body.home #main {
   align-items: center;
 }
 
-.row.projects .project4 .inactive-link:hover {
-  background-image: url("/images/bil-v2-blur.jpg");
-  transition: background-image .2s ease;
-}
-
 .row.projects .project4 .inactive-link:hover:after {
   content: "COMING FALL 2019";
   position: absolute;
@@ -18087,8 +18072,9 @@ body.home #main {
   font-weight: 600;
   font-style: normal;
   letter-spacing: .32rem;
-  background: rgba(255, 255, 255, 0.56);
-  padding: 1.6rem;
+  background: #fff;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: .8rem 1.6rem;
   border-radius: 4px;
   opacity: 1;
   color: #ffcb02;
