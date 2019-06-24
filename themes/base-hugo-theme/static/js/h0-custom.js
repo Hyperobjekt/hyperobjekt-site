@@ -34,7 +34,7 @@
     var moveDuration = 1800; // how long the leftward movement lasts
     var easing1 = 'steps(10)';
     var opacity1 = .1;
-    var opacity2 = .3;
+    var opacity2 = .5;
     var opacity3 = .1;
     var delayAtEnd = 2000;  
 
