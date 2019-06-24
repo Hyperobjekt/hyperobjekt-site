@@ -24,47 +24,19 @@
         }
     }
 
-    function toggleAbstract(e) {
-        // console.log('toggleAbstract()');
-        e.preventDefault();
-        $target = $(e.target);
-        $target.parents('.research-paper').toggleClass('abstract-visible');
-    }
+ 
 
-
-    /* anime.set(['#mainland', '.plotpoints', 'body.home .hero-child h2',
-    'body.home .hero-child p', 'body.home .hero-child button'], {
-      opacity: [0]
-    }); */
-    /* anime.set(['g#grades text', 'g#ses-metric text', '#grades path#axis-line-2', '#hp-x-line path#map-x'], {
-      opacity: [0]
-    }); */
   
     var shiftDelay = 0 // delay of entire animation
     var startingDelay1 = 825; // Starting delay of code groups 13-16 
     var startingDelay2 = 1500; // Starting delay of code groups 21-24 
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
-    var moveDistance = 0; // how far the line moves
-    var moveDistance2 = 0; // how far the line moves
-    var moveDurationOffset = '-=2000'; // time offset of leftward movement
-    var fadeout = 2000; // opacity fade-out length
-    var fadeoutOffset ='-=200'; // offset of the aboive
-    var loopDelay = 1400; // delay before each line appears again after it fades out
-    var xOne = 0; // x position of snippet 1
-    var xTwo = 600;
-    var xThree = 700;
-    var xFour = 800;
-    var yOne = 300;
-    var yStagger = 72;
     var easing1 = 'easeInExpo';
     var opacity1 = .2;
-    var opacity2 = .6;
-
-    var loopLength = 12000;
-
-  
-
+    var opacity2 = .4;
+    var opacity3 = .1;
+    var delayAtEnd = 2000;  
 
     /* ----- Starting Settings ------ */
 
@@ -75,52 +47,33 @@
       //translateZ: 0,
       });
     anime.set(['.code-grp.topleftl'],{
-     
-        //translateY: 20,
         translateX: 180,
-      
-        });  
-    anime.set(['.code-grp.topleftr'],{
-  
-        //translateY: 20,
-        //translateX: 3000,
- 
-        });     
-    anime.set(['.code-grp.bcenter', '.code-grp.centergraph', '.code-grp.rightmedl', '.code-grp.ext-bl', '.code-grp.toprightr'],{
-    
-        //translateY: 20,
-        //translateX: 350,
-       
-        });  
-    anime.set(['.code-grp.rightmedr'],{
-      
-        //translateY: 20,
-        translateX: 450,
-  
         });       
-    
+    anime.set(['.code-grp.rightmedr'],{
+        translateX: 450,
+        });       
     anime.set(['.code-grp.toprightl'],{
         translateX: 550,
         }); 
     anime.set(['.code-grp.toprightr'],{
       translateX: 550,
       });   
-      
       anime.set(['.code-grp .codetext'], {
         opacity: opacity1,
-        //opacity: 1,
+        opacity: opacity3,
       });
+
+    /* -------- Group movement ----------- */
 
     anime({
       targets: ['.grp-1 .codetext', '.grp-3 .codetext', '.grp-5 .codetext', '.grp-7 .codetext', '.grp-9 .codetext',
       '.grp-11 .codetext', '.grp-13 .codetext', '.grp-15 .codetext', '.grp-17 .codetext', '.grp-19 .codetext',
       '.grp-21 .codetext', '.grp-23 .codetext', '.grp-25 .codetext'],
       keyframes: [
-        //{translateX: moveDistance}, {translateX: 0}
-        { translateX: 50 },
+        { translateX: -5 },
         { translateX: 0 },
       ],
-      duration: 75000,
+      duration: 7000,
       loop: true,
       easing: 'linear',
     });
@@ -130,11 +83,10 @@
       '.grp-12 .codetext', '.grp-14 .codetext', '.grp-16 .codetext', '.grp-18 .codetext', '.grp-20 .codetext',
       '.grp-22 .codetext', '.grp-24 .codetext'],
       keyframes: [
-        //{translateX: moveDistance}, {translateX: 0}
-        { translateX: 50 },
+        { translateX: 5 },
         { translateX: 0 },
       ],
-      duration: 75000,
+      duration: 7000,
       loop: true,
       easing: 'linear',
     });
@@ -150,10 +102,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode5Delay, 0 + shiftDelay);
@@ -167,10 +121,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
       })
     };
    setTimeout(heroCode6Delay, 500 + shiftDelay); 
@@ -184,10 +140,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode7Delay, 250 + shiftDelay);
@@ -201,11 +159,13 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
           //{translateX: moveDistance2}, {translateX: 0},
         ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), // increase delay for each element
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode8Delay, 750 + shiftDelay); 
@@ -221,10 +181,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), // increase delay for each element
+        endDelay: delayAtEnd,
       })
     };
    setTimeout(heroCode13Delay, 0 + startingDelay1);
@@ -238,10 +200,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), // increase delay for each element
+        endDelay: delayAtEnd,
       })
     };
    setTimeout(heroCode14Delay, 500 + startingDelay1); 
@@ -255,10 +219,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), // increase delay for each element
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode15Delay, 250 + startingDelay1);
@@ -272,10 +238,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode16Delay, 750 + shiftDelay); 
@@ -291,10 +259,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode21Delay, 0 + startingDelay2);
@@ -308,10 +278,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay),
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode22Delay, 500 + startingDelay2); 
@@ -325,10 +297,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode23Delay, 250 + startingDelay2);
@@ -342,10 +316,12 @@
           { opacity: opacity1 },
           { opacity: opacity2 },
           { opacity: opacity1 },
+          { opacity: opacity3 },
         ],
         duration: moveDuration,
         loop: true,
-        delay: anime.stagger(staggerDelay), // increase delay for each element
+        delay: anime.stagger(staggerDelay), 
+        endDelay: delayAtEnd,
       })
     };
     setTimeout(heroCode24Delay, 750 + startingDelay2); 
@@ -361,10 +337,12 @@
             { opacity: opacity1 },
             { opacity: opacity2 },
             { opacity: opacity1 },
+            { opacity: opacity3 },
           ],
           duration: moveDuration,
           loop: true,
-          delay: anime.stagger(staggerDelay), // increase delay for each element
+          delay: anime.stagger(staggerDelay), 
+          endDelay: delayAtEnd,
         })
       };
       setTimeout(heroCode9Delay, 0 + shiftDelay);
@@ -378,10 +356,12 @@
             { opacity: opacity1 },
             { opacity: opacity2 },
             { opacity: opacity1 },
+            { opacity: opacity3 },
           ],
           duration: moveDuration,
           loop: true,
-          delay: anime.stagger(staggerDelay), // increase delay for each element
+          delay: anime.stagger(staggerDelay), 
+          endDelay: delayAtEnd,
         })
       };
       setTimeout(heroCode10Delay, 500 + shiftDelay); 
@@ -395,10 +375,12 @@
             { opacity: opacity1 },
             { opacity: opacity2 },
             { opacity: opacity1 },
+            { opacity: opacity3 },
           ],
           duration: moveDuration,
           loop: true,
-          delay: anime.stagger(staggerDelay), // increase delay for each element
+          delay: anime.stagger(staggerDelay), 
+          endDelay: delayAtEnd,
         })
       };
       setTimeout(heroCode12Delay, 250 + shiftDelay);
@@ -412,10 +394,12 @@
             { opacity: opacity1 },
             { opacity: opacity2 },
             { opacity: opacity1 },
+            { opacity: opacity3 },
           ],
           duration: moveDuration,
           loop: true,
-          delay: anime.stagger(staggerDelay), // increase delay for each element
+          delay: anime.stagger(staggerDelay), 
+          endDelay: delayAtEnd,
         })
       };
       setTimeout(heroCode12Delay, 750 + shiftDelay);   
