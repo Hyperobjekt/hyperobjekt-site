@@ -32,11 +32,14 @@
     var startingDelay2 = 1500; // Starting delay of code groups 21-24 
     var staggerDelay = 150;
     var moveDuration = 1800; // how long the leftward movement lasts
-    var easing1 = 'linear';
+    var easing1 = 'easeOutQuint';
     var opacity1 = .1;
     var opacity2 = .5;
     var opacity3 = .1;
     var delayAtEnd = 2000;  
+    var opDuration1 = 300;
+    var opDuration2 = 1200;
+    var opDuration3 = 300;
 
     /* ----- Starting Settings ------ */
 
@@ -97,12 +100,11 @@
     var heroCode5Delay = function(){
       anime({
         targets: ['.grp-5 .codetext'],
-        easing: easing1,
+       // easing: easing1,
         keyframes: [
-        //  { opacity: opacity1 },
-          { opacity: opacity2 },
-         // { opacity: opacity1 },
-          { opacity: opacity3 },
+          { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+          { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+          { opacity: opacity3, duration: opDuration3, easing: 'linear' },
         ],
         duration: moveDuration,
         loop: true,
@@ -117,10 +119,9 @@
         targets: ['.grp-6 .codetext'],
         easing: easing1,
         keyframes: [
-         // { opacity: opacity1 },
-          { opacity: opacity2 },
-         // { opacity: opacity1 },
-          { opacity: opacity3 },
+          { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+          { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+          { opacity: opacity3, duration: opDuration3, easing: 'linear' },
         ],
         duration: moveDuration,
         loop: true,
@@ -135,10 +136,9 @@
         targets: ['.grp-7 .codetext'],
         easing: easing1,
         keyframes: [
-         // { opacity: opacity1 },
-          { opacity: opacity2 },
-         // { opacity: opacity1 },
-          { opacity: opacity3 },
+          { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+          { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+          { opacity: opacity3, duration: opDuration3, easing: 'linear' },
         ],
         duration: moveDuration,
         loop: true,
@@ -152,12 +152,11 @@
       anime({
         targets: ['.grp-8 .codetext'],
        easing: easing1,
-        keyframes: [
-        //  { opacity: opacity1 },
-          { opacity: opacity2 },
-         // { opacity: opacity1 },
-          { opacity: opacity3 },
-        ],
+       keyframes: [
+        { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+        { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+        { opacity: opacity3, duration: opDuration3, easing: 'linear' },
+      ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), // increase delay for each element
@@ -173,10 +172,9 @@
         targets: ['.grp-13 .codetext'],
         easing: easing1,
         keyframes: [
-        //  { opacity: opacity1 },
-          { opacity: opacity2 },
-        //  { opacity: opacity1 },
-         { opacity: opacity3 },
+          { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+          { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+          { opacity: opacity3, duration: opDuration3, easing: 'linear' },
         ],
         duration: moveDuration,
         loop: true,
@@ -190,12 +188,11 @@
       anime({
         targets: ['.grp-14 .codetext'],
        easing: easing1,
-        keyframes: [
-         // { opacity: opacity1 },
-          { opacity: opacity2 },
-         // { opacity: opacity1 },
-          { opacity: opacity3 },
-        ],
+       keyframes: [
+        { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+        { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+        { opacity: opacity3, duration: opDuration3, easing: 'linear' },
+      ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), 
@@ -209,10 +206,9 @@
         targets: ['.grp-15 .codetext'],
         easing: easing1,
         keyframes: [
-        //  { opacity: opacity1 },
-          { opacity: opacity2 },
-        //  { opacity: opacity1 },
-         { opacity: opacity3 },
+          { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+          { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+          { opacity: opacity3, duration: opDuration3, easing: 'linear' },
         ],
         duration: moveDuration,
         loop: true,
@@ -226,12 +222,11 @@
       anime({
         targets: ['.grp-16 .codetext'],
        easing: easing1,
-        keyframes: [
-        //  { opacity: opacity1 },
-          { opacity: opacity2 },
-        //  { opacity: opacity1 },
-         { opacity: opacity3 },
-        ],
+       keyframes: [
+        { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+        { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+        { opacity: opacity3, duration: opDuration3, easing: 'linear' },
+      ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), 
@@ -246,12 +241,11 @@
       anime({
         targets: ['.grp-21 .codetext'],
       easing: easing1,
-        keyframes: [
-        //  { opacity: opacity1 },
-          { opacity: opacity2 },
-        //  { opacity: opacity1 },
-          { opacity: opacity3 },
-        ],
+      keyframes: [
+        { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+        { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+        { opacity: opacity3, duration: opDuration3, easing: 'linear' },
+      ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), 
@@ -265,10 +259,9 @@
         targets: ['.grp-22 .codetext'],
         easing: easing1,
         keyframes: [
-         // { opacity: opacity1 },
-          { opacity: opacity2 },
-        //  { opacity: opacity1 },
-          { opacity: opacity3 },
+          { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+          { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+          { opacity: opacity3, duration: opDuration3, easing: 'linear' },
         ],
         duration: moveDuration,
         loop: true,
@@ -283,10 +276,9 @@
         targets: ['.grp-23 .codetext'],
         easing: easing1,
         keyframes: [
-         // { opacity: opacity1 },
-          { opacity: opacity2 },
-        //  { opacity: opacity1 },
-          { opacity: opacity3 },
+          { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+          { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+          { opacity: opacity3, duration: opDuration3, easing: 'linear' },
         ],
         duration: moveDuration,
         loop: true,
@@ -300,12 +292,11 @@
       anime({
         targets: ['.grp-24 .codetext'],
       easing: easing1,
-        keyframes: [
-        //  { opacity: opacity1 },
-          { opacity: opacity2 },
-        //  { opacity: opacity1 },
-         { opacity: opacity3 },
-        ],
+      keyframes: [
+        { opacity: opacity2, duration: opDuration1, easing: 'linear' },
+        { opacity: opacity2, duration: opDuration2, easing: 'linear' },
+        { opacity: opacity3, duration: opDuration3, easing: 'linear' },
+      ],
         duration: moveDuration,
         loop: true,
         delay: anime.stagger(staggerDelay), 
