@@ -4,6 +4,7 @@ title = "Hyperobjekt"
 theme = "base-hugo-theme"
 googleAnalytics = ""
 paginate = 5
+enableRobotsTXT = true
 
 [imaging]
 resampleFilter = "box"
