@@ -404,7 +404,72 @@
     }
 
    
+// PULSE TEST
 
+anime.set(['.pulsestagger'],{
+  opacity: 0,
+  }); 
+
+   anime({
+    targets: ['.pulsestagger'],
+   easing: 'linear',
+   keyframes: [
+  
+    { opacity: 1,  duration: 800, easing: 'linear', endDelay: 0, },
+   { opacity: 0, duration: 800, easing: 'linear', },
+  ],
+    loop: true,
+    direction: 'forwards',
+    delay: anime.stagger(50), 
+   // endDelay: delayAtEnd,
+  }); 
+
+
+   anime({
+    targets: ['#pulsewave'],
+   //easing: easing1,
+    scale: 1.04,
+    loop: true,
+   
+    duration: 3200,
+    easing: 'linear',
+  direction: 'alternate',
+   // delay: anime.stagger(150), 
+    //endDelay: delayAtEnd,
+  }); 
+
+
+  anime.set(['.pulsestagger2'],{
+    opacity: 0,
+    }); 
+  
+     anime({
+      targets: ['.pulsestagger2'],
+     easing: 'linear',
+     keyframes: [
+    
+      { opacity: 1,  duration: 800, easing: 'linear', endDelay: 0, },
+     { opacity: 0, duration: 800, easing: 'linear', },
+    ],
+      loop: true,
+      direction: 'forwards',
+      delay: anime.stagger(50), 
+      //endDelay: delayAtEnd,
+    }); 
+  
+  
+     anime({
+      targets: ['#pulsewave2'],
+     //easing: easing1,
+      //scale: 1.5,
+      loop: true,
+     
+      duration: 3200,
+      easing: 'linear',
+    direction: 'alternate',
+     // delay: anime.stagger(150), 
+      //endDelay: delayAtEnd,
+    }); 
    
 
   
