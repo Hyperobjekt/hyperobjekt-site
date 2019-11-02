@@ -11,25 +11,5 @@
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Educational opportunity in early and middle childhood: Variation by place and age</title>
-      <link>/posts/the-opportunity-gap-2019-02-12/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/the-opportunity-gap-2019-02-12/</guid>
-      <description>Can a school district overcome the effects that poverty has on its students? To answer that question, we need to rethink how we measure a school district’s quality.
-Despite popular belief, average test scores are a bad indicator for measuring how much education students receive in a district. Average test scores by grade tell us more about the socioeconomic conditions of the students in a district than the district’s impact on student learning.</description>
-    </item>
-    
-    <item>
-      <title>Patterns of Racial/Ethnic Opportunity Gaps</title>
-      <link>/posts/the-opportunity-gap-2019-01-12/</link>
-      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/the-opportunity-gap-2019-01-12/</guid>
-      <description>This figure shows the average performance of black and white students in each US school district in math and English language arts in grade 3. Each circle is a school district (one of ~2400 district in which there are enough white and black students to reliably estimate both white and black achievement in grade 3).
-The size of the bubble is proportionate to the number of black children enrolled in the school district.</description>
-    </item>
-    
   </channel>
 </rss>
