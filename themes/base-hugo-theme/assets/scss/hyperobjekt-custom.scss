@@ -1033,7 +1033,7 @@ body.home {
         transition: background-color .2s ease;
       } 
     }
-    .project4 .inactive-link {
+    .project4 a {
       background-color: $boldyellow;
       background-image: url('/images/bil-v2-2.jpg');
       background-size: cover;
@@ -1053,7 +1053,7 @@ body.home {
        // transition: background-image .2s ease;
       } 
       &:hover:after {
-        content: "COMING FALL 2019";
+        content: "VIEW LIVE WEBSITE";
         position: absolute;
         @include futura-demi;
         letter-spacing: .32rem;

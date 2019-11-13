@@ -18076,7 +18076,7 @@ body.home #main {
   transition: background-color .2s ease;
 }
 
-.row.projects .project4 .inactive-link {
+.row.projects .project4 a {
   background-color: #FFCC05;
   background-image: url("/images/bil-v2-2.jpg");
   background-size: cover;
@@ -18091,13 +18091,13 @@ body.home #main {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .row.projects .project4 .inactive-link {
+  .row.projects .project4 a {
     max-height: 340px;
   }
 }
 
-.row.projects .project4 .inactive-link:hover:after {
-  content: "COMING FALL 2019";
+.row.projects .project4 a:hover:after {
+  content: "VIEW LIVE WEBSITE";
   position: absolute;
   font-family: futura-pt, sans-serif;
   font-weight: 600;
