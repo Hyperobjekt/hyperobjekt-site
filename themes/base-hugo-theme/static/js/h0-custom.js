@@ -40,26 +40,9 @@
       opacity: [0]
     }); */
   
-<<<<<<< Updated upstream
-=======
-    var shiftDelay = 1000 // delay of entire animation
-    var startingDelay1 = 300; // Starting delay of code groups 13-16 
-    var startingDelay2 = 1500; // Starting delay of code groups 21-24 
-    var staggerDelay = 150;
-    var moveDuration = 1800; // how long the leftward movement lasts
-    var easing1 = 'easeOutQuint';
-    var opacity1 = .1;
-    var opacity2 = .5;
-    var opacity3 = .2;
-    var delayAtEnd = 2000;  
-    var opDuration1 = 300;
-    var opDuration2 = 1200;
-    var opDuration3 = 300;
->>>>>>> Stashed changes
 
 
 
-<<<<<<< Updated upstream
     var shiftDelay = 1200 // delay of entire animation
     var startingDelay = 100; // Starting delay of snippet 2 - x
     var staggerDelay = 50;
@@ -84,34 +67,6 @@
     });
     var herocode = anime.timeline({
       loop: true,
-=======
-    /* -------- Group movement ----------- */
-      /*
-    anime({
-      targets: ['.grp-1 .codetext', '.grp-3 .codetext', '.grp-5 .codetext', '.grp-7 .codetext', '.grp-9 .codetext',
-      '.grp-11 .codetext', '.grp-13 .codetext', '.grp-15 .codetext', '.grp-17 .codetext', '.grp-19 .codetext',
-      '.grp-21 .codetext', '.grp-23 .codetext', '.grp-25 .codetext'],
-      keyframes: [
-        { translateX: -5 },
-        { translateX: 0 },
-      ],
-      //duration: 3000,
-      //loop: true,
-      easing: 'linear',
-    });
-
-    anime({
-      targets: ['.grp-2 .codetext', '.grp-4 .codetext', '.grp-6 .codetext', '.grp-8 .codetext', '.grp-10 .codetext',
-      '.grp-12 .codetext', '.grp-14 .codetext', '.grp-16 .codetext', '.grp-18 .codetext', '.grp-20 .codetext',
-      '.grp-22 .codetext', '.grp-24 .codetext'],
-      keyframes: [
-        { translateX: 5 },
-        { translateX: 0 },
-      ],
-      //duration: 3000,
-      //loop: true,
-      easing: 'linear',
->>>>>>> Stashed changes
     });
     var heroCode1Delay = function(){
       herocode.add({
@@ -361,7 +316,6 @@
         $(this).addClass("highlight");
     });
 
-<<<<<<< Updated upstream
     if ($('body.home').length >= 1) {
       console.log('setting up home page animations');
       setElPositions();
@@ -373,63 +327,6 @@
       var userScrolled = false;
       var svgScrollEvt = $(window).scroll(function() {
         userScrolled = true;
-=======
-// Rectangles ----------------- /
-var randomDuration = 5000;
-var randomEase = 'easeInOutSine';
-function randomValues1() {
-  anime({
-    targets: ['#red-rectangle'],
-    translateX: function() {
-      return anime.random(-30, 30);
-    },
-    translateY: function() {
-      return anime.random(30, -30);
-    },
-    easing: 'linear',
-    duration: randomDuration,
-   // direction: 'alternate',
-   // loop: true,
-    complete: randomValues1,
-    delay: 2000,
-    });
-  }
-  randomValues1(); 
-  function randomValues2() {
-    anime({
-      targets: ['#yellow-rectangle'],
-      translateX: function() {
-        return anime.random(-30, 30);
-      },
-      translateY: function() {
-        return anime.random(-30, 30);
-      },
-      easing: 'linear',
-      duration: randomDuration,
-     // direction: 'alternate',
-    //  loop: true,
-      complete: randomValues2,
-      delay: 1000,
-      });
-    }
-    randomValues2(); 
-
-  function randomValues3() {
-    anime({
-      targets: ['#green-rectangle'],
-      translateX: function() {
-        return anime.random(30, -30);
-      },
-      translateY: function() {
-        return anime.random(-30, 30);
-      },
-      easing: 'linear',
-      duration: randomDuration,
-      //direction: 'alternate',
-      //loop: true,
-      complete: randomValues3,
-      delay: 500,
->>>>>>> Stashed changes
       });
       var svgScrollInt = setInterval(function() {
         if (avgGraphicAnimated && growthGraphicAnimated && trendGraphicAnimated) {
@@ -446,72 +343,5 @@ function randomValues1() {
         }
       }, 50);
     }
-<<<<<<< Updated upstream
-=======
-    randomValues3();
-    
-    function randomValues4() {
-      anime({
-        targets: ['#blue-rectangle'],
-        translateX: function() {
-          return anime.random(30, -30);
-        },
-        translateY: function() {
-          return anime.random(30, -30);
-        },
-        easing: 'linear',
-        duration: randomDuration,
-       // direction: 'alternate',
-        //loop: true,
-        complete: randomValues4,
-        delay: 1500,
-        });
-      }
-      randomValues4(); 
-
-   /*  anime.set(['#color-rectangles'], {
-      //opacity: 0,
-    });
-      anime({
-        targets: '#blue-rectangle',
-        translateX: -40,
-        keyframes: [
-          {translateY: 20, duration: 3000, easing: 'linear',},
-          {translateY: -20, duration: 3000, easing: 'linear',},
-        ],
-        easing: 'linear',
-        duration: 3000,
-        loop: true,
-        direction: 'alternate',  
-          });
-        anime({
-        targets: '#green-rectangle',
-        translateX: 10,
-        translateY: 10,
-        easing: 'linear',
-        duration: 5000,
-        loop: true,
-        direction: 'alternate',  
-          });  
-        anime({
-          targets: '#yellow-rectangle',
-          translateX: 20,
-          translateY: 10,
-          easing: 'linear',
-          duration: 5000,
-          loop: true,
-          direction: 'alternate',  
-            });     
-       /* anime({
-          targets: '#color-rectangles',
-          opacity: 1,
-          duration: 4000,
-          delay: 5000,
-        });   */ 
-
-
-
-   
->>>>>>> Stashed changes
   });
 })(jQuery);
