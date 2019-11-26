@@ -757,15 +757,14 @@ function randomValues1() {
   anime({
     targets: ['#red-rectangle'],
     translateX: function() {
-      return anime.random(0, 30);
+      return anime.random(-30, 30);
     },
     translateY: function() {
-      return anime.random(0, -10);
+      return anime.random(30, -30);
     },
     easing: 'linear',
     duration: randomDuration,
-    direction: 'alternate',
-    loop: true,
+ 
     complete: randomValues1,
     });
   }
@@ -774,16 +773,15 @@ function randomValues1() {
     anime({
       targets: ['#yellow-rectangle'],
       translateX: function() {
-        return anime.random(0, 30);
+        return anime.random(30, 30);
       },
       translateY: function() {
-        return anime.random(0, 20);
+        return anime.random(30, -30);
       },
       easing: 'linear',
       duration: randomDuration,
-      direction: 'alternate',
-      loop: true,
-      complete: randomValues1,
+    
+      complete: randomValues2,
       });
     }
     randomValues2(); 
@@ -792,15 +790,14 @@ function randomValues1() {
     anime({
       targets: ['#green-rectangle'],
       translateX: function() {
-        return anime.random(0, -30);
+        return anime.random(30, -30);
       },
       translateY: function() {
-        return anime.random(0, 30);
+        return anime.random(30, -30);
       },
       easing: 'linear',
       duration: randomDuration,
-      direction: 'alternate',
-      loop: true,
+    
       complete: randomValues3,
       });
     }
@@ -810,16 +807,15 @@ function randomValues1() {
       anime({
         targets: ['#blue-rectangle'],
         translateX: function() {
-          return anime.random(0, -70);
+          return anime.random(30, -30);
         },
         translateY: function() {
-          return anime.random(0, -30);
+          return anime.random(30, -30);
         },
         easing: 'linear',
         duration: randomDuration,
-        direction: 'alternate',
-        loop: true,
-        complete: randomValues3,
+      
+        complete: randomValues4,
         });
       }
       randomValues4(); 
