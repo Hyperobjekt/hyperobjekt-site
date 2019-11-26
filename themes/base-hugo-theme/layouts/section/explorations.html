@@ -1,32 +1,42 @@
 {{ define "main" }}
 
-<div id="hero" class="hero row" style="">
-        <div class="hero-child row">
+<div id="keylistener" class="hero row mx-0" style="background-color: rgb(0, 5, 66); height: 100vh;">
+       
           <div class="column col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-6 offset-xl-3">
             <h2 tabindex="0">Explorations</h2>
-            <p tabindex="0">See what we're learning lorem ipsum dolor sit amet</p>
+            <div class="keys">
+                    <div data-key="65" class="key">
+                      <kbd>A</kbd>
+                      <span class="sound">clap</span>
+                    </div>
+                    <div data-key="83" class="key">
+                            <kbd>S</kbd>
+                            <span class="sound">clap</span>
+                          </div>
+            </div>        
           </div>
-         </div>
+
+       
     </div>
 
+<script>
 
-
-<div id="scrollTarget2" class="row latest-explorations m-0">
+function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+  }
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    key.classList.add('playing');
     
-    {{ range $index, $element := first 2 (where .Site.Pages "Section" "posts") }}
-        {{ if (eq $index 0) }}
-            <div class="card-container col-xs-12 col-md-6 col-lg-5 offset-lg-1">
-        {{ else }}
-            <div class="card-container col-xs-12 col-md-6 col-lg-5">
-        {{ end }}
+  }
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
 
-                {{ partial "explorations-card.html" .}}
-
-            </div>
-    {{ end }}
    
-</div>
+</script>
 
-{{ partial "subscribe.html" .}}
 
 {{ end }}

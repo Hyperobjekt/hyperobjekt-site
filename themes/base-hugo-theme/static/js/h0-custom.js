@@ -472,7 +472,399 @@ anime.set(['.pulsestagger'],{
     }); 
    
 
-  
+// NEW HOME HERO ------------------------------- //
+
+var polyLineDur = 600;
+var polyLineDelay = 300;
+var polyLineEase = 'linear';
+
+anime({ // grp 1
+  targets: ['#Lines .linegrp1'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur,
+  //delay: anime.stagger(60),
+});
+anime({ // grp 2
+  targets: ['#Lines .linegrp2'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur,
+  delay: polyLineDelay,
+});
+anime({ // grp 3
+  targets: ['#Lines .linegrp3'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur,
+  delay: polyLineDelay * 2,
+});
+anime({ // grp 4
+  targets: ['#Lines .linegrp4'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur,
+  delay: polyLineDelay * 3,
+});
+anime({ // grp 5
+  targets: ['#Lines .linegrp5'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur,
+  delay: polyLineDelay * 4,
+});
+anime({ // grp 6
+  targets: ['#Lines .linegrp6'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur,
+  delay: polyLineDelay * 5,
+});
+anime({ // grp 7
+  targets: ['#Lines .linegrp7-1'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur / 2,
+  delay: polyLineDelay * 5,
+});
+anime({ // grp 7
+  targets: ['#Lines .linegrp7-2'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur / 2,
+  delay: (polyLineDelay * 6) - (polyLineDelay / 2),
+});
+anime({ // grp 8
+  targets: ['#Lines .linegrp8'],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: polyLineEase,
+  duration: polyLineDur, 
+  delay: polyLineDelay * 6
+});
+
+
+anime.set(['.htext', '.htext2'], {
+  opacity: 0,
+  }); 
+
+   anime({
+    targets: ['#h-Text2'],
+   easing: 'linear',
+   keyframes: [
+    { opacity: 0,  duration: 5000, easing: 'linear', endDelay: 0, },
+    { opacity: 0.2, duration: 50, easing: 'linear', },
+    { opacity: 0,  duration: 50, easing: 'linear', endDelay: 0, },
+    { opacity: 0.4, duration: 50, easing: 'linear', },
+    { opacity: 0.2,  duration: 50, easing: 'linear', endDelay: 0, },
+    { opacity: 0.4, duration: 100, easing: 'linear', },
+    { opacity: 0.2,  duration: 100, easing: 'linear', endDelay: 0, },
+    { opacity: 0.6, duration: 150, easing: 'linear', },
+    { opacity: 0.2,  duration: 150, easing: 'linear', endDelay: 0, },
+    { opacity: 0.8, duration: 150, easing: 'linear', },
+    { opacity: 0,  duration: 50, easing: 'linear', endDelay: 0, },
+    { opacity: 1, duration: 150, easing: 'linear', },
+  ],
+    //loop: true,
+   // direction: 'reverse',
+    delay: anime.stagger(60), 
+   // endDelay: delayAtEnd,
+  }); 
+
+
+
+// NEW HOME V2
+
+  anime.set(['#cosmos',], {
+    scale: 1.05,
+  });
+  anime.set(['#Points'], {
+    opacity: 0,
+  });
+
+    anime({
+      targets: ['#cosmos'],
+      keyframes: [
+        {scale: 1,  duration: 3400, easing: 'easeOutSine', endDelay: 0,},
+        {scale: 1,  duration: 2000, easing: 'easeOutSine', endDelay: 0,}
+      ]
+    })
+
+    var polyLineDur = 2800;
+    var polyLineDelay = 300;
+    var polyLineEase = 'linear';
+
+    anime({ // grp 1
+      targets: ['#red-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 2
+      targets: ['#grey-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.55,
+      //delay: 40,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#cyan-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.7,
+      //delay: 40,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#purple-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.75,
+      delay: polyLineDur * 0.3,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#yellow-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.125,
+      delay: polyLineDur * 0.01,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#green-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.325,
+      delay: polyLineDur * 0.275,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#pinkpurple-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.125,
+      delay: polyLineDur * 0.7,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#orange-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.375,
+      delay: polyLineDur * 0.8,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#yellow-path2'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.075,
+      delay: polyLineDur * 0.25,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#fuchsia-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.375,
+      delay: polyLineDur * 0.5,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#yellowgreen-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.25,
+      delay: polyLineDur * 0.825,
+      //delay: anime.stagger(60),
+    });
+
+    anime({ // grp 3
+      targets: ['#bronze-path'],
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: polyLineEase,
+      duration: polyLineDur * 0.1,
+      delay: polyLineDur * 1,
+      //delay: anime.stagger(60),
+    });
+    anime({
+      targets: ['.htext'],
+     easing: 'linear',
+     keyframes: [
+      { opacity: 0,  duration: 460, easing: 'linear', endDelay: 0, },
+      { opacity: 0.45, duration: 300, easing: 'linear', },
+    ],
+      //loop: true,
+     // direction: 'reverse',
+     delay: anime.stagger(250),
+     // endDelay: delayAtEnd,
+    }); 
+
+
+
+    var flickerDelay = function(){
+      anime({
+        targets: ['.hyper'],
+        easing: 'linear',
+        keyframes: [
+          { opacity: 0.45,  duration: 200, easing: 'linear', endDelay: 0, },
+        //  { opacity: 0.4, duration: 50, easing: 'linear', },
+        // { opacity: 0.2,  duration: 150, easing: 'linear', endDelay: 0, },
+        // { opacity: 0.6, duration: 50, easing: 'linear', },
+          { opacity: 0.1,  duration: 50, easing: 'linear', endDelay: 0, },
+          { opacity: 0.6, duration: 100, easing: 'linear', },
+          { opacity: 0.1,  duration: 100, easing: 'linear', endDelay: 0, },
+        { opacity: 0.8, duration: 100, easing: 'linear', },
+        { opacity: 0.1,  duration: 100, easing: 'linear', endDelay: 0, },
+        //  { opacity: 0.8, duration: 100, easing: 'linear', },
+        // { opacity: 0,  duration: 50, easing: 'linear', endDelay: 0, },
+          { opacity: 1, duration: 200, easing: 'linear', },
+        ],
+          //loop: true,
+        // direction: 'reverse',
+          delay: 500, 
+        // endDelay: delayAtEnd,
+        })
+      };
+    setTimeout(flickerDelay, 3200);
+
+// Points --------------- /
+
+    anime({
+      targets: ['#Points'],
+      easing: 'linear',
+      opacity: 1,
+      duration: 500,
+      delay: 4400,
+    });
+
+// Rectangles ----------------- /
+var randomDuration = 5000;
+var randomEase = 'easeInOutSine';
+function randomValues1() {
+  anime({
+    targets: ['#red-rectangle'],
+    translateX: function() {
+      return anime.random(0, 30);
+    },
+    translateY: function() {
+      return anime.random(0, -10);
+    },
+    easing: 'linear',
+    duration: randomDuration,
+    direction: 'alternate',
+    loop: true,
+    complete: randomValues1,
+    });
+  }
+  randomValues1(); 
+  function randomValues2() {
+    anime({
+      targets: ['#yellow-rectangle'],
+      translateX: function() {
+        return anime.random(0, 30);
+      },
+      translateY: function() {
+        return anime.random(0, 20);
+      },
+      easing: 'linear',
+      duration: randomDuration,
+      direction: 'alternate',
+      loop: true,
+      complete: randomValues1,
+      });
+    }
+    randomValues2(); 
+
+  function randomValues3() {
+    anime({
+      targets: ['#green-rectangle'],
+      translateX: function() {
+        return anime.random(0, -30);
+      },
+      translateY: function() {
+        return anime.random(0, 30);
+      },
+      easing: 'linear',
+      duration: randomDuration,
+      direction: 'alternate',
+      loop: true,
+      complete: randomValues3,
+      });
+    }
+    randomValues3();
+    
+    function randomValues4() {
+      anime({
+        targets: ['#blue-rectangle'],
+        translateX: function() {
+          return anime.random(0, -70);
+        },
+        translateY: function() {
+          return anime.random(0, -30);
+        },
+        easing: 'linear',
+        duration: randomDuration,
+        direction: 'alternate',
+        loop: true,
+        complete: randomValues3,
+        });
+      }
+      randomValues4(); 
+
+   /*  anime.set(['#color-rectangles'], {
+      //opacity: 0,
+    });
+      anime({
+        targets: '#blue-rectangle',
+        translateX: -40,
+        keyframes: [
+          {translateY: 20, duration: 3000, easing: 'linear',},
+          {translateY: -20, duration: 3000, easing: 'linear',},
+        ],
+        easing: 'linear',
+        duration: 3000,
+        loop: true,
+        direction: 'alternate',  
+          });
+        anime({
+        targets: '#green-rectangle',
+        translateX: 10,
+        translateY: 10,
+        easing: 'linear',
+        duration: 5000,
+        loop: true,
+        direction: 'alternate',  
+          });  
+        anime({
+          targets: '#yellow-rectangle',
+          translateX: 20,
+          translateY: 10,
+          easing: 'linear',
+          duration: 5000,
+          loop: true,
+          direction: 'alternate',  
+            });     
+       /* anime({
+          targets: '#color-rectangles',
+          opacity: 1,
+          duration: 4000,
+          delay: 5000,
+        });   */ 
+
+
 
    
   });

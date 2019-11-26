@@ -162,7 +162,7 @@ div.h2 {
 }
 
 h3 {
-  @include futura-bold;
+  @include futura-medium;
   font-size: 1.7rem;
   @include media-breakpoint-up(sm) {
     font-size: 3.2rem;
@@ -753,8 +753,8 @@ body.home {
        display: block;
      }
      // margin-left: 10%;
-      height: 100%;
-      width: 191%;
+      // height: 100%;
+     // width: 191%;
       // top: 50px;
       // left: 13%;
       position: relative;

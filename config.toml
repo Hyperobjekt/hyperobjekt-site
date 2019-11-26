@@ -26,40 +26,7 @@ anchor = "smart"
 	url = "/"
     weight = 1
 
-[[menu.main]]
-	name = "Opportunity Explorer"
-	url = "http://seda-split.surge.sh/counties/avg/all/2.85/37.79/-95.6"
-    weight = 1
 
-[[menu.main]]
-  name = "Explorations"
-  url = "/explorations/"
-    weight = 2
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-[[menu.main]]
-    name = "FAQ"
-    url = "/help-faq/"
-    weight = 4
-
-[[menu.main]]
-    name = "Methods"
-    url = "/methods/"
-    weight = 5
-
-[[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 6
-
-[[menu.main]]
-    name = "In the news"
-    url = "/news/"
-    weight = 7
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

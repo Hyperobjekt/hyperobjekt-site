@@ -17216,8 +17216,8 @@ div.h2 {
 }
 
 h3 {
-  font-family: futura-pt-bold, sans-serif;
-  font-weight: 700;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 1.7rem;
 }
@@ -17804,8 +17804,6 @@ body.home .hero {
 
 body.home .hero svg {
   display: none;
-  height: 100%;
-  width: 191%;
   position: relative;
 }
 
@@ -18804,6 +18802,38 @@ body.pulsetest .hero {
   height: 100vh;
   width: 100%;
   overflow: auto;
+}
+
+body.home {
+  background-color: #021029;
+}
+
+body.home .hero {
+  height: 90vh;
+  width: 100%;
+  overflow: auto;
+}
+
+body.home .hero svg {
+  max-width: 100%;
+  position: absolute;
+}
+
+body.home .hero #color-rects {
+  margin-top: 3%;
+}
+
+body.home .hero .h0-logo {
+  height: 63%;
+}
+
+body.home .hero .h0-logo-subhead {
+  height: 37%;
+}
+
+#keylistener .playing {
+  transition: 0.5s;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

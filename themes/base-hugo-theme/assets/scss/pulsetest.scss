@@ -6,3 +6,25 @@ body.pulsetest {
         overflow: auto;
     }
 }
+
+body.home {
+    background-color: #021029;
+    .hero {
+        height: 90vh;
+        width: 100%;
+        overflow: auto;
+        svg {
+            max-width: 100%;
+            position: absolute;
+        }
+        #color-rects {
+            margin-top: 3%;
+        }
+        .h0-logo {
+            height: 63%;
+        }
+        .h0-logo-subhead {
+            height: 37%;
+        }
+    }
+}
