@@ -1,13 +1,25 @@
 {{ define "main" }}
 
+
+<div class="colored-rectangles row">
+    <div class="col-6 h-50 pr-0 yellow-rect d-flex">
+        <img src="/images/yellow-rect.png" />
+    </div>
+    <div class="col-6 h-50 pr-0 green-rect d-flex">
+        <img src="/images/green-rect.png" />
+    </div>    
+    <div class="col-6 red-rect h-50 pr-0 d-flex">   
+        <img src="/images/red-rect.png" />
+    </div>    
+    <div class="col-6 blue-rect h-50 pl-0 d-flex">   
+        <img src="/images/blue-rect.png" />
+    </div> 
+</div>    
+
 <div id="hero" class="row mx-0 d-flex align-items-center justify-content-center hero dkbluebg" style="">
         <div class="h0-logo col mx-auto d-flex justify-content-center align-items-center">    
                 {{ partial "h0screenv4-1" }}
-                {{ partial "color-rectangles" }}
             </div> 
-        <div class="w-100"></div>
-         
-       
 </div>
    
 
