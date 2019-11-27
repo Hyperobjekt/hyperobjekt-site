@@ -420,7 +420,7 @@ anime.set(['.pulsestagger'],{
 
 
 // Rectangles Rotary Movement ------------------------------------ /
-        var rotateDuration = 17500;
+        var rotateDuration = 15000;
         anime({
           targets: ['.yellow-rect img'],
             rotate: [
