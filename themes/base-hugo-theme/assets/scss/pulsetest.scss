@@ -17,33 +17,32 @@ body.home {
             align-items: flex-end;
             justify-content: flex-end;
             img {
-                transform: translate(100px, 100px);
+                
             }
         } 
         .green-rect {
             align-items: flex-end;
             justify-content: flex-start;
             img {
-                transform: translate(-100px, 100px);
+               
             }
         }
         .red-rect {
             align-items: flex-start;
             justify-content: flex-end;
             img {
-                transform: translate(100px, -100px);
+                opacity: 0.9;
             }
         } 
         .blue-rect {
             align-items: flex-start;
             justify-content: flex-start;
-            img {
-                transform: translate(-100px, -100px);
-            }
+            img {}
+               
         }
         img {
          width: 90%;
-         will-change: transform;
+         will-change: ('opacity, transform');
         }
     }
     .hero {
