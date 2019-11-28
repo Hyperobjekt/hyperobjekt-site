@@ -319,7 +319,7 @@ anime.set(['.pulsestagger'],{
 
   };
 
-  setTimeout(lineDrawDelay, 2000);
+  setTimeout(lineDrawDelay, 00);
 
 
 
@@ -335,7 +335,7 @@ anime.set(['.pulsestagger'],{
          // delay: 3000, 
         }); 
       };
-    setTimeout(raiseOpacity, 6600);  
+    setTimeout(raiseOpacity, 3300);  
 
 
 // Rectangles Rotary Movement ------------------------------------ /
@@ -344,20 +344,20 @@ anime.set(['.pulsestagger'],{
         var translateRect = -20;
         var translateRect2 = 300;
       anime.set(['.yellow-rect img'],{
-        translateX: -translateRect +50, 
-        translateY: 100,
+        translateX: translateRect2, 
+        translateY: 200,
       });
       anime.set(['.green-rect img'],{
         translateX: -translateRect2, 
         translateY: 200,
       });
       anime.set(['.red-rect img'],{
-        translateX: -translateRect, 
-        translateY: -100,
+        translateX: translateRect2, 
+        translateY: -200,
       });
       anime.set(['.blue-rect img'],{
-        translateX: translateRect, 
-        translateY: -100,
+        translateX: -300, 
+        translateY: -translateRect2,
       });
 
       anime.set(['.colored-rectangles img'], {
@@ -365,14 +365,19 @@ anime.set(['.pulsestagger'],{
       });   
       anime({
         targets: ['.colored-rectangles img'],
-        opacity: 1,
-        duration: 500,
-        delay: 0,
-        easing: 'linear',
+        opacity: 0.9,
+        duration: 2000,
+        delay: 4500,
+        easing: 'easeInOutSine',
       });
         
 // Get the rectangles moving 
-        var rotateDuration = 15000;
+
+// Set rotation duration 
+      var rotateDuration = 10000;
+
+
+      var rotateDelay = function() {
         anime({
           targets: ['.yellow-rect img'],
             rotate: [
@@ -381,14 +386,14 @@ anime.set(['.pulsestagger'],{
           // {value: 0, duration: 3000, endDelay: 1000},
             ],
           translateX: [
-            {value: translateRect2, duration: rotateDuration / 2},
             {value: -translateRect +50, duration: 3000},
+            {value: translateRect2, duration: rotateDuration / 2},
             ],
             translateY: [
-              {value: 200, duration: rotateDuration / 2},
               {value: 100, duration: rotateDuration / 2},
+              {value: 200, duration: rotateDuration / 2},
               ],
-          easing: 'linear',
+          easing: 'easeInOutSine',
           loop: true,
           direction: 'alternate',
         });
@@ -400,14 +405,14 @@ anime.set(['.pulsestagger'],{
           // {value: 0, duration: 3000, endDelay: 1000},
             ],
           translateX: [
-            {value: translateRect2, duration: rotateDuration / 2, endDelay: 000},
             {value: -translateRect, duration: rotateDuration /2, endDelay: 000},
+            {value: translateRect2, duration: rotateDuration / 2, endDelay: 000},
             ],
             translateY: [
-              {value: -200, duration: rotateDuration /2 , endDelay: 000},
               {value: -100, duration: rotateDuration /2, endDelay: 000},
+              {value: -200, duration: rotateDuration /2 , endDelay: 000},
               ],
-          easing: 'linear',
+          easing: 'easeInOutSine',
           loop: true,
          
         });
@@ -428,7 +433,7 @@ anime.set(['.pulsestagger'],{
               {value: 200, duration: rotateDuration /2, endDelay: 000},
              
               ],
-          easing: 'linear',
+          easing: 'easeInOutSine',
           loop: true,
          
         });
@@ -440,17 +445,20 @@ anime.set(['.pulsestagger'],{
            // {value: 0, duration: 3000, endDelay: 1000},
             ],
           translateX: [
-            {value: -300, duration: rotateDuration /2, endDelay: 0},
             {value: translateRect, duration: rotateDuration /2, endDelay: 0},
+            {value: -300, duration: rotateDuration /2, endDelay: 0},
             ],
             translateY: [
-              {value: -translateRect2, duration: rotateDuration /2, endDelay: 0},
               {value: -100, duration: rotateDuration /2, endDelay: 0},
+              {value: -translateRect2, duration: rotateDuration /2, endDelay: 0},
               ],
-          easing: 'linear',
+          easing: 'easeInOutSine',
           loop: true,
           direction: 'alternate',
         });
+      };
+
+      setTimeout(rotateDelay, 5000);
 
     
 
