@@ -18819,17 +18819,9 @@ body.home .colored-rectangles .yellow-rect {
   justify-content: flex-end;
 }
 
-body.home .colored-rectangles .yellow-rect img {
-  transform: translate(100px, 100px);
-}
-
 body.home .colored-rectangles .green-rect {
   align-items: flex-end;
   justify-content: flex-start;
-}
-
-body.home .colored-rectangles .green-rect img {
-  transform: translate(-100px, 100px);
 }
 
 body.home .colored-rectangles .red-rect {
@@ -18838,7 +18830,7 @@ body.home .colored-rectangles .red-rect {
 }
 
 body.home .colored-rectangles .red-rect img {
-  transform: translate(100px, -100px);
+  opacity: 0.9;
 }
 
 body.home .colored-rectangles .blue-rect {
@@ -18846,13 +18838,9 @@ body.home .colored-rectangles .blue-rect {
   justify-content: flex-start;
 }
 
-body.home .colored-rectangles .blue-rect img {
-  transform: translate(-100px, -100px);
-}
-
 body.home .colored-rectangles img {
   width: 90%;
-  will-change: transform;
+  will-change: "opacity, transform";
 }
 
 body.home .hero {

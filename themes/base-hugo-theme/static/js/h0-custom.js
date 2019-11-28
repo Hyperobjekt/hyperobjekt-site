@@ -121,38 +121,62 @@ anime.set(['.pulsestagger'],{
       //endDelay: delayAtEnd,
     }); 
    
+/*--------------------------------------------- */
+
 
 // NEW HOME V2
-
+    var h0delay = 3300;
 // Zoom out logo
   anime.set(['#cosmos',], {
     scale: 1.05,
   });
 
-    anime({
-      targets: ['#cosmos'],
-      keyframes: [
-        {scale: 1,  duration: 3400, easing: 'easeOutSine', endDelay: 0,},
-        {scale: 1,  duration: 2000, easing: 'easeOutSine', endDelay: 0,}
-      ]
-    })
+   
 
 
   // Animate lines appearance  
-    var polyLineDur = 2800;
-    var polyLineDelay = 300;
-    var polyLineEase = 'linear';
+  var polyLineDur = 2800;
+  var polyLineDelay = 300;
+  var polyLineEase = 'linear';
+    anime.set(['.htext'], {
+      opacity: 0
+    });
+    anime.set(['#red-path','#grey-path','#cyan-path','#purple-path',
+    '#yellow-path','#green-path','#pinkpurple-path','#orange-path',
+    '#yellow-path2','#fuchsia-path','#yellowgreen-path','#bronze-path' ], {
+      opacity: 0,
+    });
+    anime.set(['#Points'], {
+      opacity: 0,
+     });
+    
+  var lineDrawDelay = function(){
+
+    anime({
+      targets: ['#cosmos'],
+      keyframes: [
+        {scale: 1,  duration: 3400, easing: 'easeOutSine'},
+        {scale: 1,  duration: 2000, easing: 'easeOutSine', endDelay: 0,}
+      ]
+    });
 
     anime({ // grp 1
       targets: ['#red-path'],
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: polyLineEase,
-      duration: polyLineDur,
+      opacity: [
+        {value: 1, duration: 0}
+      ],
+      strokeDashoffset: [
+        {value: [anime.setDashoffset, 0],easing: polyLineEase, duration: polyLineDur,}
+      ], 
+      
       //delay: anime.stagger(60),
     });
 
     anime({ // grp 2
       targets: ['#grey-path'],
+      opacity: [
+        {value: 1, duration: 0}
+      ],
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.55,
@@ -162,15 +186,20 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#cyan-path'],
+      opacity: [
+        {value: 1, duration: 0}
+      ],
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.7,
+     
       //delay: 40,
       //delay: anime.stagger(60),
     });
 
     anime({ // grp 3
       targets: ['#purple-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.75,
@@ -180,6 +209,7 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#yellow-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.125,
@@ -189,6 +219,7 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#green-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.325,
@@ -198,6 +229,7 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#pinkpurple-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.125,
@@ -207,6 +239,7 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#orange-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.375,
@@ -216,6 +249,7 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#yellow-path2'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.075,
@@ -225,6 +259,7 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#fuchsia-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.375,
@@ -234,6 +269,7 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#yellowgreen-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.25,
@@ -243,19 +279,20 @@ anime.set(['.pulsestagger'],{
 
     anime({ // grp 3
       targets: ['#bronze-path'],
+      opacity: 1,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: polyLineEase,
       duration: polyLineDur * 0.1,
       delay: polyLineDur * 1,
       //delay: anime.stagger(60),
     });
-
+  
 // Animate text appearance ---------------------- /
 
     anime.set(['.htext'], {
       opacity: 0,
     });
-
+   
     anime({
       targets: ['.htext'],
      easing: 'linear',
@@ -264,38 +301,9 @@ anime.set(['.pulsestagger'],{
       { opacity: 0.4, duration: 300, easing: 'linear', },
     ],
      delay: anime.stagger(250),
-   
     }); 
 
-
-// Add flicker to Hyper0bjekt logo ------------------ /
-
-    var flickerDelay = function(){
-      anime({
-        targets: ['.hyper'],
-        easing: 'linear',
-        keyframes: [
-          { opacity: 0.4,  duration: 100, easing: 'linear', endDelay: 0, },
-        //  { opacity: 0.4, duration: 50, easing: 'linear', },
-        // { opacity: 0.2,  duration: 150, easing: 'linear', endDelay: 0, },
-        // { opacity: 0.6, duration: 50, easing: 'linear', },
-       //   { opacity: 0.1,  duration: 100, easing: 'linear', endDelay: 0, },
-       //   { opacity: 0.3, duration: 50, easing: 'linear', },
-       //   { opacity: 0.1,  duration: 50, easing: 'linear', endDelay: 0, },
-        //{ opacity: 0.3, duration: 50, easing: 'linear', },
-       // { opacity: 0.1,  duration: 50, easing: 'linear', endDelay: 0, },
-        //  { opacity: 0.8, duration: 100, easing: 'linear', },
-        // { opacity: 0,  duration: 50, easing: 'linear', endDelay: 0, },
-          { opacity: 1, duration: 1200, easing: 'linear', },
-        ],
-          //loop: true,
-        // direction: 'reverse',
-          delay: 100, 
-        // endDelay: delayAtEnd,
-        })
-      };
-    setTimeout(flickerDelay, 3300);
-
+     
 // Points --------------- /
     anime.set(['#Points'], {
       opacity: 0,
@@ -309,97 +317,31 @@ anime.set(['.pulsestagger'],{
       delay: 3300,
     });
 
-// Rectangles Random Movement ------------------------------------ /
-    var randomDuration = 4000;
-    var randomEase = 'easeInOutSine';
+  };
 
-// Set initial properties
+  setTimeout(lineDrawDelay, 2000);
 
-    anime.set(['.yellow-rect img'],{
-      translateX: 0, 
-      translateY: 100,
-    });
-    anime.set(['.green-rect img'],{
-      translateX: -0, 
-      translateY: 100,
-    });
-    anime.set(['.red-rect img'],{
-      translateX: 0, 
-      translateY: -100,
-    });
-    anime.set(['.blue-rect img'],{
-      translateX: -0, 
-      translateY: -100,
-    });
 
-// Random animation of rectanges
 
-    function randomValuesYellow() {
+  // Raise opacity of Hyper0bjekt logo ------------------ /
+  var raiseOpacity = function(){
       anime({
-        targets: ['.yellow-rect img'],
-        translateX: function() {
-          return anime.random(100, 40);
-        },
-        translateY: function() {
-          return anime.random(100, 40);
-        },
+        targets: ['.htext'],
         easing: 'linear',
-        duration: randomDuration,
-        complete: randomValuesYellow,
-        });
-      }
-      //randomValuesYellow(); 
+        keyframes: [
+          { opacity: 0.4,  duration: 100, easing: 'linear', endDelay: 0, },
+          { opacity: 1, duration: 1200, easing: 'linear', },
+        ],
+         // delay: 3000, 
+        }); 
+      };
+    setTimeout(raiseOpacity, 6600);  
 
-      function randomValuesGreen() {
-        anime({
-          targets: ['.green-rect img'],
-          translateX: function() {
-            return anime.random(-100, -40);
-          },
-          translateY: function() {
-            return anime.random(100, 40);
-          },
-          easing: 'linear',
-          duration: randomDuration,
-          complete: randomValuesGreen,
-          });
-        }
-      // randomValuesGreen();
 
-      function randomValuesRed() {
-        anime({
-          targets: ['.red-rect img'],
-          translateX: function() {
-            return anime.random(100, 40);
-          },
-          translateY: function() {
-            return anime.random(-100, -40);
-          },
-          easing: 'linear',
-          duration: randomDuration,
-          complete: randomValuesRed,
-          });
-        }
-         //randomValuesRed(); 
-    
-      function randomValuesBlue() {
-        anime({
-          targets: ['.blue-rect img'],
-          translateX: function() {
-            return anime.random(-100, -40);
-          },
-          translateY: function() {
-            return anime.random(-100, -40);
-          },
-          easing: 'linear',
-          duration: randomDuration,
-          complete: randomValuesBlue,
-          });
-        };
-    //randomValuesBlue(); 
+// Rectangles Rotary Movement ------------------------------------ /
 
 // Set initial properties
-        var translateRect = 0;
+        var translateRect = -20;
         var translateRect2 = 300;
       anime.set(['.yellow-rect img'],{
         translateX: -translateRect +50, 
@@ -418,8 +360,18 @@ anime.set(['.pulsestagger'],{
         translateY: -100,
       });
 
-
-// Rectangles Rotary Movement ------------------------------------ /
+      anime.set(['.colored-rectangles img'], {
+        opacity: 0,
+      });   
+      anime({
+        targets: ['.colored-rectangles img'],
+        opacity: 1,
+        duration: 500,
+        delay: 0,
+        easing: 'linear',
+      });
+        
+// Get the rectangles moving 
         var rotateDuration = 15000;
         anime({
           targets: ['.yellow-rect img'],
@@ -497,47 +449,10 @@ anime.set(['.pulsestagger'],{
           loop: true,
           direction: 'alternate',
         });
-       
 
-   /*  anime.set(['#color-rectangles'], {
-      //opacity: 0,
-    });
-      anime({
-        targets: '#blue-rectangle',
-        translateX: -40,
-        keyframes: [
-          {translateY: 20, duration: 3000, easing: 'linear',},
-          {translateY: -20, duration: 3000, easing: 'linear',},
-        ],
-        easing: 'linear',
-        duration: 3000,
-        loop: true,
-        direction: 'alternate',  
-          });
-        anime({
-        targets: '#green-rectangle',
-        translateX: 10,
-        translateY: 10,
-        easing: 'linear',
-        duration: 5000,
-        loop: true,
-        direction: 'alternate',  
-          });  
-        anime({
-          targets: '#yellow-rectangle',
-          translateX: 20,
-          translateY: 10,
-          easing: 'linear',
-          duration: 5000,
-          loop: true,
-          direction: 'alternate',  
-            });     
-       /* anime({
-          targets: '#color-rectangles',
-          opacity: 1,
-          duration: 4000,
-          delay: 5000,
-        });   */ 
+    
+
+   
 
 
 

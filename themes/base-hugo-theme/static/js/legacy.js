@@ -448,3 +448,92 @@ anime.set(['.htext', '.htext2'], {
     delay: anime.stagger(60), 
    // endDelay: delayAtEnd,
   });       
+
+  // Rectangles Random Movement ------------------------------------ /
+  var randomDuration = 4000;
+  var randomEase = 'easeInOutSine';
+
+// Set initial properties
+
+  anime.set(['.yellow-rect img'],{
+    translateX: 0, 
+    translateY: 100,
+  });
+  anime.set(['.green-rect img'],{
+    translateX: -0, 
+    translateY: 100,
+  });
+  anime.set(['.red-rect img'],{
+    translateX: 0, 
+    translateY: -100,
+  });
+  anime.set(['.blue-rect img'],{
+    translateX: -0, 
+    translateY: -100,
+  });
+
+// Random animation of rectanges
+
+  function randomValuesYellow() {
+    anime({
+      targets: ['.yellow-rect img'],
+      translateX: function() {
+        return anime.random(100, 40);
+      },
+      translateY: function() {
+        return anime.random(100, 40);
+      },
+      easing: 'linear',
+      duration: randomDuration,
+      complete: randomValuesYellow,
+      });
+    }
+    //randomValuesYellow(); 
+
+    function randomValuesGreen() {
+      anime({
+        targets: ['.green-rect img'],
+        translateX: function() {
+          return anime.random(-100, -40);
+        },
+        translateY: function() {
+          return anime.random(100, 40);
+        },
+        easing: 'linear',
+        duration: randomDuration,
+        complete: randomValuesGreen,
+        });
+      }
+    // randomValuesGreen();
+
+    function randomValuesRed() {
+      anime({
+        targets: ['.red-rect img'],
+        translateX: function() {
+          return anime.random(100, 40);
+        },
+        translateY: function() {
+          return anime.random(-100, -40);
+        },
+        easing: 'linear',
+        duration: randomDuration,
+        complete: randomValuesRed,
+        });
+      }
+       //randomValuesRed(); 
+  
+    function randomValuesBlue() {
+      anime({
+        targets: ['.blue-rect img'],
+        translateX: function() {
+          return anime.random(-100, -40);
+        },
+        translateY: function() {
+          return anime.random(-100, -40);
+        },
+        easing: 'linear',
+        duration: randomDuration,
+        complete: randomValuesBlue,
+        });
+      };
+  //randomValuesBlue(); 
