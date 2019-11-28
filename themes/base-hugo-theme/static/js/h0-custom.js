@@ -348,8 +348,8 @@ anime.set(['.pulsestagger'],{
         translateY: 100,
       });
       anime.set(['.green-rect img'],{
-        translateX: translateRect, 
-        translateY: 100,
+        translateX: -translateRect2, 
+        translateY: 200,
       });
       anime.set(['.red-rect img'],{
         translateX: -translateRect, 
@@ -419,12 +419,14 @@ anime.set(['.pulsestagger'],{
            // {value: 0, duration: 3000, endDelay: 1000},
             ],
           translateX: [
-            {value: -translateRect2, duration: rotateDuration / 2, endDelay: 000},
             {value: translateRect, duration: rotateDuration /2, endDelay: 000},
+            {value: -translateRect2, duration: rotateDuration / 2, endDelay: 000},
+           
             ],
             translateY: [
-              {value: 200, duration: rotateDuration /2, endDelay: 000},
               {value: 100, duration: rotateDuration /2, endDelay: 000},
+              {value: 200, duration: rotateDuration /2, endDelay: 000},
+             
               ],
           easing: 'linear',
           loop: true,
