@@ -131,8 +131,6 @@ anime.set(['.pulsestagger'],{
     scale: 1.05,
   });
 
-   
-
 
   // Animate lines appearance  
   var polyLineDur = 2800;
@@ -337,128 +335,199 @@ anime.set(['.pulsestagger'],{
       };
     setTimeout(raiseOpacity, 3300);  
 
+    // Rectangles start and move to center
+
+      anime.set(['.yellow-rect img'],{
+        translateX: 150, 
+        translateY: 180,
+        rotate: -90,
+        scale: 1,
+      });
+      anime.set(['.red-rect img'],{
+        translateX: 250, 
+        translateY: -240,
+        rotate: 90,
+      });
+      anime.set(['.green-rect img'],{
+        translateX: -250, 
+        translateY: 130,
+        rotate: -90,
+        scale: 0.8,
+       });
+      anime.set(['.blue-rect img'],{
+        translateX: -200, 
+        translateY: -200,
+        rotate: 90,
+        scale: 0.9,
+      });
 
 // Rectangles Rotary Movement ------------------------------------ /
 
 // Set initial properties
         var translateRect = -20;
-        var translateRect2 = 300;
-      anime.set(['.yellow-rect img'],{
-        translateX: translateRect2, 
-        translateY: 200,
-      });
-      anime.set(['.green-rect img'],{
-        translateX: -translateRect2, 
-        translateY: 200,
-      });
-      anime.set(['.red-rect img'],{
-        translateX: translateRect2, 
-        translateY: -200,
-      });
-      anime.set(['.blue-rect img'],{
-        translateX: -300, 
-        translateY: -translateRect2,
-      });
-
-      anime.set(['.colored-rectangles img'], {
-        opacity: 0,
-      });   
-      anime({
-        targets: ['.colored-rectangles img'],
-        opacity: 0.9,
-        duration: 2000,
-        delay: 4500,
-        easing: 'easeInOutSine',
-      });
+        var translateRect2 = 250;
         
-// Get the rectangles moving 
+// Get the rectangles moving ------------------------ /
 
 // Set rotation duration 
       var rotateDuration = 10000;
 
+// Rotary animation
+   /* function randomValues() {
+      anime({
+        targets: '.colored-rectangles img',
+        translateX: function() {
+          return anime.random(0, 270);
+        },
+        easing: 'easeInOutQuad',
+        duration: 5000,
+        complete: randomValues,
+        loop: true,
+      });
+    } */
 
-      var rotateDelay = function() {
+   // randomValues();
+   var rectEasing = 'easeInOutSine';
+    var yellow1 = function() {
         anime({
           targets: ['.yellow-rect img'],
-            rotate: [
-            {value: -180, duration: rotateDuration,
-            },
-          // {value: 0, duration: 3000, endDelay: 1000},
-            ],
           translateX: [
-            {value: -translateRect +50, duration: 3000},
-            {value: translateRect2, duration: rotateDuration / 2},
+            {value: translateRect2, duration: rotateDuration / 2,},
             ],
             translateY: [
-              {value: 100, duration: rotateDuration / 2},
               {value: 200, duration: rotateDuration / 2},
               ],
-          easing: 'easeInOutSine',
+              rotate: {value: 90, duration: rotateDuration},  
+            easing: 'linear',
+        }); 
+      };
+    //  setTimeout(yellow1, 3000);
+      
+      var yellow2 = function randomValues() {
+        anime({
+          targets: '.yellow-rect img',
+          rotate: function() {
+            return anime.random(270, -270);
+          },
           loop: true,
+          easing: rectEasing,
           direction: 'alternate',
+          translateX: function() {
+            return anime.random(170, 130);
+          },
+          complete: randomValues,
+          duration: rotateDuration,
         });
+      };
+      setTimeout(yellow2, 500);
+
+      var red1 = function() {
         anime({
           targets: ['.red-rect img'],
-            rotate: [
-            {value: -180, duration: rotateDuration, endDelay: 000,
-            },
-          // {value: 0, duration: 3000, endDelay: 1000},
-            ],
           translateX: [
-            {value: -translateRect, duration: rotateDuration /2, endDelay: 000},
             {value: translateRect2, duration: rotateDuration / 2, endDelay: 000},
             ],
             translateY: [
-              {value: -100, duration: rotateDuration /2, endDelay: 000},
               {value: -200, duration: rotateDuration /2 , endDelay: 000},
               ],
-          easing: 'easeInOutSine',
-          loop: true,
-         
+          rotate: {value: 0, duration: rotateDuration},    
+          easing: 'linear',
         });
+      };
+    //  setTimeout(red1, 3000);
+
+      var red2 = function randomValues2() {
+        anime({
+          targets: ['.red-rect img'],
+          rotate: function () {
+            return anime.random(-270, 270);
+          },
+          loop: true,
+          direction: 'alternate',
+          easing: rectEasing,
+          duration: rotateDuration,
+          translateX: function() {
+            return anime.random(200, 300);
+          },
+          complete: randomValues2,
+        });
+      };
+      setTimeout(red2, 0);
+
+      var green1 = function() {
         anime({
           targets: ['.green-rect img'],
-            rotate: [
-            {value: 180, duration: rotateDuration, endDelay: 000,
-            },
-           // {value: 0, duration: 3000, endDelay: 1000},
-            ],
           translateX: [
-            {value: translateRect, duration: rotateDuration /2, endDelay: 000},
             {value: -translateRect2, duration: rotateDuration / 2, endDelay: 000},
-           
             ],
             translateY: [
-              {value: 100, duration: rotateDuration /2, endDelay: 000},
               {value: 200, duration: rotateDuration /2, endDelay: 000},
-             
               ],
-          easing: 'easeInOutSine',
+          rotate: {value: 0, duration: rotateDuration},    
+          easing: 'linear',
           loop: true,
-         
+          direction: 'alternate',  
         });
+      }
+    //  setTimeout(green1, 3000);
+
+      var green2 = function randomValues3() {
+        anime({
+          targets: ['.green-rect img'],
+          rotate: function () {
+            return anime.random(-270, 270);
+          },
+          duration: rotateDuration,
+          loop: true,
+          easing: rectEasing,
+          direction: 'alternate',
+          translateX: function() {
+            return anime.random(-300, -200)
+          },
+          complete: randomValues3,
+        });
+      }
+      setTimeout(green2, 2000);
+       
+      var blue1 = function() {
         anime({
           targets: ['.blue-rect img'],
-            rotate: [
-            {value: 180, duration: rotateDuration, endDelay: 000,
-            },
-           // {value: 0, duration: 3000, endDelay: 1000},
-            ],
           translateX: [
-            {value: translateRect, duration: rotateDuration /2, endDelay: 0},
             {value: -300, duration: rotateDuration /2, endDelay: 0},
             ],
             translateY: [
-              {value: -100, duration: rotateDuration /2, endDelay: 0},
               {value: -translateRect2, duration: rotateDuration /2, endDelay: 0},
               ],
-          easing: 'easeInOutSine',
-          loop: true,
-          direction: 'alternate',
+          rotate: {value: 0, duration: rotateDuration},    
+        
+        //  loop: true,
+        //  direction: 'alternate',
+          easing: 'easeOutQuart',
         });
-      };
+      }
+  //    setTimeout(blue1, 3000);
 
-      setTimeout(rotateDelay, 5000);
+      var blue2 = function randomValues4() {
+        anime({
+          targets: ['.blue-rect img'],
+          rotate: function () {
+            return anime.random(-270, 180);
+          },
+            duration: rotateDuration,
+            loop: true,
+            direction: 'alternate',
+            easing: rectEasing,
+            translateX: function() {
+              return(-220, -200)
+            },
+            complete: randomValues4,
+          });
+      }
+      setTimeout(blue2, 2500);
+
+        
+      
+
 
     
 

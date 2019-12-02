@@ -18851,7 +18851,6 @@ body.home .hero {
 
 body.home .hero svg {
   max-width: 100%;
-  position: absolute;
 }
 
 body.home .hero #color-rects {

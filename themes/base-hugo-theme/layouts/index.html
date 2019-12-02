@@ -2,8 +2,8 @@
 
 
 <div class="colored-rectangles row">
-    <div class="col-6 h-50 pr-0 yellow-rect d-flex">
-        <img src="/images/yellow-rect.png" />
+    <div id="yellow-rect" class="col-6 h-50 pr-0 yellow-rect d-flex">
+        <img class="y-rect-img" src="/images/yellow-rect.png" />
     </div>
     <div class="col-6 h-50 pr-0 green-rect d-flex">
         <img src="/images/green-rect.png" />
@@ -17,9 +17,11 @@
 </div>    
 
 <div id="hero" class="row mx-0 d-flex align-items-center justify-content-center hero dkbluebg" style="">
-        <div class="h0-logo col mx-auto d-flex justify-content-center align-items-center">    
+        <div class="h0-logo col mx-auto d-flex flex-column justify-content-center align-items-center">    
                 {{ partial "h0screenv4-1" }}
+                {{ partial "subtext" }}
             </div> 
+            
 </div>
    
 
