@@ -14,15 +14,10 @@ body.home {
         position: absolute;
         width: 100%;
         height: 90vh;
-        overflow: hidden;
+       // overflow: hidden;
         .yellow-rect {
             align-items: flex-end;
             justify-content: flex-end;
-            @include media-breakpoint-up(md) {
-                position: relative;
-                top: unset;
-                left: unset;
-            }
         } 
         .green-rect {
             align-items: flex-end;

@@ -18813,20 +18813,11 @@ body.home .colored-rectangles {
   position: absolute;
   width: 100%;
   height: 90vh;
-  overflow: hidden;
 }
 
 body.home .colored-rectangles .yellow-rect {
   align-items: flex-end;
   justify-content: flex-end;
-}
-
-@media (min-width: 768px) {
-  body.home .colored-rectangles .yellow-rect {
-    position: relative;
-    top: unset;
-    left: unset;
-  }
 }
 
 body.home .colored-rectangles .green-rect {
