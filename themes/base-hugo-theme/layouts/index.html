@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 
-<div class="colored-rectangles row">
+<div class="colored-rectangles rect-md d-none d-md-block row">
     <div id="yellow-rect" class="col-6 h-50 pr-0 yellow-rect d-flex">
         <img class="y-rect-img" src="/images/yellow-rect.png" />
     </div>
@@ -14,10 +14,24 @@
     <div class="col-6 blue-rect h-50 pl-0 d-flex">   
         <img src="/images/blue-rect.png" />
     </div> 
+</div> 
+<div class="colored-rectangles rect-sm d-block d-md-none row">
+    <div class="col-12 h-50 pr-0 yellow-rect">
+        <img class="y-rect-img" src="/images/yellow-rect.png" />
+    </div>
+    <div class="col-12 h-50 pr-0 green-rect">
+        <img src="/images/green-rect.png" />
+    </div>    
+    <div class="col-12 red-rect h-50 pr-0">   
+        <img src="/images/red-rect.png" />
+    </div>    
+    <div class="col-12 blue-rect h-50 pl-0">   
+        <img src="/images/blue-rect.png" />
+    </div> 
 </div>    
 
 <div id="hero" class="row mx-0 d-flex align-items-center justify-content-center hero dkbluebg" style="">
-        <div class="h0-logo col mx-auto d-flex flex-column justify-content-center align-items-center">    
+        <div class="h0-logo col-12 col-md-8 col-lg-12 mx-auto d-flex flex-column justify-content-center align-items-center">    
                 {{ partial "h0screenv4-1" }}
                 {{ partial "subtext" }}
             </div> 

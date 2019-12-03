@@ -296,11 +296,25 @@ anime.set(['.pulsestagger'],{
      easing: 'linear',
      keyframes: [
       { opacity: 0,  duration: 460, easing: 'linear', endDelay: 0, },
-      { opacity: 0.4, duration: 300, easing: 'linear', },
+      { opacity: 0.7, duration: 300, easing: 'linear', },
     ],
      delay: anime.stagger(250),
     }); 
 
+ // Raise opacity of Hyper0bjekt logo ------------------ /
+
+    var raiseOpacity = function(){
+      anime({
+        targets: ['.htext'],
+        easing: 'linear',
+        keyframes: [
+          { opacity: 0.7,  duration: 100, easing: 'linear', endDelay: 0, },
+          { opacity: 1, duration: 1200, easing: 'linear', },
+        ],
+        // delay: 3000, 
+        }); 
+      };
+    setTimeout(raiseOpacity, 3300);  
      
 // Points --------------- /
     anime.set(['#Points'], {
@@ -321,45 +335,56 @@ anime.set(['.pulsestagger'],{
 
 
 
-  // Raise opacity of Hyper0bjekt logo ------------------ /
-  var raiseOpacity = function(){
+// Rectangles ----------------------------------/
+
+ // Rectangles starting values
+
+    anime.set(['.rect-md .yellow-rect img'],{ // Just apply these on desktop
+      translateX: 200, 
+      translateY: 160,
+    });
+    anime.set(['.yellow-rect img'],{ // Apply to all breakpoints
+      rotate: -90,
+      scale: 0.9,
+      opacity: 0,
+    });
+    anime.set(['.rect-md .red-rect img'],{
+      translateX: 250, 
+      translateY: -240,
+    });
+    anime.set(['.red-rect img'],{
+      rotate: -90,
+      scale: 0.9,
+      opacity: 0,
+    });
+    anime.set(['.rect-md .green-rect img'],{
+      translateX: -250, 
+      translateY: 130,
+    });
+    anime.set(['.green-rect img'],{
+      rotate: -90,
+      scale: 0.7,
+      opacity: 0,
+    });
+    anime.set(['.rect-md .blue-rect img'],{
+      translateX: -200, 
+      translateY: -200,
+    });
+    anime.set(['.rect-md .blue-rect img'],{
+      rotate: -90,
+      scale: 0.8,
+      opacity: 0,
+    });
+
+// Opacity
+
       anime({
-        targets: ['.htext'],
+        targets: ['.yellow-rect img','.red-rect img', '.green-rect img', '.blue-rect img',],
+        opacity: 0.9,
+        delay: 000, //anime.stagger(500),
+        duration: 2000,
         easing: 'linear',
-        keyframes: [
-          { opacity: 0.4,  duration: 100, easing: 'linear', endDelay: 0, },
-          { opacity: 1, duration: 1200, easing: 'linear', },
-        ],
-         // delay: 3000, 
-        }); 
-      };
-    setTimeout(raiseOpacity, 3300);  
-
-    // Rectangles start and move to center
-
-      anime.set(['.yellow-rect img'],{
-        translateX: 150, 
-        translateY: 180,
-        rotate: -90,
-        scale: 1,
-      });
-      anime.set(['.red-rect img'],{
-        translateX: 250, 
-        translateY: -240,
-        rotate: 90,
-      });
-      anime.set(['.green-rect img'],{
-        translateX: -250, 
-        translateY: 130,
-        rotate: -90,
-        scale: 0.8,
-       });
-      anime.set(['.blue-rect img'],{
-        translateX: -200, 
-        translateY: -200,
-        rotate: 90,
-        scale: 0.9,
-      });
+      })
 
 // Rectangles Rotary Movement ------------------------------------ /
 
@@ -369,164 +394,174 @@ anime.set(['.pulsestagger'],{
         
 // Get the rectangles moving ------------------------ /
 
-// Set rotation duration 
-      var rotateDuration = 10000;
-
-// Rotary animation
-   /* function randomValues() {
-      anime({
-        targets: '.colored-rectangles img',
-        translateX: function() {
-          return anime.random(0, 270);
-        },
-        easing: 'easeInOutQuad',
-        duration: 5000,
-        complete: randomValues,
-        loop: true,
-      });
-    } */
-
+// Set rotation duration and easing
+      var rotateDuration = 16000;
+      var rectEasing = 'linear';
+      var timeOut = 0;
+      var timeOutAdd = 500;
+      var timeOutAdd2 = 500;
+      var timeoutAdd3 = 500;
    // randomValues();
-   var rectEasing = 'easeInOutSine';
-    var yellow1 = function() {
-        anime({
-          targets: ['.yellow-rect img'],
-          translateX: [
-            {value: translateRect2, duration: rotateDuration / 2,},
-            ],
-            translateY: [
-              {value: 200, duration: rotateDuration / 2},
-              ],
-              rotate: {value: 90, duration: rotateDuration},  
-            easing: 'linear',
-        }); 
-      };
-    //  setTimeout(yellow1, 3000);
+  
+
       
       var yellow2 = function randomValues() {
         anime({
           targets: '.yellow-rect img',
-          rotate: function() {
-            return anime.random(270, -270);
-          },
+          rotate: 270,
           loop: true,
           easing: rectEasing,
-          direction: 'alternate',
+          //direction: 'alternate',
           translateX: function() {
-            return anime.random(170, 130);
+            //return anime.random(170, 130);
           },
           complete: randomValues,
           duration: rotateDuration,
         });
       };
-      setTimeout(yellow2, 500);
+      setTimeout(yellow2, timeOut);
 
-      var red1 = function() {
-        anime({
-          targets: ['.red-rect img'],
-          translateX: [
-            {value: translateRect2, duration: rotateDuration / 2, endDelay: 000},
-            ],
-            translateY: [
-              {value: -200, duration: rotateDuration /2 , endDelay: 000},
-              ],
-          rotate: {value: 0, duration: rotateDuration},    
-          easing: 'linear',
-        });
-      };
-    //  setTimeout(red1, 3000);
+    
 
       var red2 = function randomValues2() {
         anime({
           targets: ['.red-rect img'],
-          rotate: function () {
-            return anime.random(-270, 270);
-          },
+          rotate: 270,
           loop: true,
-          direction: 'alternate',
+          //direction: 'alternate',
           easing: rectEasing,
-          duration: rotateDuration,
+          duration: rotateDuration / 2,
           translateX: function() {
-            return anime.random(200, 300);
+           // return anime.random(200, 300);
           },
           complete: randomValues2,
         });
       };
-      setTimeout(red2, 0);
+      setTimeout(red2, timeOut + timeOutAdd);
 
-      var green1 = function() {
-        anime({
-          targets: ['.green-rect img'],
-          translateX: [
-            {value: -translateRect2, duration: rotateDuration / 2, endDelay: 000},
-            ],
-            translateY: [
-              {value: 200, duration: rotateDuration /2, endDelay: 000},
-              ],
-          rotate: {value: 0, duration: rotateDuration},    
-          easing: 'linear',
-          loop: true,
-          direction: 'alternate',  
-        });
-      }
-    //  setTimeout(green1, 3000);
+   
 
       var green2 = function randomValues3() {
         anime({
           targets: ['.green-rect img'],
-          rotate: function () {
-            return anime.random(-270, 270);
-          },
+          rotate: 270,
           duration: rotateDuration,
           loop: true,
           easing: rectEasing,
-          direction: 'alternate',
+          //direction: 'alternate',
           translateX: function() {
-            return anime.random(-300, -200)
+            //return anime.random(-300, -200)
           },
           complete: randomValues3,
         });
       }
-      setTimeout(green2, 2000);
+      setTimeout(green2, timeOut + timeOutAdd2);
        
-      var blue1 = function() {
-        anime({
-          targets: ['.blue-rect img'],
-          translateX: [
-            {value: -300, duration: rotateDuration /2, endDelay: 0},
-            ],
-            translateY: [
-              {value: -translateRect2, duration: rotateDuration /2, endDelay: 0},
-              ],
-          rotate: {value: 0, duration: rotateDuration},    
-        
-        //  loop: true,
-        //  direction: 'alternate',
-          easing: 'easeOutQuart',
-        });
-      }
-  //    setTimeout(blue1, 3000);
+  
 
       var blue2 = function randomValues4() {
         anime({
           targets: ['.blue-rect img'],
-          rotate: function () {
-            return anime.random(-270, 180);
+          rotate: 270,
+          duration: rotateDuration / 2,
+          loop: true,
+          //direction: 'alternate',
+          easing: rectEasing,
+          translateX: function() {
+            //return(-220, -200)
           },
-            duration: rotateDuration,
-            loop: true,
-            direction: 'alternate',
-            easing: rectEasing,
-            translateX: function() {
-              return(-220, -200)
-            },
-            complete: randomValues4,
+          complete: randomValues4,
           });
       }
-      setTimeout(blue2, 2500);
+      setTimeout(blue2, timeOut + timeoutAdd3);
 
-        
+// Animate subtext 
+
       
+      anime.set(['#hero-subtext'], {
+        // opacity: 0,
+       });
+       anime.set(['#web'], {
+        translateX: -200,
+        translateY: 13.897
+      });
+      anime.set(['#graphic'], {
+        translateX: -200,
+        translateY: 22.897,
+      });
+      anime.set(['#data'], {
+        translateX: -200,
+        translateY: 31.897,
+      });
+      anime.set(['#design'], {
+        translateX: 200,
+        translateY: 22.897,
+      });
+      anime.set(['#visualization'], {
+        translateX: 200,
+        translateY: 31.897,
+      });
+      anime.set(['#subtext-line'], {
+        translateX: 0,
+        translateY: 50,
+      });
+
+    var subtextTiming = function() {  
+      
+      var subTextEasing = 'spring(1,100,50,0)';
+      var subTextDelay = 600;
+      var subTextDuration = 1400;  
+     
+      anime({
+        targets: '#web',
+        translateX: 9.233,
+        duration: subTextDuration,
+        delay: 0,
+        easing: subTextEasing,
+      });
+     
+      anime({
+        targets: '#graphic',
+        translateX: 0.364,
+        duration: subTextDuration,
+        delay: subTextDelay,
+        easing: subTextEasing,
+      });
+     
+      anime({
+        targets: '#data',
+        translateX: 8.75,
+        duration: subTextDuration,
+        delay: subTextDelay + 300,
+        easing: subTextEasing,
+      });
+
+      anime({
+        targets: '#design',
+        translateX: 31.294,
+        duration: subTextDuration,
+        delay: subTextDelay - 300,
+        easing: subTextEasing,
+      });
+      
+      anime({
+        targets: '#visualization',
+        translateX: 31.056,
+        duration: subTextDuration,
+        delay: subTextDelay * 2,
+        easing: subTextEasing,
+      });
+
+      anime({
+        targets: '#subtext-line',
+        translateY: 0,
+        duration: subTextDuration,
+        delay: subTextDelay + 1000,
+        easing: 'easeOutSine',
+      });
+
+    };
+    setTimeout(subtextTiming, 3800);  
 
 
     

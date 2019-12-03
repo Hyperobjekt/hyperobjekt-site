@@ -748,7 +748,7 @@ body.home {
     
 
     svg {
-       display: none;
+       display: block;
      @include media-breakpoint-up(md) {
        display: block;
      }
