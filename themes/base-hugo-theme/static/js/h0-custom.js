@@ -357,7 +357,7 @@ anime.set(['.pulsestagger'],{
     });
     anime.set(['.rect-md .green-rect img'],{
       scale: 0.3,
-      translateX: '6%',
+      translateX: '10%',
     });
     anime.set(['.green-rect img'],{
       rotate: -90,
@@ -376,7 +376,7 @@ anime.set(['.pulsestagger'],{
 
       anime({
         targets: ['.yellow-rect img','.red-rect img', '.green-rect img', '.blue-rect img',],
-        opacity: 0.9,
+        opacity: 0.8,
         delay: 000, //anime.stagger(500),
         duration: 2000,
         easing: 'linear',
