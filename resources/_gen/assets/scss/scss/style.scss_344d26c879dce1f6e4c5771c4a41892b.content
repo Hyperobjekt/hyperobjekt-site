@@ -18811,30 +18811,25 @@ body.home .colored-rectangles {
   position: absolute;
   width: 100%;
   height: 90vh;
-}
-
-body.home .colored-rectangles .yellow-rect {
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-body.home .colored-rectangles .green-rect {
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-
-body.home .colored-rectangles .red-rect {
-  align-items: flex-start;
-  justify-content: flex-end;
-}
-
-body.home .colored-rectangles .red-rect img {
-  opacity: 0.9;
-}
-
-body.home .colored-rectangles .blue-rect {
-  align-items: flex-start;
-  justify-content: flex-start;
+  /* .yellow-rect {
+            align-items: flex-end;
+            justify-content: flex-end;
+        } 
+        .green-rect {
+            align-items: flex-end;
+            justify-content: flex-start;
+        }
+        .red-rect {
+            align-items: flex-start;
+            justify-content: flex-end;
+            img {
+                opacity: 0.9;
+            }
+        } 
+        .blue-rect {
+            align-items: flex-start;
+            justify-content: flex-start;   
+        } */
 }
 
 body.home .colored-rectangles img {
@@ -18842,10 +18837,10 @@ body.home .colored-rectangles img {
   will-change: "opacity, transform";
 }
 
-body.home .colored-rectangles.rect-sm .col-12 {
+body.home .colored-rectangles .col-12 {
   position: absolute;
-  top: 7%;
-  left: 2%;
+  top: -10vh;
+  left: 9%;
 }
 
 body.home .hero {

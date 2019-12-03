@@ -340,39 +340,35 @@ anime.set(['.pulsestagger'],{
  // Rectangles starting values
 
     anime.set(['.rect-md .yellow-rect img'],{ // Just apply these on desktop
-      translateX: 200, 
-      translateY: 160,
+     scale: 0.5,
+     translateX: '-9%',
     });
     anime.set(['.yellow-rect img'],{ // Apply to all breakpoints
       rotate: -90,
-      scale: 0.9,
       opacity: 0,
     });
     anime.set(['.rect-md .red-rect img'],{
-      translateX: 250, 
-      translateY: -240,
+      scale: 0.45,
+      translateX: '-4%',
     });
     anime.set(['.red-rect img'],{
       rotate: -90,
-      scale: 0.9,
       opacity: 0,
     });
     anime.set(['.rect-md .green-rect img'],{
-      translateX: -250, 
-      translateY: 130,
+      scale: 0.3,
+      translateX: '6%',
     });
     anime.set(['.green-rect img'],{
       rotate: -90,
-      scale: 0.7,
       opacity: 0,
     });
     anime.set(['.rect-md .blue-rect img'],{
-      translateX: -200, 
-      translateY: -200,
+      scale: 0.4,
+      translateX: '17%',
     });
-    anime.set(['.rect-md .blue-rect img'],{
+    anime.set(['.blue-rect img'],{
       rotate: -90,
-      scale: 0.8,
       opacity: 0,
     });
 
