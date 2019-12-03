@@ -18805,7 +18805,6 @@ body.pulsetest .hero {
 
 body.home {
   background-color: #021029;
-  overflow: hidden;
 }
 
 body.home .colored-rectangles {
