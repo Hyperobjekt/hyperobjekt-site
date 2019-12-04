@@ -914,6 +914,15 @@ body.home {
 
 
 .row {
+  &.about-us {
+    .personnel {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left center;
+      border-right: 32px solid #fff;
+      min-height: 300px;
+    }
+  }
   &.projects {
     background-color: #021029;
     color: #fff;
