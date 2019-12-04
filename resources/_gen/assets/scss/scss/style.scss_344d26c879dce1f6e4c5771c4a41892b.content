@@ -17970,8 +17970,14 @@ body.home #main {
 }
 
 .row.projects .project1, .row.projects .project2, .row.projects .project3, .row.projects .project4 {
-  height: 420px;
+  height: 340px;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .row.projects .project1, .row.projects .project2, .row.projects .project3, .row.projects .project4 {
+    height: 420px;
+  }
 }
 
 .row.projects .project1 a, .row.projects .project2 a, .row.projects .project3 a, .row.projects .project4 a {

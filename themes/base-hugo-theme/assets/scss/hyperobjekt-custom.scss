@@ -934,7 +934,10 @@ body.home {
       top: -1px;
     }
     .project1, .project2, .project3, .project4 {
-      height: 420px;
+      height: 340px;
+      @include media-breakpoint-up(md) {
+        height: 420px;
+      }
       width: 100%;
       a {
         position: absolute;
