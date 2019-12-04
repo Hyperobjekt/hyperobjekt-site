@@ -17944,6 +17944,14 @@ body.home #main {
   background-color: #ffffff;
 }
 
+.row.about-us .personnel {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-right: 32px solid #fff;
+  min-height: 300px;
+}
+
 .row.projects {
   background-color: #021029;
   color: #fff;
