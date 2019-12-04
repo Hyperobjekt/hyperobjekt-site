@@ -918,7 +918,10 @@ body.home {
     .personnel {
       background-size: contain;
       background-repeat: no-repeat;
-      background-position: left center;
+      background-position: center center;
+      @include media-breakpoint-up(md) {
+        background-position: left center;
+      }
       border-right: 32px solid #fff;
       min-height: 300px;
     }

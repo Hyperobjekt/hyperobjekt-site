@@ -17947,9 +17947,15 @@ body.home #main {
 .row.about-us .personnel {
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center center;
   border-right: 32px solid #fff;
   min-height: 300px;
+}
+
+@media (min-width: 768px) {
+  .row.about-us .personnel {
+    background-position: left center;
+  }
 }
 
 .row.projects {
@@ -18876,13 +18882,31 @@ body.home .colored-rectangles .col-12 {
 }
 
 body.home .hero {
-  height: 90vh;
+  height: 290px;
   width: 100%;
   overflow: auto;
 }
 
+@media (min-width: 768px) {
+  body.home .hero {
+    height: 90vh;
+  }
+}
+
 body.home .hero svg {
   max-width: 100%;
+}
+
+body.home .hero svg#subtext {
+  width: 360px !important;
+  height: 160px !important;
+}
+
+@media (min-width: 768px) {
+  body.home .hero svg#subtext {
+    width: 320px !important;
+    height: 110px !important;
+  }
 }
 
 body.home .hero #color-rects {
