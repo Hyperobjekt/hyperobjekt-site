@@ -136,6 +136,25 @@ anime.set(['.pulsestagger'],{
   var polyLineDur = 2800;
   var polyLineDelay = 300;
   var polyLineEase = 'linear';
+    
+    
+var mq = window.matchMedia( "(max-width: 767px)" );
+if (mq.matches) {
+    // window width is at less than 767px
+    anime.set(['.htext'], {
+      opacity: 1
+    });
+    anime.set(['#red-path','#grey-path','#cyan-path','#purple-path',
+    '#yellow-path','#green-path','#pinkpurple-path','#orange-path',
+    '#yellow-path2','#fuchsia-path','#yellowgreen-path','#bronze-path' ], {
+      opacity: 1,
+    });
+    anime.set(['#Points'], {
+      opacity: 1,
+     });
+}
+else {
+    // window width is greater than 767px
     anime.set(['.htext'], {
       opacity: 0
     });
@@ -147,7 +166,7 @@ anime.set(['.pulsestagger'],{
     anime.set(['#Points'], {
       opacity: 0,
      });
-    
+
   var lineDrawDelay = function(){
 
     anime({
@@ -333,6 +352,7 @@ anime.set(['.pulsestagger'],{
 
   setTimeout(lineDrawDelay, 00);
 
+  } // End of media query conditional
 
 
 // Rectangles ----------------------------------/
@@ -473,7 +493,11 @@ anime.set(['.pulsestagger'],{
 
 // Animate subtext 
 
-      
+if (mq.matches) {
+  // window width is at less than 767px
+  
+}  
+else {    
       anime.set(['#hero-subtext'], {
         // opacity: 0,
        });
@@ -559,7 +583,7 @@ anime.set(['.pulsestagger'],{
     };
     setTimeout(subtextTiming, 3800);  
 
-
+  }
     
 
    
