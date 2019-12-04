@@ -348,7 +348,7 @@ anime.set(['.pulsestagger'],{
       opacity: 0,
     });
     anime.set(['.rect-md .red-rect img'],{
-      scale: 0.45,
+      scale: 0.42,
       translateX: '-4%',
     });
     anime.set(['.red-rect img'],{
