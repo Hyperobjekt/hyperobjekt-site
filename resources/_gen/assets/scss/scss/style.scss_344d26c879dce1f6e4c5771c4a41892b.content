@@ -17994,7 +17994,7 @@ body.home #main {
   }
 }
 
-.row.projects .project1 .inactive-link {
+.row.projects .project1 a {
   background-color: #063FFE;
   background-image: url("/images/seda-v2-2.jpg");
   background-size: cover;
@@ -18009,13 +18009,13 @@ body.home #main {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .row.projects .project1 .inactive-link {
+  .row.projects .project1 a {
     max-height: 340px;
   }
 }
 
-.row.projects .project1 .inactive-link:hover:after {
-  content: "COMING AUGUST 2019";
+.row.projects .project1 a:hover:after {
+  content: "VIEW LIVE WEBSITE";
   position: absolute;
   font-family: futura-pt, sans-serif;
   font-weight: 600;
@@ -18211,6 +18211,15 @@ body.home #main {
 
 .services {
   background-color: #0893AD;
+}
+
+.contact-wrapper a {
+  font-weight: 500;
+}
+
+.contact-wrapper a:hover {
+  color: #0640ff;
+  text-decoration: none;
 }
 
 .row.map-invite {
@@ -18896,6 +18905,7 @@ body.home .hero {
 @media (min-width: 768px) {
   body.home .hero {
     height: 90vh;
+    min-height: 640px;
   }
 }
 

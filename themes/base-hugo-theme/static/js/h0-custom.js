@@ -154,6 +154,7 @@ if (mq.matches) {
      });
 }
 else {
+
     // window width is greater than 767px
     anime.set(['.htext'], {
       opacity: 0
@@ -396,7 +397,7 @@ else {
 
       anime({
         targets: ['.yellow-rect img','.red-rect img', '.green-rect img', '.blue-rect img',],
-        opacity: 0.8,
+        opacity: 0.7,
         delay: 000, //anime.stagger(500),
         duration: 2000,
         easing: 'linear',

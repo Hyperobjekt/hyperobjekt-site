@@ -957,7 +957,7 @@ body.home {
      
     }
     
-    .project1 .inactive-link {
+    .project1 a {
       background-color: $boldblue;
       background-image: url('/images/seda-v2-2.jpg');
       background-size: cover;
@@ -977,7 +977,7 @@ body.home {
        // transition: background-image .2s ease;
       } 
       &:hover:after {
-        content: "COMING AUGUST 2019";
+        content: "VIEW LIVE WEBSITE";
         position: absolute;
         @include futura-demi;
         letter-spacing: .24rem;
@@ -1172,6 +1172,15 @@ body.home {
     background-color: $cyanteal;
   }
 
+.contact-wrapper {
+  a {
+    font-weight: 500;
+    &:hover {
+      color: #0640ff;
+      text-decoration: none;
+    }
+  }
+}  
 
 .row {
   &.map-invite {
