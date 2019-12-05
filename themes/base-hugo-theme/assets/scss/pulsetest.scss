@@ -79,6 +79,7 @@ body.home {
         height: 290px;
         @include media-breakpoint-up(md) {
             height: 90vh;
+            min-height: 640px;
         }
         width: 100%;
         overflow: auto;
