@@ -57,34 +57,10 @@ $link-hover-color: $seda-lightblue; // $aqua; // lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Load custom fonts
-// TODO: Adjust once you have copyrighted fonts
+
 @font-face {
-  font-family: 'MaisonNeue-Bold';
-  src: url('/fonts/MaisonNeue-Bold.ttf');
-}
-@font-face {
-  font-family: 'MaisonNeue-Book';
-  src: url('/fonts/MaisonNeue-Book.ttf');
-}
-@font-face {
-  font-family: 'MaisonNeue-Medium';
-  src: url('/fonts/MaisonNeue-Medium.ttf');
-}
-@font-face {
-  font-family: 'SharpGrotesk-Book20';
-  src: url('/fonts/SharpGrotesk-Book20.otf');
-}
-@font-face {
-  font-family: 'SharpGrotesk-Medium15';
-  src: url('/fonts/SharpGrotesk-Medium15.otf');
-}
-@font-face {
-  font-family: 'SharpGrotesk-Medium20';
-  src: url('/fonts/SharpGrotesk-Medium20.otf');
-}
-@font-face {
-  font-family: 'SharpGrotesk-MediumItalic20';
-  src: url('/fonts/SharpGrotesk-MediumItalic20.otf');
+  font-family: 'SFMono-Regular';
+  src: url('/fonts/SFMono-Regular.otf');
 }
 
 // Custom fonts variables

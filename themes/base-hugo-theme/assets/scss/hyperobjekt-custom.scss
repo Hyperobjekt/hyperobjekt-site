@@ -162,7 +162,7 @@ div.h2 {
 }
 
 h3 {
-  @include futura-bold;
+  @include futura-medium;
   font-size: 1.7rem;
   @include media-breakpoint-up(sm) {
     font-size: 3.2rem;
@@ -734,6 +734,7 @@ body.home {
   .hero {
     height: 100vh;
     width: 100%;
+   // overflow: hidden;
     @include media-breakpoint-up(md) {
       height: 660px;
     }
@@ -748,10 +749,23 @@ body.home {
     
 
     svg {
+       display: block;
+     @include media-breakpoint-up(md) {
+       display: block;
+     }
      // margin-left: 10%;
-      height: 100%;
-      width: 100%;
-    }
+      // height: 100%;
+     // width: 191%;
+      // top: 50px;
+      // left: 13%;
+      position: relative;
+      @include media-breakpoint-only(md) {
+        width: 250%;
+      }
+        .codetext {
+          letter-spacing: 3px;
+        }
+      }
     svg g#firstSnippet, svg g#secondSnippet, svg g#thirdSnippet, svg g#fourthSnippet  {
       transform: skew(-40deg, 20deg);
       visibility: visible;
@@ -796,9 +810,8 @@ body.home {
       background-position: center 17%;
       @include media-breakpoint-up(md) {
         height: 660px;
-        background-image: url('/images/h0graphic4.png');
-        background-size: 90%;
-        opacity: .7;
+       background-image: none;
+        background-size: 84%;
         background-repeat: no-repeat;
         background-position: 88% 56%;
       }
@@ -865,6 +878,8 @@ body.home {
       height: 100vh;
       @include media-breakpoint-up(md) {
         height: 660px;
+        position: relative;
+        top: -660px;
       }
       h2.whitetext, h5.subhead {
         //color: transparent;
@@ -900,6 +915,18 @@ body.home {
 
 
 .row {
+  &.about-us {
+    .personnel {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      @include media-breakpoint-up(md) {
+        background-position: left center;
+      }
+      border-right: 32px solid #fff;
+      min-height: 270px;
+    }
+  }
   &.projects {
     background-color: #021029;
     color: #fff;
@@ -908,7 +935,10 @@ body.home {
       top: -1px;
     }
     .project1, .project2, .project3, .project4 {
-      height: 420px;
+      height: 340px;
+      @include media-breakpoint-up(md) {
+        height: 420px;
+      }
       width: 100%;
       a {
         position: absolute;
@@ -928,43 +958,129 @@ body.home {
      
     }
     
-    .project1 .inactive-link {
+    .project1 a {
       background-color: $boldblue;
-      background-image: url('/images/seda-img.jpg');
+      background-image: url('/images/seda-v2-2.jpg');
       background-size: cover;
       position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
+      @include media-breakpoint-only(md) {
+        max-height: 340px;
+      }
       &:hover {
-        // filter: blur(3px);
-        // transition: filter .2s ease;
-      }  
+        //background-image: url('/images/seda-v2-blur.jpg');
+       // transition: background-image .2s ease;
+      } 
+      &:hover:after {
+        content: "VIEW LIVE WEBSITE";
+        position: absolute;
+        @include futura-demi;
+        letter-spacing: .24rem;
+        background: rgba(255, 255, 255, 0.86);
+        padding: 1.6rem 2.4rem;
+        opacity: 1;
+        color: $boldblue;
+        border-radius: 2px;
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .20);
+        padding: .8rem 1.6rem;
+        transition: background-color .2s ease;
+      } 
     }
     .project2 a {
       background-color: $boldorange;
-      background-image: url('/images/el-img.jpg');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('/images/el-v2-2.jpg');
       background-size: cover;
+      @include media-breakpoint-only(md) {
+        max-height: 340px;
+      }
+      &:hover {
+        //background-image: url('/images/el-v2-blur.jpg');
+        //transition: background-image .2s ease;
+      }
+      &:hover:after {
+        content: "VIEW LIVE WEBSITE";
+        position: absolute;
+        @include futura-demi;
+        color: $boldorange;
+        letter-spacing: .24rem;
+        background: rgba(255, 255, 255, 0.86);
+        padding: 1.6rem;
+        border-radius: 2px;
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .20);
+        padding: .8rem 1.6rem;
+        transition: background-color .2s ease;
+      }
     }
     .project3 a {
       background-color: $cyanteal;
-      background-image: url('/images/dd-img.jpg');
+      background-image: url('/images/dd-v2-2.jpg');
       background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include media-breakpoint-only(md) {
+        max-height: 340px;
+      }
+      &:hover {
+       // background-image: url('/images/dd-v2-blur.jpg');
+       // transition: background-image .3s ease;
+      }
+      &:hover:after {
+        content: "VIEW LIVE WEBSITE";
+        position: absolute;
+        @include futura-demi;
+        letter-spacing: .24rem;
+        background: rgba(255, 255, 255, 0.86);
+        padding: .8rem 1.6rem;
+        opacity: 1;
+        border-radius: 2px;
+        color: $cyanteal;
+        //background: #fff;
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .20);
+        transition: background-color .2s ease;
+      } 
     }
-    .project4 .inactive-link {
+    .project4 a {
       background-color: $boldyellow;
-      background-image: url('/images/bil-img.jpg');
+      background-image: url('/images/bil-v2-2.jpg');
       background-size: cover;
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include media-breakpoint-only(md) {
+        max-height: 340px;
+      }
       &:hover {
-        // filter: blur(3px);
-        // transition: filter .2s ease;
-      }  
+       // background-image: url('/images/bil-v2-blur.jpg');
+       // transition: background-image .2s ease;
+      } 
+      &:hover:after {
+        content: "VIEW LIVE WEBSITE";
+        position: absolute;
+        @include futura-demi;
+        letter-spacing: .32rem;
+        background: #fff;
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .20);
+        padding: .8rem 1.6rem;
+        border-radius: 4px;
+        opacity: 1;
+        color:#ffcb02;
+        transition: background-color .2s ease;
+      } 
     }
     .superhead {
       font-size: 1.2rem;
@@ -1057,6 +1173,15 @@ body.home {
     background-color: $cyanteal;
   }
 
+.contact-wrapper {
+  a {
+    font-weight: 500;
+    &:hover {
+      color: #0640ff;
+      text-decoration: none;
+    }
+  }
+}  
 
 .row {
   &.map-invite {

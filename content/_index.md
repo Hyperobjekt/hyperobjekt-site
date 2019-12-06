@@ -1,9 +1,6 @@
 ---
 title: "Home"
 date: "2019-02-24"
+description: A digital agency focused on innovative work for social good. We partner with universities, nonprofits, authors, and others to maximize their public impact, and we have special experience in translating academic concepts and datasets to the general public via engaging human-centered design, copy, and data visualization.
 ---
-- Most recent update, 3-19-19: Added Explorations
-- Styling: needs work
-- Footer: in development
-- Page content: updated 3-10-19
-- Illustrations & hero images are placeholders; no animations on illustrations yet
+

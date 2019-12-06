@@ -1,0 +1,113 @@
+body.pulsetest {
+    background-color: #021029;
+    .hero {
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+    }
+}
+
+body.home {
+    background-color: #021029;
+    //overflow: hidden;
+    .colored-rectangles {
+        position: absolute;
+        width: 100%;
+        height: 90vh;
+        min-height: 700px;
+        max-height: 880px;
+        .rectangle-wrapper {
+            height: 85%
+        }
+       
+        .yellow-rect {
+            img {
+               // transform: scale(0.5);
+            }
+        } 
+        .red-rect {
+            align-items: flex-start;
+            justify-content: flex-end;
+            img {
+                opacity: 0.9;
+             //   transform: scale(0.45);
+            }
+        }
+        .green-rect {
+            img {
+              //  transform: scale(0.3);
+            }
+        } 
+        .blue-rect {
+            img {
+               // transform: scale(0.4);
+            } 
+        } 
+        img {
+         width: 100%; 
+         @include media-breakpoint-up(lg) {
+            width: 100%;
+         }   
+         will-change: ('opacity, transform');
+        }
+        .d-block {
+            position: absolute;
+          /*  left: -2%;
+            top: -10%; */
+            width: 100%;
+            img {
+                @include media-breakpoint-down(mm) {
+                    height: 50vh;
+                    
+                }
+            }
+           /* @include media-breakpoint-up(md) {
+                left: 0%;
+                top: -6%;
+            }
+            @include media-breakpoint-up(lg) {
+                left: 9%;
+                top: 54%;
+                margin-top: -40%; 
+            }
+            @include media-breakpoint-up(xl) {
+                top: 50%;
+                margin-top: -35%;
+            } */
+            
+            
+        }
+        
+    }
+    .hero {
+        height: 290px;
+        @include media-breakpoint-up(md) {
+            height: 90vh;
+            min-height: 700px;
+            max-height: 880px;
+        }
+        width: 100%;
+        overflow: auto;
+        svg {
+            max-width: 100%;
+            &#subtext {
+                width: 360px !important;
+                height: 160px !important;
+                @include media-breakpoint-up(md) {
+                    width: 320px !important;
+                    height: 110px !important;
+                }
+            }
+         
+        }
+        #color-rects {
+            margin-top: 3%;
+        }
+        .h0-logo {
+            height: 63%;
+        }
+        .h0-logo-subhead {
+            height: 37%;
+        }
+    }
+}
