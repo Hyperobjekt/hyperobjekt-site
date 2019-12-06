@@ -18859,13 +18859,25 @@ body.home .colored-rectangles .rectangle-wrapper {
   height: 85%;
 }
 
+body.home .colored-rectangles .yellow-rect img {
+  opacity: 0;
+}
+
 body.home .colored-rectangles .red-rect {
   align-items: flex-start;
   justify-content: flex-end;
 }
 
 body.home .colored-rectangles .red-rect img {
-  opacity: 0.9;
+  opacity: 0;
+}
+
+body.home .colored-rectangles .green-rect img {
+  opacity: 0;
+}
+
+body.home .colored-rectangles .blue-rect img {
+  opacity: 0;
 }
 
 body.home .colored-rectangles img {
@@ -18916,6 +18928,20 @@ body.home .hero {
     height: 90vh;
     min-height: 700px;
     max-height: 880px;
+  }
+}
+
+@media (min-width: 768px) {
+  body.home .hero .htext {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  body.home .hero #red-path, body.home .hero #grey-path, body.home .hero #cyan-path, body.home .hero #purple-path,
+  body.home .hero #yellow-path, body.home .hero #green-path, body.home .hero #pinkpurple-path, body.home .hero #orange-path,
+  body.home .hero #yellow-path2, body.home .hero #fuchsia-path, body.home .hero #yellowgreen-path, body.home .hero #bronze-path {
+    opacity: 0;
   }
 }
 
