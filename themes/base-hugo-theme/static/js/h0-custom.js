@@ -500,7 +500,7 @@ if (mq.matches) {
 }  
 else {    
       anime.set(['#hero-subtext'], {
-        // opacity: 0,
+        opacity: 1,
        });
        anime.set(['#web'], {
         translateX: -200,

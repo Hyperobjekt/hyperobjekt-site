@@ -18935,7 +18935,7 @@ body.home .hero {
   body.home .hero #red-path, body.home .hero #grey-path, body.home .hero #cyan-path, body.home .hero #purple-path,
   body.home .hero #yellow-path, body.home .hero #green-path, body.home .hero #pinkpurple-path, body.home .hero #orange-path,
   body.home .hero #yellow-path2, body.home .hero #fuchsia-path, body.home .hero #yellowgreen-path, body.home .hero #bronze-path,
-  body.home .hero #Points, body.home .hero .htext {
+  body.home .hero #Points, body.home .hero .htext, body.home .hero #hero-subtext {
     opacity: 0;
   }
 }

@@ -86,7 +86,7 @@ body.home {
         #red-path, #grey-path, #cyan-path, #purple-path, 
         #yellow-path, #green-path, #pinkpurple-path, #orange-path,
         #yellow-path2, #fuchsia-path, #yellowgreen-path, #bronze-path, 
-        #Points, .htext {
+        #Points, .htext, #hero-subtext {
             @include media-breakpoint-up(md) {
                 opacity: 0;
             }
