@@ -361,7 +361,7 @@ else {
  // Rectangles starting values
 
     anime.set(['.rect-md .yellow-rect img'],{ // Just apply these on desktop
-     scale: 0.5,
+     scale: 0.38,
      translateX: '-9%',
     });
     anime.set(['.yellow-rect img'],{ // Apply to all breakpoints
@@ -369,7 +369,7 @@ else {
       opacity: 0,
     });
     anime.set(['.rect-md .red-rect img'],{
-      scale: 0.42,
+      scale: 0.32,
       translateX: '-4%',
     });
     anime.set(['.red-rect img'],{
@@ -377,7 +377,7 @@ else {
       opacity: 0,
     });
     anime.set(['.rect-md .green-rect img'],{
-      scale: 0.3,
+      scale: 0.27,
       translateX: '10%',
     });
     anime.set(['.green-rect img'],{
@@ -385,7 +385,7 @@ else {
       opacity: 0,
     });
     anime.set(['.rect-md .blue-rect img'],{
-      scale: 0.4,
+      scale: 0.28,
       translateX: '17%',
     });
     anime.set(['.blue-rect img'],{
@@ -576,13 +576,13 @@ else {
       anime({
         targets: '#subtext-line',
         translateY: 0,
-        duration: subTextDuration,
+        duration: subTextDuration -400,
         delay: subTextDelay + 1000,
         easing: 'easeOutSine',
       });
 
     };
-    setTimeout(subtextTiming, 3800);  
+    setTimeout(subtextTiming, 3600);  
 
   }
     
