@@ -137,9 +137,9 @@ span.bitter-black {
   font-size: 3.5rem;
 }
 span.futura-zero {
-  font-size: 2.35rem;
+  font-size: 2.9rem;
   @include media-breakpoint-up(md) {
-    font-size: 3.65rem;
+    font-size: 4.35rem;
   }
   
 }
@@ -738,13 +738,14 @@ body.home {
     @include media-breakpoint-up(md) {
       height: 660px;
     }
-    
-    // min-height: 540px;
-   // margin-top: -6.4rem;
-    //margin-left: 0;
-    // margin-right: 0;
     color: $white;
-    
+    h2 {
+      line-height: 3.7rem;
+      @include media-breakpoint-up(md) {
+        line-height: 5.7rem;
+        margin-bottom: 1rem;
+      }
+    }
     
 
     svg {
@@ -812,13 +813,13 @@ body.home {
        background-image: none;
         background-size: 84%;
         background-repeat: no-repeat;
-        background-position: 65% 56%;
+        background-position: 88% 56%;
       }
       @include media-breakpoint-up(lg) {
         background-size: 74%;
       }
       @include media-breakpoint-up(xl) {
-        background-size: 64%;
+        background-size: 74%;
       }
       // animation: fade-in 2s forwards;
       // animation-delay: 1s;
