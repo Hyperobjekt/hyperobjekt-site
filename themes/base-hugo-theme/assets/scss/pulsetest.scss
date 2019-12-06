@@ -83,14 +83,10 @@ body.home {
             min-height: 700px;
             max-height: 880px;
         }
-        .htext {
-            @include media-breakpoint-up(md) {
-                opacity: 0;
-            }
-        }
         #red-path, #grey-path, #cyan-path, #purple-path, 
         #yellow-path, #green-path, #pinkpurple-path, #orange-path,
-        #yellow-path2, #fuchsia-path, #yellowgreen-path, #bronze-path {
+        #yellow-path2, #fuchsia-path, #yellowgreen-path, #bronze-path, 
+        #Points, .htext {
             @include media-breakpoint-up(md) {
                 opacity: 0;
             }
