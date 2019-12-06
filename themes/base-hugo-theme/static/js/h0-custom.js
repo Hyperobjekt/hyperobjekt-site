@@ -398,7 +398,7 @@ else {
       anime({
         targets: ['.yellow-rect img','.red-rect img', '.green-rect img', '.blue-rect img',],
         opacity: 0.7,
-        delay: 000, //anime.stagger(500),
+        delay: 0, //anime.stagger(500),
         duration: 2000,
         easing: 'linear',
       })
