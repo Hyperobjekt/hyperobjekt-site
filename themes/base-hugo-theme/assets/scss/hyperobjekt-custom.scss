@@ -924,6 +924,10 @@ body.home {
         background-position: left center;
       }
       border-right: 32px solid #fff;
+      border-left: 32px solid #fff;
+      @include media-breakpoint-up(lg) {
+        border-right: 32px solid #fff;
+      }
       min-height: 270px;
     }
   }

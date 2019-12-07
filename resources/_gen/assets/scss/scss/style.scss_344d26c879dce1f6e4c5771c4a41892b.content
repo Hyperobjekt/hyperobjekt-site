@@ -17960,12 +17960,19 @@ body.home #main {
   background-repeat: no-repeat;
   background-position: center center;
   border-right: 32px solid #fff;
+  border-left: 32px solid #fff;
   min-height: 270px;
 }
 
 @media (min-width: 768px) {
   .row.about-us .personnel {
     background-position: left center;
+  }
+}
+
+@media (min-width: 992px) {
+  .row.about-us .personnel {
+    border-right: 32px solid #fff;
   }
 }
 
