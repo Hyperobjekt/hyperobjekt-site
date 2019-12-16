@@ -8,4 +8,4 @@
   HUGO_BASEURL = "https://vanilla-bootstrap-hugo-theme.netlify.com/"
 
 [[redirects]]
-  https://www.hyperobjekt.com/* http://www.hyperobjekt.com/:splat 301!
+  
