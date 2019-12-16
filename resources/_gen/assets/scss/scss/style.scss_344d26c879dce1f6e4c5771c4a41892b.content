@@ -19078,6 +19078,7 @@ body.home .hero .h0-logo-subhead {
   top: 34%;
   border: 16px solid white;
   border-radius: 50%;
+  padding: 21px 14px;
 }
 
 .type-blog.kind-section .bloglist-item h2 {
