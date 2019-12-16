@@ -1,0 +1,56 @@
+.type-blog {
+    
+    h1 {
+        @include futura-medium;
+        font-size: 1.7rem;
+        @include media-breakpoint-up(sm) {
+          font-size: 3.2rem;
+          line-height: 2.7rem;
+        }
+        @include media-breakpoint-up(md) {
+          font-size: 5rem;
+          //color: #FFFFFF;
+          letter-spacing: 0.049rem;
+          line-height: 7rem;
+        }
+      }
+    h2 {
+        font-size: 3rem;
+        letter-spacing: 0.049rem;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    &.kind-section .bloglist-item {
+        border-left: 1px solid #d4d4d4;
+        padding-left: 80px;
+        .blog-thumb {
+            height: 96px;
+            width: 96px;
+            background-color: aliceblue;
+            left: -128px;
+            position: relative;
+            top: 34%;
+            border: 16px solid white;
+            border-radius: 50%;
+        }  
+        h2 {
+            margin-top: -96px;
+        }
+    }  
+    &.kind-page {
+        p {
+            margin-right: 16%;
+            padding-right: 17%;
+            border-right: 1px solid #d4d4d4;
+            margin-bottom: 0;
+            padding-bottom: 24px;
+        }
+        img {
+            max-width: 115%;
+            margin: -24px 0 -24px 33%;
+            border-top: 40px white solid;
+            border-bottom: 40px white solid;
+        }
+    }
+}

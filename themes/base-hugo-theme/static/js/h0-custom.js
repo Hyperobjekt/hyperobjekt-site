@@ -13,7 +13,7 @@
         // the the front page.
         var heroHeight = $('#hero') ? $('#hero').height() : 0;
         // console.log(heroHeight);
-        if (y <= (heroHeight - 64)) {
+        if (y <= (heroHeight - 48)) {
             // $('body').addClass('scroll-top');
             $('nav').removeClass('sticky-top');
             $('.subnav').removeClass('sticky-top');

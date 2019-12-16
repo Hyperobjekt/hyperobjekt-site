@@ -77,7 +77,7 @@ body.home {
         
     }
     .hero {
-        height: 290px;
+        height: 400px;
         @include media-breakpoint-up(md) {
             height: 90vh;
             min-height: 700px;

@@ -73,7 +73,7 @@ nav.navbar > div {
   }
 }
 
-// Colors
+// Colors & Utilities
 
 .whitetext {
   color: #fff;
@@ -84,10 +84,16 @@ nav.navbar > div {
 .dkbluebg {
   background-color: #021029;
 }
+a.no-underline {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 // Basic fonts and text styles
 h1 {
-  font-family: $sharpgrotesk-med-20;
+  //font-family: $sharpgrotesk-med-20;
 }
 
 h2,
@@ -334,6 +340,49 @@ input.form-control {
 }
 
 // Header
+
+nav.inner-page-nav {
+  height: 48px;
+  position: fixed;
+  background-color: #fff;
+  background-color: #021029;
+  z-index: 2;
+  .wordmark, .nav-menu {
+    font-weight: 400;
+    font-family: futura-pt, sans-serif;
+  }
+  .wordmark a {
+    font-size: 18px;
+    color: #fff;
+  }
+  a.menu-active {
+    color: #3967ff;
+  }
+  a {
+    color: #6275b3;
+    color: #fff;
+    color: #c5c5c5;
+    font-size: 16px;
+  }
+  &.sticky-top {
+    border-bottom: 0.5px solid #7b7b7b;
+  }
+}
+.home {
+  nav {
+    background-color: transparent;
+    &.sticky-top {
+      background-color: #021029;
+    }
+  }
+  nav .wordmark {
+    opacity: 0;
+  }
+  nav.sticky-top .wordmark {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+}
 
 body.type-help-faq, body.research {
   nav.sticky-top {

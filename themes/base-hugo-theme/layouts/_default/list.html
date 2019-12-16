@@ -1,13 +1,29 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+<nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-content-center justify-content-between">
+  <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
+  <div class="nav-menu pr-4"><a href="/" class="no-underline pr-4">h o m e</a><a href="/blog" class="no-underline menu-active">b l o g</a></div>
+</nav>
 
+<div class="row pt-13">
+  <div class="col-xs-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>    
+<div class="row pt-8">
 {{ range .Pages.ByPublishDate.Reverse }}
-<p>
-  <a class="font-125" href="{{ .Permalink }}">{{ .Title }}</a>
-  <br>
-  {{/* partial "date-and-tags.html" . */}}
-</p>
-{{ end }}
 
+  <div class="bloglist-item col-xs-12 col-md-8 col-lg-7 col-xl-6 pb-6 mx-auto">
+    <div class="blog-thumb"></div>
+    <h2><a class="" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p>
+      
+    {{ .Params.description }}
+      {{/* partial "date-and-tags.html" . */}}
+    </p>
+    <a href="{{ .Permalink }}" class="readmore">R E A D  &nbsp; M O R E</a>
+  </div>
+
+{{ end }}
+</div>
 {{ end }}
