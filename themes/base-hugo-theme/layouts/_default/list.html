@@ -13,15 +13,16 @@
 <div class="row pt-8">
 {{ range .Pages.ByPublishDate.Reverse }}
 
-  <div class="bloglist-item col-xs-12 col-md-8 col-lg-7 col-xl-7 pb-6 mx-auto">
-    <div class="blog-thumb">image</div>
+  <div class="bloglist-item col-xs-12 col-md-8 col-lg-7 col-xl-7 pb-7 mx-auto">
+    <div class="blog-thumb" style="background-image: url('{{ .Params.blogimage }}'); background-size: 100%;"></div>
     <h2><a class="" href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <p>
       
     {{ .Params.description }}
       {{/* partial "date-and-tags.html" . */}}
     </p>
-    <a href="{{ .Permalink }}" class="readmore">R E A D  &nbsp; M O R E</a>
+    <div class="readmore"><a class="" href="{{ .Permalink }}" class="readmore">READ  MORE {{ partial "rightarrow" }}</a></div>
+    
   </div>
 
 {{ end }}

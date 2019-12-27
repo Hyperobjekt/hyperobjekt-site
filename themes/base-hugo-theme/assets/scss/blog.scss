@@ -21,6 +21,11 @@
         font-weight: 500;
         font-style: normal;
     }
+    .readmore a {
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        
+    }
     &.kind-section .bloglist-item {
         border-left: 1px solid #d4d4d4;
         padding-left: 80px;
@@ -37,6 +42,17 @@
         }  
         h2 {
             margin-top: -96px;
+        }
+        .readmore {
+            
+            margin-top: 3.2rem;
+        }
+        svg {
+            top: -1px;
+            position: relative;
+            g.rightarrow {
+            stroke: #000;
+            }
         }
     }  
     &.kind-page {

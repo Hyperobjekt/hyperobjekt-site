@@ -19064,6 +19064,11 @@ body.home .hero .h0-logo-subhead {
   font-style: normal;
 }
 
+.type-blog .readmore a {
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
 .type-blog.kind-section .bloglist-item {
   border-left: 1px solid #d4d4d4;
   padding-left: 80px;
@@ -19083,6 +19088,19 @@ body.home .hero .h0-logo-subhead {
 
 .type-blog.kind-section .bloglist-item h2 {
   margin-top: -96px;
+}
+
+.type-blog.kind-section .bloglist-item .readmore {
+  margin-top: 3.2rem;
+}
+
+.type-blog.kind-section .bloglist-item svg {
+  top: -1px;
+  position: relative;
+}
+
+.type-blog.kind-section .bloglist-item svg g.rightarrow {
+  stroke: #000;
 }
 
 .type-blog.kind-page p {

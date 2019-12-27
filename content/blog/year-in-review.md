@@ -1,6 +1,7 @@
 ---
 title: "Year in Review"
 date: "2019-02-24"
+blogimage: "/images/blog/year-review.jpg"
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque erat eros, congue nec justo id, laoreet mollis magna. Nam accumsan urna eget nunc semper scelerisque. Vivamus pharetra urna eu quam rhoncus convallis. Vestibulum tempor eget neque a pretium. Duis dapibus in nulla et fringilla. Vivamus odio ipsum, efficitur quis condimentum quis, tincidunt pulvinar magna. Mauris erat mi, sodales quis lorem sed, convallis faucibus diam. Quisque vitae gravida justo. Aliquam tincidunt elit ut enim mollis, ut finibus tortor vestibulum. Nulla eget est ligula. Quisque cursus mauris ut velit euismod, a elementum odio venenatis.
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque erat eros, congue nec justo id, laoreet mollis magna. Nam accumsan urna eget nunc semper scelerisque. Vivamus pharetra urna eu quam rhoncus convallis. Vestibulum tempor eget neque a pretium. Duis dapibus in nulla et fringilla. Vivamus odio ipsum, efficitur quis condimentum quis, tincidunt pulvinar magna. Mauris erat mi, sodales quis lorem sed, convallis faucibus diam. Quisque vitae gravida justo. Aliquam tincidunt elit ut enim mollis, ut finibus tortor vestibulum. Nulla eget est ligula. Quisque cursus mauris ut velit euismod, a elementum odio venenatis.
