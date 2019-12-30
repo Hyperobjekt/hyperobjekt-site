@@ -17468,6 +17468,10 @@ body.type-help-faq nav.sticky-top, body.research nav.sticky-top {
   border-bottom: 1px solid #ddeaf3;
 }
 
+.drawer-toggle {
+  height: 15px;
+}
+
 .drawer-toggle .navbar-toggler-icon {
   background-image: url("/images/menu2.svg");
   animation: opacity-fill .3s;
