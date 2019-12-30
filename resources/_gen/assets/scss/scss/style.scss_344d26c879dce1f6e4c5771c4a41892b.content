@@ -19151,8 +19151,24 @@ body.home .hero .h0-logo-subhead {
   stroke: #000;
 }
 
+.type-blog.kind-page img.bloghero {
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .type-blog.kind-page img.bloghero {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .type-blog.kind-page img.bloghero {
+    max-width: 100%;
+  }
+}
+
 .type-blog.kind-page h1 {
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .type-blog.kind-page h2 {
@@ -19202,13 +19218,13 @@ body.home .hero .h0-logo-subhead {
   }
 }
 
-.type-blog.kind-page img {
+.type-blog.kind-page p img {
   max-width: 100%;
   margin-top: 2.4rem;
 }
 
 @media (min-width: 768px) {
-  .type-blog.kind-page img {
+  .type-blog.kind-page p img {
     max-width: 115%;
     margin: -24px 0 -24px 33%;
     border-top: 56px white solid;
