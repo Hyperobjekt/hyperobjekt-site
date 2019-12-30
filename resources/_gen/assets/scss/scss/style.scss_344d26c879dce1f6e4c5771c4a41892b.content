@@ -17473,6 +17473,7 @@ body.type-help-faq nav.sticky-top, body.research nav.sticky-top {
   animation: opacity-fill .3s;
   background-color: transparent;
   border: 0;
+  -webkit-appearance: none;
   border-radius: 0;
 }
 
