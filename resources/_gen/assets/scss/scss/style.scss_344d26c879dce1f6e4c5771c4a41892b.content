@@ -17592,6 +17592,8 @@ nav.navbar-light .drawer-toggle {
   color: #ffffff;
   text-align: right;
   padding-right: 0;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 nav.navbar-light .drawer-toggle .navbar-toggler-icon {

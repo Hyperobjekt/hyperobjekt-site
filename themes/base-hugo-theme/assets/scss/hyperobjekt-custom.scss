@@ -530,6 +530,8 @@ nav.navbar-light {
     color: $white;
     text-align: right;
     padding-right: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
     .navbar-toggler-icon {
       background-image: url('/images/menu.svg');
       background-repeat: no-repeat;
