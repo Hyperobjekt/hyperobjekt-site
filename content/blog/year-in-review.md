@@ -42,7 +42,7 @@ In homage to Du Bois, we created a <a href="https://www.dignityanddebt.org/proje
 Next on our plate was a new visual identity and <a href="https://basicincome.stanford.edu/" target="blank">website for the Stanford Basic Income Lab</a>, which studies theories, approaches, and outcomes related to Universal Basic Income (UBI). Continuing the trend of partnerships that task us with crafting novel and imaginative designs, we are currently working with the Lab to develop a network visualization of major themes and topics related to UBI, along with a map of basic income experiments around the globe. 
 
 <img src="/images/blog/ubi-network2.jpg" />
-<p class="blogcaption">A network visualization depicting relationships between themes and topics related to UBI</p>
+<p class="blogcaption">A network visualization depicting interconnections between themes and topics related to UBI</p>
 
 <h3>IV. The Eviction Lab at Princeton University</h3>
 
@@ -68,7 +68,7 @@ We also worked on a number of smaller projects, including a UX consultation & UI
 
 <h3>VI. The Year Ahead</h3>
 
-Looking forward, we're gearing up to release new features, expansions, and upgrades for the above-mentioned projects, and we're also excited for the opportunity to work with new clients. If you have a project that involves design & web development, data visualization & analysis, UX consultation, or any of the other skills in our wheelhouse, please feel free to reach out to us at <a href="mailto:info@hyperobjekt.com">info@hyperobjekt.com</a>. We'd love to connect and learn how we might be of service.
+Looking forward, we're gearing up to release new features and expansions for the above-mentioned projects, and we're also excited for the opportunity to work with new clients. If you have a project that involves design & web development, data visualization & analysis, UX consultation, or any of the other skills in our wheelhouse, please feel free to reach out to us at <a href="mailto:info@hyperobjekt.com">info@hyperobjekt.com</a>. We'd love to connect and learn how we might be of service.
 
 Have a great new year, and stay tuned for more from us!
 
