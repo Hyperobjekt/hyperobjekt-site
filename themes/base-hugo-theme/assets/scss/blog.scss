@@ -1,11 +1,15 @@
 .type-blog {
+    a:hover {
+        color: #04143c;
+        //text-decoration: underline;
+    }
     
     h1 {
         @include futura-medium;
         font-size: 1.7rem;
         @include media-breakpoint-up(sm) {
-          font-size: 3.2rem;
-          line-height: 2.7rem;
+          font-size: 5rem;
+          line-height: 1.4;
         }
         @include media-breakpoint-up(md) {
           font-size: 5rem;
@@ -38,34 +42,27 @@
     }
     &.kind-section .bloglist-item {
         
-        .blog-thumb {
+        &.blog-thumb {
+            img {
             height: 72px;
             width: 72px;
-            background-color: aliceblue;
-            /* left: -128px; */
-            position: relative;
-            top: -120px;
-            /* border: 16px solid white; */
             border-radius: 50%;
-            padding: 21px 14px;
-            margin-top: 120px;
+            background-color: aliceblue;
+            border: 1px solid #020e2726;
+            }
+    
             @include media-breakpoint-up(md) {
-                border-left: 1px solid #d4d4d4;
-                padding-left: 80px;
+                img {
                 height: 72px;
                 width: 72px;
                 background-color: aliceblue;
-                left: -104px;
-                position: relative;
-                top: 24%;
                 border: 1px solid #020e2726;
                 border-radius: 50%;
-                padding: 21px 14px;
-                margin-top: 0;
+                }
             }    
         }  
         h2 {
-            margin-top: -96px;
+            
         }
         .readmore {
             

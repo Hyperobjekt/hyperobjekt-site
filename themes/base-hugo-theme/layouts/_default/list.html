@@ -8,16 +8,16 @@
   </div>
 </nav>
 
-<div class="row pt-13">
-  <div class="col-xs-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
+<div class="row pt-13 pt-lg-15 mb-8">
+  <div class="col-xs-12 col-md-10 col-lg-8 col-xl-8 mx-auto ">
     <h1>{{ .Title }}</h1>
   </div>
 </div>    
-<div class="row pt-8 mb-12">
+<div class="row mb-12">
 {{ range .Pages.ByPublishDate.Reverse }}
-
-  <div class="bloglist-item col-xs-12 col-md-8 col-lg-7 col-xl-7 pb-7 mx-auto">
-    <div class="blog-thumb" style="background-image: url('{{ .Params.blogimage }}'); background-size: 100%;"></div>
+<div class="blog-thumb mb-2 mb-md-0 bloglist-item col-12 col-md-1 offset-md-2 d-flex align-items-center"><img src="{{ .Params.blogimage }}"/></div>
+  <div class="bloglist-item col-xs-12 col-md-7 col-lg-7 col-xl-7 pl-md-4">
+   
     <h2 class="mb-2"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <p>
       
