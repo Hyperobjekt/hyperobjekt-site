@@ -17413,6 +17413,10 @@ input.form-control {
   margin-left: 0;
 }
 
+nav a:hover, footer a:hover {
+  color: #fff !important;
+}
+
 nav.inner-page-nav {
   height: 48px;
   position: fixed;
@@ -17730,43 +17734,25 @@ img.float-left {
 }
 
 .subnav {
-  height: 4.8rem;
-  position: sticky;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  top: 56px;
+  top: 48px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
+  position: relative;
   align-items: center;
   background-color: #fff;
   opacity: 1;
-  z-index: 2;
+  z-index: 0;
   margin-left: -16px;
   padding-left: 16px;
   margin-right: 0;
-}
-
-@media (min-width: 374px) {
-  .subnav {
-    top: 64px;
-  }
-}
-
-@media (min-width: 768px) {
-  .subnav {
-    height: 5.6rem;
-    position: sticky;
-    top: 64px;
-  }
-}
-
-@media (min-width: 992px) {
-  .subnav {
-    height: 6.4rem;
-    position: sticky;
-    top: 64px;
-  }
+  background-color: #f7f7f7;
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  letter-spacing: .035rem;
+  line-height: 1.5;
 }
 
 .subnav.sticky-top {
@@ -17825,11 +17811,10 @@ img.float-left {
 }
 
 .subnav ul li {
-  font-size: 1.2rem;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
   letter-spacing: 0.055rem;
   text-transform: uppercase;
-  font-family: "SharpGrotesk-Medium15", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   display: flex;
   align-items: center;
 }
@@ -17837,7 +17822,7 @@ img.float-left {
 @media (min-width: 768px) {
   .subnav ul li {
     font-size: 1.4rem;
-    line-height: 1.4rem;
+    line-height: 1.5;
     letter-spacing: 0.064rem;
     margin-top: 4px;
   }
@@ -17845,8 +17830,8 @@ img.float-left {
 
 @media (min-width: 992px) {
   .subnav ul li {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
     letter-spacing: 0.07rem;
   }
 }
@@ -19085,6 +19070,10 @@ body.home .hero .h0-logo-subhead {
   color: #04143c;
 }
 
+.type-blog nav a:hover {
+  color: #fff;
+}
+
 .type-blog h1 {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
@@ -19183,7 +19172,7 @@ body.home .hero .h0-logo-subhead {
 .type-blog.kind-page h3 {
   line-height: 1.5;
   font-size: 2.3rem;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.03rem;
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   color: #021029;
