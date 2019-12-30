@@ -17,7 +17,7 @@
 </div>    
 <div class="row mb-12">
 {{ range .Pages.ByPublishDate.Reverse }}
-<div class="blog-thumb mb-2 mb-md-0 bloglist-item col-12 col-md-1 offset-md-2 d-flex align-items-center"><img src="{{ .Params.blogimage }}"/></div>
+<div class="blog-thumb mb-2 mb-md-0 bloglist-item col-12 col-md-1 offset-md-2 d-flex align-items-center"><img class="d-block" src="{{ .Params.blogimage }}"/></div>
   <div class="bloglist-item col-xs-12 col-md-7 col-lg-7 col-xl-7 ml-md-4">
    
     <h2 class="mb-2"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
