@@ -19118,6 +19118,15 @@ body.home .hero .h0-logo-subhead {
   letter-spacing: 0.2rem;
 }
 
+.type-blog p {
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  letter-spacing: .035rem;
+  line-height: 1.5;
+}
+
 .type-blog.kind-section .bloglist-item .blog-thumb {
   height: 72px;
   width: 72px;
@@ -19186,7 +19195,7 @@ body.home .hero .h0-logo-subhead {
 .type-blog.kind-page h3 {
   line-height: 1.5;
   font-size: 2.3rem;
-  letter-spacing: 0.049rem;
+  letter-spacing: 0.04rem;
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   color: #021029;
@@ -19247,6 +19256,7 @@ body.home .hero .h0-logo-subhead {
 .type-blog.kind-page p a {
   font-weight: 600;
   color: #072c71;
+  letter-spacing: 0.01rem;
 }
 
 /*# sourceMappingURL=style.css.map */

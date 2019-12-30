@@ -4,9 +4,10 @@ subtitle: Reflections on the ambitious and rewarding projects we undertook in 20
 date: "2019-02-24"
 blogimage: "/images/blog/year-review2.jpg"
 socialdescription: Reflections on a year of opportunities to perform challenging, creative work aligned with our values. 
+social_image: "/images/social/year-review-card.jpg"
 description: As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 ---
-As we at Hyperobjekt gear up for a promising 2020, we're looking back on this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
+As we gear up for a promising 2020, we look back on this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 
 <h3>I. The Educational Opportunity Project at Stanford University</h3>
 
@@ -19,7 +20,7 @@ What was initially scoped as a small project eventually expanded to the better p
 
 More than simply ranking areas and presenting test scores, the site paints a wider portrait by offering data on the socioeconomic context of each location, and offers ways of separating out schools’ effectiveness from the educational advantages offered by their surrounding communities. You can see the results at <a href="https://edopportunity.org" target="_blank">edopportunity.org</a>.
 
-The website was also featured in the Washington Post, The Wall Street Journal, Quartz, and other media outlets.
+So far, the website has been featured in the <a href="https://www.washingtonpost.com/local/education/achievement-gaps-in-schools-driven-by-poverty-study-finds/2019/09/22/59491778-dd73-11e9-b199-f638bf2c340f_story.html" target="_blank">Washington Post</a>, <a href="https://www.wsj.com/articles/in-mississippi-an-unlikely-model-for-school-desegregation-11574424004" target="_blank">The Wall Street Journal</a>, <a href="https://qz.com/1715113/the-most-accurate-school-rating-tool-is-this-map-from-stanford/" target="_blank">Quartz</a>, and other media outlets.
 
 
 <img src="/images/blog/2-charts.jpg" />
@@ -27,9 +28,9 @@ The website was also featured in the Washington Post, The Wall Street Journal, Q
 
 <h3>II. Princeton's Dignity + Debt Network</h3>
 
-Meanwhile, we also were hard at work on <a href="https://www.dignityanddebt.org/" target="_blank">a website in partnership with Princeton’s Dignity + Debt network</a>, which launched in spring. In addition to creating a new visual identity and web presence, they tasked us with building a compelling interactive app.
+Meanwhile, we were also hard at work on <a href="https://www.dignityanddebt.org/" target="_blank">a website in partnership with Princeton’s Dignity + Debt network</a>, which launched in spring. In addition to creating a new visual identity and web presence, they tasked us with building a compelling interactive app.
 
-It’s always great to have clients with vision who push us to break the standard data viz mold and produce more evocative information design. In this case, inspiration came from one of <a href="https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/" target="_blank">the early data visualization pioneers, W.E.B. DuBois</a>, whose work charting the effects of institutionalized racism around the turn of the 20th century served as a template for examining present-day racial disparities.
+It’s always great to have clients who push us to break the standard data viz mold and produce more evocative information design. In this case, inspiration came from one of <a href="https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/" target="_blank">the early data visualization pioneers, W.E.B. DuBois</a>, whose work charting the effects of institutionalized racism around the turn of the 20th century served as a template for examining present-day racial disparities.
 
 <img src="/images/blog/debt-calculator.jpg" />
 <p class="blogcaption">An interactive visualization comparing student debt amounts owed by various demographic groups</p>
@@ -38,7 +39,7 @@ In homage to Du Bois, we created this <a href="https://www.dignityanddebt.org/pr
 
 <h3>III. The Stanford Basic Income Lab</h3>
 
-Next on our plate was a new visual identity and <a href="https://basicincome.stanford.edu/" target="blank">website for the Stanford Basic Income Lab</a>, which studies theories, approaches, and outcomes related to Universal Basic Income (UBI). Continuing the trend of partnerships that task us with crafting interesting and imaginative designs, we are currently working with the Lab to develop a network visualization of major themes and topics related to UBI, along with a map of basic income experiments around the globe. 
+Next on our plate was a new visual identity and <a href="https://basicincome.stanford.edu/" target="blank">website for the Stanford Basic Income Lab</a>, which studies theories, approaches, and outcomes related to Universal Basic Income (UBI). Continuing the trend of partnerships that task us with crafting novel and imaginative designs, we are currently working with the Lab to develop a network visualization of major themes and topics related to UBI, along with a map of basic income experiments around the globe. 
 
 <img src="/images/blog/ubi-network2.jpg" />
 <p class="blogcaption">A network visualization depicting relationships between themes and topics related to UBI</p>
@@ -59,7 +60,7 @@ Starting this fall and continuing into 2020, we’re working on a major update t
 
 <h3>V. Additional Projects</h3>
 
-We also worked on a number of smaller projects, including a UX consultation + UI redesign of Public Impact's Opportunity Culture school improvement portal, and a website to promote a forthcoming book and research by a scholar in the field of international conflict (coming soon).
+We also worked on a number of smaller projects, including a UX consultation & UI redesign of Public Impact's Opportunity Culture school improvement portal, and a website to promote a forthcoming book and research by a scholar in the field of international conflict (coming soon).
 
 
 <img src="/images/blog/ocportal-screen.jpg" />
