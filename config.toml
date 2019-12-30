@@ -17,21 +17,32 @@ anchor = "smart"
   includeBootstrapJs=true
   containerMaxWidth=1200
   showActiveNav=true
-  paginage=5
+
 
 # main menu
+[menu]  
+    [[menu.main]]
+        Name = "home"
+        url = "/"
+        weight = 1
 
-[[menu.main]]
-	name = "Home"
-	url = "/"
-    weight = 1
+    [[menu.main]]
+        name = "work"
+        url = "/#work"
+        weight = 1
 
+    [[menu.main]]
+        name = "blog"
+        url = "/blog/"
+        weight = 2
 
+    [[menu.main]]
+        name = "contact"
+        url = "/#contact"
+        weight = 3
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
 
-# Assets needed
-# -------------
-# * Dark color menu button icon
+

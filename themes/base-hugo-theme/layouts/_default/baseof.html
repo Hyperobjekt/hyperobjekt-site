@@ -12,14 +12,14 @@
       </main>
       
     </div>
-    {{/* partial "drawer.html" . */}}
+    {{ partial "drawer.html" . }}
 
     {{ if eq .Page.Type "about" }}
         {{ partial "modal" . }}
     {{ end }}
 
   
-
+    
     {{ partial "script.html" . }}
     {{ template "_internal/google_analytics_async.html" . }}
   </body>

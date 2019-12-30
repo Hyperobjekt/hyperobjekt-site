@@ -4,7 +4,24 @@
     var jQuery = $.noConflict(false);
     var $ = jQuery;
 
-    
+    $('#toggleDrawer').on('click', function() {
+      // console.log('#toggleDrawer selected');
+      $('#drawer').addClass('show');
+      $('#closeDrawer').focus();
+    });
+
+    $('#closeDrawer').on('click', function() {
+        // console.log('#closeDrawer selected');
+        $('#drawer').removeClass('show');
+        $('#toggleDrawer').focus();
+    });
+
+    $('#closeLoop').on('keypress', function(e) {
+      // console.log('closeloop keypress');
+      if(e.which == 13) {
+        $('#closeDrawer').focus();
+      }
+    });
 
     function checkScroll(y) {
         // console.log(checkScroll);
@@ -45,7 +62,7 @@
         $target = $('#' + target_id);
         // console.log($target);
         $('html, body').animate({
-            scrollTop: ($target.offset().top) - 63
+            scrollTop: ($target.offset().top) - 48
         }, 500);
         var t = $(window).scrollTop();
         checkScroll(t);

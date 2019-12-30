@@ -1,21 +1,72 @@
 ---
-title: "Year in Review"
+title: "Hyperobjekt: Year in Review"
+subtitle: Reflections on the ambitious & rewarding projects we undertook in 2019
 date: "2019-02-24"
 blogimage: "/images/blog/year-review.jpg"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque erat eros, congue nec justo id, laoreet mollis magna. Nam accumsan urna eget nunc semper scelerisque. Vivamus pharetra urna eu quam rhoncus convallis. Vestibulum tempor eget neque a pretium. Duis dapibus in nulla et fringilla. Vivamus odio ipsum, efficitur quis condimentum quis, tincidunt pulvinar magna. Mauris erat mi, sodales quis lorem sed, convallis faucibus diam. Quisque vitae gravida justo. Aliquam tincidunt elit ut enim mollis, ut finibus tortor vestibulum. Nulla eget est ligula. Quisque cursus mauris ut velit euismod, a elementum odio venenatis.
+description: As we at Hyperobjekt gear up for an exciting 2020, we look back upon this past year with gratitude and a sense of accomplishment. 2019 was an action-packed time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque erat eros, congue nec justo id, laoreet mollis magna. Nam accumsan urna eget nunc semper scelerisque. Vivamus pharetra urna eu quam rhoncus convallis. Vestibulum tempor eget neque a pretium. Duis dapibus in nulla et fringilla. Vivamus odio ipsum, efficitur quis condimentum quis, tincidunt pulvinar magna. Mauris erat mi, sodales quis lorem sed, convallis faucibus diam. Quisque vitae gravida justo. Aliquam tincidunt elit ut enim mollis, ut finibus tortor vestibulum. Nulla eget est ligula. Quisque cursus mauris ut velit euismod, a elementum odio venenatis.
+As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 
-Duis vel felis non est faucibus auctor. Mauris finibus ac est sed aliquet. Nunc pretium finibus sapien vehicula ultricies. Mauris id quam eu tellus venenatis pulvinar. Sed porta ligula ac elit pretium, ut facilisis sapien dapibus. Praesent vel magna in tortor suscipit porttitor vitae in leo. Sed tincidunt metus eu laoreet suscipit. In suscipit sem sed quam aliquet, sed vulputate eros laoreet. Etiam lobortis, lacus volutpat efficitur tincidunt, velit ante sodales metus, quis pretium sem quam convallis turpis.
+<h3>I. The Educational Opportunity Project at Stanford University</h3>
+
+At the start of the year, we were hired by Stanford’s Center for Education Policy Analysis to map and visualize test scores from their preeminent database of national education statistics (known as the Stanford Education Data Archive, or SEDA). 
+
+What was initially scoped as a small project eventually expanded to the better part of a year of intensive development on features including a richly detailed map, scatterplot charts, interactive articles, and the ability to export reports and embed visualizations. 
+
+<img src="/images/blog/mapandchart.jpg" />
+<p class="blogcaption">A map showing average test scores in school districts across the US</p>
+
+More than simply ranking areas and presenting test scores, the site paints a wider portrait by offering data on the socioeconomic context of each location, and offers ways of separating out schools’ effectiveness from the educational advantages offered by their surrounding communities. You can see the results at <a href="https://edopportunity.org" target="_blank">edopportunity.org</a>.
+
+The website was also featured in the Washington Post, The Wall Street Journal, Quartz, and other media outlets.
 
 
-<img src="/images/blog/2-charts.png" />
+<img src="/images/blog/2-charts.jpg" />
+<p class="blogcaption">Charts depicting opportunity gaps between groups of students in the US</p>
 
-Nulla lacinia id nulla et porta. Morbi sed sem ac tortor porta accumsan. Nulla vel porttitor lacus. Maecenas vulputate scelerisque magna, a sagittis est fringilla vel. Aenean ultricies molestie augue, vitae ultrices lacus vestibulum eu. Sed vel ex et nunc finibus venenatis in eget metus. Donec eu dolor eleifend, blandit magna et, mattis metus. Duis lacinia scelerisque turpis in vulputate. Etiam est massa, dictum nec turpis a, auctor sagittis tortor. Phasellus venenatis vel nulla sit amet sagittis.
+<h3>II. Princeton's Dignity + Debt Network</h3>
 
-Sed ullamcorper ipsum id turpis laoreet, sed rhoncus orci molestie. Etiam suscipit, urna at tempus convallis, diam diam dignissim ex, vulputate rhoncus nisi eros eget justo. Vivamus id massa condimentum, imperdiet nisi eu, vulputate eros. Cras malesuada est vel tincidunt placerat. Morbi ac leo et nulla ullamcorper volutpat. Donec urna lectus, rhoncus nec justo id, gravida commodo mi. Integer varius quis nunc in volutpat. Maecenas aliquam lacinia volutpat. Proin varius, tellus sit amet rhoncus blandit, odio eros dapibus enim, sed facilisis mi leo et velit. Maecenas ac augue at lorem rhoncus porttitor sed a magna. Nunc molestie dui sit amet interdum maximus. Curabitur iaculis purus at libero egestas, ut commodo libero condimentum.
+Meanwhile, we also were hard at work on <a href="https://www.dignityanddebt.org/" target="_blank">a website in partnership with Princeton’s Dignity + Debt network</a>, which launched in spring. In addition to creating a new visual identity and web presence, they tasked us with building a compelling interactive app.
 
-<img src="/images/blog/2-charts.png" />
+It’s always great to have clients with vision who push us to break the standard data viz mold and produce more evocative information design. In this case, inspiration came from one of <a href="https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/" target="_blank">the early data visualization pioneers, W.E.B. DuBois</a>, whose work charting the effects of institutionalized racism around the turn of the 20th century served as a template for examining present-day racial disparities.
+
+<img src="/images/blog/debt-calculator.jpg" />
+<p class="blogcaption">An interactive visualization comparing student debt amounts owed by various demographic groups</p>
+
+In homage to Du Bois, we created this <a href="https://www.dignityanddebt.org/projects/student-debt-calculator/" target="_blank">student loan debt calculator</a> which allows users to compare their borrowed amount to that of other demographic groups, and weigh the tradeoffs of various repayment scenarios.
+
+<h3>III. The Stanford Basic Income Lab</h3>
+
+Next on our plate was a new visual identity and <a href="https://basicincome.stanford.edu/" target="blank">website for the Stanford Basic Income Lab</a>, which studies theories, approaches, and outcomes related to Universal Basic Income (UBI). Continuing the trend of partnerships that task us with crafting interesting and imaginative designs, we are currently working with the Lab to develop a network visualization of major themes and topics related to UBI, along with a map of basic income experiments around the globe. 
+
+<img src="/images/blog/ubi-network2.jpg" />
+<p class="blogcaption">A network visualization depicting relationships between themes and topics related to UBI</p>
+
+<h3>IV. The Eviction Lab at Princeton University</h3>
+
+Throughout the year, we were inspired to see the work of one of our clients, <a href="https://evictionlab.org" target="_blank">the Eviction Lab at Princeton University</a>, continuing to drive change and make a difference in combating America’s eviction epidemic. We noted some of these impacts <a href="https://blog.mapbox.com/eviction-lab-one-year-later-8515d639e83e" target="_blank">here in an interview with Mapbox</a>, including newly enacted legislation in states and cities around the country, and an unabated stream of media articles since launch of their eviction database in 2018. 
+
+<img src="/images/blog/el-headlines.jpg" />
+<p class="blogcaption">Headlines from 2019 showing heightened awareness and action taken to address the eviction epidemic</p>
+
+We also partnered with NPR's <i>On the Media</i> to create website integrations for their <a href="https://www.wnycstudios.org/podcasts/otm/scarlet-e-unmasking-americas-eviction-crisis" target="_blank">"Scarlet E" series about the eviction crisis</a>, and built a special "museum mode" of the map to accompany <a href="https://www.jsonline.com/story/entertainment/arts/2019/05/16/evicted-exhibit-coming-here-brings-affordable-housing-crisis-home/1186688001/" target="_blank">an exhibit based on the book Evicted</a>, which traveled to 10 cities. And most recently, we’ve seen housing and eviction take greater priority in 2020 presidential campaigns; Elizabeth Warren, for instance, <a href="https://elizabethwarren.com/plans/protecting-empowering-renters" target="_blank">includes renter protections as part of her platform</a>, which links to the Lab's website. 
+
+Starting this fall and continuing into 2020, we’re working on a major update to the Eviction Lab website. We can’t say much before launch, but it will involve a refresh of user interfaces, pages on the site, and the data itself. 
+
+<img src="/images/blog/elchart.jpg" />
+<p class="blogcaption">Preview of forthcoming update to Eviction Lab website</p>
+
+<h3>V. Additional Projects</h3>
+
+We also worked on a number of smaller projects, including a UX consultation + UI redesign of Public Impact's Opportunity Culture school improvement portal, and a website to promote a forthcoming book and research by a scholar in the field of international conflict (coming soon).
 
 
-Sed cursus ante sed orci convallis faucibus. Aliquam ac justo non orci porta lacinia. Suspendisse et aliquet lacus. Nulla non est nec enim rutrum sagittis vitae sed ligula. Quisque consequat est purus, quis sollicitudin mauris sagittis at. Fusce porttitor, sapien ut hendrerit interdum, dolor sapien ultrices nulla, ut semper turpis odio id ex. Suspendisse eleifend tempor efficitur. Mauris turpis ipsum, malesuada sit amet ex eget, sagittis commodo felis. Maecenas non porta ipsum, ut sagittis enim. Nunc vitae nulla volutpat, elementum tortor sit amet, dapibus erat. Mauris faucibus tristique consectetur.
+<img src="/images/blog/ocportal-screen.jpg" />
+<p class="blogcaption">Screen from Opportunity Culture portal redesign</p>
+
+<h3>VI. The Year Ahead</h3>
+
+Looking forward, we're gearing up to release new features, expansions, and upgrades for the above-mentioned projects, and we're also excited for the opportunity to work with new clients. If you have a project that involves design & web development, data visualization & analysis, UX consultation, or any of the other skills in our wheelhouse, please feel free to reach out to us at <a href="mailto:info@hyperobjekt.com">info@hyperobjekt.com</a>. We'd love to connect and learn how we might be of service.
+
+Have a great new year, and stay tuned for more from us!
+

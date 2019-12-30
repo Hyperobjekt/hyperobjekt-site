@@ -84,6 +84,9 @@ nav.navbar > div {
 .dkbluebg {
   background-color: #021029;
 }
+.orangebg {
+  background-color: $boldorange;
+}
 a.no-underline {
   text-decoration: none;
   &:hover {
@@ -207,6 +210,29 @@ h5 {
  // letter-spacing: .2rem;
   // text-align: center;
   line-height: 2.4rem;
+}
+
+a.readmore svg {
+    top: -1px;
+    position: relative;
+    g.rightarrow {
+    stroke: #000;
+    }
+  }
+#teaser {
+  .col-12 {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+  a {
+  font-weight: 600;
+  font-size: 1.4rem;
+  &.readmore svg {
+    g.rightarrow {
+    stroke: #fff;
+    }
+  }
+}  
 }
 
 // Page container
@@ -391,6 +417,23 @@ body.type-help-faq, body.research {
   }
 }
 
+.drawer-toggle {
+  .navbar-toggler-icon {
+    background-image: url('/images/menu2.svg');
+    animation: opacity-fill .3s;
+    @keyframes opacity-fill {
+      /* You could think of as "step 1" */
+      0% {
+        opacity: 0;
+      }
+      /* You could think of as "step 2" */
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}
+
 nav.navbar-light {
   height: 6.4rem;
   background-color: transparent; // $seda-dark;
@@ -571,7 +614,7 @@ nav.navbar-light {
       font-size: 25px;
       display: block;
       transition: 0.3s;
-      font-family: $sharpgrotesk-med-15;
+      font-family: futura-pt;
       font-size: 2.4rem;
       line-height: 2.0rem;
       letter-spacing: .011rem;
@@ -1667,13 +1710,16 @@ body.kind-404 {
 
 // Footer
 #footer {
-  background-color: $seda-navy;
+  background-color: $midnightblue;
   color: $white;
 
   a {
-    color: $white;
+    color: #c5c5c5;
     text-decoration: none;
-    text-transform: uppercase;
+    letter-spacing: .4rem;
+    font-weight: 400;
+    font-family: futura-pt, sans-serif;
+    font-size: 1.6rem;
   }
   ul {
     list-style: none;
@@ -1711,11 +1757,6 @@ body.kind-404 {
   }
 
   .navlinks {
-    order: 1;
-    font-family: $sharpgrotesk-med-15;
-    font-size: 1.7rem;
-    line-height: 2.4rem;
-    letter-spacing: .066rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;

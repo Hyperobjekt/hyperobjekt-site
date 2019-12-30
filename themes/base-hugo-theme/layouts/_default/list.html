@@ -2,7 +2,10 @@
 
 <nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-content-center justify-content-between">
   <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
-  <div class="nav-menu pr-4"><a href="/" class="no-underline pr-4">h o m e</a><a href="/blog" class="no-underline menu-active">b l o g</a></div>
+  <div class="nav-menu d-none d-md-block pr-4"><a href="/" class="no-underline pr-4 menu-active">h o m e</a><a href="/#work" class="no-underline pr-4">w o r k</a><a href="/blog" class="no-underline">b l o g</a></div>
+  <button class="drawer-toggle d-md-none pr-3" id="toggleDrawer" type="button" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+    <span class="navbar-toggler-icon"></span>
+</button>
 </nav>
 
 <div class="row pt-13">
@@ -10,12 +13,12 @@
     <h1>{{ .Title }}</h1>
   </div>
 </div>    
-<div class="row pt-8">
+<div class="row pt-8 mb-12">
 {{ range .Pages.ByPublishDate.Reverse }}
 
   <div class="bloglist-item col-xs-12 col-md-8 col-lg-7 col-xl-7 pb-7 mx-auto">
     <div class="blog-thumb" style="background-image: url('{{ .Params.blogimage }}'); background-size: 100%;"></div>
-    <h2><a class="" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <h2 class="mb-2"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <p>
       
     {{ .Params.description }}
@@ -27,4 +30,8 @@
 
 {{ end }}
 </div>
+
+{{ partial "footer2.html" . }}
+
+
 {{ end }}
