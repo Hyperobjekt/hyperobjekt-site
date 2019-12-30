@@ -20,7 +20,7 @@ What was initially scoped as a small project eventually expanded to the better p
 
 More than simply ranking areas and presenting test scores, the site paints a wider portrait by offering data on the socioeconomic context of each location, and offers ways of separating out schools’ effectiveness from the educational advantages offered by their surrounding communities. You can see the results at <a href="https://edopportunity.org" target="_blank">edopportunity.org</a>.
 
-So far, the website has been featured in the <a href="https://www.washingtonpost.com/local/education/achievement-gaps-in-schools-driven-by-poverty-study-finds/2019/09/22/59491778-dd73-11e9-b199-f638bf2c340f_story.html" target="_blank">Washington Post</a>, <a href="https://www.wsj.com/articles/in-mississippi-an-unlikely-model-for-school-desegregation-11574424004" target="_blank">The Wall Street Journal</a>, <a href="https://qz.com/1715113/the-most-accurate-school-rating-tool-is-this-map-from-stanford/" target="_blank">Quartz</a>, and other media outlets.
+So far, the website has been featured in the <a href="https://www.washingtonpost.com/local/education/achievement-gaps-in-schools-driven-by-poverty-study-finds/2019/09/22/59491778-dd73-11e9-b199-f638bf2c340f_story.html" target="_blank">Washington Post</a>, <a href="https://www.wsj.com/articles/in-mississippi-an-unlikely-model-for-school-desegregation-11574424004" target="_blank">The Wall Street Journal</a>, <a href="https://qz.com/1715113/the-most-accurate-school-rating-tool-is-this-map-from-stanford/" target="_blank">Quartz</a>, and many other media outlets.
 
 
 <img src="/images/blog/2-charts.jpg" />
@@ -32,10 +32,10 @@ Meanwhile, we were also hard at work on <a href="https://www.dignityanddebt.org/
 
 It’s always great to have clients who push us to break the standard data viz mold and produce more evocative information design. In this case, inspiration came from one of <a href="https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/" target="_blank">the early data visualization pioneers, W.E.B. DuBois</a>, whose work charting the effects of institutionalized racism around the turn of the 20th century served as a template for examining present-day racial disparities.
 
+In homage to Du Bois, we created a <a href="https://www.dignityanddebt.org/projects/student-debt-calculator/" target="_blank">student loan debt calculator</a> which allows users to compare their borrowed amount to that of other demographic groups, and weigh the tradeoffs of various repayment scenarios.
+
 <img src="/images/blog/debt-calculator.jpg" />
 <p class="blogcaption">An interactive visualization comparing student debt amounts owed by various demographic groups</p>
-
-In homage to Du Bois, we created this <a href="https://www.dignityanddebt.org/projects/student-debt-calculator/" target="_blank">student loan debt calculator</a> which allows users to compare their borrowed amount to that of other demographic groups, and weigh the tradeoffs of various repayment scenarios.
 
 <h3>III. The Stanford Basic Income Lab</h3>
 

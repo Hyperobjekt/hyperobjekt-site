@@ -51,10 +51,10 @@
             border: 1px solid #020e2726;
             }
     
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(lg) {
                 img {
-                height: 72px;
-                width: 72px;
+                height: 88px;
+                width: 88px;
                 background-color: aliceblue;
                 border: 1px solid #020e2726;
                 border-radius: 50%;
