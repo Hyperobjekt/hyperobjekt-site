@@ -17468,10 +17468,6 @@ body.type-help-faq nav.sticky-top, body.research nav.sticky-top {
   border-bottom: 1px solid #ddeaf3;
 }
 
-.drawer-toggle {
-  height: 15px;
-}
-
 .drawer-toggle .navbar-toggler-icon {
   background-image: url("/images/menu2.svg");
   animation: opacity-fill .3s;
@@ -19144,10 +19140,11 @@ body.home .hero .h0-logo-subhead {
     background-color: aliceblue;
     left: -128px;
     position: relative;
-    top: 34%;
+    top: 24%;
     border: 16px solid white;
     border-radius: 50%;
     padding: 21px 14px;
+    margin-top: 0;
   }
 }
 
