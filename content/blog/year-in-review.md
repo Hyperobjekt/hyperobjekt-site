@@ -3,7 +3,8 @@ title: "Hyperobjekt: Year in Review"
 subtitle: Reflections on the ambitious & rewarding projects we undertook in 2019
 date: "2019-02-24"
 blogimage: "/images/blog/year-review.jpg"
-description: As we at Hyperobjekt gear up for an exciting 2020, we look back upon this past year with gratitude and a sense of accomplishment. 2019 was an action-packed time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
+socialdescription: Reflections on a year of opportunities to perform challenging, creative work aligned with our values. 
+description: As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 ---
 As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 

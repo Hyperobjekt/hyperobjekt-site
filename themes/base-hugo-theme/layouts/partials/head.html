@@ -2,33 +2,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Fetch description for metadata -->
-  {{ if .Page.Params.description }}
+   <!-- Fetch description for metadata -->
+  {{ if .Page.Params.socialdescription }} 
+    {{ $.Scratch.Set "socialDescription" .Page.Params.socialdescription }}
+   {{ else if .Page.Params.description }}
     {{ $.Scratch.Set "socialDescription" .Page.Params.description }}
   {{ else }}
-    {{ $.Scratch.Set "socialDescription" .Site.Data.social_description }}
+    {{ $.Scratch.Set "socialDescription" .Site.Data.social.social_description }}
   {{ end }}
 
-  <!-- Fetch an image for metadata -->
-  {{ if .Page.Params.image }}
-    <!-- First try for page image -->
-    {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.image }}
-    {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-      {{ with .Resources.GetMatch $img }}
-        {{$img400 := .Fill "400x Center"}}
-        {{ $.Scratch.Set "socialImage" $img400.Permalink }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    <!-- Otherwise use the default social image -->
-    {{ $img := strings.TrimPrefix "/uploads/" .Site.Data.social.social_image }}
-    {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-      {{ with .Resources.GetMatch $img }}
-        {{$img400 := .Fill "400x Center"}}
-        {{ $.Scratch.Set "socialImage" $img400.Permalink }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+   <!-- Fetch an image for metadata -->
+   {{ if .Page.Params.social_image }}
+   <!-- First try for page image -->
+       {{ $.Scratch.Set "socialImage" .Page.Params.social_image }}
+ {{ else }}
+   <!-- Otherwise use the default social image -->
+ 
+       {{ $.Scratch.Set "socialImage" .Site.Data.social.social_image }}
+ 
+ {{ end }}
 
   <!-- General metadata -->
   <meta name="description" content="{{ $.Scratch.Get "socialDescription" }}" />
@@ -41,7 +33,7 @@
   <meta property="og:url" content="{{ "/" | absURL }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   <meta property="og:image" content="{{ $.Scratch.Get "socialImage" }}" />
-  <meta property="og:image:secure_url" content="{{ $.Scratch.Get "socialImage" }}" />
+  <meta property="og:image:secure_url" content="https://hyperobjekt.com{{ $.Scratch.Get "socialImage" }}" />
   <!-- Twitter metadata -->
   <meta name="twitter:card" content="summary_large_image" />
   {{ if .Site.Data.social.twitter_via }}
