@@ -1,12 +1,12 @@
 ---
 title: "Hyperobjekt: Year in Review"
-subtitle: Reflections on the ambitious & rewarding projects we undertook in 2019
+subtitle: Reflections on the ambitious and rewarding projects we undertook in 2019
 date: "2019-02-24"
-blogimage: "/images/blog/year-review.jpg"
+blogimage: "/images/blog/year-review2.jpg"
 socialdescription: Reflections on a year of opportunities to perform challenging, creative work aligned with our values. 
 description: As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 ---
-As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
+As we at Hyperobjekt gear up for a promising 2020, we're looking back on this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 
 <h3>I. The Educational Opportunity Project at Stanford University</h3>
 

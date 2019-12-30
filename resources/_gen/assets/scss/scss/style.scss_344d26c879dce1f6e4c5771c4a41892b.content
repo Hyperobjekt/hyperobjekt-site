@@ -19135,13 +19135,13 @@ body.home .hero .h0-logo-subhead {
   .type-blog.kind-section .bloglist-item .blog-thumb {
     border-left: 1px solid #d4d4d4;
     padding-left: 80px;
-    height: 96px;
-    width: 96px;
+    height: 72px;
+    width: 72px;
     background-color: aliceblue;
-    left: -128px;
+    left: -104px;
     position: relative;
     top: 24%;
-    border: 16px solid white;
+    border: 1px solid #020e2726;
     border-radius: 50%;
     padding: 21px 14px;
     margin-top: 0;
