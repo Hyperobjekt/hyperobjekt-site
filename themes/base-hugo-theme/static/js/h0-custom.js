@@ -23,6 +23,11 @@
       }
     });
 
+    $('#drawer .navlinks a').on('click', function() {
+      $('#drawer').removeClass('show');
+      $('#toggleDrawer').focus();
+    }); 
+
     function checkScroll(y) {
         // console.log(checkScroll);
         // If the scroll is at the top, not sticky.
