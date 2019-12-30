@@ -421,6 +421,10 @@ body.type-help-faq, body.research {
   .navbar-toggler-icon {
     background-image: url('/images/menu2.svg');
     animation: opacity-fill .3s;
+    background-color: transparent;
+    border: 0;
+   // -webkit-appearance: none;
+    border-radius: 0;
     @keyframes opacity-fill {
       /* You could think of as "step 1" */
       0% {

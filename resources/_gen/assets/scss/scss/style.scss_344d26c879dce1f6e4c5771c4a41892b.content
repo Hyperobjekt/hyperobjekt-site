@@ -17471,6 +17471,9 @@ body.type-help-faq nav.sticky-top, body.research nav.sticky-top {
 .drawer-toggle .navbar-toggler-icon {
   background-image: url("/images/menu2.svg");
   animation: opacity-fill .3s;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
 }
 
 @keyframes opacity-fill {
