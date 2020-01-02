@@ -11,5 +11,24 @@
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Hyperobjekt: Year in Review</title>
+      <link>/blog/year-in-review/</link>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/year-in-review/</guid>
+      <description>As we gear up for a promising 2020, we look back on this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values.
+I. The Educational Opportunity Project at Stanford University At the start of the year, we were hired by Stanford’s Center for Education Policy Analysis to map and visualize test scores from their preeminent database of national education statistics (known as the Stanford Education Data Archive, or SEDA).</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>/uploads/index_draft/</link>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/uploads/index_draft/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

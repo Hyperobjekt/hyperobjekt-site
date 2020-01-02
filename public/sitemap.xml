@@ -8,7 +8,27 @@
   </url>
   
   <url>
+    <loc>/blog/year-in-review/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newhome/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pulsetest/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/uploads/index_draft/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
     <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -19,6 +39,7 @@
   
   <url>
     <loc>/uploads/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
