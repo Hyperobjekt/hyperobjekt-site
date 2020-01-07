@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="465px" viewBox="0 0 182 465" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>line-chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="line-chart" transform="translate(0.000000, 0.000000)" stroke="#E23E00">
+            <path d="M181,1 C180.72514,2.84086266 180.313356,4.32881839 179.764648,5.46386719 C178.638759,7.79286604 175.939453,48.1309833 175.939453,52.5644531 C175.939453,95.6640625 156.263672,90.1445313 156.191406,158.421875 C156.158986,189.052467 156.263672,159.777344 156.191406,213.621094 C156.11681,269.201258 114.390625,279.265625 114.390625,338.085938 C114.390625,379.527688 147.695313,407.5 156.191406,413.324219 C169.171356,422.222198 177.440887,439.448248 181,465.00237 L181,1 Z" id="Path-2" fill-opacity="0.0818673514" fill="#E23E00" opacity="0.283947173"></path>
+            <line x1="181.5" y1="67.5" x2="0.5" y2="67.5" id="Line" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+            <line x1="181.5" y1="243.5" x2="0.5" y2="243.5" id="Line-Copy" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+            <line x1="181.5" y1="327.5" x2="0.5" y2="327.5" id="Line-Copy-3" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+            <line x1="181.5" y1="157.5" x2="0.5" y2="157.5" id="Line-Copy-4" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+            <line x1="181.5" y1="407.5" x2="0.5" y2="407.5" id="Line-Copy-2" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+            <line x1="41.5" y1="0.5" x2="41.5" y2="464.5" id="Line-2" stroke-opacity="0.280649038" stroke-linecap="square" stroke-dasharray="9"></line>
+        </g>
+    </g>
+</svg>

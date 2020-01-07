@@ -19211,7 +19211,7 @@ body.home .hero .h0-logo-subhead {
 }
 
 .type-about .pic {
-  width: 110px;
+  width: 111px;
   height: 110px;
   border-radius: 50%;
   margin: auto;
@@ -19240,12 +19240,60 @@ body.home .hero .h0-logo-subhead {
   font-size: 1.7rem;
 }
 
+.type-about .chart-graphic {
+  background: url("/images/chart-illustration2-2.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  opacity: 0.18;
+  border-right: 24px solid white;
+}
+
+.type-about .chart-graphic2 {
+  background: url("/images/line-chart3.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-position: right;
+  border-right: 24px solid white;
+}
+
+.type-about .chart-graphic3 {
+  background: url("/images/chart-illustration4-2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
 .type-about a:hover {
   color: #04143c;
 }
 
 .type-about nav a:hover {
   color: #fff;
+}
+
+.type-about .left-divider hr {
+  border-top: 1px solid #020f28;
+  border-top: 1.5px solid #e8e8e8;
+}
+
+.type-about .right-block {
+  /*  background: linear-gradient(to bottom, whitesmoke 0%, whitesmoke 100%) no-repeat;
+        background: linear-gradient(to bottom, #fff6f3 0%, #fff6f3 100%) no-repeat;
+        background: linear-gradient(to bottom, #f6f9ff 0%, #f6f9ff 100%) no-repeat;
+        background-size: 84%;
+        background-position: right; */
+}
+
+.type-about .left-block {
+  background-size: 84%;
+  background-position: left;
+}
+
+.type-about .left-block3 {
+  background: linear-gradient(to bottom, #f6f9ff 0%, #f6f9ff 100%) no-repeat;
+  background-size: 100%;
+  background-position: left;
 }
 
 .type-about h1 {
@@ -19278,6 +19326,7 @@ body.home .hero .h0-logo-subhead {
   font-weight: 500;
   font-style: normal;
   line-height: 1.35;
+  margin-top: -10px;
 }
 
 .type-about .readmore a {
@@ -19285,13 +19334,25 @@ body.home .hero .h0-logo-subhead {
   letter-spacing: 0.2rem;
 }
 
-.type-about p {
+.type-about p, .type-about ul {
   font-family: futura-pt,sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.7rem;
   letter-spacing: .035rem;
   line-height: 1.5;
+}
+
+.type-about ul {
+  padding-left: 0;
+}
+
+.type-about ul li {
+  margin-bottom: 0.8rem;
+}
+
+.type-about b {
+  font-weight: 600;
 }
 
 .type-about.kind-section .bloglist-item.blog-thumb img {
