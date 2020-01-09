@@ -839,6 +839,12 @@ textarea, input {
 // Hero
 body.home {
   background-color: #021029;
+  a.readmore {
+    color: #021029;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .hero {
     height: 100vh;
     width: 100%;
@@ -1037,6 +1043,13 @@ body.home {
         border-right: 32px solid #fff;
       }
       min-height: 270px;
+    }
+    svg {
+      position: relative;
+      top: -2px;
+      g.rightarrow {
+      stroke: #000;
+      }
     }
   }
   &.projects {
