@@ -12,7 +12,7 @@ values: >-
     <ul>
     <li><b>Intuitiveness:</b> We strive to make our sites and user interfaces—even feature-packed ones built to explore large, complex datasets—easy to use and understand by experts and the general public alike.</li>
     <li><b>Forward-thinking design:</b> Encompassing the best practices in user experience, leading-edge aesthetic sensibilities, and innovative functionality in our data tools.</li> 
-    <li><b>Optimized performance:</b> We build our sites & tools to be fast & responsive (including on mobile devices), even when serving tens of thousands of data points</li>
+    <li><b>Optimized performance:</b> We build our sites & tools for speed & responsiveness (including on mobile devices), even when serving tens of thousands of data points</li>
     <li><b>Accessibility:</b> We take a thoughtful approach to accommodating users with disabilities and take care to meet current accessibility standards.</li> 
     </ul>
 services: >-
