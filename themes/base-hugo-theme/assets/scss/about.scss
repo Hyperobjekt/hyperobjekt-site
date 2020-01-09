@@ -54,11 +54,11 @@
         background: url('/images/middlelines.svg');
         background-size: contain;
         background-repeat: no-repeat;
-        opacity: 0.5;
+        opacity: 0.7;
         background-position: center center;
-        border-right: 24px solid white;
-        border-top: 20px solid white;
-        border-bottom: 20px solid white;
+        border-right: 24px solid #f9f9f9;
+        border-top: 20px solid #f9f9f9;
+        border-bottom: 20px solid #f9f9f9;
     }
     .chart-graphic3 {
         background: url('/images/cyancard.svg');
@@ -90,6 +90,8 @@
         background: linear-gradient(to bottom, #f6f9ff 0%, #f6f9ff 100%) no-repeat;
         background-size: 84%;
         background-position: right; */
+        background-color: #edeef0;
+        background-color: #f9f9f9;
     }
     .left-block {
         //background: linear-gradient(to bottom, #f4f8ff 0%, #f4f8ff 100%) no-repeat;
@@ -100,6 +102,9 @@
         background: linear-gradient(to bottom, #f6f9ff 0%, #f6f9ff 100%) no-repeat;
         background-size: 100%;
         background-position: left;
+    }
+    .people {
+        background-color: #f9f9f9;
     }
     
     
