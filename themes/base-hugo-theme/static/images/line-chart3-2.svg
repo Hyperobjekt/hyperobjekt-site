@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="316px" height="467px" viewBox="0 0 316 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>line-chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-100.000000, -84.000000)">
+            <g id="line-chart" transform="translate(261.000000, 317.500000) scale(-1, 1) translate(-261.000000, -317.500000) translate(100.000000, 84.000000)">
+                <path d="M321.5,195.960937 C309.700521,215.653646 303.800781,249.696615 303.800781,298.089844 C303.800781,370.679687 235.558594,351.585937 235.558594,395.207031 C235.558594,438.828125 297.238281,421.25 305.089844,444.414063 C310.324219,459.856771 315.627604,466.666667 321,464.84375" id="Path-3" stroke="#168C8D" fill-opacity="0.127922858" fill="#25C4C6" opacity="0.34047154"></path>
+                <path d="M321,3 C320.72514,4.84086266 320.313356,6.32881839 319.764648,7.46386719 C318.638759,9.79286604 315.939453,50.1309833 315.939453,54.5644531 C315.939453,97.6640625 296.263672,92.1445313 296.191406,160.421875 C296.158986,191.052467 296.263672,161.777344 296.191406,215.621094 C296.11681,271.201258 254.390625,281.265625 254.390625,340.085938 C254.390625,381.527688 287.695313,409.5 296.191406,415.324219 C309.171356,424.222198 317.440887,441.448248 321,467.00237 L321,3 Z" id="Path-2" stroke="#E23E00" fill-opacity="0.0818673514" fill="#E23E00" opacity="0.260323661"></path>
+                <line x1="321.5" y1="69.5" x2="0.5" y2="69.5" id="Line" stroke="#E23E00" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+                <line x1="321.5" y1="245.5" x2="0.5" y2="245.5" id="Line-Copy" stroke="#E23E00" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+                <line x1="321.5" y1="329.5" x2="0.5" y2="329.5" id="Line-Copy-3" stroke="#E23E00" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+                <line x1="321.5" y1="159.5" x2="0.5" y2="159.5" id="Line-Copy-4" stroke="#E23E00" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+                <line x1="321.5" y1="409.5" x2="0.5" y2="409.5" id="Line-Copy-2" stroke="#E23E00" opacity="0.354631696" stroke-linecap="square" stroke-dasharray="9"></line>
+                <line x1="163.5" y1="0.5" x2="163.5" y2="464.5" id="Line-2" stroke-opacity="0.280649038" stroke="#E23E00" stroke-linecap="square" stroke-dasharray="9"></line>
+            </g>
+        </g>
+    </g>
+</svg>

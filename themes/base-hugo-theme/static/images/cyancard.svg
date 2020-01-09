@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="274px" viewBox="0 0 182 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>cyancard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-168.000000, -432.000000)">
+            <g id="cyancard" transform="translate(131.084272, 432.500000)">
+                <rect id="Cyan-rectangle" fill="#0494AF" x="37.4018897" y="0" width="180.880348" height="273"></rect>
+                <g id="bottom-design" transform="translate(111.500000, 130.480932) rotate(-120.000000) translate(-111.500000, -130.480932) translate(5.000000, 63.980932)">
+                    <g id="Lines" transform="translate(32.000000, 49.000000)" stroke="#FFFFFF" stroke-width="0.3">
+                        <line x1="72.5" y1="58.5" x2="68.5" y2="72.5" id="Line-Copy-15" stroke-linecap="square"></line>
+                        <line x1="109.5" y1="38.5" x2="78.5" y2="34.5" id="Line-Copy-27" opacity="0.756370908" stroke-linecap="square"></line>
+                        <line x1="78.5" y1="34.5" x2="47.5" y2="39.5" id="Line-Copy-28" stroke-linecap="square"></line>
+                        <line x1="107.5" y1="17.5" x2="78.5" y2="34.5" id="Line-Copy-29" stroke-linecap="square"></line>
+                        <line x1="107.5" y1="17.5" x2="109.5" y2="38.5" id="Line-Copy-31" opacity="0.756370908" stroke-linecap="square"></line>
+                        <line x1="0.5" y1="20.5" x2="12.2144448" y2="47.1758485" id="Line-Copy-32" opacity="0.85265532" stroke-linecap="square"></line>
+                        <line x1="47.5" y1="39.5" x2="12.2144448" y2="47.1758485" id="Line-Copy-33" opacity="0.866745722" stroke-linecap="square"></line>
+                        <line x1="153.5" y1="40.5" x2="107.5" y2="17.5" id="Line-Copy-30" stroke-linecap="square"></line>
+                        <line x1="83.5" y1="50.5" x2="78.5" y2="34.5" id="Line-Copy-25" stroke-linecap="square"></line>
+                        <line x1="72.5" y1="58.5" x2="78.5" y2="34.5" id="Line-Copy-26" stroke-linecap="square"></line>
+                        <line x1="118.5" y1="82.5" x2="83.5" y2="51" id="Line-Copy-18" stroke-linecap="square"></line>
+                        <line x1="118.5" y1="82.5" x2="130.5" y2="56.5" id="Line-Copy-19" stroke-linecap="square"></line>
+                        <line x1="130.5" y1="56.5" x2="153.5" y2="40.5" id="Line-Copy-20" stroke-linecap="square"></line>
+                        <line x1="109.5" y1="38.5" x2="153.5" y2="40.5" id="Line-Copy-21" opacity="0.638044085" stroke-linecap="square"></line>
+                        <polyline id="Line-Copy-22" opacity="0.790271577" stroke-linecap="square" points="109.5 38.5 103.640137 56.5 118.5 82.5"></polyline>
+                        <line x1="109.5" y1="38.5" x2="83.5" y2="51" id="Line-Copy-24" opacity="0.790271577" stroke-linecap="square"></line>
+                        <polyline id="Line-Copy-61" opacity="0.790271577" stroke-linecap="square" points="129.731934 56.5 103.640137 56.5 84 51"></polyline>
+                        <line x1="109.5" y1="38.5" x2="130.5" y2="56.5" id="Line-Copy-23" opacity="0.790271577" stroke-linecap="square"></line>
+                        <polyline id="Line-Copy-17" stroke-linecap="square" points="47.5 39.5 22.2257168 30.677323 0.5 20.5"></polyline>
+                        <polyline id="Line-Copy-7" opacity="0.811848958" stroke-linecap="square" points="24.842608 61.3336511 24.6621661 53.4500331 12.2144448 47.1758485"></polyline>
+                        <line x1="24.842608" y1="61.3336511" x2="47.5" y2="39.5" id="Line-Copy-8" opacity="0.866745722" stroke-linecap="square"></line>
+                        <polyline id="Line-Copy-9" stroke-linecap="square" points="57.5 59.5 45.4044233 50.9179556 47.5 39.5"></polyline>
+                        <line x1="68.1967773" y1="72.6591717" x2="57.5" y2="59.5" id="Line-Copy-13" stroke-linecap="square"></line>
+                        <line x1="24.842608" y1="61.3336511" x2="67.5" y2="72.5" id="Line-Copy-11" opacity="0.898949033" stroke-linecap="square"></line>
+                        <path d="M24.842608,61.3336511 C46.6142027,60.111217 57.5,59.5 57.5,59.5 C57.5,59.5 64.5,51.1666667 78.5,34.5 L24.842608,61.3336511 Z" id="Line-Copy-60" opacity="0.850213914" stroke-linecap="square"></path>
+                        <line x1="159.5" y1="67.5" x2="130.5" y2="56.5" id="Line-Copy-38" opacity="0.750069754" stroke-linecap="square"></line>
+                        <line x1="169" y1="45.5" x2="159.5" y2="67.5" id="Line-Copy-40" opacity="0.865792411" stroke-linecap="square"></line>
+                        <polyline id="Line-Copy-62" opacity="0.669131324" stroke-linecap="square" points="153.5 40.5 154.341797 53.5 159.5 67.5"></polyline>
+                        <line x1="153.5" y1="40.5" x2="169" y2="45.5" id="Line-Copy-41" opacity="0.913736979" stroke-linecap="square"></line>
+                        <path d="M130.5,56.5 C146.394531,54.5 154.341797,53.5 154.341797,53.5 C154.341797,53.5 159.227865,50.8333333 169,45.5" id="Line-Copy-42" opacity="0.89327567" stroke-linecap="square"></path>
+                        <line x1="169" y1="45.5" x2="167.5" y2="32.5" id="Line-Copy-43" opacity="0.913736979" stroke-linecap="square"></line>
+                        <line x1="153.5" y1="40.5" x2="167.5" y2="32.5" id="Line-Copy-46" opacity="0.913736979" stroke-linecap="square"></line>
+                        <line x1="153.5" y1="40.5" x2="169.5" y2="23.5" id="Line-Copy-52" opacity="0.913736979" stroke-linecap="square"></line>
+                        <line x1="169" y1="45.5" x2="179.5" y2="48.5" id="Line-Copy-39" opacity="0.6" stroke-linecap="square"></line>
+                        <line x1="167.5" y1="32.5" x2="179.5" y2="48.5" id="Line-Copy-47" opacity="0.913736979" stroke-linecap="square"></line>
+                        <line x1="169.5" y1="23.5" x2="167.5" y2="32.5" id="Line-Copy-49" opacity="0.913736979" stroke-linecap="square"></line>
+                        <line x1="132.5" y1="15.5" x2="153.5" y2="40.5" id="Line-Copy-50" opacity="0.756370908" stroke-linecap="square"></line>
+                        <line x1="107.5" y1="17.5" x2="132.5" y2="15.5" id="Line-Copy-53" opacity="0.756370908" stroke-linecap="square"></line>
+                        <line x1="83.5" y1="51" x2="72.5" y2="58.5" id="Line-Copy-16" stroke-linecap="square"></line>
+                        <polyline id="Path-2" opacity="0.860839844" points="22.246134 30.6419594 12.25 0.148403011 0.5 20.5"></polyline>
+                        <line x1="24.6621661" y1="53.4500331" x2="47.5" y2="39.5" id="Path-3" opacity="0.866745722" stroke-linecap="square"></line>
+                    </g>
+                    <g id="Points" transform="translate(0.000000, -0.000000)" fill="#FFFFFF">
+                        <circle id="Oval-Copy-19" cx="104.5" cy="107.5" r="1"></circle>
+                        <circle id="Oval-Copy-44" cx="77.5165165" cy="99.9858554" r="1"></circle>
+                        <circle id="Oval-Copy-29" cx="141.5" cy="87.5" r="1"></circle>
+                        <circle id="Oval-Copy-30" cx="162.5" cy="105.5" r="1"></circle>
+                        <circle id="Oval-Copy-31" cx="186.5" cy="102.5" r="1"></circle>
+                        <circle id="Oval-Copy-32" cx="185.15" cy="89.5" r="1"></circle>
+                        <circle id="Oval-Copy-20" cx="115.5" cy="100" r="1"></circle>
+                        <circle id="Oval-Copy-28" cx="135.7" cy="105.5" r="1"></circle>
+                        <circle id="Oval-Copy-25" cx="20.5258933" cy="60.1735693" r="1"></circle>
+                        <circle id="Oval-Copy-36" cx="17.2967116" cy="52.3445675" r="1"></circle>
+                        <circle id="Oval-Copy-37" cx="30.25" cy="54.2856539" r="1"></circle>
+                        <circle id="Oval-Copy-38" cx="27.6911257" cy="38.5398616" r="1"></circle>
+                        <circle id="Oval-Copy-39" cx="16.5467116" cy="22.2728874" r="1"></circle>
+                        <circle id="Oval-Copy-42" cx="1.41707811" cy="10.3602725" r="1"></circle>
+                        <circle id="Oval-Copy-43" cx="44.1559009" cy="1.47800834" r="1"></circle>
+                        <circle id="Oval-Copy-40" cx="36.9909536" cy="31.0867266" r="1"></circle>
+                        <circle id="Oval-Copy-46" cx="46.5986487" cy="17.7662185" r="1"></circle>
+                        <circle id="Oval-Copy-47" cx="11.7159628" cy="51.5053109" r="1"></circle>
+                        <circle id="Oval-Copy-41" cx="27.6911257" cy="8.36576982" r="1"></circle>
+                        <circle id="Oval-Copy-26" cx="44.4059009" cy="96.1097267" r="1"></circle>
+                        <circle id="Oval-Copy-45" cx="56.5342219" cy="102.5" r="1"></circle>
+                        <circle id="Oval-Copy-27" cx="89.5" cy="108.5" r="1"></circle>
+                        <path d="M32.6070476,70.7429559 C33.2145608,70.7429559 33.7070476,70.2504691 33.7070476,69.6429559 C33.7070476,69.3267956 33.5736654,69.0417883 33.3601027,68.8411359 C33.1632973,68.6562277 32.8984004,68.5429559 32.6070476,68.5429559 C31.9995343,68.5429559 31.5070476,69.0354427 31.5070476,69.6429559 C31.5070476,70.2504691 31.9995343,70.7429559 32.6070476,70.7429559 Z" id="Oval-Copy-2"></path>
+                        <path d="M59.9823053,12.1276186 C60.5898185,12.1276186 61.0823053,11.6351319 61.0823053,11.0276186 C61.0823053,10.7114583 60.9489231,10.426451 60.7353605,10.2257987 C60.538555,10.0408904 60.2736582,9.92761864 59.9823053,9.92761864 C59.3747921,9.92761864 58.8823053,10.4201054 58.8823053,11.0276186 C58.8823053,11.6351319 59.3747921,12.1276186 59.9823053,12.1276186 Z" id="Oval-Copy-34"></path>
+                        <circle id="Oval-Copy-3" cx="79.5" cy="88.5" r="1"></circle>
+                        <circle id="Oval-Copy-33" cx="16.2967116" cy="40.2898616" r="1"></circle>
+                        <circle id="Oval-Copy-35" cx="44.4059009" cy="49.3515601" r="1"></circle>
+                        <circle id="Oval-Copy-7" cx="110.5" cy="83.5" r="1"></circle>
+                        <circle id="Oval-Copy-8" cx="140" cy="66.6388612" r="1"></circle>
+                        <circle id="Oval-Copy-5" cx="150.431855" cy="131.360404" r="1"></circle>
+                        <circle id="Oval-Copy-6" cx="100" cy="122" r="1"></circle>
+                        <circle id="Oval-Copy-4" cx="56.7342219" cy="110.2" r="1.2"></circle>
+                        <circle id="Oval" cx="191.5" cy="116.5" r="1"></circle>
+                        <circle id="Oval-Copy-13" cx="211.6" cy="97.6" r="1"></circle>
+                        <circle id="Oval-Copy-9" cx="201" cy="94.6340332" r="1"></circle>
+                        <circle id="Oval-Copy-12" cx="199.5" cy="81.5" r="1"></circle>
+                        <circle id="Oval-Copy-14" cx="164.7" cy="64.7" r="1"></circle>
+                        <circle id="Oval-Copy-15" cx="201.5" cy="72.5" r="1"></circle>
+                    </g>
+                </g>
+                <g id="bottom-design-2" transform="translate(86.529800, 168.163128)" stroke="#FFFFFF">
+                    <polyline id="Path-9" stroke-width="0.2" opacity="0.894670759" points="64.568276 24.9036842 62.5192379 39.9613841 57.5227587 46.7592357 47.6076952 53.5570872 40.1806373 44.5411796 13.6846892 59.3564036 41.068276 24.9036842"></polyline>
+                    <polygon id="Path-10" stroke-width="0.3" opacity="0.642926897" points="28.8932306 40.221041 0.354174377 30.1942942 12.8829647 38.6083704"></polygon>
+                    <line x1="12.8829647" y1="38.6083704" x2="13.6846892" y2="59.3564036" id="Path-11" stroke-width="0.2" opacity="0.629580543"></line>
+                    <polyline id="Path-12" stroke-width="0.3" opacity="0.715192522" points="29.0559286 40.221041 40.1806373 44.3368724 64.568276 24.9036842"></polyline>
+                    <polyline id="Path-13" stroke-width="0.3" opacity="0.824893043" points="47.6076952 53.5570872 52.5353418 34.1712249 62.5192379 39.9613841"></polyline>
+                    <polyline id="Path-14" stroke-width="0.2" opacity="0.615559896" points="57.3128798 46.7592357 52.4650293 35.0866969 52.1830127 35.0866969"></polyline>
+                    <polyline id="Path-15" stroke-width="0.2" points="47.6076952 53.5570872 59.5813294 52.0411796 62.5192379 39.9613841"></polyline>
+                    <line x1="59.5813294" y1="52.0411796" x2="57.5227587" y2="46.7592357" id="Path-16" stroke-width="0.3" opacity="0.574823289"></line>
+                    <polyline id="Path-17" stroke-width="0.3" opacity="0.624255952" points="47.6076952 53.5570872 31.6746825 62.0351146 40.1806373 44.5411796"></polyline>
+                    <polyline id="Path-18" stroke-width="0.2" points="31.6746825 62.0351146 28.77147 81.6103099 47.6076952 53.5570872"></polyline>
+                    <line x1="13.6846892" y1="59.3564036" x2="31.6746825" y2="62.0351146" id="Path-19" stroke-width="0.2"></line>
+                    <line x1="13.7407017" y1="59.2458159" x2="28.77147" y2="81.6103099" id="Path-20" stroke-width="0.2"></line>
+                    <polygon id="Path-21" stroke-width="0.2" points="13.6846892 59.2458159 -7.99360578e-15 48.982387 4.63437825e-15 30.1942942"></polygon>
+                    <polyline id="Path-22" stroke-width="0.2" points="40.1806373 44.3368724 41.068276 24.9036842 52.5060107 34.3273455"></polyline>
+                    <line x1="62.5192379" y1="1" x2="81.813016" y2="1.42075318" id="Path-23" stroke-width="0.2"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="145px" viewBox="0 0 73 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>toplines</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-203.000000, -45.000000)">
+            <g id="toplines" transform="translate(174.188047, 44.593863)">
+                <g id="top-extra-lines" transform="translate(31.238289, 99.974512)" stroke="#0C3EFE" stroke-linecap="square" stroke-width="0.3">
+                    <line x1="15.9723568" y1="7.10542736e-15" x2="30.0634104" y2="5.15021765" id="Path-8" opacity="0.444614955"></line>
+                    <polyline id="Path-5" opacity="0.400646391" points="35.2625109 24.5013307 16.0319271 20.3619199 -2.96740487e-13 23.9327848"></polyline>
+                </g>
+                <g id="top-linesandpoints" transform="translate(54.000000, 78.500000) scale(1, -1) rotate(75.000000) translate(-54.000000, -78.500000) translate(-17.000000, 42.000000)">
+                    <g id="Lines" transform="translate(1.000000, 1.000000)" stroke="#0C3EFE" stroke-linecap="square" stroke-width="0.3">
+                        <line x1="20.2487549" y1="45.7338514" x2="47.5" y2="36.5" id="Line-Copy-38" opacity="0.690173921"></line>
+                        <line x1="94.5" y1="66.5" x2="75.5" y2="43.5" id="Line-Copy-48" opacity="0.647251674"></line>
+                        <line x1="110.5" y1="58.5" x2="94.5" y2="66.5" id="Line-Copy-54" opacity="0.646693638"></line>
+                        <line x1="123.5" y1="44.5" x2="110.5" y2="58.5" id="Line-Copy-57" opacity="0.633928571"></line>
+                        <line x1="139.321902" y1="70.4485455" x2="110.5" y2="58.5" id="Line-Copy-58" opacity="0.818731399"></line>
+                        <line x1="110.5" y1="58.5" x2="98.5" y2="50.5" id="Line-Copy-55" opacity="0.654320126"></line>
+                        <line x1="94.5" y1="66.5" x2="98" y2="50.5" id="Line-Copy-56" opacity="0.446475074"></line>
+                        <line x1="99.5" y1="33.5" x2="96.5" y2="14.5" id="Line-Copy-2"></line>
+                        <line x1="99.5" y1="33.5" x2="122.814347" y2="2.2252451" id="Line-Copy-3"></line>
+                        <line x1="123.5" y1="44.5" x2="137.487123" y2="43.6786188" id="Line-Copy-12" opacity="0.588076637"></line>
+                        <line x1="123.5" y1="44.5" x2="139.321902" y2="70.4485455" id="Line-Copy-35" opacity="0.601981027"></line>
+                        <line x1="122.814347" y1="2.2252451" x2="137.946418" y2="43.5352976" id="Line-Copy-32" opacity="0.56422061"></line>
+                        <line x1="123.5" y1="44.5" x2="123.181483" y2="2.3236191" id="Line-Copy-34" opacity="0.571265811"></line>
+                        <line x1="75.5" y1="43.5" x2="99.5" y2="33.5" id="Line-Copy-14" opacity="0.654203869"></line>
+                        <line x1="139.487123" y1="69.5" x2="137.946418" y2="43.5352976" id="Line-Copy-7" opacity="0.563802083"></line>
+                        <line x1="75.5" y1="43.5" x2="98" y2="50" id="Line-Copy-36"></line>
+                        <line x1="98" y1="50" x2="123.5" y2="44.5" id="Line-Copy-59"></line>
+                        <line x1="99.5" y1="33.5" x2="123.5" y2="44.5" id="Line-Copy-37"></line>
+                        <line x1="96.5" y1="14.5" x2="69.5" y2="0.5" id="Line-Copy"></line>
+                        <line x1="75.5" y1="43.5" x2="96.5" y2="14.5" id="Line-Copy-4"></line>
+                        <line x1="75.5" y1="43.5" x2="69.5" y2="0.5" id="Line-Copy-5" opacity="0.632765997"></line>
+                        <line x1="75.5" y1="43.5" x2="47.5" y2="36.5" id="Line-Copy-6"></line>
+                        <line x1="47.5" y1="36.5" x2="69.5" y2="0.5" id="Line" opacity="0.620117188"></line>
+                        <polyline id="Line-Copy-45" opacity="0.760277158" points="28.5 11.5 46.2115839 21.5060216 69.5 0.5"></polyline>
+                        <line x1="28.5" y1="11.5" x2="47.5" y2="36.5" id="Line-Copy-44" opacity="0.444614955"></line>
+                        <polyline id="Line-Copy-39" opacity="0.444614955" points="0.0779260669 40.4675062 27.6826652 31.3213584 46.9163522 36.3121778"></polyline>
+                        <line x1="0.0147258419" y1="40.4505718" x2="28.5" y2="11.5" id="Line-Copy-43" opacity="0.623139881"></line>
+                        <line x1="0.0779260669" y1="40.4675062" x2="20.2141519" y2="45.8629917" id="Line-Copy-40" opacity="0.724469866"></line>
+                    </g>
+                    <g id="Points" transform="translate(0.000000, -0.000000)" fill="#0C3EFE">
+                        <circle id="Oval" cx="21.2487549" cy="46.7338514" r="1"></circle>
+                        <circle id="Oval-Copy-5" cx="28.6785095" cy="32.485268" r="1"></circle>
+                        <circle id="Oval-Copy-6" cx="47.1599617" cy="22.5297587" r="1"></circle>
+                        <circle id="Oval-Copy-16" cx="95.5" cy="67.5" r="1"></circle>
+                        <circle id="Oval-Copy-25" cx="124.5" cy="45.5" r="1"></circle>
+                        <circle id="Oval-Copy-26" cx="138.946418" cy="44.5352976" r="1"></circle>
+                        <circle id="Oval-Copy-17" cx="111.5" cy="59.5" r="1"></circle>
+                        <circle id="Oval-Copy-9" cx="1.01472584" cy="41.4505718" r="1"></circle>
+                        <circle id="Oval-Copy-11" cx="29.5" cy="12.5" r="1"></circle>
+                        <circle id="Oval-Copy" cx="97.5" cy="15.5" r="1"></circle>
+                        <circle id="Oval-Copy-21" cx="76.5" cy="44.5" r="1"></circle>
+                        <circle id="Oval-Copy-22" cx="48.5" cy="37.5" r="1"></circle>
+                        <circle id="Oval-Copy-23" cx="100.5" cy="34.5" r="1"></circle>
+                        <circle id="Oval-Copy-24" cx="99" cy="51" r="1"></circle>
+                        <circle id="Oval-Copy-10" cx="70.5" cy="1.5" r="1.5"></circle>
+                        <circle id="Oval-Copy-2" cx="124.181483" cy="3.3236191" r="1.5"></circle>
+                        <circle id="Oval-Copy-4" cx="140.321902" cy="71.4485455" r="1.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

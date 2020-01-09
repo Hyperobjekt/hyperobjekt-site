@@ -19240,28 +19240,47 @@ body.home .hero .h0-logo-subhead {
   font-size: 1.7rem;
 }
 
+.type-about span.inline-h2 {
+  font-size: 3rem;
+  letter-spacing: 0.049rem;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.35;
+}
+
 .type-about .chart-graphic {
-  background: url("/images/chart-illustration2-2.svg");
-  background-size: 100% auto;
+  background: url("/images/bluecard.svg");
+  background: url("/images/toplines.svg");
+  background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.18;
+  opacity: 0.4;
   border-right: 24px solid white;
+  border-top: 20px solid white;
+  border-bottom: 20px solid white;
 }
 
 .type-about .chart-graphic2 {
-  background: url("/images/line-chart3.svg");
+  background: url("/images/redcard.svg");
+  background: url("/images/middlelines.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 1;
-  background-position: right;
+  opacity: 0.5;
+  background-position: center center;
   border-right: 24px solid white;
+  border-top: 20px solid white;
+  border-bottom: 20px solid white;
 }
 
 .type-about .chart-graphic3 {
-  background: url("/images/chart-illustration4-2.svg");
+  background: url("/images/cyancard.svg");
+  background: url("/images/bottomlines.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.2;
+  background-position: left center;
+  opacity: 0.5;
+  border-top: 20px solid white;
+  border-bottom: 20px solid white;
 }
 
 .type-about a:hover {
@@ -19326,7 +19345,6 @@ body.home .hero .h0-logo-subhead {
   font-weight: 500;
   font-style: normal;
   line-height: 1.35;
-  margin-top: -10px;
 }
 
 .type-about .readmore a {
