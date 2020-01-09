@@ -17877,6 +17877,14 @@ body.home {
   background-color: #021029;
 }
 
+body.home a.readmore {
+  color: #021029;
+}
+
+body.home a.readmore:hover {
+  text-decoration: underline;
+}
+
 body.home .hero {
   height: 100vh;
   width: 100%;
@@ -18062,6 +18070,15 @@ body.home #main {
   .row.about-us .personnel {
     border-right: 32px solid #fff;
   }
+}
+
+.row.about-us svg {
+  position: relative;
+  top: -2px;
+}
+
+.row.about-us svg g.rightarrow {
+  stroke: #000;
 }
 
 .row.projects {
@@ -19032,6 +19049,10 @@ body.home .hero .h0-logo-subhead {
   color: #fff;
 }
 
+.type-blog .wrapper {
+  min-height: 52vh;
+}
+
 .type-blog h1 {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
@@ -19064,9 +19085,16 @@ body.home .hero .h0-logo-subhead {
   line-height: 1.35;
 }
 
-.type-blog .readmore a {
+.type-blog a.readmore {
   font-weight: 600;
   letter-spacing: 0.2rem;
+  color: #020f28;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.6rem;
+  letter-spacing: 0.15rem;
+  line-height: 2.4rem;
 }
 
 .type-blog p {
