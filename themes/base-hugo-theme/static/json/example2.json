@@ -1,0 +1,229 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+    "id": {
+      "$t": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values"
+    },
+    "updated": {
+      "$t": "2020-02-02T20:13:41.993Z"
+    },
+    "category": [
+      {
+        "scheme": "http://schemas.google.com/spreadsheets/2006",
+        "term": "http://schemas.google.com/spreadsheets/2006#list"
+      }
+    ],
+    "title": {
+      "type": "text",
+      "$t": "Sheet1"
+    },
+    "link": [
+      {
+        "rel": "alternate",
+        "type": "application/atom+xml",
+        "href": "https://docs.google.com/spreadsheets/u/0/d/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/pubhtml"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#post",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values?alt\u003djson"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "james"
+        },
+        "email": {
+          "$t": "james@evictionlab.org"
+        }
+      }
+    ],
+    "openSearch$totalResults": {
+      "$t": "4"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "entry": [
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/cokwr"
+        },
+        "updated": {
+          "$t": "2020-02-02T20:13:41.993Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "resource 1"
+        },
+        "content": {
+          "type": "text",
+          "$t": "location: milwaukee, link: https://justshelter.org, phone: 665-8613"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/cokwr"
+          }
+        ],
+        "gsx$resourcename": {
+          "$t": "resource 1"
+        },
+        "gsx$location": {
+          "$t": "milwaukee"
+        },
+        "gsx$link": {
+          "$t": "https://justshelter.org"
+        },
+        "gsx$phone": {
+          "$t": "665-8613"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/cpzh4"
+        },
+        "updated": {
+          "$t": "2020-02-02T20:13:41.993Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "resource 2"
+        },
+        "content": {
+          "type": "text",
+          "$t": "location: milwaukee, link: https://justshelter.org, phone: 665-8614"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/cpzh4"
+          }
+        ],
+        "gsx$resourcename": {
+          "$t": "resource 2"
+        },
+        "gsx$location": {
+          "$t": "milwaukee"
+        },
+        "gsx$link": {
+          "$t": "https://justshelter.org"
+        },
+        "gsx$phone": {
+          "$t": "665-8614"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/cre1l"
+        },
+        "updated": {
+          "$t": "2020-02-02T20:13:41.993Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "resource 3"
+        },
+        "content": {
+          "type": "text",
+          "$t": "location: milwaukee, link: https://justshelter.org, phone: 665-8615"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/cre1l"
+          }
+        ],
+        "gsx$resourcename": {
+          "$t": "resource 3"
+        },
+        "gsx$location": {
+          "$t": "milwaukee"
+        },
+        "gsx$link": {
+          "$t": "https://justshelter.org"
+        },
+        "gsx$phone": {
+          "$t": "665-8615"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/chk2m"
+        },
+        "updated": {
+          "$t": "2020-02-02T20:13:41.993Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "resource 4"
+        },
+        "content": {
+          "type": "text",
+          "$t": "location: milwaukee, link: https://justshelter.org, phone: 665-8616"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1ZWf7zFLkcRwSVYhleN_7eFHZ8vxnnjykTwLFMyH9s-k/od6/public/values/chk2m"
+          }
+        ],
+        "gsx$resourcename": {
+          "$t": "resource 4"
+        },
+        "gsx$location": {
+          "$t": "milwaukee"
+        },
+        "gsx$link": {
+          "$t": "https://justshelter.org"
+        },
+        "gsx$phone": {
+          "$t": "665-8616"
+        }
+      }
+    ]
+  }
+}

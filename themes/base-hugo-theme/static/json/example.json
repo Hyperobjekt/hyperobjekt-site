@@ -1,0 +1,28 @@
+{
+    "items": [
+      {
+        "name": "helpers",  
+        "location": "milwaukee",
+        "site": "http://justshelter.org",
+        "service": "ea",
+        "phone": "225-665-8613"
+      },{
+        "name": "helpers II",  
+        "location": "chicago",
+        "site": "http://justshelter.org",
+        "service": "ea",
+        "phone": "225-665-8614"
+      },{
+        "name": "helpers III",  
+        "location": "denver",
+        "site": "http://justshelter.org",
+        "service": "la, ea",
+        "phone": "225-665-8615"
+      }
+    ],
+    "obj": {
+      "number": 1.2345e-6,
+      "enabled": true
+    },
+    "message": "Strings have to be in double-quotes."
+  }
