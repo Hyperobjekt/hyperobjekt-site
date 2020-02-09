@@ -6,10 +6,10 @@
         "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
         "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
         "id": {
-            "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values"
+            "$t": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values"
         },
         "updated": {
-            "$t": "2020-02-02T20:09:35.708Z"
+            "$t": "2020-02-03T21:46:22.085Z"
         },
         "category": [
             {
@@ -19,28 +19,28 @@
         ],
         "title": {
             "type": "text",
-            "$t": "Local"
+            "$t": "1-AK"
         },
         "link": [
             {
                 "rel": "alternate",
                 "type": "application/atom+xml",
-                "href": "https://docs.google.com/spreadsheets/u/0/d/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/pubhtml"
+                "href": "https://docs.google.com/spreadsheets/u/0/d/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/pubhtml"
             },
             {
                 "rel": "http://schemas.google.com/g/2005#feed",
                 "type": "application/atom+xml",
-                "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values"
+                "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values"
             },
             {
                 "rel": "http://schemas.google.com/g/2005#post",
                 "type": "application/atom+xml",
-                "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values"
+                "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values"
             },
             {
                 "rel": "self",
                 "type": "application/atom+xml",
-                "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values?alt\u003djson"
+                "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values?alt\u003djson"
             }
         ],
         "author": [
@@ -54,7 +54,7 @@
             }
         ],
         "openSearch$totalResults": {
-            "$t": "19"
+            "$t": "5"
         },
         "openSearch$startIndex": {
             "$t": "1"
@@ -62,10 +62,10 @@
         "entry": [
             {
                 "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cokwr"
+                    "$t": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/cokwr"
                 },
                 "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
+                    "$t": "2020-02-03T21:46:22.085Z"
                 },
                 "category": [
                     {
@@ -75,62 +75,41 @@
                 ],
                 "title": {
                     "type": "text",
-                    "$t": "Salem"
+                    "$t": "Fair Housing Enforcement Project"
                 },
                 "content": {
                     "type": "text",
-                    "$t": "state: OR, latitude: 44.930833, longitude: -123.028889, title: Salem kids learn more than U.S. average, national Stanford study finds, date: 1/6/2020, outlet: Salem Reporter, mediatype: Local news, link: https://www.salemreporter.com/posts/1658/salem-kids-learn-more-than-u-s-average-national-stanford-study-finds"
+                    "$t": "city: Anchorage, phone: 855-679-3247, website: https://www.fairhousingalaska.org/, icons: laea"
                 },
                 "link": [
                     {
                         "rel": "self",
                         "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cokwr"
+                        "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/cokwr"
                     }
                 ],
+                "gsx$organization": {
+                    "$t": "Fair Housing Enforcement Project"
+                },
                 "gsx$city": {
-                    "$t": "Salem"
+                    "$t": "Anchorage"
                 },
-                "gsx$state": {
-                    "$t": "OR"
+                "gsx$phone": {
+                    "$t": "855-679-3247"
                 },
-                "gsx$latitude": {
-                    "$t": "44.930833"
+                "gsx$website": {
+                    "$t": "https://www.fairhousingalaska.org/"
                 },
-                "gsx$longitude": {
-                    "$t": "-123.028889"
-                },
-                "gsx$title": {
-                    "$t": "Salem kids learn more than U.S. average, national Stanford study finds"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "1/6/2020"
-                },
-                "gsx$outlet": {
-                    "$t": "Salem Reporter"
-                },
-                "gsx$mediatype": {
-                    "$t": "Local news"
-                },
-                "gsx$link": {
-                    "$t": "https://www.salemreporter.com/posts/1658/salem-kids-learn-more-than-u-s-average-national-stanford-study-finds"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
+                "gsx$icons": {
+                    "$t": "laea"
                 }
             },
             {
                 "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cpzh4"
+                    "$t": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/cpzh4"
                 },
                 "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
+                    "$t": "2020-02-03T21:46:22.085Z"
                 },
                 "category": [
                     {
@@ -140,62 +119,41 @@
                 ],
                 "title": {
                     "type": "text",
-                    "$t": "Daytona Beach"
+                    "$t": "Anchorage Coalition to End Homelessness"
                 },
                 "content": {
                     "type": "text",
-                    "$t": "state: FL, latitude: 29.19, longitude: -81.089444, title: Volusia School Board to discuss ending desegregation effort, date: 12/11/2019, outlet: The Daytona Beach News-Journal, mediatype: Local news, link: https://www.news-journalonline.com/news/20191211/volusia-school-board-to-discuss-ending-desegregation-effort"
+                    "$t": "city: Anchorage, phone: 907-249-6648, website: http://www.anchoragehomeless.org, icons: laea"
                 },
                 "link": [
                     {
                         "rel": "self",
                         "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cpzh4"
+                        "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/cpzh4"
                     }
                 ],
+                "gsx$organization": {
+                    "$t": "Anchorage Coalition to End Homelessness"
+                },
                 "gsx$city": {
-                    "$t": "Daytona Beach"
+                    "$t": "Anchorage"
                 },
-                "gsx$state": {
-                    "$t": "FL"
+                "gsx$phone": {
+                    "$t": "907-249-6648"
                 },
-                "gsx$latitude": {
-                    "$t": "29.19"
+                "gsx$website": {
+                    "$t": "http://www.anchoragehomeless.org"
                 },
-                "gsx$longitude": {
-                    "$t": "-81.089444"
-                },
-                "gsx$title": {
-                    "$t": "Volusia School Board to discuss ending desegregation effort"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "12/11/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "The Daytona Beach News-Journal"
-                },
-                "gsx$mediatype": {
-                    "$t": "Local news"
-                },
-                "gsx$link": {
-                    "$t": "https://www.news-journalonline.com/news/20191211/volusia-school-board-to-discuss-ending-desegregation-effort"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
+                "gsx$icons": {
+                    "$t": "laea"
                 }
             },
             {
                 "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cre1l"
+                    "$t": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/cre1l"
                 },
                 "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
+                    "$t": "2020-02-03T21:46:22.085Z"
                 },
                 "category": [
                     {
@@ -205,62 +163,41 @@
                 ],
                 "title": {
                     "type": "text",
-                    "$t": "Marlin "
+                    "$t": "Alaska Coalition on Housing and Homelessness"
                 },
                 "content": {
                     "type": "text",
-                    "$t": "state: TX, latitude: 31.308056, longitude: -96.893056, title: Marlin ISD focuses on improving instruction to enhance student academic performance, date: 12/9/2019, outlet: Waco Tribune, mediatype: Local news, link: https://www.wacotrib.com/news/education/marlin-isd-focuses-on-improving-instruction-to-enhance-student-academic/article_b8a630b3-5ba0-51a1-97aa-a6ec89f030ef.html"
+                    "$t": "city: Anchorage, phone: 907-209-3661, website: https://www.alaskahousing-homeless.org, icons: ea"
                 },
                 "link": [
                     {
                         "rel": "self",
                         "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cre1l"
+                        "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/cre1l"
                     }
                 ],
+                "gsx$organization": {
+                    "$t": "Alaska Coalition on Housing and Homelessness"
+                },
                 "gsx$city": {
-                    "$t": "Marlin "
+                    "$t": "Anchorage"
                 },
-                "gsx$state": {
-                    "$t": "TX"
+                "gsx$phone": {
+                    "$t": "907-209-3661"
                 },
-                "gsx$latitude": {
-                    "$t": "31.308056"
+                "gsx$website": {
+                    "$t": "https://www.alaskahousing-homeless.org"
                 },
-                "gsx$longitude": {
-                    "$t": "-96.893056"
-                },
-                "gsx$title": {
-                    "$t": "Marlin ISD focuses on improving instruction to enhance student academic performance"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "12/9/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Waco Tribune"
-                },
-                "gsx$mediatype": {
-                    "$t": "Local news"
-                },
-                "gsx$link": {
-                    "$t": "https://www.wacotrib.com/news/education/marlin-isd-focuses-on-improving-instruction-to-enhance-student-academic/article_b8a630b3-5ba0-51a1-97aa-a6ec89f030ef.html"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
+                "gsx$icons": {
+                    "$t": "ea"
                 }
             },
             {
                 "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/chk2m"
+                    "$t": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/chk2m"
                 },
                 "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
+                    "$t": "2020-02-03T21:46:22.085Z"
                 },
                 "category": [
                     {
@@ -270,62 +207,41 @@
                 ],
                 "title": {
                     "type": "text",
-                    "$t": "Cambridge"
+                    "$t": "Fairbanks Housing and Homeless Coalition"
                 },
                 "content": {
                     "type": "text",
-                    "$t": "state: MA, latitude: 42.373611, longitude: -71.110556, title: Tracking Achievement and Inequality in U.S. Schools, date: 12/3/2019, outlet: Usable Knowledge (Harvard GSE), mediatype: University News, link: https://www.gse.harvard.edu/news/uk/19/12/tracking-achievement-and-inequality-us-schools"
+                    "$t": "city: Fairbanks, phone: 907-374-8611, website: https://www.fairbankshomeless.org, icons: ea"
                 },
                 "link": [
                     {
                         "rel": "self",
                         "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/chk2m"
+                        "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/chk2m"
                     }
                 ],
+                "gsx$organization": {
+                    "$t": "Fairbanks Housing and Homeless Coalition"
+                },
                 "gsx$city": {
-                    "$t": "Cambridge"
+                    "$t": "Fairbanks"
                 },
-                "gsx$state": {
-                    "$t": "MA"
+                "gsx$phone": {
+                    "$t": "907-374-8611"
                 },
-                "gsx$latitude": {
-                    "$t": "42.373611"
+                "gsx$website": {
+                    "$t": "https://www.fairbankshomeless.org"
                 },
-                "gsx$longitude": {
-                    "$t": "-71.110556"
-                },
-                "gsx$title": {
-                    "$t": "Tracking Achievement and Inequality in U.S. Schools"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "12/3/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Usable Knowledge (Harvard GSE)"
-                },
-                "gsx$mediatype": {
-                    "$t": "University News"
-                },
-                "gsx$link": {
-                    "$t": "https://www.gse.harvard.edu/news/uk/19/12/tracking-achievement-and-inequality-us-schools"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
+                "gsx$icons": {
+                    "$t": "ea"
                 }
             },
             {
                 "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/ciyn3"
+                    "$t": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/ciyn3"
                 },
                 "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
+                    "$t": "2020-02-03T21:46:22.085Z"
                 },
                 "category": [
                     {
@@ -335,964 +251,33 @@
                 ],
                 "title": {
                     "type": "text",
-                    "$t": "Clearwater"
+                    "$t": "Juneau Coalition on Housing and Homelessness"
                 },
                 "content": {
                     "type": "text",
-                    "$t": "state: FL, latitude: 27.973611, longitude: -82.764167, title: HOWARD FULLER WENT DOWN TO GEORGIA LOOKING FOR A PARTY’S SOUL TO HEAL, date: 11/27/2019, outlet: redefinED, link: https://www.redefinedonline.org/2019/11/howard-fuller-went-down-to-georgia-looking-for-a-partys-soul-to-heal/"
+                    "$t": "city: Juneau, phone: 907-465-5114, website: http://www.homelessinjuneau.org/home, icons: haea"
                 },
                 "link": [
                     {
                         "rel": "self",
                         "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/ciyn3"
+                        "href": "https://spreadsheets.google.com/feeds/list/1ovKReDiQ2Qz1UKbbdnCFyz8gIGdm5ik0m3leKcV38Ts/1/public/values/ciyn3"
                     }
                 ],
+                "gsx$organization": {
+                    "$t": "Juneau Coalition on Housing and Homelessness"
+                },
                 "gsx$city": {
-                    "$t": "Clearwater"
+                    "$t": "Juneau"
                 },
-                "gsx$state": {
-                    "$t": "FL"
+                "gsx$phone": {
+                    "$t": "907-465-5114"
                 },
-                "gsx$latitude": {
-                    "$t": "27.973611"
+                "gsx$website": {
+                    "$t": "http://www.homelessinjuneau.org/home"
                 },
-                "gsx$longitude": {
-                    "$t": "-82.764167"
-                },
-                "gsx$title": {
-                    "$t": "HOWARD FULLER WENT DOWN TO GEORGIA LOOKING FOR A PARTY’S SOUL TO HEAL"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "11/27/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "redefinED"
-                },
-                "gsx$mediatype": {
-                    "$t": ""
-                },
-                "gsx$link": {
-                    "$t": "https://www.redefinedonline.org/2019/11/howard-fuller-went-down-to-georgia-looking-for-a-partys-soul-to-heal/"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/ckd7g"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Lansing"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: MI, latitude: 42.733611, longitude: -84.546667, date: 11/24/2019, outlet: SI Timeline, mediatype: Website for MI School Improvement collaboration, link: https://www.sitimeline.com/national-data-compared.html"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/ckd7g"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Lansing"
-                },
-                "gsx$state": {
-                    "$t": "MI"
-                },
-                "gsx$latitude": {
-                    "$t": "42.733611"
-                },
-                "gsx$longitude": {
-                    "$t": "-84.546667"
-                },
-                "gsx$title": {
-                    "$t": ""
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "11/24/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "SI Timeline"
-                },
-                "gsx$mediatype": {
-                    "$t": "Website for MI School Improvement collaboration"
-                },
-                "gsx$link": {
-                    "$t": "https://www.sitimeline.com/national-data-compared.html"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/clrrx"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "San Diego"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: CA, latitude: 32.715, longitude: -117.1625, title: San Diego 8th graders achieved more growth on national test than other big districts, date: 11/10/2019, outlet: San Diego Union-Tribune, link: https://www.sandiegouniontribune.com/news/education/story/2019-11-10/san-diego-eighth-graders-achieved-more-growth-on-national-test-than-any-other-school-district"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/clrrx"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "San Diego"
-                },
-                "gsx$state": {
-                    "$t": "CA"
-                },
-                "gsx$latitude": {
-                    "$t": "32.715"
-                },
-                "gsx$longitude": {
-                    "$t": "-117.1625"
-                },
-                "gsx$title": {
-                    "$t": "San Diego 8th graders achieved more growth on national test than other big districts"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "11/10/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "San Diego Union-Tribune"
-                },
-                "gsx$mediatype": {
-                    "$t": ""
-                },
-                "gsx$link": {
-                    "$t": "https://www.sandiegouniontribune.com/news/education/story/2019-11-10/san-diego-eighth-graders-achieved-more-growth-on-national-test-than-any-other-school-district"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cyevm"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Cambridge"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: MA, latitude: 42.373611, longitude: -71.110556, title: Harvard EdCast: What Test Scores Actually Tell Us, date: 11/6/2019, outlet: Harvard Graduate School of Education, mediatype: University News, link: https://www.gse.harvard.edu/news/19/11/harvard-edcast-what-test-scores-actually-tell-us"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cyevm"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Cambridge"
-                },
-                "gsx$state": {
-                    "$t": "MA"
-                },
-                "gsx$latitude": {
-                    "$t": "42.373611"
-                },
-                "gsx$longitude": {
-                    "$t": "-71.110556"
-                },
-                "gsx$title": {
-                    "$t": "Harvard EdCast: What Test Scores Actually Tell Us"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "11/6/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Harvard Graduate School of Education"
-                },
-                "gsx$mediatype": {
-                    "$t": "University News"
-                },
-                "gsx$link": {
-                    "$t": "https://www.gse.harvard.edu/news/19/11/harvard-edcast-what-test-scores-actually-tell-us"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cztg3"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Normal"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: IL, latitude: 40.512222, longitude: -88.988611, title: Are Achievement Gaps Related to Discipline Gaps? Evidence From National Data, date: 10/30/2019, outlet: Illinois State University News, mediatype: University News, link: https://news.illinoisstate.edu/2019/10/k-12-education-resources-90/"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cztg3"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Normal"
-                },
-                "gsx$state": {
-                    "$t": "IL"
-                },
-                "gsx$latitude": {
-                    "$t": "40.512222"
-                },
-                "gsx$longitude": {
-                    "$t": "-88.988611"
-                },
-                "gsx$title": {
-                    "$t": "Are Achievement Gaps Related to Discipline Gaps? Evidence From National Data"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "10/30/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Illinois State University News"
-                },
-                "gsx$mediatype": {
-                    "$t": "University News"
-                },
-                "gsx$link": {
-                    "$t": "https://news.illinoisstate.edu/2019/10/k-12-education-resources-90/"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/d180g"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Oklahoma City"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: OK, latitude: 35.482222, longitude: -97.535, title: School effectiveness linked to diversity in Stanford study, date: 10/19/2019, outlet: NON DOC, mediatype: News website, link: https://nondoc.com/2019/10/19/school-effectiveness-linked-to-diversity/"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/d180g"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Oklahoma City"
-                },
-                "gsx$state": {
-                    "$t": "OK"
-                },
-                "gsx$latitude": {
-                    "$t": "35.482222"
-                },
-                "gsx$longitude": {
-                    "$t": "-97.535"
-                },
-                "gsx$title": {
-                    "$t": "School effectiveness linked to diversity in Stanford study"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "10/19/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "NON DOC"
-                },
-                "gsx$mediatype": {
-                    "$t": "News website"
-                },
-                "gsx$link": {
-                    "$t": "https://nondoc.com/2019/10/19/school-effectiveness-linked-to-diversity/"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/d2mkx"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "San Antonio"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: TX, latitude: 29.416667, longitude: -98.5, title: Location, segregation, and accountability: the quest for better school ratings, date: 10/17/2019, outlet: bekahmcneel.com, mediatype: Blog, link: http://bekahmcneel.com/location-segregation-and-accountability-the-quest-for-better-school-ratings/"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/d2mkx"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "San Antonio"
-                },
-                "gsx$state": {
-                    "$t": "TX"
-                },
-                "gsx$latitude": {
-                    "$t": "29.416667"
-                },
-                "gsx$longitude": {
-                    "$t": "-98.5"
-                },
-                "gsx$title": {
-                    "$t": "Location, segregation, and accountability: the quest for better school ratings"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "10/17/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "bekahmcneel.com"
-                },
-                "gsx$mediatype": {
-                    "$t": "Blog"
-                },
-                "gsx$link": {
-                    "$t": "http://bekahmcneel.com/location-segregation-and-accountability-the-quest-for-better-school-ratings/"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cssly"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Athens"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: GA, latitude: 33.95, longitude: -83.383333, title: Poverty Is the Biggest Hurdle to Closing Student Achievement Gaps, date: 10/9/2019, outlet: Flagpole, mediatype: Local news website, link: https://flagpole.com/news/news-features/2019/10/09/poverty-is-the-biggest-hurdle-to-closing-student-achievement-gaps"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cssly"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Athens"
-                },
-                "gsx$state": {
-                    "$t": "GA"
-                },
-                "gsx$latitude": {
-                    "$t": "33.95"
-                },
-                "gsx$longitude": {
-                    "$t": "-83.383333"
-                },
-                "gsx$title": {
-                    "$t": "Poverty Is the Biggest Hurdle to Closing Student Achievement Gaps"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "10/9/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Flagpole"
-                },
-                "gsx$mediatype": {
-                    "$t": "Local news website"
-                },
-                "gsx$link": {
-                    "$t": "https://flagpole.com/news/news-features/2019/10/09/poverty-is-the-biggest-hurdle-to-closing-student-achievement-gaps"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cu76f"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Sacramento"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: CA, latitude: 38.555556, longitude: -121.468889, title: California kids’ test scores again rise by inches as achievement gap yawns, date: 10/9/2019, outlet: CalMatters, mediatype: Statewide public interest website, link: https://calmatters.org/education/k-12-education/2019/10/california-schools-test-scores-2019-achievement-gap-caaspp-smarter-balanced/"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cu76f"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Sacramento"
-                },
-                "gsx$state": {
-                    "$t": "CA"
-                },
-                "gsx$latitude": {
-                    "$t": "38.555556"
-                },
-                "gsx$longitude": {
-                    "$t": "-121.468889"
-                },
-                "gsx$title": {
-                    "$t": "California kids’ test scores again rise by inches as achievement gap yawns"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "10/9/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "CalMatters"
-                },
-                "gsx$mediatype": {
-                    "$t": "Statewide public interest website"
-                },
-                "gsx$link": {
-                    "$t": "https://calmatters.org/education/k-12-education/2019/10/california-schools-test-scores-2019-achievement-gap-caaspp-smarter-balanced/"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cvlqs"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Phoenix"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: AZ, latitude: 33.45, longitude: -112.066667, title: Column: Rudy strikes again – good news for Arizona schools in new Stanford data, date: 10/4/2019, outlet: Chamber Business News, mediatype: Local news website, link: https://chamberbusinessnews.com/2019/10/04/column-rudy-strikes-again-good-news-for-arizona-schools-in-new-stanford-data/"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cvlqs"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Phoenix"
-                },
-                "gsx$state": {
-                    "$t": "AZ"
-                },
-                "gsx$latitude": {
-                    "$t": "33.45"
-                },
-                "gsx$longitude": {
-                    "$t": "-112.066667"
-                },
-                "gsx$title": {
-                    "$t": "Column: Rudy strikes again – good news for Arizona schools in new Stanford data"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "10/4/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Chamber Business News"
-                },
-                "gsx$mediatype": {
-                    "$t": "Local news website"
-                },
-                "gsx$link": {
-                    "$t": "https://chamberbusinessnews.com/2019/10/04/column-rudy-strikes-again-good-news-for-arizona-schools-in-new-stanford-data/"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cx0b9"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Chicago"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: IL, latitude: 41.881944, longitude: -87.627778, title: Stanford Project connects schools' success with SES, date: 10/4/2019, outlet: Illinois School News Service, link: http://illinoisschoolnews.com/2019/issues2019/100419-Project-links-learning-and-district-residents-SES.htm"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/cx0b9"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Chicago"
-                },
-                "gsx$state": {
-                    "$t": "IL"
-                },
-                "gsx$latitude": {
-                    "$t": "41.881944"
-                },
-                "gsx$longitude": {
-                    "$t": "-87.627778"
-                },
-                "gsx$title": {
-                    "$t": "Stanford Project connects schools' success with SES"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "10/4/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Illinois School News Service"
-                },
-                "gsx$mediatype": {
-                    "$t": ""
-                },
-                "gsx$link": {
-                    "$t": "http://illinoisschoolnews.com/2019/issues2019/100419-Project-links-learning-and-district-residents-SES.htm"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/d9ney"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Providence"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: RI, latitude: 41.823611, longitude: -71.422222, title: New online tool breaks down school data by community, date: 9/26/2019, outlet: NBC 10, mediatype: Local TV news, link: https://turnto10.com/i-team/schools-in-crisis/new-online-tool-breaks-down-school-data-by-community"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/d9ney"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Providence"
-                },
-                "gsx$state": {
-                    "$t": "RI"
-                },
-                "gsx$latitude": {
-                    "$t": "41.823611"
-                },
-                "gsx$longitude": {
-                    "$t": "-71.422222"
-                },
-                "gsx$title": {
-                    "$t": "New online tool breaks down school data by community"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "9/26/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "NBC 10"
-                },
-                "gsx$mediatype": {
-                    "$t": "Local TV news"
-                },
-                "gsx$link": {
-                    "$t": "https://turnto10.com/i-team/schools-in-crisis/new-online-tool-breaks-down-school-data-by-community"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/db1zf"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "New Bedford"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: MA, latitude: 41.636111, longitude: -70.934722, title: Scope Out Your Town’s Schools With This New National Database, date: 9/26/2019, outlet: FUN107, mediatype: Local radio, link: https://fun107.com/scope-out-your-towns-schools-with-this-new-national-database/"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/db1zf"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "New Bedford"
-                },
-                "gsx$state": {
-                    "$t": "MA"
-                },
-                "gsx$latitude": {
-                    "$t": "41.636111"
-                },
-                "gsx$longitude": {
-                    "$t": "-70.934722"
-                },
-                "gsx$title": {
-                    "$t": "Scope Out Your Town’s Schools With This New National Database"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "9/26/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "FUN107"
-                },
-                "gsx$mediatype": {
-                    "$t": "Local radio"
-                },
-                "gsx$link": {
-                    "$t": "https://fun107.com/scope-out-your-towns-schools-with-this-new-national-database/"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/dcgjs"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Cambridge"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: MA, latitude: 42.373611, longitude: -71.110556, title: First National Database of Academic Performance Launches, date: 9/24/2019, outlet: Harvard Graduate School of Education, mediatype: University News, link: https://www.gse.harvard.edu/news/19/09/first-national-database-academic-performance-launches"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/dcgjs"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Cambridge"
-                },
-                "gsx$state": {
-                    "$t": "MA"
-                },
-                "gsx$latitude": {
-                    "$t": "42.373611"
-                },
-                "gsx$longitude": {
-                    "$t": "-71.110556"
-                },
-                "gsx$title": {
-                    "$t": "First National Database of Academic Performance Launches"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "9/24/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "Harvard Graduate School of Education"
-                },
-                "gsx$mediatype": {
-                    "$t": "University News"
-                },
-                "gsx$link": {
-                    "$t": "https://www.gse.harvard.edu/news/19/09/first-national-database-academic-performance-launches"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
-                }
-            },
-            {
-                "id": {
-                    "$t": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/ddv49"
-                },
-                "updated": {
-                    "$t": "2020-02-02T20:09:35.708Z"
-                },
-                "category": [
-                    {
-                        "scheme": "http://schemas.google.com/spreadsheets/2006",
-                        "term": "http://schemas.google.com/spreadsheets/2006#list"
-                    }
-                ],
-                "title": {
-                    "type": "text",
-                    "$t": "Boulder"
-                },
-                "content": {
-                    "type": "text",
-                    "$t": "state: CO, latitude: 40.015, longitude: -105.270556, title: Anyone can look up school data with new online tool, date: 9/23/2019, outlet: CU Boulder Today, mediatype: University News, link: https://www.colorado.edu/today/2019/09/23/anyone-can-look-school-data-new-online-tool"
-                },
-                "link": [
-                    {
-                        "rel": "self",
-                        "type": "application/atom+xml",
-                        "href": "https://spreadsheets.google.com/feeds/list/1vDvjR4Tgj9NnbLZwmSyJKDrEAE4gAHf0NUCjp2i7D90/1/public/values/ddv49"
-                    }
-                ],
-                "gsx$city": {
-                    "$t": "Boulder"
-                },
-                "gsx$state": {
-                    "$t": "CO"
-                },
-                "gsx$latitude": {
-                    "$t": "40.015"
-                },
-                "gsx$longitude": {
-                    "$t": "-105.270556"
-                },
-                "gsx$title": {
-                    "$t": "Anyone can look up school data with new online tool"
-                },
-                "gsx$description": {
-                    "$t": ""
-                },
-                "gsx$date": {
-                    "$t": "9/23/2019"
-                },
-                "gsx$outlet": {
-                    "$t": "CU Boulder Today"
-                },
-                "gsx$mediatype": {
-                    "$t": "University News"
-                },
-                "gsx$link": {
-                    "$t": "https://www.colorado.edu/today/2019/09/23/anyone-can-look-school-data-new-online-tool"
-                },
-                "gsx$umv": {
-                    "$t": ""
-                },
-                "gsx$edited": {
-                    "$t": ""
+                "gsx$icons": {
+                    "$t": "haea"
                 }
             }
         ]
