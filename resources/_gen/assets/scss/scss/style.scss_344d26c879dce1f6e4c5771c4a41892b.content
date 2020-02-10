@@ -19041,6 +19041,19 @@ body.home .hero .h0-logo-subhead {
   background-color: #fff;
 }
 
+#show-data {
+  animation: 3s moveLeft;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(2400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .type-blog a:hover {
   color: #04143c;
 }
