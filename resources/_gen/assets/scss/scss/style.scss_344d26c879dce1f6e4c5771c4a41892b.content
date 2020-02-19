@@ -19038,10 +19038,10 @@ body.home .hero .h0-logo-subhead {
 
 #keylistener .playing {
   transition: 0.5s;
-  background-color: #fff;
+  background-color: #f18080;
 }
 
-#show-data {
+#show-data.move-left {
   animation: 3s moveLeft;
 }
 
@@ -19052,6 +19052,20 @@ body.home .hero .h0-logo-subhead {
   100% {
     transform: translateX(0px);
   }
+}
+
+svg#usmap g:hover {
+  cursor: pointer;
+}
+
+svg#usmap g:hover path.shape {
+  fill: #434878;
+  transition: fill .3s ease;
+}
+
+svg#usmap g:hover path.text {
+  fill: #fff;
+  transition: fill .2s ease;
 }
 
 .type-blog a:hover {

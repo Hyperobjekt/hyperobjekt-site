@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-
+{{ partial "usamap.html" }}
 
 <a href="#" class="state" id="ak1">Get Alaska data</a>
 <a href="#" class="state" id="al2">Get Alabama data</a>
@@ -22,42 +22,42 @@
         <option value="id13">Idaho</option>
         <option value="il14">Illinois</option>
         <option value="in15">Indiana</option>
-        <option value="in16">Iowa</option>
+        <option value="ia16">Iowa</option>
         <option value="ks17">Kansas</option>
-        <option value="/kentucky" class="states-options" id="KY">Kentucky</option>
-        <option value="/louisiana" class="states-options" id="LA">Louisiana</option>
-        <option value="/maine" class="states-options" id="ME">Maine</option>
-        <option value="/maryland" class="states-options" id="MD">Maryland</option>
-        <option value="/massachusetts" class="states-options" id="MA">Massachusetts</option>
-        <option value="/michigan" class="states-options" id="MI">Michigan</option>
-        <option value="/minnesota" class="states-options" id="MN">Minnesota</option>
-        <option value="/mississippi" class="states-options" id="MS">Mississippi</option>
-        <option value="/missouri" class="states-options" id="MO">Missouri</option>
-        <option value="/montana" class="states-options" id="MT">Montana</option>
-        <option value="/nebraska" class="states-options" id="NE">Nebraska</option>
-        <option value="/nevada" class="states-options" id="NV">Nevada</option>
-        <option value="/new-hampshire" class="states-options" id="NH">New Hampshire</option>
-        <option value="/new-jersey" class="states-options" id="NJ">New Jersey</option>
-        <option value="/new-mexico" class="states-options" id="NM">New Mexico</option>
-        <option value="/new-york" class="states-options" id="NY">New York</option>
-        <option value="/north-carolina" class="states-options" id="NC">North Carolina</option>
-        <option value="/north-dakota" class="states-options" id="ND">North Dakota</option>
-        <option value="/ohio" class="states-options" id="OH">Ohio</option>
-        <option value="/oklahoma" class="states-options" id="OK">Oklahoma</option>
-        <option value="/oregon" class="states-options" id="OR">Oregon</option>
-        <option value="/pennsylvania" class="states-options" id="PA">Pennsylvania</option>
-        <option value="/rhode-island" class="states-options" id="RI">Rhode Island</option>
-        <option value="/south-carolina" class="states-options" id="SC">South Carolina</option>
-        <option value="/south-dakota" class="states-options" id="SD">South Dakota</option>
-        <option value="/tennessee" class="states-options" id="TN">Tennessee</option>
-        <option value="/texas" class="states-options" id="TX">Texas</option>
-        <option value="/utah" class="states-options" id="UT">Utah</option>
-        <option value="/vermont" class="states-options" id="VT">Vermont</option>
-        <option value="/virginia" class="states-options" id="VA">Virginia</option>
-        <option value="/washington" class="states-options" id="WA">Washington</option>
-        <option value="/west-virginia" class="states-options" id="WV">West Virginia</option>
-        <option value="/wisconsin" class="states-options" id="WI">Wisconsin</option>
-        <option value="/wyoming" class="states-options" id="WY">Wyoming</option>
+        <option value="ky18" id="KY">Kentucky</option>
+        <option value="la19" id="LA">Louisiana</option>
+        <option value="me20" id="ME">Maine</option>
+        <option value="md21" id="MD">Maryland</option>
+        <option value="ma22" id="MA">Massachusetts</option>
+        <option value="mi23" id="MI">Michigan</option>
+        <option value="mn24" id="MN">Minnesota</option>
+        <option value="ms25" id="MS">Mississippi</option>
+        <option value="mo26" id="MO">Missouri</option>
+        <option value="mt27" id="MT">Montana</option>
+        <option value="ne28" id="NE">Nebraska</option>
+        <option value="nv29" id="NV">Nevada</option>
+        <option value="nh30" id="NH">New Hampshire</option>
+        <option value="nj31" id="NJ">New Jersey</option>
+        <option value="nm32" id="NM">New Mexico</option>
+        <option value="ny33" id="NY">New York</option>
+        <option value="nc34" id="NC">North Carolina</option>
+        <option value="nd35" id="ND">North Dakota</option>
+        <option value="oh36" id="OH">Ohio</option>
+        <option value="ok37" id="OK">Oklahoma</option>
+        <option value="or38" id="OR">Oregon</option>
+        <option value="pa39" id="PA">Pennsylvania</option>
+        <option value="ri40" id="RI">Rhode Island</option>
+        <option value="sc41" id="SC">South Carolina</option>
+        <option value="sd42" id="SD">South Dakota</option>
+        <option value="tn43" id="TN">Tennessee</option>
+        <option value="tx44" id="TX">Texas</option>
+        <option value="ut45" id="UT">Utah</option>
+        <option value="vt46" id="VT">Vermont</option>
+        <option value="va47" id="VA">Virginia</option>
+        <option value="wa48" id="WA">Washington</option>
+        <option value="wv49" id="WV">West Virginia</option>
+        <option value="wi50" id="WI">Wisconsin</option>
+        <option value="wy51" id="WY">Wyoming</option>
                 </select>
         </select>
         <input type="button" name="Submit" value="Go" class="submit-state">
@@ -72,7 +72,7 @@
                 <label for="filter-categoryb">LA</label>
             </li>
         </ul>
-    <div id="show-data" class="row">
+    <div id="show-data" class="row w-75" style="position: absolute;">
                    
 
     </div>
