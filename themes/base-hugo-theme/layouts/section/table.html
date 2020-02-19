@@ -2,8 +2,6 @@
 
 {{ partial "usamap.html" }}
 
-<a href="#" class="state" id="ak1">Get Alaska data</a>
-<a href="#" class="state" id="al2">Get Alabama data</a>
 <label for="states">Choose a state:</label>
     <form>
         <select class="states" id="states">
@@ -64,12 +62,20 @@
     </form>  
     <ul id="filters">
             <li>
-                <input type="checkbox" value="ea" id="filter-categorya" checked />
-                <label for="filter-categorya">EA</label>
+                <input type="checkbox" class="services-filter" value="ha" id="filter-categorya" />
+                <label for="filter-categorya">Housing Assistance</label>
             </li>
             <li>
-                <input type="checkbox" value="la" id="filter-categoryb" checked />
-                <label for="filter-categoryb">LA</label>
+                <input type="checkbox" class="services-filter" value="la" id="filter-categoryb" />
+                <label for="filter-categoryb">Legal Aid</label>
+            </li>
+            <li>
+                <input type="checkbox" class="services-filter" value="ea" id="filter-categoryc" />
+                <label for="filter-categoryc">Education & Advocacy</label>
+            </li>
+            <li>
+                <input type="checkbox" class="services-filter" value="tr" id="filter-categoryd" />
+                <label for="filter-categoryd">Tenant Rights</label>
             </li>
         </ul>
     <div id="show-data" class="row w-75" style="position: absolute;">

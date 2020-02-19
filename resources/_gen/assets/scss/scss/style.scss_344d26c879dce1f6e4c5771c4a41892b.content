@@ -19038,7 +19038,7 @@ body.home .hero .h0-logo-subhead {
 
 #keylistener .playing {
   transition: 0.5s;
-  background-color: #f18080;
+  background-color: #b90303;
 }
 
 #show-data.move-left {

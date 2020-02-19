@@ -8,13 +8,12 @@
 
         //Map-based selection of states
         $('svg g').click(function () {
-          $('#show-data').empty();
-        /*  .css({"opacity":"0","left":"100%"})
+          $('#show-data').empty()
+          .css({"opacity":"0"})
           .stop(true,false)
-          .animate({
-          left:"0",  
+          .animate({ 
           opacity: "1"
-          }, 1700); */
+          }, 2400); 
           var stateID = $(this).attr('id');
           var stateNum = stateID.substr(2);
            getState(stateNum);
@@ -56,9 +55,9 @@
               // If icons column cell contains "la" ...
               var la = icons.includes("la");
               if (la === true) {
-                // give it a class we can use for filtering on front end, and ...
+                // give it a class we can use for filtering on front end ...
                 class1 = 'la '
-                // declare it "Legal Aid" on front end
+                // ... and declare it "Legal Aid" on front end
                 var icon1 = "Legal Aid<br>"
               };
               var ea = icons.includes("ea");
@@ -86,7 +85,9 @@
               '<br>' + wrapLink + '<br>' + icon1 + icon2 + icon3 + icon4 + '</div>';
               // Append rendered data to a div
               var showData = $('#show-data');
-              showData.append(content);       
+              showData.append(content); 
+              // Clear out filter checkboxes
+              $(".services-filter").prop("checked", false);      
             };   
           });
         };  
