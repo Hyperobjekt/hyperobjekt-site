@@ -1,8 +1,10 @@
 {{ define "main" }}
-
+<div class="row">
+    <div class="col-12 col-md-9 mx-auto mt-5">
+<h4 class="dkgraytext">Select your state from the map:</h4>
 {{ partial "usamap.html" }}
-
-<label for="states">Choose a state:</label>
+<div class="w-100"></div>
+<p><label for="states">Or choose from the list:</label></p>
     <form>
         <select class="states" id="states">
         <option value="ak1">Alaska</option>
@@ -60,20 +62,21 @@
         </select>
         <input type="button" name="Submit" value="Go" class="submit-state">
     </form>  
-    <ul id="filters">
-            <li>
+    <p class="mt-2">Filter by service type:</p>
+    <ul id="filters" style="display: inline-flex">
+            <li class="mr-1">
                 <input type="checkbox" class="services-filter" value="ha" id="filter-categorya" />
                 <label for="filter-categorya">Housing Assistance</label>
             </li>
-            <li>
+            <li class="mr-1">
                 <input type="checkbox" class="services-filter" value="la" id="filter-categoryb" />
                 <label for="filter-categoryb">Legal Aid</label>
             </li>
-            <li>
+            <li class="mr-1">
                 <input type="checkbox" class="services-filter" value="ea" id="filter-categoryc" />
                 <label for="filter-categoryc">Education & Advocacy</label>
             </li>
-            <li>
+            <li class="mr-1">
                 <input type="checkbox" class="services-filter" value="tr" id="filter-categoryd" />
                 <label for="filter-categoryd">Tenant Rights</label>
             </li>
@@ -82,8 +85,8 @@
                    
 
     </div>
-
-
+</div>
+</div>
 
 
 
