@@ -100,6 +100,44 @@
       });
    });
    
+// CLP ----------------------------------------------------------------
+  $(document).ready(function () {
+   /* $('.submit-census').click(function () {
+     // $('#show-crosswalk').empty()
+      var censusID1 = $( "#census1" ).val();
+      var censusID2 = $( "#census2" ).val();
+       getCrosswalk(censusID1,censusID2);
+    }); */
+  });
+
  
+     
+    
+    $("select").change(function(){
+      var censusID1 = $( "#census1" ).val();
+      var censusID2 = $( "#census2" ).val();
+      if (censusID2 <= censusID1) {
+        console.log('Invalid range');
+        censusID2 = Number(censusID1) + 10
+        $("select#census2").val(censusID2);
+      };
+        $('select#census2').find('option').each(function() {
+            if (Number(this.value) <= censusID1) {
+                $(this).attr('disabled', 'disabled');
+            } else {
+                $(this).removeAttr('disabled');
+            }
+        });
+      getCrosswalk(censusID1,censusID2);
+    });
+
+  function getCrosswalk(censusID1,censusID2) {
+    console.log(censusID1,censusID2);
+    var crosswalkFile = "'#crosswalk" + censusID1 + censusID2 + "'"
+    console.log(crosswalkFile);
+
+    $('.years').removeClass("show");
+    $('#crosswalk' + censusID1 + censusID2).addClass("show");
+  }
 
 })(jQuery);

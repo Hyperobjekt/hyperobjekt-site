@@ -19068,6 +19068,14 @@ svg#usmap g:hover path.text {
   transition: fill .2s ease;
 }
 
+#show-crosswalk .years {
+  display: none;
+}
+
+#show-crosswalk .years.show {
+  display: block;
+}
+
 .type-blog a:hover {
   color: #04143c;
 }
