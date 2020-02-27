@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-12 col-md-9 mx-auto mt-5">
+
+<p><label for="states">Select crosswalk files</label></p>
+    <form>
+        Start year:
+        <select class="census1" id="census1">
+            <option value="1850">1850</option>
+            <option value="1860">1860</option>
+            <option value="1870">1870</option>
+            <option value="1880">1880</option>
+        </select>
+        End year:
+            <select class="census2" id="census2">
+                <option value="1860">1860</option>
+                <option value="1870">1870</option>
+                <option value="1880">1880</option>
+                <option value="1890">1890</option>
+            </select>
+            <!--<input type="button" name="Submit" value="Go" class="submit-census">-->
+        </form>  
+    
+    <div id="show-crosswalk" class="mt-4" style="position: absolute;">
+       <div id="crosswalk18501860" class="years">Crosswalk from 1850-1860</div>
+       <div id="crosswalk18501870" class="years">Crosswalk from 1850-1870</div> 
+       <div id="crosswalk18501880" class="years">Crosswalk from 1850-1880</div>  
+       <div id="crosswalk18501890" class="years">Crosswalk from 1850-1890</div>   
+       
+       <div id="crosswalk18601870" class="years">Crosswalk from 1860-1870</div>
+       <div id="crosswalk18601880" class="years">Crosswalk from 1860-1880</div> 
+       <div id="crosswalk18601890" class="years">Crosswalk from 1860-1890</div>
+      
+       <div id="crosswalk18701880" class="years">Crosswalk from 1870-1880</div>
+       <div id="crosswalk18701890" class="years">Crosswalk from 1870-1890</div> 
+
+       <div id="crosswalk18801890" class="years">Crosswalk from 1880-1890</div>
+      
+     
+      
+    </div>
+</div>
+</div>
+
+
+
+
+{{ end }}
