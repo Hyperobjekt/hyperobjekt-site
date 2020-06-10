@@ -17084,6 +17084,10 @@ nav.navbar > div {
   color: #021029;
 }
 
+.boldblue {
+  color: #063FFE;
+}
+
 .dkbluebg {
   background-color: #021029;
 }
@@ -17863,7 +17867,11 @@ body.home .hero {
 }
 
 body.home .hero h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   line-height: 3.7rem;
+  font-size: 4.2rem;
 }
 
 @media (min-width: 768px) {
@@ -17871,6 +17879,10 @@ body.home .hero h2 {
     line-height: 5.7rem;
     margin-bottom: 1rem;
   }
+}
+
+body.home .hero p {
+  line-height: 1.8;
 }
 
 body.home .hero svg {
@@ -19559,6 +19571,8 @@ body.home .hero .h0-logo-subhead {
   font-style: normal;
   line-height: 1.35;
   color: #04143c;
+  border-top: 4px solid #04143c;
+  padding-top: 16px;
 }
 
 .type-analytics-list a:hover {
