@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-items-center justify-content-between">
+    <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
+    <div class="nav-menu d-none d-md-block pr-4"><a href="#" class="no-underline pr-4">a n a l y t i c s</a></div>
+    <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+        <span class="navbar-toggler-icon"></span>
+    </div>
+</nav>
+ 
+<div class="row d-flex subnav">
+    <div class="col-12 p-0 ml-0 ml-md-4">
+        <ul class="d-flex flex-wrap justify-content-start align-items-center pl-4 pl-md-0">
+        
+            <li class=""><a href="/">Home</a>&nbsp; &nbsp;></li>
+            <li class="">&nbsp;&nbsp;&nbsp;<a href="/edop">Edopportunity.org Analytics</a>&nbsp; &nbsp; > &nbsp; &nbsp;</li>
+            <li class="">{{ .Params.title }}</li>
+        
+        </ul>
+    </div>
+  </div>
+
+<div class="row pt-6 pt-lg-7">
+    <div class="col-12 col-md-6 offset-md-1 offset-xl-2 mt-6">
+        <p>Use controls at bottom of report to navigate between pages, and to view/edit the report within Data Studio.
+            You can also page back and forth by clicking within the report and then using left and right arrow keys.
+        </p>
+    </div>  
+    <div class="col-12 col-md-10 col-xl-8 mx-auto mt-4 mb-8 analytics-reporting">
+              {{ .Content | safeHTML }}
+         </div>
+</div>
+
+
+{{/* partial "footer2.html" . */}}
+
+{{ end }}
