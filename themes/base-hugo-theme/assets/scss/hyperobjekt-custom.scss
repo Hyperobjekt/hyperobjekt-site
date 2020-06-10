@@ -81,6 +81,9 @@ nav.navbar > div {
 .dkgraytext {
   color: #021029;
 }
+.boldblue {
+  color: $boldblue;
+}
 .dkbluebg {
   background-color: #021029;
 }
@@ -854,11 +857,16 @@ body.home {
     }
     color: $white;
     h2 {
+      @include futura-medium;
       line-height: 3.7rem;
+      font-size: 4.2rem;
       @include media-breakpoint-up(md) {
         line-height: 5.7rem;
         margin-bottom: 1rem;
       }
+    }
+    p {
+      line-height: 1.8;
     }
     
 
