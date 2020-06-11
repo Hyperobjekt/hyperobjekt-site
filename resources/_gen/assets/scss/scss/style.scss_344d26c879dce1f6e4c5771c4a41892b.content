@@ -17871,7 +17871,7 @@ body.home .hero h2 {
   font-weight: 500;
   font-style: normal;
   line-height: 3.7rem;
-  font-size: 4.2rem;
+  font-size: 4rem;
 }
 
 @media (min-width: 768px) {
@@ -19577,6 +19577,10 @@ body.home .hero .h0-logo-subhead {
 
 .type-analytics-list a:hover {
   color: #17306d;
+}
+
+.subnav ul li a:hover {
+  color: #17306d !important;
 }
 
 .analytics-header {
