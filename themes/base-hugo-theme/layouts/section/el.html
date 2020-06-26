@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-items-center justify-content-between">
-    <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
-    <div class="nav-menu d-none d-md-block pr-4"><a href="/" class="no-underline pr-4">a n a l y t i c s</a></div>
+    <div class="wordmark pl-4"><a href="#" class="no-underline whitetext">h y p e r o b j e k t</a></div>
+    <div class="nav-menu d-none d-md-block pr-4"><a href="#" class="no-underline pr-4">a n a l y t i c s</a></div>
     <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
         <span class="navbar-toggler-icon"></span>
     </div>
@@ -22,15 +22,18 @@
     <div class="row mb-12">
         <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto mb-1">
             <h2 class="mb-3">Tools</h2> 
-            <p class="mb-3">• <a href="https://edopportunity.org/media-map">Media Map</a></p>  
+            <p class="mb-3">• <a href="https://evictionlab.org/media-map">Media Map</a></p> 
+            {{ range (where .Site.RegularPages "Params.childof" ("meta-analytics")) }}
+              <p class="mb-3">• <a href="{{ .Permalink }}">{{ .Title }}</a></p> 
+            {{ end }}  
         </div>
         <div class="d-block w-100"></div>
         <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto mb-1 mx-auto">
             <h2 class="mb-3">Monthly Reports</h2>   
         </div>
         <div class="d-block w-100"></div>
-    {{ range .Pages.ByPublishDate.Reverse }}
-      <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+        {{ range (where .Site.RegularPages.ByPublishDate.Reverse "Params.childof" ("analytics")) }}
+        <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
         
         <p class="mb-3">• <a href="{{ .Permalink }}">{{ .Title }}</a></p>
         <p>
