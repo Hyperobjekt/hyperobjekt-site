@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-items-center justify-content-between">
+    <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
+    <div class="nav-menu d-none d-md-block pr-4"><a href="/" class="no-underline pr-4">a n a l y t i c s</a></div>
+    <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+        <span class="navbar-toggler-icon"></span>
+    </div>
+</nav>
+
+
+
+<div class="row  mb-8 mx-0 px-0 analytics-header">
+    <div class="hero-overlay">
+        <div class="col-xs-12 col-md-8 col-lg-8 col-xl-8 pt-11 pb-7 pt-lg-14 pb-lg-10 pt-xl-16 pb-xl-12 px-4 mx-auto">
+            <!--<img src="/images/icons/edop-logo.svg" style="width: 64px;" />-->
+            <h1>{{ .Title | safeHTML }}</h1>
+        </div>
+    </div>    
+</div>
+  <div class="wrapper"> 
+    <div class="row mb-12">
+        <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto mb-1">
+            <h2 class="mb-3">Tools</h2> 
+            <p class="mb-3">• <a href="https://edopportunity.org/media-map">Media Map</a></p>  
+        </div>
+        <div class="d-block w-100"></div>
+        <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto mb-1 mx-auto">
+            <h2 class="mb-3">Monthly Reports</h2>   
+        </div>
+        <div class="d-block w-100"></div>
+    {{ range .Pages.ByPublishDate.Reverse }}
+      <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+        
+        <p class="mb-3">• <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+        <p>
+          
+        {{ .Params.description }}
+          {{/* partial "date-and-tags.html" . */}}
+        </p>
+       
+        
+      </div>
+      <div class="d-block w-100"></div>
+
+    {{ end }}
+    </div>
+  </div>     
+{{/* partial "footer2.html" . */}}
+
+
+{{ end }}
