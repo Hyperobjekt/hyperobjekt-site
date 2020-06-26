@@ -19540,6 +19540,10 @@ body.home .hero .h0-logo-subhead {
   background-size: 29%;
 }
 
+.type-analytics-list.eviction-lab-site-analytics .hero-overlay {
+  background-image: url("/images/backgrounds/methods-bar-graph2.svg");
+}
+
 .type-analytics-list h1 {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
@@ -19559,7 +19563,7 @@ body.home .hero .h0-logo-subhead {
     font-size: 5rem;
     letter-spacing: 0.049rem;
     line-height: 7rem;
-    max-width: 66%;
+    max-width: 45%;
   }
 }
 
@@ -19592,6 +19596,10 @@ body.home .hero .h0-logo-subhead {
 
 .analytics-header h1 {
   color: #fff;
+}
+
+.eviction-lab-site-analytics .analytics-header {
+  background: linear-gradient(0deg, #101129 0%, #303356 100%);
 }
 
 /*# sourceMappingURL=style.css.map */

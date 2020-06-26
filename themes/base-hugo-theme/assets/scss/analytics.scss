@@ -25,6 +25,11 @@
         background-position: 74% bottom;
         background-size: 29%;
     }
+    &.eviction-lab-site-analytics {
+        .hero-overlay {
+            background-image: url('/images/backgrounds/methods-bar-graph2.svg');
+        }
+    }
     h1 {
         @include futura-medium;
         font-size: 1.7rem;
@@ -37,7 +42,7 @@
         //color: #FFFFFF;
         letter-spacing: 0.049rem;
         line-height: 7rem;
-        max-width: 66%;
+        max-width: 45%;
         }
     }
     h2 {
@@ -65,9 +70,16 @@
     background: linear-gradient(0deg, #1e151f 0%, #092146 100%);
     background: linear-gradient(0deg, rgba(30,21,31,1) 0%, rgba(24,43,60,1) 100%);
     background: linear-gradient(0deg, #1f1421 -2%, #0e2e4a 100%);
-
-
+   
     h1 {
         color: #fff;
     }
+}
+.eviction-lab-site-analytics {
+    .analytics-header {
+        background: linear-gradient(0deg, #101129 0%, #303356 100%);
+    }
+    
+
+
 }
