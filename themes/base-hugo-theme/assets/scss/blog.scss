@@ -44,9 +44,6 @@
            // letter-spacing: .2rem;
             // text-align: center;
             line-height: 2.4rem;
-          
-
-        
     }
     p {
         font-family: futura-pt,sans-serif;
@@ -55,6 +52,13 @@
         font-size: 1.7rem;
         letter-spacing: .035rem;
         line-height: 1.5;
+        color: #2d2d2d;
+    }
+    i.blogintro {
+        color: #646464;
+        border-left: 5px solid #020f29;
+        display: block;
+        padding-left: 24px;
     }
     &.kind-section .bloglist-item {
         
@@ -95,6 +99,7 @@
     &.kind-page {
         img.bloghero {
             max-width: 100%;
+            box-shadow: 4px 3px 9px #00000017;
             @include media-breakpoint-up(lg) {
             max-width: 85%;
             }
@@ -143,6 +148,7 @@
         p img {
             max-width: 100%;
             margin-top: 2.4rem;
+           // box-shadow: 4px 3px 9px #00000017;
            // margin-bottom: 2.4rem;
             @include media-breakpoint-up(md) {
                 max-width: 115%;
