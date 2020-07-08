@@ -18,6 +18,8 @@ anchor = "smart"
   containerMaxWidth=1200
   showActiveNav=true
 
+[markup.goldmark.renderer]
+unsafe= true
 
 # main menu
 [menu]  

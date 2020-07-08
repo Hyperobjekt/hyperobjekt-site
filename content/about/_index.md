@@ -19,11 +19,11 @@ services: >-
     <h2 class="dkgraytext mb-3">what we do</h2>
     <ul>
     <li><b>Design:</b> visual identity, print & digital collateral, websites, illustration, & more</li>
-    <li><b>Development:</b> from small-scale websites and apps to complex interactive visualizations</li>
+    <li><b>Development:</b> from small-scale websites and apps to rich interactive visualizations</li>
     <li><b>User testing & UX consultation:</b> drawing upon in-person moderated sessions, online tools, surveys, and our grounding in UX principles</li>
     <li><b>Copywriting & editing:</b> we partner with dynamic writers and editors to maximize the appeal and impact of written content</li>
-    <li><b>Analytics:</b> we create custom interactive reports on website statistics which can be used to assess visitor engagement and success of promotional efforts, as well as inform optimizations</li>
-    <li><b>Media coverage reporting:</b> We offer the ability to track and visualize news & other mentions of our clients’ websites and work  </li>
+    <li><b>Analytics:</b> we create custom interactive reports on website statistics which can be used to assess visitor engagement & ROI, as well as inform optimizations</li>
+    <li><b>Media coverage reporting:</b> We offer the ability to track and visualize news articles & other mentions of our clients’ websites and work  </li>
     </ul>  
 
 
