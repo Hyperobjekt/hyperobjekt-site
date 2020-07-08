@@ -59,6 +59,7 @@
         border-left: 5px solid #020f29;
         display: block;
         padding-left: 24px;
+        margin: 2.4rem 0 1.6rem;
     }
     &.kind-section .bloglist-item {
         
@@ -155,7 +156,11 @@
                 margin: -24px 0 -24px 33%;
                 border-top: 56px white solid;
                 border-bottom: 40px white solid;
-            }    
+            } 
+            &.alt-border {
+                border-top: 56px #f6f9f9 solid;
+                border-bottom: 40px #f6f9f9 solid;
+            }   
         }
         p.blogcaption {
             @include media-breakpoint-up(md) {
