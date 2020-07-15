@@ -96,7 +96,7 @@ The tooltips presented quite a problem for a11y: several tooltip plugins claimin
 <div class="row mx-0 px-3">
 <div class="col-xs-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
 
-<h3 class="pt-5">Conclusion</h3>
+<h3 class="pt-5">The Scorecard's Impact</h3>
 
 
 </div>
