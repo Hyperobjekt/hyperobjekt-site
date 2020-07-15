@@ -1,4 +1,4 @@
-/edop
+/edop/*
     Basic-Auth: seda:edop
-/el
+/el/
     Basic-Auth: el:justshelter  
