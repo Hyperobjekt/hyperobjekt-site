@@ -54,6 +54,12 @@
         line-height: 1.5;
         color: #2d2d2d;
     }
+    span.speaker {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #444444;
+        font-size: 1.6rem;
+    }
     i.blogintro {
         color: #646464;
         border-left: 5px solid #020f29;
@@ -123,13 +129,13 @@
         }
         h3 {
             line-height: 1.5; 
-            font-size: 2.3rem;
+            font-size: 2.8rem;
              letter-spacing: 0.03rem;
              font-family: futura-pt, sans-serif;
              font-weight: 500;
              color: #021029;
              padding-top: 0.8rem;
-             padding-bottom: 2.4rem;
+             padding-bottom: 3.2rem;
              @include media-breakpoint-up(md) {
                 margin-right: 16%;
                 padding-right: 17%;
