@@ -80,7 +80,7 @@ Lastly, we needed a strategy for showing each state’s details. Originally, the
 <div class="row alt-bg mx-0 px-3">
 <div class="col-xs-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
 
-<h3 class="pt-5">Making it accessible</h3>
+<h3 class="pt-5">Making it all accessible</h3>
 
 <span class="speaker">Lou Groshek, Developer:</span> 
 
