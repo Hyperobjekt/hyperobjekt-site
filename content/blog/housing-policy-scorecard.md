@@ -21,7 +21,7 @@ But at the same time, much of the work of Hyperobjekt’s clients—including on
 One of those apps is the <a href="https://evictionlab.org/covid-policy-scorecard" target="_blank">Housing Policy Scorecard</a> we created for The Eviction Lab at Princeton. Conceived in response to a pandemic which has caused the worst economic hardship in nearly a century and heightened millions of renters’ vulnerability to eviction, the scorecard is a constantly-updated overview of states’ responses (or lack thereof) to this impending threat. This tool has since become an essential reference used by journalists, policymakers, and the public to gauge the efficacy of their states' protections.
 
 <img src="/images/blog/scorecard-app.jpg" />
-<p class="blogcaption">The COVID-19 Housing Policy Scorecard.</p>
+<p class="blogcaption text-center">The COVID-19 Housing Policy Scorecard.</p>
 
 In keeping with the need for a fast launch (which necessitated starting to code even while the data structure was still coming together) and an application flexible enough to adjust to rapidly-changing circumstances, we took an approach that favored simplicity, adaptability, and future-proofing, versus an overdetermined design that would’ve boxed us in and required restructuring down the road. 
 
@@ -44,7 +44,7 @@ The team at Princeton had used Google Spreadsheets as a data source for ther asp
 
 
 <img class="alt-border" src="/images/blog/scorecard-sheet.jpg" />
-<p class="blogcaption">The Google Sheet which serves as the app's database.</p>
+<p class="blogcaption text-center">The Google Sheet which serves as the app's database.</p>
 
 <span class="speaker">Sasha Zyryaev, Designer</span>  
 
@@ -67,12 +67,12 @@ Regarding animations: jQuery’s `hide()` and `show()`, no matter how much you f
 Another feature is the “sticky sub-header” for filtering the scorecard based on states’ policies. We discussed and experimented with several different presentations for these filters. Knowing that we weren’t working with a genuine MVC framework and each additional UI element added a significant amount of technical debt in terms of responsiveness, <a href="https://www.a11yproject.com/" target="_blank">a11y</a>, and feature collisions, I fought to keep the filters inline, and in general to keep the UI as simple as possible. I’m ultimately very pleased, when testing at different device widths, with how stable and naturally responsive the UI is, and glad that we arrived at this solution.
 
 <img class="" src="/images/blog/scorecard-filters.jpg" />
-<p class="blogcaption">The Scorecard's filter options.</p>
+<p class="blogcaption text-center">The Scorecard's filter options.</p>
 
 Lastly, we needed a strategy for showing each state’s details. Originally, these were to be displayed in a panel or dialog that would appear when a state was selected from the scorecard. In the end, because it would both improve SEO and offer a more stable interface, we decided to create unique Hugo pages for each of these states. I wrote a Hugo template to declare the state abbreviation as a JavaScript variable on page load, allowing the rankings init to detect and load the correct state details data. Once again, this allows us to present detailed data in a natural and intuitive navigation structure without further taxing an already relatively complex interactive UI.
 
 <img class="" src="/images/blog/scorecard-page.jpg" />
-<p class="blogcaption pb-6">The Scorecard's individual state page for New York.</p>
+<p class="blogcaption text-center pb-6">The Scorecard's individual state page for New York.</p>
 
 </div>
 </div>
