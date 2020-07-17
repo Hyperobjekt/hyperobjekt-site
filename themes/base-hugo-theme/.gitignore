@@ -1,2 +1,7 @@
 exampleSite/public/
 .DS_Store
+public/*
+node_modules/
+resources/
+resources/_gen/
+
