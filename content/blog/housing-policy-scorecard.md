@@ -30,7 +30,7 @@ In keeping with the need for a fast launch (which necessitated starting to code 
 
 </div>
 </div>
-<div class="row alt-bg mx-0 px-3">
+<div class="row alt-bg2 mx-0 px-3">
 <div class="col-xs-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
 
 <h3 class="pt-6">Corralling the Complexity</h3>
@@ -77,7 +77,7 @@ Lastly, we needed a strategy for showing each state’s details. Originally, the
 </div>
 </div>
 
-<div class="row alt-bg mx-0 px-3">
+<div class="row alt-bg2 mx-0 px-3">
 <div class="col-xs-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
 
 <h3 class="pt-5">Making it accessible</h3>
