@@ -1,11 +1,11 @@
 ---
-title: "Showing our work: Eviction Lab's Housing Policy Scorecard"
+title: "Showing our work: Eviction Lab's COVID-19 Housing Policy Scorecard"
 subtitle: How we pivoted in a pandemic to meet an urgent need.
 date: "2019-02-24"
 blogimage: "/images/blog/el-scorecard-social-00008.jpg"
 socialdescription: How we pivoted in a pandemic to meet an urgent need.
 social_image: "/images/blog/el-scorecard-social-00008.jpg"
-description: As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
+description: "The typical project development cycle for us is much like any other agency's: a discovery phase, mockups, kicking off development, and then—allowing for a few wrenches thrown along the way—final tweaks and product launch. In other words, the work follows a fairly orderly sequence from concept to execution. But then came COVID-19." 
 ---
 <i class="blogintro">This is the first in a series of articles from Hyperobjekt that present detailed, first-person technical walkthroughs of our team members’ work on our latest projects. We hope that sharing our process in this way will be of interest to developers, designers, and others, as we have learned from the approaches and techniques of fellow professionals in our field.</i>
  
