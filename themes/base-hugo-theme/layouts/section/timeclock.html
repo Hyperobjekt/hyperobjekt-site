@@ -8,136 +8,159 @@
   </div>
 </nav>
 <style>
-    .timerContainer {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  width:700px;
-  margin:20px auto;
-  min-height: 60px;
-  border-top:0px;
+    .stopwatch {
+  display: block;
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin: 5px;
 }
-.timer, .reset {
-  float:left;
-  width: 54%;
-  padding: 20px 0;
-  font-size: 24px;
-  text-align:center;
-  color: #fff;
-  background: #A90000;
-  cursor: pointer
+
+.stopwatch span {
+  font-weight: bold;
+  display: block;
 }
-.reset {
-  background: #550000;
-  color: white;
-  width:14.9%;
-  border-left: 1px solid #990000;
-}
-.reset:hover {
-  background: #CC0000;
-}
-.lighter {
-  background: #CC0000
+
+.stopwatch a {
+  padding-right: 5px;
+  text-decoration: none;
 }
 </style>
 
 
 <div class="row">
-    <div class="col-12 col-md-8 mx-auto">
-        <div class="timerContainer">
-            <div id="timer1" class="timer" onclick="startTimer(1)">Start Timer!</div>
-            <div class="startTimer reset" onclick="startTimer(1)" >
-                <i class="fas fa-play"></i>
-              </div>
-            <div class="pauseTimer reset" onclick="pauseTimer(1)" >
-                <i class="fas fa-pause"></i>
-              </div>
-            <div class="resetTimer reset" onclick="resetTimer(1)">Reset</div>
-        </div>
+    <div class="col-12 col-md-8 mx-auto my-8">
+      <br><br>
+      <div id="watchgroup">
+        {{ range .Params.clients }}
+          <span class="basic stopwatch">{{ .name }}</span>
+        {{ end }}  
+      </div>
     </div>
 </div>
 
 
-        <script>
-            var startTimerButton = document.querySelector('.startTimer');
-var pauseTimerButton = document.querySelector('.pauseTimer');
-var timerDisplay = document.querySelector('.timer');
-var startTime;
-var updatedTime;
-var difference;
-var tInterval;
-var savedTime;
-var paused = 0;
-var running = 0;
-function startTimer(){
-  if(!running){
-    startTime = new Date().getTime();
-    tInterval = setInterval(getShowTime, 1);
-// change 1 to 1000 above to run script every second instead of every millisecond. one other change will be needed in the getShowTime() function below for this to work. see comment there.   
- 
-    paused = 0;
-    running = 1;
-timerDisplay.style.background = "#FF0000";
-    timerDisplay.style.cursor = "auto";
-    timerDisplay.style.color = "yellow";
-    startTimerButton.classList.add('lighter');
-    pauseTimerButton.classList.remove('lighter');
-    startTimerButton.style.cursor = "auto";
-    pauseTimerButton.style.cursor = "pointer";
-  }
-}
-function pauseTimer(){
-  if (!difference){
-    // if timer never started, don't allow pause button to do anything
-  } else if (!paused) {
-    clearInterval(tInterval);
-    savedTime = difference;
-    paused = 1;
-    running = 0;
-    timerDisplay.style.background = "#A90000";
-    timerDisplay.style.color = "#690000";
-    timerDisplay.style.cursor = "pointer";
-    startTimerButton.classList.remove('lighter');
-    pauseTimerButton.classList.add('lighter');
-    startTimerButton.style.cursor = "pointer";
-    pauseTimerButton.style.cursor = "auto";
-  } else {
-// if the timer was already paused, when they click pause again, start the timer again
-startTimer();
-  }
-}
-function resetTimer(){
-  clearInterval(tInterval);
-  savedTime = 0;
-  difference = 0;
-  paused = 0;
-  running = 0;
-  timerDisplay.innerHTML = 'Start Timer!';
-  timerDisplay.style.background = "#A90000";
-  timerDisplay.style.color = "#fff";
-  timerDisplay.style.cursor = "pointer";
-  startTimerButton.classList.remove('lighter');
-  pauseTimerButton.classList.remove('lighter');
-  startTimerButton.style.cursor = "pointer";
-  pauseTimerButton.style.cursor = "auto";
-}
-function getShowTime(){
-  updatedTime = new Date().getTime();
-  if (savedTime){
-    difference = (updatedTime - startTime) + savedTime;
-  } else {
-    difference =  updatedTime - startTime;
-  }
-  // var days = Math.floor(difference / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((difference % (1000 * 60)) / 1000);
-  var milliseconds = Math.floor((difference % (1000 * 60)) / 100);
-hours = (hours < 10) ? "0" + hours : hours;
-  minutes = (minutes < 10) ? "0" + minutes : minutes;
-  seconds = (seconds < 10) ? "0" + seconds : seconds;
-  milliseconds = (milliseconds < 100) ? (milliseconds < 10) ? "00" + milliseconds : "0" + milliseconds : milliseconds;
-  timerDisplay.innerHTML = hours + ':' + minutes + ':' + seconds + ':' + milliseconds;
-}
+    <script>
+            // stopwatch functions...
+      var Stopwatch = function(elem, options) {
+        var timer = createTimer(),
+          startButton = createButton("start", start),
+          stopButton = createButton("stop", stop),
+          resetButton = createButton("reset", reset),
+          offset,
+          clock,
+          interval;
+
+        // default options
+        options = options || {};
+        options.delay = options.delay || 1;
+
+        // append elements     
+        elem.appendChild(timer);
+        elem.appendChild(startButton);
+        elem.appendChild(stopButton);
+        elem.appendChild(resetButton);
+
+        // initialize
+        reset();
+
+        // private functions
+        function createTimer() {
+          return document.createElement("span");
+        }
+
+        function createButton(action, handler) {
+          var a = document.createElement("a");
+          a.href = "#" + action;
+          a.innerHTML = action;
+          a.addEventListener("click", function(event) {
+            handler();
+            event.preventDefault();
+          });
+          return a;
+        }
+
+        function start() {
+          if (!interval) {
+            offset = Date.now();
+            interval = setInterval(update, options.delay);
+          }
+        }
+
+        function stop() {
+          if (interval) {
+            clearInterval(interval);
+            interval = null;
+          }
+        }
+
+        function reset() {
+          clock = 0;
+          render(0);
+        }
+
+        function update() {
+          clock += delta();
+          render();
+        }
+
+        function render() {
+          var h = Math.floor(clock / (1000 * 60 * 60)) % 24;
+          var m = Math.floor(clock / (1000 * 60)) % 60;
+          var s = Math.floor(clock / 1000) % 60;
+          var ms = Math.floor(clock % 1000);
+
+          if (h < 10) {
+            h = "0" + h;
+          }
+          if (m < 10) {
+            m = "0" + m;
+          }
+          if (s < 10) {
+            s = "0" + s;
+          }
+          if (ms < 100) {
+            ms = "0" + ms;
+          }
+          if (ms < 10) {
+            ms = "0" + ms;
+          }
+
+          timer.innerHTML = h + ':' + m + ':' + s + '::' + ms;
+
+        }
+
+        function delta() {
+          var now = Date.now(),
+            d = now - offset;
+
+          offset = now;
+          return d;
+        }
+
+        this.start = start;
+        this.stop = stop;
+        this.reset = reset;
+      };
+
+
+      var elems = document.getElementsByClassName("basic");
+      for (var i = 0, len = elems.length; i < len; i++) {
+        new Stopwatch(elems[i]);
+      }
+
+
+      //click one btn, stop all other watch
+      $('#btngroup button').live('click', function() {
+        var btnClicked = $(this).index();
+        $('.basic').each(function(index) {
+          if(btnClicked == index){
+            $(this).find('a:eq(0)')[0].click();
+          } else {
+            $(this).find('a:eq(1)')[0].click();
+          }
+        });
+      });
         </script>
     </div>
 </div>
