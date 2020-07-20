@@ -1,0 +1,174 @@
+{{ define "main" }}
+
+<nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-items-center justify-content-between">
+  <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
+  <div class="nav-menu d-none d-md-block pr-4"><a href="/" class="no-underline pr-4">h o m e</a><a href="/#work" class="no-underline pr-4">w o r k</a><a href="/about" class="no-underline pr-4 menu-active">a b o u t</a><a href="/blog" class="no-underline">b l o g</a></div>
+  <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+    <span class="navbar-toggler-icon"></span>
+  </div>
+</nav>
+<style>
+    .stopwatch {
+  display: block;
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin: 5px;
+}
+
+.stopwatch span {
+  font-weight: bold;
+  display: block;
+}
+
+.stopwatch a {
+  padding-right: 5px;
+  text-decoration: none;
+}
+</style>
+
+
+<div class="row">
+    <div class="col-12 col-md-8 mx-auto my-8">
+      <br><br>
+      <div id="watchgroup">
+        {{ range .Params.clients }}
+          <span class="basic stopwatch">{{ .name }}</span>
+        {{ end }}  
+      </div>
+    </div>
+</div>
+
+
+    <script>
+            // stopwatch functions...
+      var Stopwatch = function(elem, options) {
+        var timer = createTimer(),
+          startButton = createButton("start", start),
+          stopButton = createButton("stop", stop),
+          resetButton = createButton("reset", reset),
+          offset,
+          clock,
+          interval;
+
+        // default options
+        options = options || {};
+        options.delay = options.delay || 1;
+
+        // append elements     
+        elem.appendChild(timer);
+        elem.appendChild(startButton);
+        elem.appendChild(stopButton);
+        elem.appendChild(resetButton);
+
+        // initialize
+        reset();
+
+        // private functions
+        function createTimer() {
+          return document.createElement("span");
+        }
+
+        function createButton(action, handler) {
+          var a = document.createElement("a");
+          a.href = "#" + action;
+          a.innerHTML = action;
+          a.addEventListener("click", function(event) {
+            handler();
+            event.preventDefault();
+          });
+          return a;
+        }
+
+        function start() {
+          if (!interval) {
+            offset = Date.now();
+            interval = setInterval(update, options.delay);
+          }
+        }
+
+        function stop() {
+          if (interval) {
+            clearInterval(interval);
+            interval = null;
+          }
+        }
+
+        function reset() {
+          clock = 0;
+          render(0);
+        }
+
+        function update() {
+          clock += delta();
+          render();
+        }
+
+        function render() {
+          var h = Math.floor(clock / (1000 * 60 * 60)) % 24;
+          var m = Math.floor(clock / (1000 * 60)) % 60;
+          var s = Math.floor(clock / 1000) % 60;
+          var ms = Math.floor(clock % 1000);
+
+          if (h < 10) {
+            h = "0" + h;
+          }
+          if (m < 10) {
+            m = "0" + m;
+          }
+          if (s < 10) {
+            s = "0" + s;
+          }
+          if (ms < 100) {
+            ms = "0" + ms;
+          }
+          if (ms < 10) {
+            ms = "0" + ms;
+          }
+
+          timer.innerHTML = h + ':' + m + ':' + s + '::' + ms;
+
+        }
+
+        function delta() {
+          var now = Date.now(),
+            d = now - offset;
+
+          offset = now;
+          return d;
+        }
+
+        this.start = start;
+        this.stop = stop;
+        this.reset = reset;
+      };
+
+
+      var elems = document.getElementsByClassName("basic");
+      for (var i = 0, len = elems.length; i < len; i++) {
+        new Stopwatch(elems[i]);
+      }
+
+
+      //click one btn, stop all other watch
+      $('#btngroup button').live('click', function() {
+        var btnClicked = $(this).index();
+        $('.basic').each(function(index) {
+          if(btnClicked == index){
+            $(this).find('a:eq(0)')[0].click();
+          } else {
+            $(this).find('a:eq(1)')[0].click();
+          }
+        });
+      });
+        </script>
+    </div>
+</div>
+
+
+{{ partial "footer2.html" . }}
+
+
+{{ end }}
+
+
