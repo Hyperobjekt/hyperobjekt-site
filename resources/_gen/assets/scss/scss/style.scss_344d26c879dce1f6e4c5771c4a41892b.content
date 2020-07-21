@@ -17296,6 +17296,10 @@ a.readmore svg g.rightarrow {
   background: #f6f9f9;
 }
 
+.alt-bg2 {
+  background: #f8f9f9;
+}
+
 .colorblue {
   color: #1c3d91;
 }
@@ -19006,19 +19010,19 @@ body.home .hero .h0-logo-subhead {
   background-color: #fff;
 }
 
-.type-blog a:hover {
+.type-updates a:hover {
   color: #04143c;
 }
 
-.type-blog nav a:hover {
+.type-updates nav a:hover {
   color: #fff;
 }
 
-.type-blog .wrapper {
+.type-updates .wrapper {
   min-height: 52vh;
 }
 
-.type-blog h1 {
+.type-updates h1 {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -19026,14 +19030,14 @@ body.home .hero .h0-logo-subhead {
 }
 
 @media (min-width: 320px) {
-  .type-blog h1 {
+  .type-updates h1 {
     font-size: 5rem;
     line-height: 1.4;
   }
 }
 
 @media (min-width: 768px) {
-  .type-blog h1 {
+  .type-updates h1 {
     font-size: 5rem;
     letter-spacing: 0.049rem;
     line-height: 7rem;
@@ -19041,7 +19045,7 @@ body.home .hero .h0-logo-subhead {
   }
 }
 
-.type-blog h2 {
+.type-updates h2 {
   font-size: 3rem;
   letter-spacing: 0.049rem;
   font-family: futura-pt, sans-serif;
@@ -19050,7 +19054,7 @@ body.home .hero .h0-logo-subhead {
   line-height: 1.35;
 }
 
-.type-blog a.readmore {
+.type-updates a.readmore {
   font-weight: 600;
   letter-spacing: 0.2rem;
   color: #020f28;
@@ -19062,7 +19066,7 @@ body.home .hero .h0-logo-subhead {
   line-height: 2.4rem;
 }
 
-.type-blog p {
+.type-updates p {
   font-family: futura-pt,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -19072,7 +19076,14 @@ body.home .hero .h0-logo-subhead {
   color: #2d2d2d;
 }
 
-.type-blog i.blogintro {
+.type-updates span.speaker {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #444444;
+  font-size: 1.6rem;
+}
+
+.type-updates i.blogintro {
   color: #646464;
   border-left: 5px solid #020f29;
   display: block;
@@ -19080,7 +19091,7 @@ body.home .hero .h0-logo-subhead {
   margin: 2.4rem 0 1.6rem;
 }
 
-.type-blog.kind-section .bloglist-item.blog-thumb img {
+.type-updates.kind-section .bloglist-item.blog-thumb img {
   height: 72px;
   width: 72px;
   border-radius: 50%;
@@ -19089,7 +19100,7 @@ body.home .hero .h0-logo-subhead {
 }
 
 @media (min-width: 992px) {
-  .type-blog.kind-section .bloglist-item.blog-thumb img {
+  .type-updates.kind-section .bloglist-item.blog-thumb img {
     height: 88px;
     width: 88px;
     background-color: aliceblue;
@@ -19098,41 +19109,41 @@ body.home .hero .h0-logo-subhead {
   }
 }
 
-.type-blog.kind-section .bloglist-item .readmore {
+.type-updates.kind-section .bloglist-item .readmore {
   margin-top: 3.2rem;
 }
 
-.type-blog.kind-section .bloglist-item svg {
+.type-updates.kind-section .bloglist-item svg {
   top: -1px;
   position: relative;
 }
 
-.type-blog.kind-section .bloglist-item svg g.rightarrow {
+.type-updates.kind-section .bloglist-item svg g.rightarrow {
   stroke: #000;
 }
 
-.type-blog.kind-page img.bloghero {
+.type-updates.kind-page img.bloghero {
   max-width: 100%;
   box-shadow: 4px 3px 9px #00000017;
 }
 
 @media (min-width: 992px) {
-  .type-blog.kind-page img.bloghero {
+  .type-updates.kind-page img.bloghero {
     max-width: 85%;
   }
 }
 
 @media (min-width: 1280px) {
-  .type-blog.kind-page img.bloghero {
+  .type-updates.kind-page img.bloghero {
     max-width: 100%;
   }
 }
 
-.type-blog.kind-page h1 {
+.type-updates.kind-page h1 {
   line-height: 1.2;
 }
 
-.type-blog.kind-page h2 {
+.type-updates.kind-page h2 {
   line-height: 1.35;
   font-size: 2.6rem;
   letter-spacing: 0.049rem;
@@ -19141,24 +19152,24 @@ body.home .hero .h0-logo-subhead {
 }
 
 @media (min-width: 768px) {
-  .type-blog.kind-page h2 {
+  .type-updates.kind-page h2 {
     max-width: 66%;
   }
 }
 
-.type-blog.kind-page h3 {
+.type-updates.kind-page h3 {
   line-height: 1.5;
-  font-size: 2.3rem;
+  font-size: 2.8rem;
   letter-spacing: 0.03rem;
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   color: #021029;
   padding-top: 0.8rem;
-  padding-bottom: 2.4rem;
+  padding-bottom: 3.2rem;
 }
 
 @media (min-width: 768px) {
-  .type-blog.kind-page h3 {
+  .type-updates.kind-page h3 {
     margin-right: 16%;
     padding-right: 17%;
     border-right: 1px solid #d4d4d4;
@@ -19166,26 +19177,26 @@ body.home .hero .h0-logo-subhead {
   }
 }
 
-.type-blog.kind-page p {
+.type-updates.kind-page p {
   margin-bottom: 0;
   padding-bottom: 24px;
 }
 
 @media (min-width: 768px) {
-  .type-blog.kind-page p {
+  .type-updates.kind-page p {
     margin-right: 16%;
     padding-right: 17%;
     border-right: 1px solid #d4d4d4;
   }
 }
 
-.type-blog.kind-page p img {
+.type-updates.kind-page p img {
   max-width: 100%;
   margin-top: 2.4rem;
 }
 
 @media (min-width: 768px) {
-  .type-blog.kind-page p img {
+  .type-updates.kind-page p img {
     max-width: 115%;
     margin: -24px 0 -24px 33%;
     border-top: 56px white solid;
@@ -19193,12 +19204,12 @@ body.home .hero .h0-logo-subhead {
   }
 }
 
-.type-blog.kind-page p img.alt-border {
+.type-updates.kind-page p img.alt-border {
   border-top: 56px #f6f9f9 solid;
   border-bottom: 40px #f6f9f9 solid;
 }
 
-.type-blog.kind-page p.blogcaption {
+.type-updates.kind-page p.blogcaption {
   font-weight: 300;
   font-style: italic;
   padding-right: 0;
@@ -19206,13 +19217,13 @@ body.home .hero .h0-logo-subhead {
 }
 
 @media (min-width: 768px) {
-  .type-blog.kind-page p.blogcaption {
+  .type-updates.kind-page p.blogcaption {
     max-width: 115%;
     margin: -24px 0 0 23%;
   }
 }
 
-.type-blog.kind-page p a {
+.type-updates.kind-page p a {
   font-weight: 600;
   color: #072c71;
   letter-spacing: 0.01rem;

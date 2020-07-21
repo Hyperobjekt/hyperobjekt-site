@@ -39,8 +39,8 @@ unsafe= true
         weight = 3    
 
     [[menu.main]]
-        name = "blog"
-        url = "/blog/"
+        name = "updates"
+        url = "/updates/"
         weight = 4
 
     [[menu.main]]
