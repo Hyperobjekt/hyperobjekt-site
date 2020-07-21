@@ -12,7 +12,7 @@ description: "The typical project development cycle for us is much like any othe
 
 <span class="speaker">James Minton, Creative Director</span>
 
-The typical project development cycle for us is much like any other agency's: a discovery phase, mockups, kicking off development, and then—allowing for a few wrenches thrown along the way—final tweaks and product launch. In other words, the work follows a fairly orderly sequence from concept to execution.
+The typical project cycle for us is much like any other agency's: a discovery phase, mockups, kicking off development, and then—allowing for a few wrenches thrown along the way—final tweaks and product launch. In other words, things follow a fairly orderly sequence from concept to execution.
 
 But then came COVID-19, which has humbled the entire globe and disrupted countless best-laid plans. Most of us have faced the need to reassess goals and adjust working lives; as a team, we’ve had to adapt and reshuffle as projects have been delayed and plans revised. 
 
