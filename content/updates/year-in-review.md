@@ -6,6 +6,9 @@ blogimage: "/images/blog/year-review2.jpg"
 socialdescription: Reflections on a year of opportunities to perform challenging, creative work aligned with our values. 
 social_image: "/images/social/year-review-card.jpg"
 description: As we at Hyperobjekt gear up for a promising 2020, we reflect upon this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
+url: /updates/year-in-review
+aliases:
+  - /blog/year-in-review
 ---
 As we gear up for a promising 2020, we look back on this past year with feelings of gratitude and accomplishment. It was an intensely-eventful time for our team, full of opportunities to perform challenging, creative work aligned with our values. 
 
