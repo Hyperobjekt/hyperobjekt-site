@@ -22,14 +22,17 @@
     <div class="row mb-12">
         <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto mb-1">
             <h2 class="mb-3">Tools</h2> 
-            <p class="mb-3">• <a href="https://edopportunity.org/media-map">Media Map</a></p>  
+            {{ range (where .Pages "Params.childof" ("meta-analytics")) }}
+              <p class="mb-3">• <a href="{{ .Permalink }}">{{ .Title }}</a></p> 
+            {{ end }}
+            <p class="mb-3">• <a href="https://edopportunity.org/media-map">Media Map</a></p>   
         </div>
         <div class="d-block w-100"></div>
         <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto mb-1 mx-auto">
             <h2 class="mb-3">Monthly Reports</h2>   
         </div>
         <div class="d-block w-100"></div>
-    {{ range .Pages.ByPublishDate.Reverse }}
+      {{ range (where .Pages.ByPublishDate.Reverse "Params.childof" ("analytics")) }}
       <div class="bloglist-item col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
         
         <p class="mb-3">• <a href="{{ .Permalink }}">{{ .Title }}</a></p>
