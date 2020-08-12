@@ -32,7 +32,10 @@
       <br><br>
       <div id="watchgroup">
         {{ range .Params.clients }}
-          <span class="basic stopwatch">{{ .name }}</span>
+          <span class="basic stopwatch" style="margin-left: 0;">{{ .name }}</span>
+          <div class="w-100 d-flex">
+            <textarea class="mr-2"></textarea><textarea class="mr-2"></textarea ><textarea class="mr-2"></textarea>
+          </div>  
         {{ end }}  
       </div>
     </div>
