@@ -23,6 +23,9 @@
 <div class="row pt-6 pt-lg-7">
     <div class="col-12 col-md-10 col-xl-9 mx-auto mt-6">
         <div class="col-12 col-md-10 col-xl-7 px-0">
+            {{ if .Params.backto }}
+                <p class="mb-3"><strong>{{ .Params.backto | safeHTML }}</strong></p>
+            {{ end }}
             <p class="">Use controls at bottom of report to navigate between pages, and to view/edit the report within Data Studio.
                 You can also page back and forth by clicking within the report and then using left and right arrow keys.
             </p>
