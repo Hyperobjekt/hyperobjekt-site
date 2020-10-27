@@ -1,4 +1,6 @@
 /edop/*
     Basic-Auth: seda:edop
 /el/*
-    Basic-Auth: el:justshelter  
+    Basic-Auth: el:justshelter
+/cpal/*
+    Basic-Auth: cpal:cre     
