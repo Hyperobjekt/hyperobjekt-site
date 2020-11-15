@@ -1,4 +1,4 @@
-.type-about {
+.type-about, .type-positions {
     .pic {
         width: 111px;
         height: 110px;
@@ -153,6 +153,14 @@
         padding-left: 0;
         li {
             margin-bottom: 0.8rem;
+        }
+    }
+    ul#positions-list {
+        list-style: inside;
+        li {
+            a {
+                text-decoration: underline;
+            }
         }
     }
     b {
