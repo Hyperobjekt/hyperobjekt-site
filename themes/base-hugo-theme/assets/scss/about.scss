@@ -141,7 +141,7 @@
         letter-spacing: 0.2rem;
         
     }
-    p, ul {
+    p, ul, ol {
         font-family: futura-pt,sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -155,12 +155,19 @@
             margin-bottom: 0.8rem;
         }
     }
-    ul#positions-list {
-        list-style: inside;
+    ul#positions-list, form ul {
+        list-style: disc;
+        margin-left: 2rem;
         li {
             a {
                 text-decoration: underline;
             }
+        }
+    }
+    form ol {
+        list-style-type: lower-alpha;
+        li {
+            padding-left: 0.8rem;
         }
     }
     b {
