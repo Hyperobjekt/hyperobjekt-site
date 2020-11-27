@@ -13,6 +13,7 @@ collections:
     name: evictionlab
     preview_path: /el
     folder: "content/el"
+    create: true
     filter: {field: "childof", value: "analytics"}
     fields:
       - {label: Title, name: title, widget: string}
