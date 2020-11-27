@@ -21,4 +21,17 @@ collections:
       - {label: Childof, name: childof, widget: hidden, default: analytics}
       - {label: Layout, name: layout, widget: hidden, default: analytics-single}
       - {label: Embed code, name: body, widget: string}
+  #SEDA
+  - label: "Edopportunity Monthly Reports"
+    name: edopportunity
+    preview_path: /edop
+    folder: "content/edop"
+    create: true
+    filter: {field: "childof", value: "analytics"}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Childof, name: childof, widget: hidden, default: analytics}
+      - {label: Layout, name: layout, widget: hidden, default: analytics-single}
+      - {label: Embed code, name: body, widget: string}    
             
