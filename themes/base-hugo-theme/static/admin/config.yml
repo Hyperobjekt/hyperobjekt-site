@@ -12,14 +12,11 @@ collections:
   - label: "Eviction Lab"
     name: evictionlab
     preview_path: /el
-    files:
-        - label: EL monthly reports
-          name: el_reports
-          folder: "content/el"
-          fields:
-            - {label: Title, name: title, widget: string}
-            - {label: Date, name: date, widget: datetime}
-            - {label: Childof, name: childof, widget: hidden, default: analytics}
-            - {label: Layout, name: layout, widget: hidden, default: analytics-single}
-            - {label: Embed code, name: body, widget: string}
+    folder: "content/el"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Childof, name: childof, widget: hidden, default: analytics}
+      - {label: Layout, name: layout, widget: hidden, default: analytics-single}
+      - {label: Embed code, name: body, widget: string}
             
