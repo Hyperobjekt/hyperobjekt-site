@@ -608,11 +608,14 @@ else {
 
   }
     
-
-   
-
-
-
+  // init animate on scroll script
+  AOS.init({
+    easing: 'ease-out',
+    duration: 700,
+    delay: 100,
+    once: true,
+    disable: 'mobile'
+  });
    
   });
 })(jQuery);

@@ -1,0 +1,23 @@
+work:
+  - project: The Educational Opportunity Project at Stanford University
+    blurb: For the Stanford Education Data Archive, we have mapped and charted America's authoritative database of educational statistics. Users can view normalized test scores for every county, district, and public school in the nation via interactive maps, scatterplot charts, and other visualizations.
+    link: https://edopportunity.org
+    image: seda-v2-2.jpg
+    color: #063FFE
+  - project: The Eviction Lab at Princeton University
+    blurb: "Working with a research team led by Matthew Desmond (Pulitzer Prize-winning author of *Evicted: Poverty and Profit in the American City*), we created evictionlab.org to map and visualize the first-ever nationwide database of eviction statistics. The website has been featured in The New York Times, NPR's Fresh Air, and countless other national and local news articles."
+    link: https://evictionlab.org/
+    image: el-v2-2.jpg
+    color: #E23E00
+  - project: The Dignity + Debt Network
+    blurb: Princeton University's Dignity + Debt Network is a global network of scholars, advocates, and 
+            financial organizations working to understand and empower the linkages between lending and human values. We created a 
+            website and interactive visualizations to bring their work to the wider public.
+    link: https://www.dignityanddebt.org/
+    image: dd-v2-2.jpg 
+    color: #0893AD
+  - project: The Stanford Basic Income Lab
+    blurb: For the nation's premier research organization devoted to the study of Universal Basic Income (UBI), we are creating a website and set of interactive visualizations to track and explore UBI research.
+    link: https://basicincome.stanford.edu/
+    image: bil-v2-2.jpg
+    color: #FFCC05      
