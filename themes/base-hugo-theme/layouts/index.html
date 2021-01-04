@@ -146,7 +146,24 @@
             </a>
             
     </div>
+</div>
+{{ end }}
+{{ range first 1 (after 5 .Site.Data.home.content.work) }}
+<div class="row projects d-flex fact-2 mx-0 pb-8 pb-md-16">
+   
+    <div data-aos="fade-left" class="project2 order-1 order-md-1 col-11 col-md-4 offset-md-1  offset-lg-2 col-xl-3 offset-xl-3 px-3" id="growth-graphic" style="display: flex; justify-content: center; align-items:center;"> 
+        <a href="{{ .link }}" target="_blank" data-toggle="tooltip" data-placement="top" title="VIEW LIVE WEBSITE" style="color: {{ .color }}; background-color: {{ .color }}; background-image: url('/images/{{ .image }}');">
+            
+        </a>
+  
+    </div>
     
+    <div data-aos="fade-left" class="order-2 order-md-2 col-12 offset-md-0 col-md-6 col-lg-4 col-xl-3 offset-lg-1 px-3 mt-4 mt-md-0 pl-md-8 pl-lg-0">
+       
+        <h4 tabindex="0" class="mb-2" style="color: {{ .color }};">{{ .project }}</h4>  
+        <p>{{ .blurb | markdownify }}</p>
+                <a href="{{ .link }}" target="_blank"><h5 class="mt-3">VIEW LIVE WEBSITE  <img src="/images/icons/rightarrow.svg" /></h5></a>        
+    </div>
 </div>
 {{ end }}
 <div class="services m-0 py-8 pt-md-13 pb-md-15 px-3">

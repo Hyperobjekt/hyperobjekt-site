@@ -14,15 +14,20 @@ work:
     link: https://evictionlab.org/
     image: el-v2-2.jpg
     color: '#E23E00'
+  - project: The Community Resource Explorer
+    blurb: On behalf of the Child Poverty Action Lab, we are mapping dozens of measures of opportunity to help inform community decisions about resource distribution across Dallas neighborhoods.
+    link: https://dallasisd.resourceexplorer.org/
+    image: cpal-img.jpg
+    color: '#299465'    
+  - project: The Stanford Basic Income Lab
+    blurb: For the nation's premier research organization devoted to the study of Universal Basic Income (UBI), we are creating a website and set of interactive visualizations to track and explore UBI research.
+    link: https://basicincome.stanford.edu/
+    image: bil-v2-2.jpg
+    color: '#FFCC05'   
   - project: The Dignity + Debt Network
     blurb: Princeton University's Dignity + Debt Network is a global network of scholars, advocates, and 
             financial organizations working to understand and empower the linkages between lending and human values. We created a 
             website and interactive visualizations to bring their work to the wider public.
     link: https://www.dignityanddebt.org/
     image: dd-v2-2.jpg 
-    color: '#0893AD'
-  - project: The Stanford Basic Income Lab
-    blurb: For the nation's premier research organization devoted to the study of Universal Basic Income (UBI), we are creating a website and set of interactive visualizations to track and explore UBI research.
-    link: https://basicincome.stanford.edu/
-    image: bil-v2-2.jpg
-    color: '#FFCC05'     
+    color: '#0893AD'    
